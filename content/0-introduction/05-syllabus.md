@@ -14,7 +14,7 @@ pre: "5. "
 #### Preferred Methods of Communication:
 
 * **Piazza:** Please use Piazza for all communication regarding this course as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email me anytime with questions outside of this course. I will try to respond within one business day. Questions related to the course itself may be redirected to Piazza.
+* **Email**: Students are also welcome to email me anytime with questions outside of the scope of this course. I will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. I'm also active on the K-State CS chat channel.
 * **Phone/Text:** _Emergencies only!_ I will do my best to respond as quickly as I am able.
 
 ### Prerequisites
@@ -61,7 +61,7 @@ In theory, each student begins the course with an A. As you submit work, you can
 * 20% - Codio Tutorials
 * 20% - Canvas Quizzes
 
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** assignment for details.
+Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
 Letter grades will be assigned following the standard scale:
 
