@@ -4,8 +4,10 @@
 	<head>
 		<link rel="stylesheet" href="/reveal/css/reveal.css">
 		<link rel="stylesheet" href="/reveal/css/theme/black.css">
+		<link rel="stylesheet" href="/css/styles/atom-one-dark.css">
 		<link rel="shortcut icon" href="{{"images/favicon.png" | relURL}}" type="image/x-icon" />
 		<link rel="icon" href="{{"images/favicon.png" | relURL}}" type="image/x-icon" />
+		<script type="text/javascript" async src="/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 	</head>
 	<body>
 		<div class="reveal">
@@ -13,6 +15,10 @@
 				  {{ .Content }}
 			</div>
 		</div>
+		<script src="/js/highlight.pack.js"></script>
+		<script>
+		  hljs.initHighlightingOnLoad();
+	  </script>
 		<script src="/reveal/js/reveal.js"></script>
 		<script>
 			Reveal.initialize({

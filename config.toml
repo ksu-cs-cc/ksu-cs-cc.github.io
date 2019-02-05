@@ -1,7 +1,7 @@
 baseURL = "https://ksucs-hugo.russfeld.me"
 languageCode = "en-us"
 title = "K-State CS Hugo Framework"
-publishDir = "/web/core/"
+publishDir = "../cc-website-html/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"

@@ -1,6 +1,6 @@
 ---
 title: "Where to Find Help"
-pre: "3."
+pre: "3. "
 weight: 30
 date: 2018-08-24T10:53:26-05:00
 ---
@@ -48,4 +48,4 @@ Finally, if you find any errors or omissions in the course content, or have sugg
 
 So, in summary, Piazza should always be your first stop when you have a question or run into a problem. For issues with Canvas or Codio, you are also welcome to refer directly to the resources for those platforms. For questions specifically related to the projects, use Piazza for sure. For grading questions and errors in the course content or any other issues, please PM the instructors on Piazza for assistance.
 
-Our goal in this program is to make sure that you have the resources available to you to be successful. Please don't be afraid to take advantage of them and ask questions whenever you want. 
+Our goal in this program is to make sure that you have the resources available to you to be successful. Please don't be afraid to take advantage of them and ask questions whenever you want.

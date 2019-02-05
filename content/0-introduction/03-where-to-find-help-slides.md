@@ -2,10 +2,7 @@
 type: "reveal"
 hidden: true
 ---
-<section>
-	<h2>Where to Find Help</h2>
-	<img class="stretch plain" src="/images/core-logo-on-white.svg">
-</section>
+
 <section>
 	<h2>First Stop:</h2>
 	<img class="stretch plain" src="/images/piazza_logo_wiki.png">

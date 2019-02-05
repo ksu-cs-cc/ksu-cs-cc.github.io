@@ -3,8 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Introduction</h2>
-	<img class="stretch plain" src="/images/core-logo-on-white.svg">
+	<h2>Welcome to Computational Core!</h2>
 </section>
 <section>
 	<h3>Russell Feldhausen</h3>

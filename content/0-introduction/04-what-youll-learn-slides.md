@@ -2,10 +2,7 @@
 type: "reveal"
 hidden: true
 ---
-<section>
-	<h2>What You'll Learn</h2>
-	<img class="stretch plain" src="/images/core-logo-on-white.svg">
-</section>
+
 <section>
 	<h2>Programming</h2>
 	<img class="plain" style="height: 40%;" src="/images/java_logo_wiki.svg">
