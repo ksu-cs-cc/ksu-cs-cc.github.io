@@ -173,7 +173,7 @@ body {
 
 .reveal table th,
 .reveal table td {
-  text-align: left;
+  text-align: center;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border: 1px solid; }
 
@@ -259,3 +259,16 @@ body {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * MARK
+ *********************************************/
+
+ .reveal mark{
+   background-color: #909090;
+   color: #444;
+ }
+
+ .reveal pre code mark{
+   background-color: #707070;
+ }
