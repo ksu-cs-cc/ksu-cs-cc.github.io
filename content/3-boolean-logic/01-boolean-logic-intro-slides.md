@@ -31,15 +31,15 @@ hidden: true
 </section>
 <section>
 	<h3>Premises:</h3>
-	<p>A ∧ B</p>
-	<p>B ∧ C</p>
+	<p>A &#8896; B</p>
+	<p>B &#8896; C</p>
 	<h3>Conclusion</h3>
 	<p>?</p>
 </section>
 <section>
 	<h3>Premises:</h3>
-	<p>A ∧ B</p>
-	<p>B ∧ C</p>
+	<p>A &#8896; B</p>
+	<p>B &#8896; C</p>
 	<h3>Conclusion</h3>
-	<p>A ∧ C</p>
+	<p>A &#8896; C</p>
 </section>

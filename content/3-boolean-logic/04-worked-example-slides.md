@@ -65,15 +65,15 @@ hidden: true
   </table>
 </section>
 <section>
-	<h3>Motion Sensor ∧ Master</h3>
+	<h3>Motion Sensor &#8896; Master</h3>
 	<img class="stretch plain" src="/images/boolean_worked_a.png">
 </section>
 <section>
-	<h3>Light Switch ∧ Master</h3>
+	<h3>Light Switch &#8896; Master</h3>
 	<img class="stretch plain" src="/images/boolean_worked_b.png">
 </section>
 <section>
-	<h3>Light Switch ∧ Motion Sensor ∧ Master</h3>
+	<h3>Light Switch &#8896; Motion Sensor &#8896; Master</h3>
 	<img class="stretch plain" src="/images/boolean_worked_c.png">
 </section>
 <section>
@@ -81,23 +81,23 @@ hidden: true
 	<img class="stretch plain" src="/images/boolean_worked_d.png">
 </section>
 <section>
-	<h3>A ∧ C</h3>
+	<h3>A &#8896; C</h3>
 	<img class="stretch plain" src="/images/boolean_worked_e.png">
 </section>
 <section>
-	<h3>B ∧ C</h3>
+	<h3>B &#8896; C</h3>
 	<img class="stretch plain" src="/images/boolean_worked_f.png">
 </section>
 <section>
-	<h3>(A ∧ C) ? (B ∧ C)</h3>
+	<h3>(A &#8896; C) ? (B &#8896; C)</h3>
 	<img class="stretch plain" src="/images/boolean_worked_g.png">
 </section>
 <section>
-	<h3>(A ∧ C) ∨ (B ∧ C)</h3>
+	<h3>(A &#8896; C) &#8897; (B &#8896; C)</h3>
 	<img class="stretch plain" src="/images/boolean_worked_g.png">
 </section>
 <section>
-	<h4>(Light Switch ∧ Master Switch)<br>∨<br>(Motion Sensor ∧ Master Switch)</h4>
+	<h4>(Light Switch &#8896; Master Switch)<br>&#8897;<br>(Motion Sensor &#8896; Master Switch)</h4>
 </section>
 <section>
 	<table class="reveal" style="font-size: 0.8em">
@@ -184,50 +184,50 @@ hidden: true
 			<td>T</td>
 		</tr>
   </table>
-	<p style="font-size: 1.5em">(¬A ∧ B ∧ C)<br>∨ (A ∧ ¬B ∧ C)<br>∨ (A ∧ B ∧ C)</p>
+	<p style="font-size: 1.5em">(&not;A &#8896; B &#8896; C)<br>&#8897; (A &#8896; &not;B &#8896; C)<br>&#8897; (A &#8896; B &#8896; C)</p>
 </section>
 <section>
-  <p style="font-size: 1.5em">(¬A ∧ B ∧ C)<br>∨ (A ∧ ¬B ∧ C)<br>∨ (A ∧ B ∧ C)</p>
+  <p style="font-size: 1.5em">(&not;A &#8896; B &#8896; C)<br>&#8897; (A &#8896; &not;B &#8896; C)<br>&#8897; (A &#8896; B &#8896; C)</p>
 </section>
 <section>
-  <p style="font-size: 1.5em">(¬A ∧ B ∧ C)<br>∨ (A ∧ ¬B ∧ C)<br>∨ (A ∧ B ∧ C)<br><mark>∨ (A ∧ B ∧ C)</mark></p>
+  <p style="font-size: 1.5em">(&not;A &#8896; B &#8896; C)<br>&#8897; (A &#8896; &not;B &#8896; C)<br>&#8897; (A &#8896; B &#8896; C)<br><mark>&#8897; (A &#8896; B &#8896; C)</mark></p>
 </section>
 <section>
-  <p style="font-size: 1.5em">(¬A ∧ B ∧ C)<br><mark>∨ (A ∧ B ∧ C)</mark><br>∨ (A ∧ ¬B ∧ C)<br>∨ (A ∧ B ∧ C)</p>
+  <p style="font-size: 1.5em">(&not;A &#8896; B &#8896; C)<br><mark>&#8897; (A &#8896; B &#8896; C)</mark><br>&#8897; (A &#8896; &not;B &#8896; C)<br>&#8897; (A &#8896; B &#8896; C)</p>
 </section>
 <section>
-  <p style="font-size: 1.5em">(¬A ∧ B ∧ C)<br>∨ (A ∧ B ∧ C)<br>∨ (<mark>¬B ∧ A</mark> ∧ C)<br>∨ (<mark>B ∧ A</mark> ∧ C)</p>
+  <p style="font-size: 1.5em">(&not;A &#8896; B &#8896; C)<br>&#8897; (A &#8896; B &#8896; C)<br>&#8897; (<mark>&not;B &#8896; A</mark> &#8896; C)<br>&#8897; (<mark>B &#8896; A</mark> &#8896; C)</p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>¬A ∧ (B ∧ C)<span style="font-size: 1.3em">)</span><br>∨ <span style="font-size: 1.3em">(</span>A ∧ (B ∧ C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span><br>∨<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>¬B ∧ (A ∧ C)<span style="font-size: 1.3em">)</span><br>∨ <span style="font-size: 1.3em">(</span>B ∧ (A ∧ C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>&not;A &#8896; (B &#8896; C)<span style="font-size: 1.3em">)</span><br>&#8897; <span style="font-size: 1.3em">(</span>A &#8896; (B &#8896; C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span><br>&#8897;<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>&not;B &#8896; (A &#8896; C)<span style="font-size: 1.3em">)</span><br>&#8897; <span style="font-size: 1.3em">(</span>B &#8896; (A &#8896; C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>¬A ∧ <mark>(B ∧ C)</mark><span style="font-size: 1.3em">)</span><br>∨ <span style="font-size: 1.3em">(</span>A ∧ <mark>(B ∧ C)</mark><span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span><br>∨<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>¬B ∧ (A ∧ C)<span style="font-size: 1.3em">)</span><br>∨ <span style="font-size: 1.3em">(</span>B ∧ (A ∧ C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>&not;A &#8896; <mark>(B &#8896; C)</mark><span style="font-size: 1.3em">)</span><br>&#8897; <span style="font-size: 1.3em">(</span>A &#8896; <mark>(B &#8896; C)</mark><span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span><br>&#8897;<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>&not;B &#8896; (A &#8896; C)<span style="font-size: 1.3em">)</span><br>&#8897; <span style="font-size: 1.3em">(</span>B &#8896; (A &#8896; C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><mark><span style="font-size: 1.3em">(</span>(B ∧ C) ∧ (¬A ∨ A)<span style="font-size: 1.3em">)</span></mark><br>∨<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>¬B ∧ (A ∧ C)<span style="font-size: 1.3em">)</span><br>∨ <span style="font-size: 1.3em">(</span>B ∧ (A ∧ C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><mark><span style="font-size: 1.3em">(</span>(B &#8896; C) &#8896; (&not;A &#8897; A)<span style="font-size: 1.3em">)</span></mark><br>&#8897;<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>&not;B &#8896; (A &#8896; C)<span style="font-size: 1.3em">)</span><br>&#8897; <span style="font-size: 1.3em">(</span>B &#8896; (A &#8896; C)<span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><mark><span style="font-size: 1.3em">(</span>(B ∧ C) ∧ (¬A ∨ A)<span style="font-size: 1.3em">)</span></mark><br>∨<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>¬B ∧ <mark>(A ∧ C)</mark><span style="font-size: 1.3em">)</span><br>∨ <span style="font-size: 1.3em">(</span>B ∧ <mark>(A ∧ C)</mark><span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><mark><span style="font-size: 1.3em">(</span>(B &#8896; C) &#8896; (&not;A &#8897; A)<span style="font-size: 1.3em">)</span></mark><br>&#8897;<br><span style="font-size: 1.7em">(</span><span style="font-size: 1.3em">(</span>&not;B &#8896; <mark>(A &#8896; C)</mark><span style="font-size: 1.3em">)</span><br>&#8897; <span style="font-size: 1.3em">(</span>B &#8896; <mark>(A &#8896; C)</mark><span style="font-size: 1.3em">)</span><span style="font-size: 1.7em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B ∧ C) ∧ (¬A ∨ A)<span style="font-size: 1.3em">)</span><br>∨<br><mark><span style="font-size: 1.3em">(</span>(A ∧ C) ∧ (¬B ∨ B)<span style="font-size: 1.3em">)</span></mark></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B &#8896; C) &#8896; (&not;A &#8897; A)<span style="font-size: 1.3em">)</span><br>&#8897;<br><mark><span style="font-size: 1.3em">(</span>(A &#8896; C) &#8896; (&not;B &#8897; B)<span style="font-size: 1.3em">)</span></mark></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B ∧ C) ∧ <mark>(¬A ∨ A)</mark><span style="font-size: 1.3em">)</span><br>∨<br><span style="font-size: 1.3em">(</span>(A ∧ C) ∧ <mark>(¬B ∨ B)</mark><span style="font-size: 1.3em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B &#8896; C) &#8896; <mark>(&not;A &#8897; A)</mark><span style="font-size: 1.3em">)</span><br>&#8897;<br><span style="font-size: 1.3em">(</span>(A &#8896; C) &#8896; <mark>(&not;B &#8897; B)</mark><span style="font-size: 1.3em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B ∧ C) ∧ <mark>T</mark><span style="font-size: 1.3em">)</span><br>∨<br><span style="font-size: 1.3em">(</span>(A ∧ C) ∧ <mark>T</mark><span style="font-size: 1.3em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B &#8896; C) &#8896; <mark>T</mark><span style="font-size: 1.3em">)</span><br>&#8897;<br><span style="font-size: 1.3em">(</span>(A &#8896; C) &#8896; <mark>T</mark><span style="font-size: 1.3em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B ∧ C) <mark>∧ T</mark><span style="font-size: 1.3em">)</span><br>∨<br><span style="font-size: 1.3em">(</span>(A ∧ C) <mark>∧ T</mark><span style="font-size: 1.3em">)</span></p>
+  <p style="font-size: 1.5em; line-height: 1.55em"><span style="font-size: 1.3em">(</span>(B &#8896; C) <mark>&#8896; T</mark><span style="font-size: 1.3em">)</span><br>&#8897;<br><span style="font-size: 1.3em">(</span>(A &#8896; C) <mark>&#8896; T</mark><span style="font-size: 1.3em">)</span></p>
 </section>
 <section>
-  <p style="font-size: 1.5em; line-height: 1.55em">(B ∧ C)<br>∨<br>(A ∧ C)</p>
+  <p style="font-size: 1.5em; line-height: 1.55em">(B &#8896; C)<br>&#8897;<br>(A &#8896; C)</p>
 </section>
 <section>
-	<h4>(Motion Sensor ∧ Master Switch)<br>∨<br>(Light Switch ∧ Master Switch)</h4>
+	<h4>(Motion Sensor &#8896; Master Switch)<br>&#8897;<br>(Light Switch &#8896; Master Switch)</h4>
 </section>
 <section>
-	<h4>(Master Switch)<br>∧<br>(Light Switch ∨ Motion Sensor)</h4>
+	<h4>(Master Switch)<br>&#8896;<br>(Light Switch &#8897; Motion Sensor)</h4>
 </section>

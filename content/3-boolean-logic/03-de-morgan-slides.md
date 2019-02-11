@@ -9,15 +9,15 @@ hidden: true
 </section>
 <section>
 <section>
-	<h1>¬(A ∧ B)</h1>
+	<h1>&not;(A &#8896; B)</h1>
 </section>
 <section>
 	<table class="reveal">
 		<tr>
 			<th>A</th>
 			<th>B</th>
-			<th>A ∧ B</th>
-			<th>¬(A ∧ B)</th>
+			<th>A &#8896; B</th>
+			<th>&not;(A &#8896; B)</th>
 		</tr>
 		<tr>
 			<td>F</td>
@@ -50,8 +50,8 @@ hidden: true
 		<tr>
 			<th>A</th>
 			<th>B</th>
-			<th>A ∧ B</th>
-			<th>¬(A ∧ B)</th>
+			<th>A &#8896; B</th>
+			<th>&not;(A &#8896; B)</th>
 		</tr>
 		<tr>
 			<td>F</td>
@@ -80,17 +80,17 @@ hidden: true
 	</table>
 </section>
 <section>
-	<h1>¬(A ∧ B)</h1>
-	<h1>¬A ∨ ¬B</h1>
+	<h1>&not;(A &#8896; B)</h1>
+	<h1>&not;A &#8897; &not;B</h1>
 </section>
 <section>
-	<h1>¬(A ∨ B)</h1>
-	<h1>¬A ∧ ¬B</h1>
+	<h1>&not;(A &#8897; B)</h1>
+	<h1>&not;A &#8896; &not;B</h1>
 </section>
 <section>
 	<h3>De Morgan's Laws</h3>
   <ol>
-		<li>Distribute ¬ Inside</li>
-		<li>Invert Signs (∨ and ∧)</li>
+		<li>Distribute &not; Inside</li>
+		<li>Invert Signs (&#8897; and &#8896;)</li>
 	</ol>
 </section>
