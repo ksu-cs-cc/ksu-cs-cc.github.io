@@ -15,7 +15,7 @@ date: 2019-02-07T10:53:26-05:00
 
 Let's work through an example problem to see in depth how we take a real world problem statement and translate it into a Boolean logic expression that we can use in our programs.
 
-Here's our problem statement: A program should turn the lights on if the light switch in the room is in the “ON” position. Similarly, it should turn on the lights if it detects there are people in the room using a motion sensor, regardless of whether the light switch is “ON” or "OFF". However, it should respect a master switch, such that if the master switch is off, the lights can not be turned on at all.
+Here's our problem statement: A program should turn the lights on if the light switch in the room is in the "ON" position. Similarly, it should turn on the lights if it detects there are people in the room using a motion sensor, regardless of whether the light switch is "ON" or "OFF". However, it should respect a master switch, such that if the master switch is off, the lights can not be turned on at all.
 
 So, how can we translate this into a Boolean logic statement. First, we can try to make a truth table to help understand our inputs and outputs. Looking at our problem statement, we can identify three inputs: the light switch, a motion sensor, and a master switch. We also have a single output, which is whether the light is on or not.
 

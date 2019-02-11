@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-  <p>A program should turn the lights on if the light switch in the room is in the “ON” position. Similarly, it should turn on the lights if it detects there are people in the room using a motion sensor, regardless of whether the light switch is “ON” or "OFF". However, it should respect a master switch, such that if the master switch is off, the lights can not be turned on at all.<p>
+  <p>A program should turn the lights on if the light switch in the room is in the "ON" position. Similarly, it should turn on the lights if it detects there are people in the room using a motion sensor, regardless of whether the light switch is "ON" or "OFF". However, it should respect a master switch, such that if the master switch is off, the lights can not be turned on at all.<p>
 </section>
 <section>
 	<table class="reveal" style="font-size: 0.8em">

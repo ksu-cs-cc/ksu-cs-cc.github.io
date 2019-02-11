@@ -16,7 +16,7 @@ To begin, click the Next button below, or the Right Arrow at the top of this pag
 Each module will usually contain at least one Codio Tutorial project. This project is a small portion of a much larger textbook developed in Codio, which is also available in its entirety through Canvas. Look for the Textbook module in your Canvas modules. In fact, this very project you are working in right now is a part of that textbook.
 
 In these Codio tutorials, there will be several pages of content introducing the material for that module. Some of the pages will look just like this one, with text, images, and maybe even a short video to help you learn the material.
-If you’d like to see an outline of the pages available as part of this module, click the “hamburger” menu button at the top-right of the page.
+If you’d like to see an outline of the pages available as part of this module, click the "hamburger" menu button at the top-right of the page.
 
 Some of the pages may also include short questions to check for understanding of the material. You’ll need to answer these questions as they appear in order to get points for completing the tutorial module. Remember that the tutorials make up part of your grade in this course, so make sure you answer all of the questions in the tutorial module before submitting it. In some cases, you’ll be able to resubmit your answers until you get a correct answer, but other questions will not allow that.
 In fact, below is a quick example of what one of those questions would be like. Take a moment to answer the question correctly, then continue to the next page of this module.

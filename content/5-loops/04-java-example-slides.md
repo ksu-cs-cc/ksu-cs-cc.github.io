@@ -5,7 +5,7 @@ hidden: true
 
 <section>
   <h3>Problem Statement</h3>
-  <blockquote class="stretch" style="text-align: left; font-size: .9em">Write a program that will accept a series of integers from the user, one per line. It will continue to accept integers from the user until the user inputs 0. If the user inputs a negative number, the program should print “Error! Positive Integers Only” and continue to receive input. Once the user inputs 0, the program should print the sum and average of the positive integers input by the user.</blockquote>
+  <blockquote class="stretch" style="text-align: left; font-size: .9em">Write a program that will accept a series of integers from the user, one per line. It will continue to accept integers from the user until the user inputs 0. If the user inputs a negative number, the program should print "Error! Positive Integers Only" and continue to receive input. Once the user inputs 0, the program should print the sum and average of the positive integers input by the user.</blockquote>
 </section>
 <section>
   <div style="float: right; width: 70%">
@@ -143,7 +143,7 @@ while(x != 0){
 </code></pre>
   </div>
   <div style="width: 30%">
-  <p style="font-size: .7em">If the user <mark>inputs a negative number</mark>, the program should print “Error! Positive Integers Only” and <mark>continue to receive input</mark></p>
+  <p style="font-size: .7em">If the user <mark>inputs a negative number</mark>, the program should print "Error! Positive Integers Only" and <mark>continue to receive input</mark></p>
   </div>
 </section>
 <section>
@@ -160,7 +160,7 @@ while(x != 0){
 </code></pre>
   </div>
   <div style="width: 30%">
-  <p style="font-size: .7em">If the user <mark>inputs a negative number</mark>, the program should print “Error! Positive Integers Only” and <mark>continue to receive input</mark></p>
+  <p style="font-size: .7em">If the user <mark>inputs a negative number</mark>, the program should print "Error! Positive Integers Only" and <mark>continue to receive input</mark></p>
   </div>
 </section>
 <section>
