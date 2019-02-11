@@ -686,7 +686,7 @@ print("Average: " + str(sum / count))
 </section>
 <section>
   <div style="float: right; width: 70%">
-    <pre class="stretch" style="font-size: .5em"><code class="python">x = <mark>int(reader.readline())</mark>;
+    <pre class="stretch" style="font-size: .5em"><code class="python">x = <mark>int(reader.readline())</mark>
 sum = 0
 count = 0
 while x != 0:
