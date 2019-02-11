@@ -6,7 +6,7 @@ pre: "5. "
 
 ### Instructor Contact Information
 * **Instructor:** Russell Feldhausen (russfeld@ksu.edu)
-* **Office:** DUE 2166, but I mostly work remotely from Kansas City, MO
+* **Office:** DUE 2184, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
 * **Website:** https://russfeld.me
 * **Virtual Office Hours:** By appointment via Zoom
