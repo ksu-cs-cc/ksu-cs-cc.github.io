@@ -1,11 +1,11 @@
 ---
-title: "Python Compile & Run"
+title: "Python Run as Script"
 pre: "3.P. "
 weight: 31
 date: 2019-02-05T10:53:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube uBvsct1TLhY >}}
 
 #### Resources
 

@@ -5,7 +5,7 @@ weight: 10
 date: 2019-02-05T10:53:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube nk4XkiGKick >}}
 
 #### Resources
 
@@ -37,4 +37,4 @@ Finally, the last line updates the value of `y` to the sum of `y` and `z`. So, w
 
 So, the important things to remember about variables in a programming language: we can always determine their current value, and anytime we access the variable we just use the currently stored value at that time.
 
-I hope this helps you understand variables a bit better. The rest of this chapter deals quite a bit with variables and storing data, so you'll get plenty of practice working with them. 
+I hope this helps you understand variables a bit better. The rest of this chapter deals quite a bit with variables and storing data, so you'll get plenty of practice working with them.

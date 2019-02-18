@@ -5,7 +5,7 @@ weight: 40
 date: 2019-02-12T00:53:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube r0RqggBU2iA >}}
 
 #### Resources
 
@@ -49,4 +49,4 @@ When we restart the debugger, we'll see that line listed as one of the **Breakpo
 
 Finally, we can add a **Watch** to the debugger, which is an expression we'd like to see the value of as the program executes. So, for example, I could enter `x + y` as a watch. Be warned that your watch expressions won't appear until you continue executing your program. So, if I press the **Step Over** button, I can see the value of that expression. This is really handy if you are tracking a particular value or result in your code and wondering what values it has during the program's execution.
 
-That covers all of the basic features available in Codio's debugger. Of course, there are a variety of interesting ways you can use those tools to help resolve errors in your programs. Feel free to refer to Codio's official documentation, linked from this page, to learn more about how their debugger works. 
+That covers all of the basic features available in Codio's debugger. Of course, there are a variety of interesting ways you can use those tools to help resolve errors in your programs. Feel free to refer to Codio's official documentation, linked from this page, to learn more about how their debugger works.

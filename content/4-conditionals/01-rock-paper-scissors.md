@@ -5,7 +5,7 @@ weight: 10
 date: 2019-02-07T10:53:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube B-P4hS0a4tg >}}
 
 #### Resources
 
@@ -49,4 +49,4 @@ So, now that we've determined player 1 has input scissors, we can then determine
 
 At this point, based on our previous assumptions, we know that player 1 must have entered scissors since we already determined that it wasn't rock or paper. Similarly, we know that player 2 didn't input rock, and also didn't input the same thing that player 1 did. So, that leaves paper for player 2. Therefore, since player 1 chose scissors and player 2 input paper, we can say that player 1 wins since "scissors cuts paper". We can output that to the screen, and then our program terminates.
 
-These flowcharts provide a very handy way to learn how to deal with these decision nodes, or conditional statements, in our code. Later on, we'll use these flowcharts again to learn about how to deal with loops, or repeated code segments. 
+These flowcharts provide a very handy way to learn how to deal with these decision nodes, or conditional statements, in our code. Later on, we'll use these flowcharts again to learn about how to deal with loops, or repeated code segments.

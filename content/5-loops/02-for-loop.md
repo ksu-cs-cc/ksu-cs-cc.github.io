@@ -5,7 +5,7 @@ weight: 20
 date: 2019-02-08T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube SKuR2gbVnaQ >}}
 
 #### Resources
 
@@ -33,4 +33,4 @@ Once again, we'll print 3 to the terminal.
 
 Now, when we reach the top of the loop, we'll find that there are no more items in the list that can be assigned to `i`. So, the loop will end, and in this case the program will terminate.
 
-That's all there is to it! For loops are a very common structure in many programming languages, but each one handles them a bit differently. So, read on in this chapter to learn how to write for loops in your langauge of choice. 
+That's all there is to it! For loops are a very common structure in many programming languages, but each one handles them a bit differently. So, read on in this chapter to learn how to write for loops in your langauge of choice.

@@ -5,13 +5,13 @@ weight: 70
 date: 2019-01-11T00:53:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube 1IP7myJfQPw>}}
 
 Welcome to Codio! For this class, we’ll be using Codio in a couple of different ways. First, the course textbook will consist of several tutorials built in Codio using the same Guide interface that you are using right now. Secondly, most of the programming projects in this course will also be handled through Codio. Codio has many unique features, including a fully online development environment and automatic grading that make this course scalable and accessible.
 
 To begin, click the Next button below, or the Right Arrow at the top of this page to continue to the next guide page in this Codio project.
 
-{{< youtube  >}}
+{{< youtube cQZ5umtbmSk >}}
 
 Each module will usually contain at least one Codio Tutorial project. This project is a small portion of a much larger textbook developed in Codio, which is also available in its entirety through Canvas. Look for the Textbook module in your Canvas modules. In fact, this very project you are working in right now is a part of that textbook.
 
@@ -21,7 +21,7 @@ If you’d like to see an outline of the pages available as part of this module,
 Some of the pages may also include short questions to check for understanding of the material. You’ll need to answer these questions as they appear in order to get points for completing the tutorial module. Remember that the tutorials make up part of your grade in this course, so make sure you answer all of the questions in the tutorial module before submitting it. In some cases, you’ll be able to resubmit your answers until you get a correct answer, but other questions will not allow that.
 In fact, below is a quick example of what one of those questions would be like. Take a moment to answer the question correctly, then continue to the next page of this module.
 
-{{< youtube  >}}
+{{< youtube JSdBs1LXddE>}}
 
 On some pages, the Codio guide may also switch to a different view, shown here, allowing you to work directly with code. On the far left is the file tree, which shows all of the files accessible to you for this example. Then, in the middle, you should also see the file or files that are part of this example. You can freely open additional files if needed in that panel, or rearrange the panels as needed. However, whenever you enter this page, it will reset the view back to the default.
 
@@ -29,7 +29,7 @@ In the first programming module of the course, we’ll discuss more information 
 
 Once you’ve completed the example, most pages will include a section at the bottom that allows you to check your work. Just like the other questions, these assessments will count toward your grade on the tutorial project. See if you can complete the exercise and pass the test below.
 
-{{< youtube  >}}
+{{< youtube JBHsBbX1DH4 >}}
 
 Now that you’ve seen a few pages in Codio, let’s take a minute to discuss some of the features of the Codio user interface. Of course, Codio has some amazing documentation, so feel free to check that out as you work with Codio.
 

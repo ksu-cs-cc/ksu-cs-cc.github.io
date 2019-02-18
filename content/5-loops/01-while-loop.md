@@ -5,7 +5,7 @@ weight: 10
 date: 2019-02-08T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube U3hewt8IF2g >}}
 
 #### Resources
 
@@ -33,6 +33,6 @@ Back at the Boolean condition, we see that `x` is equal to `i`, so we'll enter t
 
 Once inside, we'll print 3 and update the value of `i` to 4.
 
-At this point, the Boolean condition evaluates to false, since `i` is now greater than `x`. So, we'll leave the loop, and terminate the program. As we can see, the program outputs all integers from 1 through the input of 3, so it works as expected. 
+At this point, the Boolean condition evaluates to false, since `i` is now greater than `x`. So, we'll leave the loop, and terminate the program. As we can see, the program outputs all integers from 1 through the input of 3, so it works as expected.
 
 Some programming languages also include a Do loop, which is similar to a while loop in many respects. Make sure you read the rest of the text on this page to learn about how Do loops work.
