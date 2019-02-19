@@ -18,6 +18,17 @@ hidden: true
 	</ul>
 </section>
 <section>
+	<h3>Why Computer Science?</h3>
+	<ul>
+		<li>Computers are Everywhere</li>
+		<li>Marketable 21st Century Skillset</li>
+		<li>Useful in <b>ANY</b> Field</li>
+		<li>600,000 CS Job Openings (2016)</li>
+		<li>70% Outside Traditional Tech Sector</li>
+		<li>Great Addition to Any Major</li>
+	</ul>
+</section>
+<section>
 	<h3>Features</h3>
 	<ul>
 		<li>Java or Python</li>
@@ -43,17 +54,7 @@ hidden: true
 		<li>Build Confidence & Experience!</li>
 	</ul>
 </section>
-<section>
-	<h3>Why Computer Science?</h3>
-	<ul>
-		<li>Computers are Everywhere</li>
-		<li>Marketable 21st Century Skillset</li>
-		<li>Useful in <b>ANY</b> Field</li>
-		<li>600,000 CS Job Openings (2016)</li>
-		<li>70% Outside Traditional Tech Sector</li>
-		<li>Great Addition to Any Major</li>
-	</ul>
-</section>
+
 <section>
 	<h3>Bigger Picture</h3>
 	<ul>
