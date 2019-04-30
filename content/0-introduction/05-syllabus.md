@@ -5,7 +5,7 @@ pre: "5. "
 ---
 
 ### Instructor Contact Information
-* **Instructor:** Russell Feldhausen (russfeld@ksu.edu)
+* **Instructor:** Russell Feldhausen (russfeld@ksu.edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
 * **Office:** DUE 2184, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
 * **Website:** https://russfeld.me
@@ -26,7 +26,7 @@ pre: "5. "
 
 ###  Course Structure
 
-This course is being taught 100% online and self-paced. There may be some bumps in the road. Students will work at their own pace through several modules, with suggested due dates for completion of each module given. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, which will be graded automatically through Codio. Assignments may also include written portions which will be submitted and graded manually via Canvas.
+This course is being taught 100% online, and each module is self-paced. There may be some bumps in the road. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, which will be graded automatically through Codio. Assignments may also include written portions which will be submitted and graded manually via Canvas.
 
 ### Course Description
 
@@ -73,7 +73,17 @@ Letter grades will be assigned following the standard scale:
 
 ### Late Work
 
-Since this course is online and self-guided, there is no explicit late work policy. Students are expected to follow the suggested course deadlines if possible, and are encouraged to work at their own pace. All course work must be submitted on or before the last day of the semester in which the student is enrolled in the course.
+{{% notice warning %}}
+
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
+
+{{% /notice %}}
+
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. If a module is not completed before the due date, all work submitted on that module will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+
+However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
+
+Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded. No incompletes will be given in this course for any reason.
 
 If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
 
@@ -109,7 +119,7 @@ Please contact me or submit anonymous feedback through the Computer Science depa
 
 Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.) To help accomplish this:
 
-* If you have a name and/or set of pronouns that differ from those that appear in your official K-State records, please let me know!
+* If you have a name and/or use pronouns that differ from those that appear in your official K-State records, please let me know!
 * If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class, if necessary to address your concerns).
 * If you prefer to speak with someone outside of the course, your academic advisor or the staff in the College of Engineering Student Services office are excellent resources. <anonymity/confidential>
 

@@ -8,14 +8,14 @@ hidden: true
 <section>
 	<h3>Russell Feldhausen</h3>
 	<p>
+		<i>Pronouns: he/him</i><br>
 		(785) 292-3121 (Call/Text)<br>
 		2184 Engineering Hall<br>
 		<i>(working remotely)</i><br>
 		<br>
 		<b>russfeld AT ksu DOT edu</b><br>
 		https://russfeld.me  -  @russfeld<br>
-		<br>
-		<i>Email preferred</i>
+		<i>Piazza preferred</i>
 	</p>
 </section>
 <section>
@@ -37,10 +37,11 @@ hidden: true
 <section>
 	<h3>Course Structure</h3>
 	<ul>
-		<li>~15-20 Modules per Course </li>
+		<li>~15 Modules per Course </li>
 		<li>Tutorial, Quiz, Project</li>
 		<li>Gated - Must Complete in Order</li>
-		<li>Go at Your Own Pace</li>
+		<li>One Module Each Week</li>
+		<li>Work At Your Own Pace</li>
 		<li>Automated Grading</li>
 	</ul>
 </section>
@@ -50,8 +51,8 @@ hidden: true
 		<li>Navigating Canvas, Piazza & Codio</li>
 		<li>Syllabus</li>
 		<li>Where to Get Help</li>
-		<li>Introductions on Piazza</li>
-		<li>Extra Credit - Bug Bounty</li>
+		<li>Plagiarism</li>
+		<li>Extra Credit</li>
 		<li>Course Readiness Quiz</li>
 	</ul>
 </section>
@@ -67,20 +68,31 @@ hidden: true
 	</ul>
 </section>
 <section>
+  <h3>Late Work</h3>
+	<ul>
+		<li>Each Module has a Due Date</li>
+		<li>Complete ALL Work in Module</li>
+		<li>Date = Confirmation Quiz</li>
+		<li>Penalty = 50% of Total Points</li>
+		<li>Still Must Complete Module</li>
+		<li>Don't Get Behind!</li>
+	</ul>
+</section>
+<section>
 	<h3>Grading</h3>
 	<ul>
 		<li>60% Projects</li>
 		<li>20% Tutorials</li>
 		<li>20% Quizzes</li>
-		<li>Up to 5% Extra Credit (Bug Bounty)</li>
+		<li>Up to 5% Extra Credit</li>
 	</ul>
 	<p>Standard 90-80-70-60 grading scale</p>
 </section>
 <section>
 	<h3>What's Different?</h3>
 	<ul>
-		<li>No Due Dates</li>
-		<li>No Late Work</li>
+		<li>No Scheduled Class Times</li>
+		<li>Work When You Want</li>
 		<li>Automated Grading</li>
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
@@ -90,8 +102,8 @@ hidden: true
 <section>
 	<h3>What's the Same?</h3>
 	<ul>
-		<li>~4 Hrs. of Work Per Module</li>
-		<li>1 - 2 Modules Per Week</li>
+		<li>~6 Hrs. of Work Per Module</li>
+		<li>1 Module Per Week</li>
 		<li>Help Sessions</li>
 		<li>Office Hours (Virtual/Campus)</li>
 	</ul>
