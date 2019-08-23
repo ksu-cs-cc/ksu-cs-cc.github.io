@@ -16,7 +16,6 @@ date: 2018-08-24T10:53:26-05:00
 #### Resources
 
 * [Slides]({{< relref "/0-introduction/01-introduction-slides.md" >}})
-* [Syllabus]({{< relref "/0-introduction/05-syllabus.md" >}})
 
 #### Video Script
 
@@ -34,9 +33,9 @@ The Computational Core program consists of several courses, and each course cont
 
 You are welcome to work at your own pace throughout this course, provided that you complete each module before the listed due date. There will be roughly one module due each week. The modules are self-contained, and nearly all of the grading in this course is completed automatically through Canvas and Codio. So, you can complete modules as quickly or slowly as you'd like before the due date, and once a module is complete, you may immediately start on the next one.
 
-Looking ahead to the rest of this first module, you'll see that there are a few more items to be completed before you can move on. In the next video, I'll discuss a bit more information about navigating through this course on Canvas and Piazza, and using the Codio learning environment.
+Looking ahead to the rest of this introductory module, you'll see that there are a few more items to be completed before you can move on. In the next video, I'll discuss a bit more information about navigating through this course on Canvas and Piazza, and using the Codio learning environment.
 
-One thing I highly encourage each of you to do is read the syllabus for this course in its entirety, and let me know if you have any questions. My view is that the syllabus is a contact between me as your teacher and you as a student, defining how each of us should treat each other and what we should expect from each other. I have made a few changes to the standard syllabus template for this program, and those changes are clearly highlighted. Finally, the syllabus itself is subject to change as needed as we adapt this program to meet the needs of its students, and all changes will be clearly communicated to everyone before they take effect.
+One thing I highly encourage each of you to do is read the syllabus for this course in its entirety, and let me know if you have any questions. My view is that the syllabus is a contract between me as your teacher and you as a student, defining how each of us should treat each other and what we should expect from each other. I have made a few changes to the standard syllabus template for this program, and those changes are clearly highlighted. Finally, the syllabus itself is subject to change as needed as we adapt this program to meet the needs of its students, and all changes will be clearly communicated to everyone before they take effect.
 
 One very important part of the syllabus that every student should read is the late work policy. First off, each module has a due date, but you can work on that module at your own pace provided you complete it before it is due. As discussed before, you must do all the readings and assignments in a module in listed order before moving on, so you cannot jump ahead. A module is considered completed when all items have been completed.
 

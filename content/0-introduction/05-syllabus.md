@@ -5,17 +5,23 @@ pre: "5. "
 ---
 
 ### Instructor Contact Information
-* **Instructor:** Russell Feldhausen (russfeld@ksu.edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184, but I mostly work remotely from Kansas City, MO
+
+* **Primary Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
+* **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
 * **Website:** https://russfeld.me
-* **Virtual Office Hours:** By appointment via Zoom
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
 
 #### Preferred Methods of Communication:
 
 * **Piazza:** Please use Piazza for all communication regarding this course as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email me anytime with questions outside of the scope of this course. I will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. I'm also active on the K-State CS chat channel.
+* **Email**: Students are also welcome to email us anytime with questions outside of the scope of this course. I will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. I'm also active on the K-State CS chat channel.
 * **Phone/Text:** _Emergencies only!_ I will do my best to respond as quickly as I am able.
+
+### Graduate Teaching Assistants
+
+* Kyle Glandt - kglandt AT ksu DOT edu
+* Joshua Schwartz - jschwartz427 AT ksu DOT edu
 
 ### Prerequisites
 
@@ -97,7 +103,7 @@ The details in this syllabus are not set in stone. Due to the flexible nature of
 
 ### Academic Honesty
 
-Kansas State University has an Honor and Integrity System based on personal integrity, which is presumed to be sufficient assurance that, in academic matters, one's work is performed honestly and without unauthorized assistance. Undergraduate and graduate students, by registration, acknowledge the jurisdiction of the Honor and Integrity System. The policies and procedures of the Honor and Integrity System apply to all full and part-time students enrolled in undergraduate and graduate courses on-campus, off-campus, and via distance learning. The Honor and Integrity System website can be reached via the following URL: [http://www.k-state.edu/honor](http://www.k-state.edu/honor). A component vital to the Honor and Integrity System is the inclusion of the Honor Pledge which applies to all assignments, examinations, or other course work undertaken by students. The Honor Pledge is implied, whether or not it is stated: "On my honor, as a student, I have neither given nor received unauthorized aid on this academic work." A grade of XF can result from a breach of academic honesty. The F indicates failure in the course; the X indicates the reason is an Honor Pledge violation.
+Kansas State University has an Honor and Integrity System based on personal integrity, which is presumed to be sufficient assurance that, in academic matters, one's work is performed honestly and without unauthorized assistance. Undergraduate and graduate students, by registration, acknowledge the jurisdiction of the Honor and Integrity System. The policies and procedures of the [Honor and Integrity System](https://www.k-state.edu/honor/) apply to all full and part-time students enrolled in undergraduate and graduate courses on-campus, off-campus, and via distance learning. A component vital to the Honor and Integrity System is the inclusion of the Honor Pledge which applies to all assignments, examinations, or other course work undertaken by students. The Honor Pledge is implied, whether or not it is stated: "On my honor, as a student, I have neither given nor received unauthorized aid on this academic work." A grade of XF can result from a breach of academic honesty. The F indicates failure in the course; the X indicates the reason is an Honor Pledge violation.
 
 **For this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System.  A second violation will result in an XF in the course.**
 
@@ -105,7 +111,7 @@ The Codio platform can perform automatic plagiarism detection by comparing submi
 
 ### Students with Disabilities
 
-Students with disabilities who need classroom accommodations, access to technology, or information about emergency building/campus evacuation processes should contact the Student Access Center and/or their instructor.  Services are available to students with a wide range of disabilities including, but not limited to, physical disabilities, medical conditions, learning disabilities, attention deficit disorder, depression, and anxiety. If you are a student enrolled in campus/online courses through the Manhattan or Olathe campuses, contact the Student Access Center at accesscenter@k-state.edu, 785-532-6441; for K-State Polytechnic campus, contact Academic and Student Services at polytechnicadvising@ksu.edu or call 785-826-2974.
+Students with disabilities who need classroom accommodations, access to technology, or information about emergency building/campus evacuation processes should contact the Student Access Center and/or their instructor.  Services are available to students with a wide range of disabilities including, but not limited to, physical disabilities, medical conditions, learning disabilities, attention deficit disorder, depression, and anxiety. If you are a student enrolled in campus/online courses through the Manhattan or Olathe campuses, contact the Student Access Center at accesscenter@k-state.edu, 785-532-6441; for K-State Polytechnic campus, contact Academic and Student Services at polytechnicadvising@ksu.edu or call 785-826-2674.
 
 ### Diversity and Inclusion
 
@@ -117,11 +123,11 @@ In an ideal world, science and technology would be objective. However, much of s
 
 Please contact me or submit anonymous feedback through the Computer Science department office if you have any concerns or suggestions regarding this course and related materials.
 
-Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.) To help accomplish this:
+Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.). To help accomplish this:
 
 * If you have a name and/or use pronouns that differ from those that appear in your official K-State records, please let me know!
-* If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class, if necessary to address your concerns).
-* If you prefer to speak with someone outside of the course, your academic advisor or the staff in the College of Engineering Student Services office are excellent resources. <anonymity/confidential>
+* If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to talk with me. I want to be a resource for you. Please remember that you can also submit anonymous feedback as described above (which will lead to me making a general announcement to the class, if necessary, to address your concerns).
+* If you prefer to speak with someone outside of the course, your academic advisor or the staff in the College of Engineering Student Services office are excellent resources.
 
 I, like many people, am still in the process of learning about diverse perspectives and identities. If something was said in class, by anyone, that made you feel uncomfortable, please talk to me about it. Again, anonymous feedback is always an option.
 
@@ -158,11 +164,11 @@ All student activities in the University, including this course, are governed by
 
 ### Campus Safety
 
-Kansas State University is committed to providing a safe teaching and learning environment for student and faculty members. In order to enhance your safety in the unlikely case of a campus emergency make sure that you know where and how to quickly exit your classroom and how to follow any emergency directives. To view additional campus emergency information go to the University's main page, www.k-state.edu(), and click on the Emergency Information button, located at the bottom of the page.
+Kansas State University is committed to providing a safe teaching and learning environment for student and faculty members. In order to enhance your safety in the unlikely case of a campus emergency make sure that you know where and how to quickly exit your classroom and how to follow any emergency directives. To view additional campus emergency information go to the University's main page, [www.k-state.edu](http://www.k-state.edu), and click on the Emergency Information button, located at the bottom of the page.
 
 ### Student Resources
 
-K-State has many resources to help contribute to student success. These resources include accommodations for academics, paying for college, student life, health and safety, and others found at [www.k-state.edu/onestop](www.k-state.edu/onestop).
+K-State has many resources to help contribute to student success. These resources include accommodations for academics, paying for college, student life, health and safety, and others found at [www.k-state.edu/onestop](http://www.k-state.edu/onestop).
 
 ### Academic Freedom Statement
 

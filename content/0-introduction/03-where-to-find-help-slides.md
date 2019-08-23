@@ -47,7 +47,7 @@ hidden: true
   <ul>
     <li>Course Resources & Tutorials</li>
     <li>Post on <img class="plain" style="height: 1em; margin-bottom:-.3em" src="/images/piazza_logo_wiki.png"> </li>
-    <li><img class="plain" src="/images/google_wiki.png" style="height: 1.5em; vertical-align: middle; display: inline-block;"> It!</li>
+    <li><img class="plain" src="/images/google_logo.png" style="height: 1.5em; vertical-align: middle; display: inline-block;"> It!</li>
   </ul>
 </section>
 <section>

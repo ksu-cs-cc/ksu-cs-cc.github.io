@@ -17,7 +17,7 @@ date: 2018-08-24T10:53:26-05:00
 
 Plagiarism is a very serious concern in this course, and something that we do not take lightly. Computer programs and code are especially easy targets for plagiarism due to how easy it is to copy and manipulate code in such a way that it is unrecognizable as the original source but still performs correctly.
 
-At its core, plagiarism is taking someone else's work and passing it off as your own without giving appropriate credit to the original source. As a student at K-State, you are bound by the K-State Honor Code to not accept any unauthorized aid, and this includes plagiarized code.
+At its core, plagiarism is taking someone else's work and passing it off as your own without giving appropriate credit to the original source. As a student at K-State, you are bound by the K-State Honor Code not to accept any unauthorized aid, and this includes plagiarized code.
 
 When it comes to plagiarism in computer code, there is a fine line between using resources appropriately and copying code. In this program, you should strive to avoid plagiarism issues by doing the following:
 
