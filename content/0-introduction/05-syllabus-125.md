@@ -4,7 +4,7 @@ weight: 56
 pre: "5.6 "
 ---
 
-## CC 110 - Fundamentals of Web Development
+## CC 125 - Fundamentals of Web Development
 
 ### Instructor Contact Information
 
