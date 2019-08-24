@@ -61,8 +61,9 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% Lectures and Quizzes
-* 40% Programming Projects
+* 60% - Codio Programming Projects
+* 20% - Codio Tutorials
+* 20% - Canvas Quizzes
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
