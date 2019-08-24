@@ -4,7 +4,7 @@ weight: 54
 pre: "5.4 "
 ---
 
-## CC 315 - Data Structures & Algorithms 2 
+## CC 315 - Data Structures & Algorithms 2
 
 ### Instructor Contact Information
 
@@ -22,15 +22,15 @@ pre: "5.4 "
 
 ### Graduate Teaching Assistants
 
-TBD
+* TBD
 
 ### Prerequisites
 
-CC 310 (Prerequisite or Concurrent Enrollment)
+* CC 310 (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 
-The Computational Core is a set of courses designed to give students the fundamental knowledge to apply programming in a variety of situations. Programming is quickly becoming a fundamental skill for students entering the workforce, and these courses will provide students experience with programming across a wide range of fields outside of computer science.
+Advanced data structures and related algorithms. Formal software development methods and software engineering fundamentals. Introduction to requirements analysis processes that provide the specification of algorithmic requirements.
 
 ### Course Description
 

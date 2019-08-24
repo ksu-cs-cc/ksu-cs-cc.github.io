@@ -4,7 +4,7 @@ weight: 53
 pre: "5.3 "
 ---
 
-## CC 310 - Data Structures & Algorithms 1
+## CC 310 - Data Structures & Algorithms I
 
 ### Instructor Contact Information
 
@@ -22,15 +22,16 @@ pre: "5.3 "
 
 ### Graduate Teaching Assistants
 
-TBD
+* TBD
 
 ### Prerequisites
 
-CC 210 (Prerequisite or Concurrent Enrollment)
+* MATH 100  
+* CC 210 (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 
-The Computational Core is a set of courses designed to give students the fundamental knowledge to apply programming in a variety of situations. Programming is quickly becoming a fundamental skill for students entering the workforce, and these courses will provide students experience with programming across a wide range of fields outside of computer science.
+Exploration of data structures & related algorithms in computer programming. Basic concepts of complexity analysis. Object-oriented design concepts.
 
 ### Course Description
 

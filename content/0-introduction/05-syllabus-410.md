@@ -22,15 +22,15 @@ pre: "5.5 "
 
 ### Graduate Teaching Assistants
 
-TBD
+* TBD
 
 ### Prerequisites
 
-CC 315 (Prerequisite or Concurrent Enrollment)
+* CC 315 (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 
-The Computational Core is a set of courses designed to give students the fundamental knowledge to apply programming in a variety of situations. Programming is quickly becoming a fundamental skill for students entering the workforce, and these courses will provide students experience with programming across a wide range of fields outside of computer science.
+Advanced programming techniques and projects. Concepts from simulation and modeling, media applications, secure design, information management, parallelism, and networking. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.
 
 ### Course Description
 

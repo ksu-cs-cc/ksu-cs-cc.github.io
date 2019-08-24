@@ -28,15 +28,15 @@ pre: "5.1 "
 
 ### Graduate Teaching Assistants
 
-TBD
+* TBD
 
 ### Prerequisites
 
-None
+* None
 
 ### Course Overview
 
-The Computational Core is a set of courses designed to give students the fundamental knowledge to apply programming in a variety of situations. Programming is quickly becoming a fundamental skill for students entering the workforce, and these courses will provide students experience with programming across a wide range of fields outside of computer science.
+An overview of the history of computers and programming. Famous historical figures and their impact in modern computing. Introduction to major topics in computer science such as artificial intelligence, high performance computing, cryptography, big data, cyber security, robotics, and more. Brief experience with computer programming concepts.
 
 ### Course Description
 
