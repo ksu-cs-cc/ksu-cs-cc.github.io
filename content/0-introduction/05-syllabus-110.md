@@ -1,71 +1,68 @@
 ---
-title: "Syllabus"
-weight: 50
-pre: "5. "
+title: "CC 110 Syllabus"
+weight: 51
+pre: "5.1 "
 ---
+
+## CC 110 - Introduction to Computing
 
 ### Instructor Contact Information
 
-* **Primary Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
+* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
 * **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
+* **Website:** https://russfeld.me  
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
+<br>
+* **Instructor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
+* **Office:** DUE 2214
+* **Phone:** (785) 532-6350
+* **Website:** http://weeser.net/
+* **Office Hours:** TBD
 
 #### Preferred Methods of Communication:
 
-* **Piazza:** Please use Piazza for all communication regarding this course as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email us anytime with questions outside of the scope of this course. I will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. I'm also active on the K-State CS chat channel.
-* **Phone/Text:** _Emergencies only!_ I will do my best to respond as quickly as I am able.
+* **Piazza:** Please use Piazza for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
+* **Email**: Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. We're also active on the [K-State CS Rocket.chat](https://chat.cs.ksu.edu).
+* **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
 
 ### Graduate Teaching Assistants
 
-* Kyle Glandt - kglandt AT ksu DOT edu
-* Joshua Schwartz - jschwartz427 AT ksu DOT edu
+TBD
 
 ### Prerequisites
 
-* **CC 210**: CIS 115 (Optional) or CIS 111 (Optional)
-* **CC 310**: CC 210 (Prerequisite or Concurrent Enrollment)
-* **CC 315**: CC 310 (Prerequisite or Concurrent Enrollment)
-* **CC 410**: CC 315 (Prerequisite or Concurrent Enrollment)
+None
 
-###  Course Structure
+### Course Overview
 
-This course is being taught 100% online, and each module is self-paced. There may be some bumps in the road. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, which will be graded automatically through Codio. Assignments may also include written portions which will be submitted and graded manually via Canvas.
+The Computational Core is a set of courses designed to give students the fundamental knowledge to apply programming in a variety of situations. Programming is quickly becoming a fundamental skill for students entering the workforce, and these courses will provide students experience with programming across a wide range of fields outside of computer science.
 
 ### Course Description
 
-The Computational Core is a set of courses designed to give students the fundamental knowledge to apply programming in a variety of situations. Programming is quickly becoming a fundamental skill for students entering the workforce, and this program will provide those skills to students across a wide range of fields outside of computer science.
-
-### Course Objectives
-
-At the end of this program, students should be comfortable developing programs in a programming language to meet the needs of their field. They will understand the basics of program structure, analysis, security, and usability. In addition, students will have a large set of skills and knowledge that can be adapted and applied in a variety of fields to develop impactful computer programs. That knowledge will form the basis of a student's ability to continue improving the programs and techniques applied in their work.
+This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
 
 ### Major Course Topics
 
-Some major course topics could include:
+* The history of computer science and early computing machines
+* The basics of binary representation, Boolean logic, data encoding, encryption, and error checking
+* Computational thinking, programming, and algorithm design
+* The history and technology behind the internet and how it affects our world
+* Computer science areas such as artificial intelligence, human-computer interaction, high performance computing, data science, robotics, and more
+* Cybersecurity in a modern, interconnected world
+* Other disciplines related to computer science
+* Experience with basic programming concepts
 
-* Programming Language Fundamentals
-* Program Structure
-* Object Oriented Programming
-* Computer Logic & Proofs
-* Data Structures & Algorithms
-* Software Development Practices
-* Complexity Analysis
-* Software Engineering Methodologies
-* Design Patterns and Architectures
-* Algorithmic Strategies
-* Computer Memory Usage
-* Computer Security
+###  Course Structure
+
+These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
 
 ### Grading
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% - Codio Programming Projects
-* 20% - Codio Tutorials
-* 20% - Canvas Quizzes
+* 60% Lectures and Quizzes
+* 40% Programming Projects
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
@@ -80,12 +77,10 @@ Letter grades will be assigned following the standard scale:
 ### Late Work
 
 {{% notice warning %}}
-
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
-
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. If a module is not completed before the due date, all work submitted on that module will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified, and all work submitted after the due date will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
@@ -116,7 +111,7 @@ Students with disabilities who need classroom accommodations, access to technolo
 ### Diversity and Inclusion
 
 {{% notice note %}}
-This is my personal policy and not a required syllabus statement from K-State. It has been adapted from [this statement](https://tomprof.stanford.edu/posting/1625) created by two educators at Brown University. I feel that a statement such as this is very powerful and important in today's world, and I'll do my best to live up to it. --Russ
+This is our personal policy and not a required syllabus statement from K-State. It has been adapted from [this statement](https://tomprof.stanford.edu/posting/1625) created by two educators at Brown University. We feel that a statement such as this is very powerful and important in today's world, and we'll do our best to live up to it.
 {{% /notice %}}
 
 In an ideal world, science and technology would be objective. However, much of science and technology is subjective and is historically built on a small subset of privileged voices. In this class, we will reference many materials from a diverse set of sources, but limits still exist on this diversity. I acknowledge that it is possible that there may be both overt and covert biases in the material due to the lens with which it was written, even though the material is primarily of a technical nature.
@@ -134,7 +129,7 @@ I, like many people, am still in the process of learning about diverse perspecti
 ### Netiquette
 
 {{% notice note %}}
-This is my personal policy and not a required syllabus statement from K-State. It has been adapted from [this statement](https://global.k-state.edu/students/courses/netiquette/) from K-State Global Campus, and the [Recurse Center Manual](https://www.recurse.com/manual). I have adapted their ideas to fit this course. --Russ
+This is our personal policy and not a required syllabus statement from K-State. It has been adapted from [this statement](https://global.k-state.edu/students/courses/netiquette/) from K-State Global Campus, and the [Recurse Center Manual](https://www.recurse.com/manual). We have adapted their ideas to fit this course.
 {{% /notice %}}
 
 Online communication is inherently different than in-person communication. When speaking in person, many times we can take advantage of the _context_ and _body language_ of the person speaking to better understand what the speaker _means_, not just what is said. This information is not present when communicating online, so we must be much more careful about what we say and how we say it in order to get our meaning across.
