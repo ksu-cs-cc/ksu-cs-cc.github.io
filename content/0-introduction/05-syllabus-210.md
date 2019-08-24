@@ -29,7 +29,7 @@ pre: "5.2 "
 
 ### Prerequisites
 
- _(Effective Fall 2019)_: CIS 115 (Optional) or CIS 111 (Optional).
+ _(Effective Fall 2019)_: CIS 115 (Optional) or CIS 111 (Optional)  
  _(Effective Fall 2020)_: CC 110 (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
