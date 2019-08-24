@@ -1,10 +1,10 @@
 ---
-title: "CC 110 Syllabus"
-weight: 51
-pre: "5.1 "
+title: "CC 125 Syllabus"
+weight: 56
+pre: "5.6 "
 ---
 
-## CC 110 - Introduction to Computing
+## CC 110 - Fundamentals of Web Development
 
 ### Instructor Contact Information
 
@@ -14,10 +14,10 @@ pre: "5.1 "
 * **Website:** https://russfeld.me  
 * **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
 <br>
-* **Instructor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
-* **Office:** DUE 2214
-* **Phone:** (785) 532-7929
-* **Website:** http://weeser.net/
+* **Instructor:** Nathan Bean (nhbean AT ksu DOT edu)<br>
+* **Office:** DUE 2216
+* **Phone:** (785) 532-7942
+* **Website:** http://www.nathanhbean.com/
 * **Office Hours:** TBD
 
 #### Preferred Methods of Communication:
@@ -40,18 +40,18 @@ The Computational Core is a set of courses designed to give students the fundame
 
 ### Course Description
 
-This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
+This course introduces students to basic concepts in development for the modern web. Student will gain experience working with HTML, CSS, and JavaScript to build a wide variety of static and interactive web pages. Students will also learn about effective web design and usability while exploring state-of-the-art software libraries and tools used in industry.
 
 ### Major Course Topics
 
-* The history of computer science and early computing machines
-* The basics of binary representation, Boolean logic, data encoding, encryption, and error checking
-* Computational thinking, programming, and algorithm design
-* The history and technology behind the internet and how it affects our world
-* Computer science areas such as artificial intelligence, human-computer interaction, high performance computing, data science, robotics, and more
-* Cybersecurity in a modern, interconnected world
-* Other disciplines related to computer science
-* Experience with basic programming concepts
+* HTML and Related Languages
+* CSS and Related Languages
+* Modern CSS Frameworks
+* JavaScript and Related Languages
+* Modern JavaScript Libraries
+* User-Centered Web Design
+* Usability Testing
+* Website Debugging
 
 ###  Course Structure
 
