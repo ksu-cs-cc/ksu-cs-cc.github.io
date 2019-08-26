@@ -1,10 +1,10 @@
 ---
-title: "CC 125 Syllabus"
+title: "CC 120 Syllabus"
 weight: 56
 pre: "5.6 "
 ---
 
-## CC 125 - Fundamentals of Web Development
+## CC 120 - Fundamentals of Web Development
 
 ### Instructor Contact Information
 
