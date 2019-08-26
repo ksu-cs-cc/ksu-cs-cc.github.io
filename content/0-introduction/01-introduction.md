@@ -5,13 +5,7 @@ weight: 10
 date: 2018-08-24T10:53:26-05:00
 ---
 
-{{% notice warning %}}
-
-**Update - April 30th, 2019:** This video makes a few references to this course being "self-paced" with no due dates. That has changed since the video was created, and I haven't had a chance to update the video yet. The information contained in linked [slides]({{< relref "/0-introduction/01-introduction-slides.md" >}}), the text below, and the course [syllabus]({{< relref "/0-introduction/05-syllabus-210.md" >}}) are correct. -Russ
-
-{{% /notice %}}
-
-{{< youtube EgK1rkk0Cpo >}}
+{{< youtube FjchZo5SaR0 >}}
 
 #### Resources
 
