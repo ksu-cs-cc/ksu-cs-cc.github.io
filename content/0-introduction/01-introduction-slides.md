@@ -3,7 +3,8 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Welcome to Computational Core!</h2>
+	<h2>Welcome to the</h2>
+	<img class="plain stretch" src="/images/core-logo-on-white.svg">
 </section>
 <section>
 	<h3>Russell Feldhausen</h3>
@@ -21,8 +22,11 @@ hidden: true
 <section>
 	<h3>Other Instructors & TAs</h3>
 	<ul>
-		<li>Nathan Bean</li>
+		<li>Francesco Maiorana</li>
 		<li>Dr. Josh Weese</li>
+		<li>Nathan Bean</li>
+		<li>GTA: Joshua Schwartz</li>
+		<li>GTA: Kyle Glandt</li>
 	</ul>
 </section>
 <section>
@@ -127,7 +131,7 @@ hidden: true
 		<li>Read the Syllabus</li>
 		<li>Post an Introduction on Piazza</li>
 		<li>Complete the Course Readiness Quiz</li>
-		<li>Read the Extra Credit - Bug Bounty Assignment</li>
+		<li>Read the Extra Credit Assignments</li>
 	</ul>
 </section>
 <section>

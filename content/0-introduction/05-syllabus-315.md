@@ -4,7 +4,7 @@ weight: 54
 pre: "5.4 "
 ---
 
-## CC 315 - Data Structures & Algorithms 2
+## CC 315 - Data Structures & Algorithms II
 
 ### Instructor Contact Information
 
