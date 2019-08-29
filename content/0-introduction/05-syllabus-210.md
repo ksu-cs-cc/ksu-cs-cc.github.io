@@ -24,8 +24,8 @@ pre: "5.2 "
 
 #### CC 210 Fall 2019
 
-* Kyle Glandt - kglandt AT ksu DOT edu <br>**Office Hours:** TBA
-* Joshua Schwartz - jschwartz427 AT ksu DOT edu <br>**Office Hours:** MW 10:20 - 11:20 AM in DUE 1119
+* <big>Kyle Glandt</big> - kglandt AT ksu DOT edu <br>**Office Hours:** MF 9:30 - 10:30 AM in DUE 1117<br>**Zoom Link:** [https://ksu.zoom.us/j/934293267](https://ksu.zoom.us/j/934293267)
+* <big>Joshua Schwartz</big> - jschwartz427 AT ksu DOT edu <br>**Office Hours:** MW 10:20 - 11:20 AM in DUE 1119
 
 ### Prerequisites
 
