@@ -8,6 +8,6 @@ pre = "<b>Y. </b>"
 
 ### Chapter Y
 
-# Instructor Resources
+# Weekly Updates
 
-Goodies for Instructors!
+Information for Current Students!
