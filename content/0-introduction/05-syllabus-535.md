@@ -9,7 +9,7 @@ pre: "5.10 "
 ### Instructor Contact Information
 
 * **Professor:** Dr. Lior Shamir (lshamir AT ksu DOT edu)<br>
-* **Office:** DUE 164
+* **Office:** DUE 2164
 * **Phone:** (785) 532-4809
 * **Skype ID:** lior.shamir2
 * **Office Hours:** TBD
