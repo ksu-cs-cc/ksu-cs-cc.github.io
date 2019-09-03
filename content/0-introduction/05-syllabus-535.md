@@ -33,7 +33,7 @@ You will also need a spreadsheet software (e.g., MS-Excel), as well as other sof
 
 ### Course Overview
 
-Introduction to basic concepts of data science. Application of data science and practical knowledge on solving and approaching problems using data science paradigms.
+An introduction to data science and discovery from data: Data wrangling, feature engineering, feature selection, statistical inference, correlations, principal component analysis, classification, regression, novelty detection, clustering, cross-validation, bootstrapping, class profiling, multidimensional scaling, association rules, visualization, data science & society
 
 ### Course Description
 
