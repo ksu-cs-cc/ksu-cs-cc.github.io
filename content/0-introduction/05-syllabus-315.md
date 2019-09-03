@@ -26,7 +26,7 @@ pre: "5.4 "
 
 ### Prerequisites
 
-* CC 310 (Prerequisite or Concurrent Enrollment)
+* CC 310 - Data Structures & Algorithms I (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 

@@ -1,24 +1,18 @@
 ---
-title: "CC 110 Syllabus"
-weight: 51
-pre: "5.1 "
+title: "CC 510 Syllabus"
+weight: 57
+pre: "5.7 "
 ---
 
-## CC 110 - Introduction to Computing
+## CC 510 - Computer Systems Administration
 
 ### Instructor Contact Information
 
 * **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
 * **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me  
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
-<br>
-* **Professor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
-* **Office:** DUE 2214
-* **Phone:** (785) 532-7929
-* **Website:** http://weeser.net/
-* **Office Hours:** TBD
+* **Website:** https://russfeld.me
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
 
 #### Preferred Methods of Communication:
 
@@ -32,37 +26,54 @@ pre: "5.1 "
 
 ### Prerequisites
 
-* None
+* CC 310 - Data Structures & Algorithms I
 
 ### Course Overview
 
-An overview of the history of computers and programming. Famous historical figures and their impact in modern computing. Introduction to major topics in computer science such as artificial intelligence, high performance computing, cryptography, big data, cyber security, robotics, and more. Brief experience with computer programming concepts.
+Administration of the Windows and Linux operating systems, including installation, configuration, distributed file systems, firewalls and security, shell scripting, and user account management. Introduction to cloud computing resources.
 
 ### Course Description
 
-This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
+Computer information systems form the backbone of many large organizations, and many students will be called upon in their careers to help create, manage and maintain these large systems. This course will give students knowledge and experience working with enterprise level computer systems including workstation management, file servers, web servers, networking devices, configuration management, monitoring, and more. We will mainly focus on the GNU/Linux and Microsoft Windows server software, and much of the learning will take place in hands-on lab activities working directly with these systems. In addition, students will be responsible for developing some technical documentation and communicating information about their systems in a variety of ways. Finally, throughout the course students will be exposed to a variety of information directly from system administrators across campus.
+
+### Course Objectives
+
+At the end of this course, students should be able to:
+
+* Understand the major components of an enterprise level computer network and server system
+* Design and implement a simple enterprise level server system and network, as well as provision workstations on that network quickly and easily
+* Communicate information about enterprise systems clearly and effectively to users of all skill levels and interests
+* Develop ways to increase efficiency by automating tasks whenever possible using scripting and configuration management tools
+* Understand and describe security risks in any enterprise system and any ways that they can be mitigated
+* Show how to monitor enterprise systems for problems and use that information to locate and fix any issues within the system
+* Work with cloud technologies and describe how they can be integrated into an enterprise information technology setup
 
 ### Major Course Topics
 
-* The history of computer science and early computing machines
-* The basics of binary representation, Boolean logic, data encoding, encryption, and error checking
-* Computational thinking, programming, and algorithm design
-* The history and technology behind the internet and how it affects our world
-* Computer science areas such as artificial intelligence, human-computer interaction, high performance computing, data science, robotics, and more
-* Cybersecurity in a modern, interconnected world
-* Other disciplines related to computer science
-* Experience with basic programming concepts
+* Configuration Management using Puppet
+* Creating Secure Workstations (CIS 225 overview/review)
+* Setting up an Enterprise Directory Service & Single Sign On
+* Enterprise File Sharing
+* Web & Application Servers
+* Core Networking Services (DHCP, DNS, ICMP, etc.)
+* System Monitoring & Maintenance
+* Backup Strategies
+* The Cloud
 
 ###  Course Structure
+This course is being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, links to online resources, and discussion prompts. Each module will include a hands-on lab assignment, which will be graded interactively by the instructor. Assignments may also include written portions or presentations, which will be submitted online.
 
-These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
+The course will also include a final project and presentation. More information about this will be announced during the semester.
 
 ### Grading
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% Lectures and Quizzes
-* 40% Programming Projects
+* 70% - Lab Assignments (7 labs, 10% each lab)
+* 15% - Quizzes (15 quizzes, 1% each)
+* 15% - Final Presentation
+
+All group work will include a **REQUIRED** peer evaluation component which can adjust that portion of the individual’s grade up to 50%. If a student should fail to contribute to a group assignment at all, their grade for that assignment will be reduced to a zero. Failure to complete the peer evaluation will result in a 10% grade deduction for that assignment.
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
@@ -80,7 +91,7 @@ Letter grades will be assigned following the standard scale:
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified, and all work submitted after the due date will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified, and all work submitted after the due date will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the time that each lab is graded interactively will be used to establish the completion time of the lab.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
@@ -90,7 +101,16 @@ If you have extenuating circumstances, please discuss them with the instructor a
 
 ### Recommended Texts & Supplies
 
-To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
+Students in this course are expected to have access to a computer with virtual machine software (VMware, Virtual Box, Parallels, or other) installed and running. The computer should be capable of running multiple VMs simultaneously, which usually means having 8GB of RAM and a moderately powerful processor. Contact the instructor if you have questions or concerns.
+
+Since this class covers such a wide range of material, no single textbook will suffice. Therefore, students who would like a textbook should refer to resources available on Safari Books Online. The [K-State Library](http://guides.lib.k-state.edu/az.php?q=Safari) has access to the entire catalog of books published on that platform, and it is a great resource for this course.
+
+We will also use several online resources as needed.
+
+This book contains useful information for anyone thinking about pursuing a career in system administration or information technology in general:
+
+**"The Practice of System and Network Administration"** by Thomas Limoncelli, Christina Hogan and Strata Chalup.  
+ISBN 0321492668 - eBook Editions Available - [Amazon Link](http://www.amazon.com/dp/0321492668)
 
 ### Subject to Change
 
@@ -174,3 +194,5 @@ Moreover, academic freedom supports collaborative work in the pursuit of truth a
 ### Copyright Notice
 
 &copy; The materials in this online course fall under the protection of all intellectual property, copyright and trademark laws of the U.S.  The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course.  The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites.  Likewise, mentioned brands (products and services) do not suggest endorsement.  Students own copyright to what they create.
+
+Original content licensed under a [Creative Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) license by [Russell Feldhausen](https://russfeld.me) unless otherwise stated.

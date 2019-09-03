@@ -1,23 +1,17 @@
 ---
-title: "CC 110 Syllabus"
-weight: 51
-pre: "5.1 "
+title: "CC 515 Syllabus"
+weight: 58
+pre: "5.8 "
 ---
 
-## CC 110 - Introduction to Computing
+## CC 515 - Full Stack Web Development
 
 ### Instructor Contact Information
 
-* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
-* **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me  
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
-<br>
-* **Professor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
-* **Office:** DUE 2214
-* **Phone:** (785) 532-7929
-* **Website:** http://weeser.net/
+* **Instructor:** Nathan Bean (nhbean AT ksu DOT edu)<br>
+* **Office:** DUE 2216
+* **Phone:** (785) 532-7942
+* **Website:** http://www.nathanhbean.com/
 * **Office Hours:** TBD
 
 #### Preferred Methods of Communication:
@@ -32,26 +26,61 @@ pre: "5.1 "
 
 ### Prerequisites
 
-* None
+* CC 120 - Fundamentals of Web Development, CMST 135 - Web Fundamentals, or equivalent experience in HTML, CSS & JavaScript (contact the instructor for permission to enroll)
+* CC 315 - Data Structures & Algorithms II
+* CC 410 - Advanced Programming (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 
-An overview of the history of computers and programming. Famous historical figures and their impact in modern computing. Introduction to major topics in computer science such as artificial intelligence, high performance computing, cryptography, big data, cyber security, robotics, and more. Brief experience with computer programming concepts.
+Fundamental principles and best practices of web development, user interface design, web API design, advanced web interfaces, web development frameworks, single-page web applications, web standards and accessibility issues.
 
 ### Course Description
 
-This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
+This course explores the standards, technologies, and strategies used in modern web application development. The ultimate goal is to develop the foundational theoretical and practical knowledge that will allow you to work with an endless variety of we stacks and frameworks, rather than focusing on a single technology or approach.
 
-### Major Course Topics
+We have a lot of ground to cover, so we will be moving very quickly through the material. It is vital that you both keep up, and ask questions when you don't understand. Make good use of office hours.
 
-* The history of computer science and early computing machines
-* The basics of binary representation, Boolean logic, data encoding, encryption, and error checking
-* Computational thinking, programming, and algorithm design
-* The history and technology behind the internet and how it affects our world
-* Computer science areas such as artificial intelligence, human-computer interaction, high performance computing, data science, robotics, and more
-* Cybersecurity in a modern, interconnected world
-* Other disciplines related to computer science
-* Experience with basic programming concepts
+### Course Objectives
+
+At the end of this course, students should be able to:
+
+* Create three-tier web applications
+* Be experienced with Agile development
+* Understand and articulate the user interface issues, data structures, algorithms, an design patterns common to web development
+* Consider the memory and computational implications of software designs
+* Develop an understanding of how techniques used in web programing can be beneficially incorporated within general development efforts
+* Be able to quickly learn web frameworks implemented in different languages
+
+### Course Outline
+
+The following is a general layout, and is subject to change:
+
+1. HTML5, CSS3, and user agents
+1. Hyper-Text Transfer Protocol
+1. ECMA Script 2015 (ES6)
+1. The Document Object Model
+1. JQuery
+1. Dynamic Web Services
+1. Databases
+1. CRUD & REST
+1. Authentication
+1. Webworkers
+1. Architectures for the Web
+1. AJAX
+1. Reactive Web Apps
+1. WebSockets
+1. Embedded HTML Templates
+1. Full-Text Search
+1. Tagging Systems
+1. User-Centered Design
+1. Test-Driven Development
+1. Geospatial Data & Location Services
+1. Canvas & SVG
+1. Accessibility
+1. Touch and Gestures
+1. Deployment Strategies
+1. Scalability
+1. Web Frameworks
 
 ###  Course Structure
 
@@ -59,12 +88,16 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 ### Grading
 
-In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
+In recognition of the importance of hands-on learning, this course utilizes a blended lecture/lab format, where theoretical understanding is immediately put to use programming software drawing upon that theoretical understanding. Effective learning following this strategy _depends_ upon active participation; accordingly it is necessary to both complete the online tutorials and participate in class activities to succeed.
 
-* 60% Lectures and Quizzes
-* 40% Programming Projects
+Further, we will be embracing problem-based cooperative learning approaches at the midpoint of the semester where we will shift to small group work, developing an original and useful web application drawing upon the knowledge you have gained throughout the semester. To help promote accountability, peer reviews from this phase will account for the equivalent of a letter grade.
 
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
+#### Grading Breakdown
+
+* 20% - Class Participation
+* 30% - Assignments
+* 30% - Final Project
+* 20% - Presentation & Evaluation
 
 Letter grades will be assigned following the standard scale:
 
@@ -76,21 +109,41 @@ Letter grades will be assigned following the standard scale:
 
 ### Late Work
 
-{{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
-{{% /notice %}}
-
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified, and all work submitted after the due date will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
-
-However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
-
-Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded. No incompletes will be given in this course for any reason.
-
-If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
+Unless other arrangements have been made, work will not be accepted after the due date in this course.
 
 ### Recommended Texts & Supplies
 
 To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
+
+There are a number of other extremely helpful resources you will want to use:
+
+#### Github Classroom
+
+We will be using the Github Classroom to for obtaining starter code and submitting assignments.
+
+If you have not yet, I strongly encourage you to sign up with Github as a student: [https://education.github.com/](https://education.github.com/).
+
+#### Safari Online
+
+K-State libraries has obtained a Safari Books Online library containing over 6k current titles. You can access this collection using your eid and password here: [http://proquestcombo.safaribooksonline.com.er.lib.k-state.edu](http://proquestcombo.safaribooksonline.com.er.lib.k-state.edu)
+
+#### Websites and Wikis
+
+The following are some helpful websites for web development
+
+__W3C Standards__ [https://www.w3.org/community/webed/wiki/Main_Page](https://www.w3.org/standards)
+
+__W3C Web Education Community Group Wiki__ [https://www.w3.org/community/webed/wiki/Main_Page](https://www.w3.org/community/webed/wiki/Main_Page)
+
+__Mozilla Developer Guide__ [https://developer.mozilla.org/en-US/docs/Web/Guide](https://developer.mozilla.org/en-US/docs/Web/Guide)
+
+#### Course Software
+
+__Node.js (for webserver development)__ [https://nodejs.org/en](https://nodejs.org/en) Node is a fast server-side JavaScript engine based on Google's V8 JavaScript interpreter. We will be writing our webserver using Node.
+
+__Atom (Integraged Development Environment)__ [https://atom.io](https://atom.io) Atom is an IDE that uses HTML5 and JavaScript as its underlying technologies, which akes it a natrual fit for web development. You will also want the atom-html-preview package [https://atom.io/packages/atom-html-preview](https://atom.io/packages/atom-html-preview).
+
+__Google Chrome (Web Browser)__ https://www.google.com/chrome/browser/desktop/ Google chrome is a fast, cross-platform web browser with a robust set of developer tools. See [https://developer.chrome.com/devtools](https://developer.chrome.com/devtools) for details. While you will always want to verify your web app using all browsers, we will be grading your work based on its performance in Chrome.
 
 ### Subject to Change
 

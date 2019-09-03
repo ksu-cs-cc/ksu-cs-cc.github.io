@@ -26,7 +26,7 @@ pre: "5.5 "
 
 ### Prerequisites
 
-* CC 315 (Prerequisite or Concurrent Enrollment)
+* CC 315 - Data Structures & Algorithms II (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 

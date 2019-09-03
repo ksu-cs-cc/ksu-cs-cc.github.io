@@ -1,19 +1,13 @@
 ---
-title: "CC 110 Syllabus"
-weight: 51
-pre: "5.1 "
+title: "CC 520 Syllabus"
+weight: 59
+pre: "5.9 "
 ---
 
-## CC 110 - Introduction to Computing
+## CC 520 - Database Essentials
 
 ### Instructor Contact Information
 
-* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
-* **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me  
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
-<br>
 * **Professor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
 * **Office:** DUE 2214
 * **Phone:** (785) 532-7929
@@ -32,39 +26,49 @@ pre: "5.1 "
 
 ### Prerequisites
 
-* None
+* CC 315 - Data Structures & Algorithms II
+* CC 410 - Advanced Programming (Prerequisite or Concurrent Enrollment)
+* Optional: MATH 312 - Finite Applications of Mathematics or MATH 510 - Discrete Mathematics
 
 ### Course Overview
 
-An overview of the history of computers and programming. Famous historical figures and their impact in modern computing. Introduction to major topics in computer science such as artificial intelligence, high performance computing, cryptography, big data, cyber security, robotics, and more. Brief experience with computer programming concepts.
+Introduction to concepts and techniques in database management. Overview of relational databases, NoSQL databases, and related topics. Database programming and use of databases in applications. Theory and architecture of database management systems (DBMS).
 
 ### Course Description
 
-This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
+The purpose of this course is to introduce concepts, approaches, and techniques in database management. This includes exploring the representation of information as data, data storage techniques, foundations of data models, data retrieval, database design, transaction management, integrity and security.
+
+### Course Objectives
+
+* Introduce the SQL language: queries, relations, database modifications, constraints, triggers, transactions, and views.
+* Introduce NoSQL language and its philosophy compared to SQL.
+* Introduce the basics DBMS design theory: entity relationship model, functional dependencies, and normalization.
+* Study databases in a programming environment and the approaches of utilizing databases in applications.
+* Provide an overview of the architecture of a database system, and discuss efficient storage of data, execution of queries, and query optimization.
+* Explore databases through practical database applications developed as class projects.
+* Turn students into much better SQL developers than the average.
 
 ### Major Course Topics
 
-* The history of computer science and early computing machines
-* The basics of binary representation, Boolean logic, data encoding, encryption, and error checking
-* Computational thinking, programming, and algorithm design
-* The history and technology behind the internet and how it affects our world
-* Computer science areas such as artificial intelligence, human-computer interaction, high performance computing, data science, robotics, and more
-* Cybersecurity in a modern, interconnected world
-* Other disciplines related to computer science
-* Experience with basic programming concepts
+* SQL Language
+* NoSQL & its relation to SQL
+* DBMS design theory
+* Programming with databases
+* Database system architecture
+* Database efficiency
+* Practical applications of databases
 
 ###  Course Structure
-
-These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
+This course is being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, links to online resources, and discussion prompts. Each module will include a hands-on lab assignment, which will be graded interactively by the instructor. Assignments may also include written portions or presentations, which will be submitted online.
 
 ### Grading
 
-In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
+Students will be evaluated based on exams, homework assignments, and a term project. Students are highly encouraged to participate in class discussion on topics covered in lecture and projects. Assignments are due by 11:59pm on the due date (generally, a week after they are assigned, unless otherwise noted). The specific grading scheme is shown below:
 
-* 60% Lectures and Quizzes
-* 40% Programming Projects
-
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
+* 20% - Homework Assignments
+* 35% - Exams
+* 20% - Final Exam
+* 25% - Final Project
 
 Letter grades will be assigned following the standard scale:
 
@@ -76,21 +80,20 @@ Letter grades will be assigned following the standard scale:
 
 ### Late Work
 
-{{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
-{{% /notice %}}
-
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified, and all work submitted after the due date will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
-
-However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
-
-Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded. No incompletes will be given in this course for any reason.
-
-If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
+Unless other arrangements have been made, work will not be accepted after the due date in this course.
 
 ### Recommended Texts & Supplies
 
-To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
+Students in this course are expected to have access to a computer with virtual machine software (VMware, Virtual Box, Parallels, or other) installed and running. The computer should be capable of running multiple VMs simultaneously, which usually means having 8GB of RAM and a moderately powerful processor. Contact the instructor if you have questions or concerns.
+
+Since this class covers such a wide range of material, no single textbook will suffice. Therefore, students who would like a textbook should refer to resources available on Safari Books Online. The [K-State Library](http://guides.lib.k-state.edu/az.php?q=Safari) has access to the entire catalog of books published on that platform, and it is a great resource for this course.
+
+We will also use several online resources as needed.
+
+This book contains useful information for anyone thinking about pursuing a career in system administration or information technology in general:
+
+**"The Practice of System and Network Administration"** by Thomas Limoncelli, Christina Hogan and Strata Chalup.  
+ISBN 0321492668 - eBook Editions Available - [Amazon Link](http://www.amazon.com/dp/0321492668)
 
 ### Subject to Change
 

@@ -26,8 +26,8 @@ pre: "5.3 "
 
 ### Prerequisites
 
-* MATH 100  
-* CC 210 (Prerequisite or Concurrent Enrollment)
+* MATH 100 - College Algebra
+* CC 210 - Fundamental Computer Programming Concepts (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 
