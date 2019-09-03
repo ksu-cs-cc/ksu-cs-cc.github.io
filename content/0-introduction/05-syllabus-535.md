@@ -63,7 +63,8 @@ Unlike some other courses, the assignments (steps) of the research will sometime
 
 ### Course Objectives
 
-By the end of this course, each student will be able to:
+By the end of this course, each student will be able to
+
 * Define and profile data science problems.
 * Identify strategies to approach and solve problems using data.
 * Understand discovery methods and their application to turn data into knowledge.
