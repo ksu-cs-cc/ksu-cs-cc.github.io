@@ -84,16 +84,7 @@ Unless other arrangements have been made, work will not be accepted after the du
 
 ### Recommended Texts & Supplies
 
-Students in this course are expected to have access to a computer with virtual machine software (VMware, Virtual Box, Parallels, or other) installed and running. The computer should be capable of running multiple VMs simultaneously, which usually means having 8GB of RAM and a moderately powerful processor. Contact the instructor if you have questions or concerns.
-
-Since this class covers such a wide range of material, no single textbook will suffice. Therefore, students who would like a textbook should refer to resources available on Safari Books Online. The [K-State Library](http://guides.lib.k-state.edu/az.php?q=Safari) has access to the entire catalog of books published on that platform, and it is a great resource for this course.
-
-We will also use several online resources as needed.
-
-This book contains useful information for anyone thinking about pursuing a career in system administration or information technology in general:
-
-**"The Practice of System and Network Administration"** by Thomas Limoncelli, Christina Hogan and Strata Chalup.  
-ISBN 0321492668 - eBook Editions Available - [Amazon Link](http://www.amazon.com/dp/0321492668)
+To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
 
 ### Subject to Change
 
