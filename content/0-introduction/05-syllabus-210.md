@@ -153,7 +153,7 @@ Here are a few general rules to help us all communicate online in this course, e
 * **Do not use all caps.** It makes it look like you are shouting. Use appropriate text markup (bold, italics, etc.) to highlight a point if needed.
 * **No feigning surprise.** If someone asks a question, saying things like "I can't believe you don't know that!" are not helpful, and only serve to make that person feel bad.
 * **No "well-actually's."** If someone makes a statement that is not entirely correct, resist the urge to offer a "well, actually..." correction, especially if it is not relevant to the discussion. If you can help solve their problem, feel free to provide correct information, but don't post a correction just for the sake of being correct.
-* **Do not correct someone's grammar or spelling.** Again, it is not helpful, and only serves to make that person feel bad.
+* **Do not correct someone's grammar or spelling.** Again, it is not helpful, and only serves to make that person feel bad. If there is a genuine mistake that may affect the meaning of the post, please contact the person privately or let the instructors know privately so it can be resolved. 
 * **Avoid subtle -isms and microaggressions.** Avoid comments that could make others feel uncomfortable based on their personal identity. See the syllabus section on Diversity and Inclusion above for more information on this topic. If a comment makes you uncomfortable, please contact the instructor.
 * **Avoid sarcasm, flaming, advertisements, lingo, trolling, doxxing, and other bad online habits.** They have no place in an academic environment. Tasteful humor is fine, but sarcasm can be misunderstood.
 
