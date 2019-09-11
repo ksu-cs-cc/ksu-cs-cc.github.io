@@ -1,7 +1,7 @@
 ---
 title: "Java Example"
-pre: "7.J. "
-weight: 70
+pre: "6.J. "
+weight: 60
 date: 2019-09-10T00:00:26-05:00
 ---
 
@@ -9,6 +9,6 @@ date: 2019-09-10T00:00:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "/8-exceptions/07-java-example-slides.md" >}})
+* [Slides]({{< relref "/8-exceptions/06-java-example-slides.md" >}})
 
 #### Video Script
