@@ -179,3 +179,19 @@ except FileNotFoundError as e:
   print("FileNotFoundError: {}".format(e))
 </code></pre>
 </section>
+
+<section>
+	<pre class="stretch" style="font-size: .61em"><code class="python">import sys
+
+try:
+
+  <mark>with open(sys.argv[1]) as reader:</mark>
+    x = int(reader.readline())
+    print(x)
+
+except ValueError as e:
+  print("ValueError: {}".format(e))
+except FileNotFoundError as e:
+  print("FileNotFoundError: {}".format(e))
+</code></pre>
+</section>
