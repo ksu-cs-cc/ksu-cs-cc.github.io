@@ -54,7 +54,7 @@ print("Sum: " + "123" + " Avg: " + <mark>"1.23"</mark> + ".")
 avg = 1.23
 
 print("Sum: " + "123" + " Avg: " + "1.23" + ".")
-// Sum: 123 Avg: 1.23. </code></pre>
+# Sum: 123 Avg: 1.23. </code></pre>
 </section>
 
 <section>
@@ -90,7 +90,7 @@ name = "Student"
 output = <mark>"{}: Score: {:5} Average: {:8.4f}."</mark>
 
 print(<mark>output</mark>.format(name, sum, avg))
-// <mark>"{}: Score: {:5} Average: {:8.4f}."</mark> </code></pre>
+# <mark>"{}: Score: {:5} Average: {:8.4f}."</mark> </code></pre>
 </section>
 
 <section>
@@ -102,7 +102,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(<mark>name</mark>, sum, avg))
-// "<mark>{}</mark>: Score: {:5} Average: {:8.4f}." </code></pre>
+# "<mark>{}</mark>: Score: {:5} Average: {:8.4f}." </code></pre>
 </section>
 
 <section>
@@ -114,7 +114,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(<mark>name</mark>, sum, avg))
-// "<mark>Student</mark>: Score: {:5} Average: {:8.4f}." </code></pre>
+# "<mark>Student</mark>: Score: {:5} Average: {:8.4f}." </code></pre>
 </section>
 
 <section>
@@ -126,7 +126,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(name, <mark>sum</mark>, avg))
-// "Student: Score: <mark>{:5}</mark> Average: {:8.4f}." </code></pre>
+# "Student: Score: <mark>{:5}</mark> Average: {:8.4f}." </code></pre>
 </section>
 
 <section>
@@ -138,7 +138,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(name, <mark>sum</mark>, avg))
-// "Student: Score: <mark>  123</mark> Average: {:8.4f}." </code></pre>
+# "Student: Score: <mark>  123</mark> Average: {:8.4f}." </code></pre>
 </section>
 
 <section>
@@ -150,7 +150,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(name, sum, <mark>avg</mark>))
-// "Student: Score:   123 Average: <mark>{:8.4f}</mark>." </code></pre>
+# "Student: Score:   123 Average: <mark>{:8.4f}</mark>." </code></pre>
 </section>
 
 <section>
@@ -162,7 +162,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(name, sum, <mark>avg</mark>))
-// "Student: Score:   123 Average: <mark>  1.2300</mark>." </code></pre>
+# "Student: Score:   123 Average: <mark>  1.2300</mark>." </code></pre>
 </section>
 
 <section>
@@ -174,7 +174,7 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(name, sum, <mark>avg</mark>))
-// <mark>"Student: Score:   123 Average:   1.2300."</mark> </code></pre>
+# <mark>"Student: Score:   123 Average:   1.2300."</mark> </code></pre>
 </section>
 
 <section>
@@ -186,5 +186,5 @@ name = "Student"
 output = "{}: Score: {:5} Average: {:8.4f}."
 
 print(output.format(name, sum, <mark>avg</mark>))
-// Student: Score:   123 Average:   1.2300.</code></pre>
+# Student: Score:   123 Average:   1.2300.</code></pre>
 </section>
