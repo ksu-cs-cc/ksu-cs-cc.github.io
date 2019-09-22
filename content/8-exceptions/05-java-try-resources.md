@@ -5,7 +5,7 @@ weight: 50
 date: 2019-09-10T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube 86RzF9SgSJE >}}
 
 #### Resources
 
@@ -19,6 +19,6 @@ The Java programming language includes another programming construct that we can
 
 Once we do that, we can remove our variable declaration outside of the **Try with Resources** statement, since it is now handled inside the statement. In addition, we can remove the **Finally** block as well. This is because the **Try with Resources** statement will automatically handle closing any open resources declared inside of the parentheses, without any additional code. It works with any Java class that implements the AutoCloseable interface. More information about that is included in the textbook.
 
-In addition, if an exception occurs while reading the input, the **Try with Resources** statement will automatically hide any additional exceptions that are caused when it tries to close the resource. In this way, it is much better than using a **Finally** statement, since the **Finally** statement executes after the exception is handled, and could be the source of additional exceptions that are not caught by the **Try-Catch** statement. 
+In addition, if an exception occurs while reading the input, the **Try with Resources** statement will automatically hide any additional exceptions that are caused when it tries to close the resource. In this way, it is much better than using a **Finally** statement, since the **Finally** statement executes after the exception is handled, and could be the source of additional exceptions that are not caught by the **Try-Catch** statement.
 
 That's all there is to it! This is a very powerful yet simple way for developers to make sure that resources will be properly closed, no matter what happens.

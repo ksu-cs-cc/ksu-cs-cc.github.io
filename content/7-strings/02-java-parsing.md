@@ -5,7 +5,7 @@ weight: 20
 date: 2019-09-09T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube kBbqnMUddKs >}}
 
 #### Resources
 
@@ -45,4 +45,4 @@ Once again, the third line of input will read the first element in the array and
 
 Finally, we can do the same with the Boolean value stored in the second array element, using the `Boolean.parseBoolean()` method.
 
-Each of these methods of reading, converting, and storing string input works in a very similar way. Depending on the structure of the input being provided, sometimes one method is a bit simpler than the other, but each one works in pretty much any case. 
+Each of these methods of reading, converting, and storing string input works in a very similar way. Depending on the structure of the input being provided, sometimes one method is a bit simpler than the other, but each one works in pretty much any case.

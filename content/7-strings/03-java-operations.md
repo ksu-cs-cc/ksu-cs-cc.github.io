@@ -5,7 +5,7 @@ weight: 30
 date: 2019-09-09T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube k4-RnL5niK4 >}}
 
 #### Resources
 
@@ -31,4 +31,4 @@ We can also concatenate strings together using the plus `+` symbol. In Java, the
 
 In the second line, we see that we are concatenating an empty string with an integer. In this case, the integer will automatically be converted to a string, and then the result will be `"42"` as a string. This is a neat shortcut to convert any primitive data type to a string, and even works with many other data types as well.
 
-Finally, the textbook demonstrates how to use several other methods for searching within a string, or even manipulating the characters in a string. We'll get plenty of experience working with many of these methods in the examples later in this chapter. 
+Finally, the textbook demonstrates how to use several other methods for searching within a string, or even manipulating the characters in a string. We'll get plenty of experience working with many of these methods in the examples later in this chapter.

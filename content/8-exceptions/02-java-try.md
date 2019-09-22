@@ -5,7 +5,7 @@ weight: 20
 date: 2019-09-10T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube QvH6BImQxII >}}
 
 #### Resources
 
@@ -13,7 +13,7 @@ date: 2019-09-10T00:00:26-05:00
 
 #### Video Script
 
-Let's take a closer look at how we can use a **Try-Catch** statement in Java to detect and handle exceptions that are caused by our program. Specifically want to take a program that looks like this, and update it to look more like this, with code to catch and handle exceptions that are thrown by the program. 
+Let's take a closer look at how we can use a **Try-Catch** statement in Java to detect and handle exceptions that are caused by our program. Specifically want to take a program that looks like this, and update it to look more like this, with code to catch and handle exceptions that are thrown by the program.
 
 To do this, we can start with a simple program. This program is very similar to the skeleton code we've been using throughout the textbook. In this program, we can either accept input from a file if one is provided as a command-line argument. If not, we'll accept input via the terminal. The program will then read a single integer from input, and print that integer to the terminal. Even though this is a very simple program, as we'll soon see, there are lots of ways it can cause an exception.
 

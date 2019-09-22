@@ -5,7 +5,7 @@ weight: 20
 date: 2019-02-21T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube 11R9oFjc008 >}}
 
 #### Resources
 
@@ -53,4 +53,4 @@ Once we've run out of items in `a`, this loop will terminate and we'll move on t
 
 Here, we'll just print out the value of sum, which should be 12.
 
-This flowchart gives us a quick overview of one program structure that we could use in our programs to create an array, populate it with data, and then perform operations on that data. This program structure is used quite often when working with arrays of data, so we'll definitely see it again in this chapter. 
+This flowchart gives us a quick overview of one program structure that we could use in our programs to create an array, populate it with data, and then perform operations on that data. This program structure is used quite often when working with arrays of data, so we'll definitely see it again in this chapter.

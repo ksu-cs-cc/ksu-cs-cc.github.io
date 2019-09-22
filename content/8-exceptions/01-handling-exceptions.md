@@ -5,7 +5,7 @@ weight: 10
 date: 2019-09-10T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube Tp9jbKRVqQI >}}
 
 #### Resources
 
@@ -27,4 +27,4 @@ Thankfully, most programming languages include a construct that we can use to de
 
  So, now, if we execute the program and provide a file that doesn't exist as input, our program can detect the exception, catch it, and execute the code in the exception handler instead.  
 
- This is the simplest version of exception handling in our program, but it is one that we'll see over and over again in our programs going forward. As we move on in this chapter, we'll expand on this simple case with more features and techniques to make our programs even more powerful and robust. 
+ This is the simplest version of exception handling in our program, but it is one that we'll see over and over again in our programs going forward. As we move on in this chapter, we'll expand on this simple case with more features and techniques to make our programs even more powerful and robust.

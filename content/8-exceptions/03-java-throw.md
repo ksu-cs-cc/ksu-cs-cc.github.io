@@ -5,7 +5,7 @@ weight: 30
 date: 2019-09-10T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube xJSxraNRqhk >}}
 
 #### Resources
 
@@ -29,4 +29,4 @@ Consider the following program. It reads two floating-point numbers as input, th
 
 To do that, we can simply replace this print statement with a new Exception. I chose to use the ArithmeticException here, since it is the one that best represents the type of error that is happening in this code. We can use any existing exception here, including the generic Exception type. As before, we'll need to import the correct module in order to use it.
 
-There we go! Now we have a program that throws its own custom exception. Now our users will know exactly what the cause of the problem was, and we can customize the error message as needed to provide even more information to our users. Thankfully, since the ArithmeticException is not a checked exception, we don't have to add it to the `throws` clause in our main method declaration. It can be a bit confusing at first, but the compiler is very good about giving us helpful messages when we need to deal with checked exceptions. 
+There we go! Now we have a program that throws its own custom exception. Now our users will know exactly what the cause of the problem was, and we can customize the error message as needed to provide even more information to our users. Thankfully, since the ArithmeticException is not a checked exception, we don't have to add it to the `throws` clause in our main method declaration. It can be a bit confusing at first, but the compiler is very good about giving us helpful messages when we need to deal with checked exceptions.

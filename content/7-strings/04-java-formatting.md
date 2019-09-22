@@ -5,7 +5,7 @@ weight: 40
 date: 2019-09-09T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube _sxpOzam2mU >}}
 
 #### Resources
 
@@ -29,4 +29,4 @@ Finally, we'll use the `avg` variable to fill in the last placeholder, `%8.4f`. 
 
 Once we've done those replacements, we can now see the final output of our program shown at the bottom of the code.
 
-As we saw earlier with string parsing, there are a variety of ways we can use strings to create useful output for our users. We can use whichever method we are most comfortable with or the one that best fits our needs. 
+As we saw earlier with string parsing, there are a variety of ways we can use strings to create useful output for our users. We can use whichever method we are most comfortable with or the one that best fits our needs.

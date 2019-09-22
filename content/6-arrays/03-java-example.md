@@ -5,7 +5,7 @@ weight: 30
 date: 2019-02-21T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube NAal-yrDrCM >}}
 
 #### Resources
 
@@ -13,7 +13,7 @@ date: 2019-02-21T00:00:26-05:00
 
 #### Video Script
 
-Let's walk through the example on this page to see how we can build a program using arrays and loops to calculate weighted scores. 
+Let's walk through the example on this page to see how we can build a program using arrays and loops to calculate weighted scores.
 
 As always, we need to first start with our standard program skeleton that allows us to read input from the user. We've seen this code several times before, so we won't spend any time discussing it here. We'll place the code for this example where the highlighted comment is here.
 

@@ -5,7 +5,7 @@ weight: 41
 date: 2019-09-10T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube L7hep4SmBpo >}}
 
 #### Resources
 
@@ -31,4 +31,4 @@ So, let's go back to our earlier examples and see how this changes things. First
 
 However, when we provide -5 as input, we'll run into an exception. So, the code will move into the exception handler, then immediately following that it will reach the **Finally** block and exit the **Try-Except** statement. Since there was an exception that was caught by the **Try-Except** statement, the program will skip the **Else** statement entirely.
 
-The **Else** block can be used in a variety of interesting ways. For example, we can accept and read user input in the **Try-Except** block, but only save the data when we reach the **Else** block, since we know that the data collected didn't cause any exceptions. It can be a very powerful feature of the Python programming language. 
+The **Else** block can be used in a variety of interesting ways. For example, we can accept and read user input in the **Try-Except** block, but only save the data when we reach the **Else** block, since we know that the data collected didn't cause any exceptions. It can be a very powerful feature of the Python programming language.
