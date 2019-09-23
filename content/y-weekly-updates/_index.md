@@ -1,7 +1,7 @@
 +++
 title = "Weekly Updates"
 date = 2019-08-26T10:53:05-05:00
-weight = 104
+weight = 1040
 chapter = true
 pre = "<b>Y. </b>"
 +++
