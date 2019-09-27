@@ -7,8 +7,20 @@ date: 2019-09-23T00:00:26-05:00
 
 {{< youtube  >}}
 
-#### Resources
-
-* [Slides]({{< relref "/9-files/02-file-system-commands-slides.md" >}})
-
 #### Video Script
+
+* Command prompt
+* Print working directory
+  * Special Characters
+  * Chaining Paths
+* Listing Contents
+* Changing Directories
+  * Autocomplete
+* More
+  * mkdir
+  * touch
+  * cat
+  * cp
+  * mv
+  * rm
+  * rmdir
