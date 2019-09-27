@@ -84,7 +84,9 @@
             </div>
             {{ end }}
 
-        {{ if .Params.chapter }}
+        {{ if .Params.section }}
+          <div id="section">
+        {{ else if .Params.chapter }}
           <div id="chapter">
         {{ end }}
         <div id="body-inner">
