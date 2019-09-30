@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Week 5</h2>
+	<h2>Week 6</h2>
 	<ul>
 		<li>Module 4 due Monday 9/30</li>
 		<li>Module 5 - Loops
