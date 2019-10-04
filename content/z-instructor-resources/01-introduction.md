@@ -7,6 +7,8 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
+* [Slides]({{< relref "/z-instructor-resources/01-introduction-slides.md" >}})
+
 ## Script
 
-This is a test of some content. Yay!
+More different Content!
