@@ -5,6 +5,61 @@ weight: 10
 date: 2018-08-24T10:53:26-05:00
 ---
 
+## Frontmatter
+
+Each markdown page contains "frontmatter" that helps Hugo produce the expected output. The frontmatter for this page is below:
+
+```yaml
+---
+title: "Markdown Example"
+pre: "1. "
+weight: 10
+date: 2018-08-24T10:53:26-05:00
+---
+```
+
+Each item has a particular feature:
+
+* **title**: This gives the title of the page in the menu to the left.
+* **pre**: This is the prefix before the name of the page
+* **weight**: This is the sorting weight of the page. Pages in the menu are sorted by weight, lowest to highest. Generally each page is given a weight that is 10 times its prefix, so that multiple pages can be included between each base page without needing to fix the weights.
+* **date**: this is the date that the page was last edited (it is typically forgotten). Any pages with a date in the future will not be rendered as output (this allows the creation of "draft" pages).
+
+On chapter pages, usually named `_index.md`, a different frontmatter is used:
+
+```yaml
++++
+title = "Instructor Resources"
+date = 2018-08-24T10:53:05-05:00
+weight = 1050
+chapter = true
++++
+```
+
+Again, most items there are the same as described above. The **chapter** item tells Hugo to use a slightly different CSS layout on the rendered page.
+
+For Reveal.js slides, the frontmatter is as follows:
+
+```yaml
+---
+type: "reveal"
+hidden: true
+---
+```
+
+These items are unique:
+
+* **type**: this tells Hugo to render this page as a Reveal.js page, which will use a different template
+* **hidden**: this will remove this item from the menu on the left. This can be added to any page.
+
+There are many other items that can be added. See [Hugo Frontmatter](https://gohugo.io/content-management/front-matter/) for details.
+
+{{% notice note %}}
+Yes, I realize that most pages are using the YAML format for frontmatter (as indicated by the `---` surrounding the block as described in the Hugo documentation), but the chapter pages are using TOML (surrounded by `+++` instead). I did this simply because the template pages were set that way, but not for any particular reason.
+{{% /notice %}}
+
+## Markdown Syntax Guide
+
 This content is sourced from the [Markdown Syntax](https://learn.netlify.com/en/cont/markdown/) page from Hugo Theme Learn, the base theme for this site.
 
 Other references that are useful:
