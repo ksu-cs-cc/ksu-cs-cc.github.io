@@ -4,30 +4,244 @@ hidden: true
 ---
 
 <section>
-	<h2>Handling Exceptions</h2>
-	<img class="stretch plain" src="/images/8.4.handle.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(new File(args[0]));
+    }catch(FileNotFoundException e){
+      System.out.println("Error: file not found!");
+      return;
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>
+
+
 <section>
-	<h2>File Not Found</h2>
-	<img class="stretch plain" src="/images/8.4.nofile.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+<mark>import java.io.File;</mark>
+import java.io.FileNotFoundException;
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(<mark>new File(args[0])</mark>);
+    }catch(FileNotFoundException e){
+      System.out.println("Error: file not found!");
+      return;
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>
+
+
 <section>
-	<h2>I/O Error</h2>
-	<img class="stretch plain" src="/images/8.4.ioerror.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+<mark>import java.nio.file.Paths;</mark>
+import java.io.FileNotFoundException;
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(<mark>Paths.get(args[0])</mark>);
+    }catch(FileNotFoundException e){
+      System.out.println("Error: file not found!");
+      return;
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>
+
+
 <section>
-	<h2>Try</h2>
-	<img class="stretch plain" src="/images/8.4.try1.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+import java.nio.file.Paths;
+<mark>import java.io.FileNotFoundException;</mark>
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(Paths.get(args[0]));
+    }catch(<mark>FileNotFoundException e</mark>){
+      System.out.println("Error: file not found!");
+      return;
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>
+
+
 <section>
-	<h2>Catch</h2>
-	<img class="stretch plain" src="/images/8.4.try2.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+import java.nio.file.Paths;
+<mark>import java.nio.file.NoSuchFileException;</mark>
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(Paths.get(args[0]));
+    }catch(<mark>NoSuchFileException e</mark>){
+      System.out.println("Error: file not found!");
+      return;
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>
+
 <section>
-	<h2>Handle</h2>
-	<img class="stretch plain" src="/images/8.4.try.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+import java.nio.file.Paths;
+import java.nio.file.NoSuchFileException;
+<mark>import java.nio.file.InvalidPathException;</mark>
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(Paths.get(args[0]));
+    }catch(NoSuchFileException e){
+      System.out.println("Error: file not found!");
+      return;
+    <mark>}catch(InvalidPathException e){
+      System.out.println("Error: invalid file path!");
+      return;</mark>
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>
+
 <section>
-	<h2>Handle</h2>
-	<img class="stretch plain" src="/images/8.4.catch.png">
+	<pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Scanner;
+import java.nio.file.Paths;
+import java.nio.file.NoSuchFileException;
+import java.nio.file.InvalidPathException;
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Read{
+
+  public static void main(String[] args){
+    Scanner scanner;
+    try{
+      scanner = new Scanner(Paths.get(args[0]));
+    }catch(NoSuchFileException e){
+      System.out.println("Error: file not found!");
+      return;
+    }catch(InvalidPathException e){
+      System.out.println("Error: invalid file path!");
+      return;
+    }catch(ArrayIndexOutOfBoundsException e){
+      //no arguments provided, just read from System.in
+      scanner = new Scanner(System.in);
+    }
+
+    try(
+      Scanner reader = scanner
+    ){
+
+      /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+
+    }catch(Exception e){
+      System.out.println("Exception: " + e);
+    }
+  }
+}</code></pre>
 </section>

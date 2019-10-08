@@ -566,6 +566,18 @@ grunt.initConfig({
 };
 ```
 
+## Keyboard Keys
+
+Keyboard keys can be indicated using the `<kbd>` tag.
+
+```html
+<kbd>Tab</kbd>
+```
+
+Renders to:
+
+<kbd>Tab</kbd>
+
 ## Tables
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
