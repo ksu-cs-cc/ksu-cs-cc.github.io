@@ -7,7 +7,7 @@ date: 2019-10-07T10:53:26-05:00
 
 For most of the projects in this course, the master version of the project will be stored in GitLab. So, to make changes to these projects, or potentially deploy them to a course, you'll need to be able to clone these Git repositories into your own Codio projects. This guide will show you to how to do this.
 
-### 1. Create a New Codio Project
+#### 1. Create a New Codio Project
 
 In Codio, click the "My Projects" link to the left, then click the "New Project" button in the upper right.
 
@@ -19,7 +19,7 @@ Finally, you should make sure the project is private to you - this helps avoid a
 
 ![New Codio Project](/images/codiogit1.png)
 
-### 2. Delete Codio Project Contents
+#### 2. Delete Codio Project Contents
 
 Once the project has been created, you'll need to delete all of the Codio project's contents. Specifically, you'll need to delete **everything** in the `/home/codio/workspace` folder. However, Codio will not allow you to delete the folder itself.
 
@@ -34,7 +34,7 @@ You should see the following as output:
 
 ![Delete Codio Workspace Contents](/images/codiogit2.png)
 
-### 3. Clone Git Repository Onto Workspace Folder
+#### 3. Clone Git Repository Onto Workspace Folder
 
 Next, you'll need to clone the Git repository onto the `/home/codio/workspace` folder. This can be a bit tricky.
 
@@ -46,7 +46,7 @@ Next, find the "Clone with SSH" URL for the GitLab repository you wish to clone:
 
 Using that URL, enter the following commands into Codio's terminal:
 
-```bashs
+```bash
 cd /home/codio
 git clone <url> workspace
 ```
@@ -55,7 +55,7 @@ For the Codio Autograder Guide project, the output should be similar to the foll
 
 ![Git Output from Cloning](/images/codiogit4.png)
 
-### 4. Verify Everything Works
+#### 4. Verify Everything Works
 
 Once you have cloned the repository, you can then open the Guide in Codio and verify that all is well:
 
