@@ -271,4 +271,6 @@ body {
 
  .reveal pre code mark{
    background-color: #707070;
+   text-shadow:
+		-1px -1px 0 #202020;
  }
