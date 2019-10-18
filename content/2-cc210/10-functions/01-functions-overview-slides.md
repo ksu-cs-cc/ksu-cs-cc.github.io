@@ -93,8 +93,8 @@ define getUserID()
 </section>
 
 <section>
-  <h2>Use Function<br>with Parameter</h2>
-  <pre class="stretch" style="font-size: .6em"><code class="javascript">define main()
+  <h3>Use Function<br>with Parameter</h3>
+  <pre class="stretch" style="font-size: .65em"><code class="javascript">define main()
   name = read("Enter your name")
   prettyPrint(name)
   nickname = read("Enter your nickname")
