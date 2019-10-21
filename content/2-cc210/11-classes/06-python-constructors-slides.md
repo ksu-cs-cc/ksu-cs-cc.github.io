@@ -4,6 +4,377 @@ hidden: true
 ---
 
 <section>
-	<h2>Handling Exceptions</h2>
-	<img class="stretch plain" src="/images/8.4.handle.png">
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = "name"
+  age = 19
+  student_id = "123456987"
+  credits = 0
+  gpa = 0.0
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = "name"
+  age = 19
+  student_id = "123456987"
+  credits = 0
+  gpa = 0.0
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = "name"
+  age = 19
+  student_id = "123456987"
+  credits = 0
+  gpa = 0.0
+
+  <mark>def __init__():
+    # do nothing
+    pass</mark>
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = "name"
+  age = 19
+  student_id = "123456987"
+  credits = 0
+  gpa = 0.0
+
+  def __init__(<mark>self</mark>):
+    # do nothing
+    pass
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = "name"
+  age = 19
+  student_id = "123456987"
+  credits = 0
+  gpa = 0.0
+
+  def __init__(self):
+    # do nothing
+    pass
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = <mark>"name"</mark>
+  age = <mark>19</mark>
+  student_id = <mark>"123456987"</mark>
+  credits = <mark>0</mark>
+  gpa = <mark>0.0</mark>
+
+  def __init__(self):
+    # do nothing
+    pass
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  name = "name"
+  age = 19
+  student_id = "123456987"
+  credits = 0
+  gpa = 0.0
+
+  def __init__(self):
+    <mark>self.name = "name"
+    self.age = 19
+    self.student_id = "123456987"
+    self.credits = 0
+    self.gpa = 0.0</mark>
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+  <mark>name = "name"</mark>
+  <mark>age = 19</mark>
+  <mark>student_id = "123456987"</mark>
+  <mark>credits =0</mark>
+  <mark>gpa = 0.0</mark>
+
+  def __init__(self):
+    self.name = "name"
+    self.age = 19
+    self.student_id = "123456987"
+    self.credits = 0
+    self.gpa = 0.0
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self):
+    self.name = "name"
+    self.age = 19
+    self.student_id = "123456987"
+    self.credits = 0
+    self.gpa = 0.0
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.4.classes.main.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">from Student import *
+
+class Main:
+
+  def main():
+    <mark>some_student = Student()</mark>
+    print(some_student.name) # "name"
+    print(some_student.age)  # 19
+
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self):
+    self.name = "name"
+    self.age = 19
+    self.student_id = "123456987"
+    self.credits = 0
+    self.gpa = 0.0
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self<mark>, name, age, student_id,
+                                      credits, gpa</mark>):
+    self.name = "name"
+    self.age = 19
+    self.student_id = "123456987"
+    self.credits = 0
+    self.gpa = 0.0
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self, name, age, student_id,
+                                      credits, gpa):
+    self.name = <mark>"name"</mark>
+    self.age = <mark>19</mark>
+    self.student_id = <mark>"123456987"</mark>
+    self.credits = <mark>0</mark>
+    self.gpa = <mark>0.0</mark>
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self, name<mark>="name"</mark>, age<mark>=19</mark>,
+                  student_id<mark>="123456987"</mark>, credits<mark>=0</mark>,
+                  gpa<mark>=0.0</mark>):
+    self.name = <mark>"name"</mark>
+    self.age = <mark>19</mark>
+    self.student_id = <mark>"123456987"</mark>
+    self.credits = <mark>0</mark>
+    self.gpa = <mark>0.0</mark>
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self, name="name", age=19,
+                  student_id="123456987", credits=0,
+                  gpa=0.0):
+    self.name = <mark>name</mark>
+    self.age = <mark>age</mark>
+    self.student_id = <mark>student_id</mark>
+    self.credits = <mark>credits</mark>
+    self.gpa = <mark>gpa</mark>
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.5.constructuml.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">class Student:
+
+  def __init__(self, name="name", age=19,
+                  student_id="123456987", credits=0,
+                  gpa=0.0):
+    self.name = name
+    self.age = age
+    self.student_id = student_id
+    self.credits = credits
+    self.gpa = gpa
+
+  # other methods omitted
+  </code></pre>
+  </div>
+</section>
+
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="/images/11.4.classes.main.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .4em"><code class="python">from Student import *
+
+class Main:
+
+  def main():
+    some_student = Student()
+    print(some_student.name) # "name"
+    print(some_student.age)  # 19
+
+    <mark>another_student = Student("John", 25
+                          "1239873445", 4, 4.0)</mark>
+    print(another_student.name) # "John"
+    print(another_student.age)  # 25
+
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
 </section>

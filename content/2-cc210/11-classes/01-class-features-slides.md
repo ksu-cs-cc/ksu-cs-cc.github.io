@@ -4,6 +4,144 @@ hidden: true
 ---
 
 <section>
-	<h2>Handling Exceptions</h2>
-	<img class="stretch plain" src="/images/8.4.handle.png">
+  <div style="float: right; width: 50%">
+    <img class="plain stretch" style="" src="/images/teacher.png">
+  </div>
+  <div style="width: 50%">
+    <img class="plain stretch" style="" src="/images/student.png">
+  </div>
+</section>
+
+<section>
+  <div style="float: right; width: 50%">
+    <img class="plain" style="" src="/images/teacher.png"><br>
+    <img class="plain" style="width: 50%" src="/images/11.2.classes.teacher.png">
+  </div>
+  <div style="width: 50%">
+    <img class="plain" style="" src="/images/student.png"><br>
+    <img class="plain" style="width: 50%" src="/images/11.2.classes.student.png">
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/teacher.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Name</li>
+        <li>Focus</li>
+        <li>Salary</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.2.classes.teacher.png">
+  </div>
+  <div style="width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/student.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Name</li>
+        <li>Age</li>
+        <li>Student ID</li>
+        <li>Credits</li>
+        <li>GPA</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.2.classes.student.png">
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/teacher.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Name</li>
+        <li>Focus</li>
+        <li>Salary</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.classes.teacher.png">
+  </div>
+  <div style="width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/student.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Name</li>
+        <li>Age</li>
+        <li>Student ID</li>
+        <li>Credits</li>
+        <li>GPA</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.classes.student.png">
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/teacher.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Get a Promotion</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.classes.teacher.png">
+  </div>
+  <div style="width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/student.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Have a Birthday</li>
+        <li>Get a Grade</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.classes.student.png">
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/teacher.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Get a Promotion</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.methods.teacher.png">
+  </div>
+  <div style="width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="opacity: 0.5" src="/images/student.png"><br>
+      <ul style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 59px">
+        <li>Have a Birthday</li>
+        <li>Get a Grade</li>
+      </ul>
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.methods.student.png">
+  </div>
+</section>
+
+
+
+<section>
+  <div style="float: right; width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="" src="/images/teacher.png"><br>
+
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.methods.teacher.png">
+  </div>
+  <div style="width: 50%;">
+    <div style="position: relative">
+      <img class="plain" style="" src="/images/student.png"><br>
+
+    </div>
+    <img class="plain" style="width: 50%" src="/images/11.3.methods.student.png">
+  </div>
 </section>
