@@ -51,7 +51,7 @@ hidden: true
   int age = 19;
   String student_id = "123456987";
   int credits = 0;
-  double gpa= 0.0;
+  double gpa = 0.0;
 }</code></pre>
 </section>
 
@@ -63,7 +63,7 @@ hidden: true
   public int age = 19;
   public String student_id = "123456987";
   public int credits = 0;
-  public double gpa= 0.0;
+  public double gpa = 0.0;
 }</code></pre>
 </section>
 
