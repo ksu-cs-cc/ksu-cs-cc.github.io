@@ -25,7 +25,7 @@ Thankfully, Java does allow us to declare a value and set a default value for th
 
 Filling in the rest of the attributes is pretty self explanatory. We can just create a variable for each one using the correct data type, and set a default value if desired.
 
-Lastly, to make these variables more useful, we'll add the `public` keyword before each one. Later in this module we'll discuss how that keyword works, but for now we'll just make everything `public`.
+Later in this module, we'll learn how to use additional keywords such as `public` and `private` in front of these variable declarations, but for now we won't worry about them.
 
 Of course, we don't have to set default values either. So, at this point we can choose to leave those out if we'd like.
 
