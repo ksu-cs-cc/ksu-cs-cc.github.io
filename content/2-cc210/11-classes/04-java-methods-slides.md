@@ -248,7 +248,7 @@ public class Student{
                                     * this.credits);
     this.credits += credits;
     current_points += grade_points;
-    this.gpa = current_points / this.credits;
+    this.gpa = (double)current_points / this.credits;
   }
 }</code></pre>
   </div>
