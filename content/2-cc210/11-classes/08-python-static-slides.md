@@ -14,8 +14,8 @@ hidden: true
     self.y = an_y
     self.x = 5
 
-  def sum(a):
-    return Stat.x + a
+  def sum(self, a):
+    return x + a
   </code></pre>
   </div>
 </section>
@@ -33,8 +33,8 @@ hidden: true
     self.y = an_y
     <mark>self.x = 5</mark>
 
-  def sum(a):
-    return Stat.x + a
+  def sum(self, a):
+    return x + a
   </code></pre>
   </div>
 </section>
@@ -53,8 +53,8 @@ hidden: true
     self.y = an_y
     <s><mark>self.x = 5</mark></s>
 
-  def sum(a):
-    return Stat.x + a
+  def sum(self, a):
+    return x + a
   </code></pre>
   </div>
 </section>
@@ -72,8 +72,8 @@ hidden: true
   def __init__(self, an_y):
     self.y = an_y
 
-  def sum(a):
-    return Stat.x + a
+  def sum(self, a):
+    return x + a
   </code></pre>
   </div>
 </section>
@@ -92,8 +92,46 @@ hidden: true
     self.y = an_y
 
   <mark>@staticmethod</mark>
+  def sum(self, a):
+    return x + a
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.7.staticuml.stat.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">class Stat:
+  x = 5
+
+  def __init__(self, an_y):
+    self.y = an_y
+
+  @staticmethod
+  def sum(<mark>self</mark>, a):
+    return x + a
+  </code></pre>
+  </div>
+</section>
+
+
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="/images/11.6.p.7.staticuml.stat.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">class Stat:
+  x = 5
+
+  def __init__(self, an_y):
+    self.y = an_y
+
+  @staticmethod
   def sum(a):
-    return Stat.x + a
+    return <mark>Stat.</mark>x + a
   </code></pre>
   </div>
 </section>
@@ -116,7 +154,6 @@ hidden: true
   </code></pre>
   </div>
 </section>
-
 
 
 <section>
