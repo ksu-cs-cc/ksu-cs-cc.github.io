@@ -5,7 +5,7 @@ weight: 20
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube Sx9Tr9_-nhs >}}
 
 #### Video Script
 
@@ -67,4 +67,4 @@ Now that we've deleted all of the contents in this folder, we can use `cd ..` to
 
 However, it is important to note that we can only delete directories that are already empty. If we try to do `rmdir test`, we'll get an error message that the directory is not empty. If we want to delete that directory and all of its contents, we can use the command `rm -r test` instead. Once again, the `-r` option stands for recursive, which means that it will delete everything in the directory before deleting the directory itself.
 
-There we go! We've explored quite a few of the commands we can use to manipulate the Linux file system. Of course, most of these operations can also be performed graphically in the Codio file tree to the left side of the window. Most of those operations should be pretty self-explanatory as well. From here, we'll start learning how to manipulate files and directories from within our programs. 
+There we go! We've explored quite a few of the commands we can use to manipulate the Linux file system. Of course, most of these operations can also be performed graphically in the Codio file tree to the left side of the window. Most of those operations should be pretty self-explanatory as well. From here, we'll start learning how to manipulate files and directories from within our programs.

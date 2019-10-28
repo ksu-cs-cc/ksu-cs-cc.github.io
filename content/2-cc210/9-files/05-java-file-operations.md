@@ -5,7 +5,7 @@ weight: 50
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube gAAiv1Hbafc >}}
 
 #### Resources
 
@@ -13,7 +13,7 @@ date: 2019-09-23T00:00:26-05:00
 
 #### Video Script
 
-Let's look at some of the more useful operations we can perform on files using Java. 
+Let's look at some of the more useful operations we can perform on files using Java.
 
 In this example code, we're using the `Paths.get()` method to create a Path object representing a path on our file system. It may be an existing directory or file, or it could be something that doesn't exist. We'll see how check for that later in this video.
 

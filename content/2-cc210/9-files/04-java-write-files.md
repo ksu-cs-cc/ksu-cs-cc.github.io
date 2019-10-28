@@ -5,7 +5,7 @@ weight: 40
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube u0jr_oelbuc >}}
 
 #### Resources
 
@@ -21,7 +21,7 @@ With all of this code, we need to import several classes to make it work. We'll 
 
 There! That gives us the basic structure we need to write to a file. In this program, we are getting the filename from the first command-line argument, but we could easily substitute that for any string that contains a path to a file.
 
-To write to the file, we can just use the `write()` method of the `writer` object. It accepts only strings, unlike the `System.out.println` method we've been using to output text to the terminal. So, we'll need to make sure we convert any output to a string when writing it to a file. 
+To write to the file, we can just use the `write()` method of the `writer` object. It accepts only strings, unlike the `System.out.println` method we've been using to output text to the terminal. So, we'll need to make sure we convert any output to a string when writing it to a file.
 
 However, by default, the `write()` method does not add a newline at the end of the output, so we can call a second method, `newLine()` to print a newline character to our file.
 
