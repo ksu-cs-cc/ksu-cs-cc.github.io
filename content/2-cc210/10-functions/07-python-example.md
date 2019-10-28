@@ -5,7 +5,7 @@ weight: 71
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube H2WN8xxv8Ao >}}
 
 #### Resources
 
@@ -27,7 +27,7 @@ Now, let's work on the actual code to read data from the file. As always, we'll 
 
 Finally, once we've read all the numbers in the file, we can return that list as the output of this function.
 
-Next, we'll need functions to calculate the maximum and minimum values in each list. We've already seen programs that calculate the maximum and minimum values before, and the code is pretty simple. In each function, we'll start by setting the initial value to the first element in the list. Then, we'll use an enhanced for loop to iterate through each value, and update our minimum or maximum value as needed. This part should be pretty familiar by now.
+Next, we'll need functions to calculate the maximum and minimum values in each list. We've already seen programs that calculate the maximum and minimum values before, and the code is pretty simple. In each function, we'll start by setting the initial value to the first element in the list. Then, we'll use a for each loop to iterate through each value, and update our minimum or maximum value as needed. This part should be pretty familiar by now.
 
 Likewise, we'll need to create two functions to calculate the sum and average of a set of numbers. Once again, these two functions are very similar. In fact, they are so similar, the nearly all of the code is identical. This is because we actually need the sum of the numbers in order to calculate the average. So, we are really duplicating our code! As we learned earlier in this chapter, we should strive to follow the DRY, or don't repeat yourself, paradigm. So, if we already have a function that will calculate the sum of a list of numbers, we can just call that function from within our function for average. That makes the code even shorter and easier to understand!
 
@@ -45,7 +45,7 @@ Following that, we can use the four functions we wrote earlier to find the minim
 
 Finally, we can call the `print_output()` function, and provide it all four of the variables it needs as arguments. That will print the required output to the screen. Since that function doesn't return a value, we don't need to store its output in a variable.
 
-At the very end, we've included a `return` keyword, just to show that we are at the end of the `main()` function. This isn't strictly required, but some coding style guides recommend that we include it. 
+At the very end, we've included a `return` keyword, just to show that we are at the end of the `main()` function. This isn't strictly required, but some coding style guides recommend that we include it.
 
 There we go! We were able to take a very complex problem statement, break it down into several functions, write each function individually, and then call each function from the `main()` function to actually build our program. Now, if we look at just the code in the `main()` function, we see that it is really easy to understand what this program does. It "reads input" from a file, then find the minimum, maximum, sum, and average of a list of numbers, and finally prints the output containing those numbers.
 

@@ -5,7 +5,7 @@ weight: 70
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube rvGRghgcCZM >}}
 
 #### Resources
 
@@ -51,7 +51,7 @@ Following that, we can use the four functions we wrote earlier to find the minim
 
 Finally, we can call the `printOutput()` function, and provide it all four of the variables it needs as arguments. That will print the required output to the screen. Since that function doesn't return a value, we don't need to store its output in a variable.
 
-At the very end, we've included a `return` keyword, just to show that we are at the end of the `main()` function. This isn't strictly required, but some coding style guides recommend that we include it. 
+At the very end, we've included a `return` keyword, just to show that we are at the end of the `main()` function. This isn't strictly required, but some coding style guides recommend that we include it.
 
 There we go! We were able to take a very complex problem statement, break it down into several functions, write each function individually, and then call each function from the `main()` function to actually build our program. Now, if we look at just the code in the `main()` function, we see that it is really easy to understand what this program does. It "reads input" from a file, then find the minimum, maximum, sum, and average of an array of numbers, and finally prints the output containing those numbers.
 

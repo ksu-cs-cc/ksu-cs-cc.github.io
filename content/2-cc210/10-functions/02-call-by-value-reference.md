@@ -5,7 +5,7 @@ weight: 20
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube 5gyV1KqWaSU >}}
 
 #### Resources
 
@@ -47,4 +47,4 @@ However, inside of changeLast, we are _reassigning_ the value of the variable `x
 
 So, when the changeLast function has exited and we go back to main, the array is unchanged because we didn't change the value of the array referenced by the variable `x`. So, we would either have to return the reference to the new array from changeLast, or update the values in the existing array within changeLast instead of just creating a new array.
 
-I hope this makes sense! To be honest, learning how to understand call by value and call by reference is one of the trickiest parts of learning to program, and even seasoned veterans sometimes struggle with it. One of the best ways to learn is to simply write lots of functions, and as you do you'll start to get a feel for what works and what doesn't. 
+I hope this makes sense! To be honest, learning how to understand call by value and call by reference is one of the trickiest parts of learning to program, and even seasoned veterans sometimes struggle with it. One of the best ways to learn is to simply write lots of functions, and as you do you'll start to get a feel for what works and what doesn't.
