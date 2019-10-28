@@ -147,7 +147,7 @@ The last part of this program is to build the `main()` method itself. As we saw 
 
 So, we'll start by creating a Deck object, and shuffling the deck.
 
-Then, we'll create a hand of cards for the Player, and deal 2 cards into the player's hand. Once the player has a hand, we can instantiate the Player object, giving it both the Hand object for the player, as well as a reference to the Deck object so they player can draw cards later.
+Then, we'll create a hand of cards for the Player, and deal 2 cards into the player0's hand. Once the player has a hand, we can instantiate the Player object, giving it both the Hand object for the player, as well as a reference to the Deck object so they player can draw cards later.
 
 After that, we'll do the same for the Dealer, creating a hand first, adding 2 cards, and then creating a Dealer object.
 
