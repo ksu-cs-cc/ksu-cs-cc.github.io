@@ -5,13 +5,13 @@ weight: 101
 date: 2019-09-24T00:00:26-05:00
 ---
 
-{{< youtube  >}}
-
 #### Resources
 
 * [Slides]({{< relref "/2-cc210/11-classes/10-python-example-slides.md" >}})
 
 #### Video Script
+
+{{< youtube 1BvB6WXtsPs >}}
 
 Now that we've learned all about creating our own classes in our programs, let's work through an example program together to see how we can build a much more complex program using multiple classes.
 
@@ -36,6 +36,8 @@ There we go! That is all we need for the constructor. Finally, we can address on
 That's it for the Card class. We'll look at the other classes in later videos.
 
 ---
+
+{{< youtube HNScQCCW95I >}}
 
 Now that we have written the Card class, we can look at our UML diagram to find the class that only references the Card class in its attributes. It looks like the Deck and Hand classes both fit. But, since we know that a deck is made up of all of the cards in the game, it probably makes sense to start there next.
 
@@ -75,6 +77,8 @@ Next, we'll look at how we can deal cards to a single player's hand.
 
 ---
 
+{{< youtube 0LhqgPjLWfY >}}
+
 Now that we've built the code to handle a deck of cards, we need to look at how we can represent a hand of cards for each player. A "hand" refers to the cards dealt to a particular player. So, let's look at how we can build the Hand class in our application.
 
 Once again, we'll need to remember to import from the Card class. Looking at the UML diagram, we see that there is a single private attribute, a list of cards. So, we'll create an empty list in the constructor for this class.
@@ -88,6 +92,8 @@ The last method we need to create is the `addCard()` method. This method will si
 That's it! The hand class is actually pretty simple, and is a great example of a "data structure" class that stores data and provides useful information about that data. If you continue to study programming, you'll learn all about how to write your own data structures like this one.
 
 ---
+
+{{< youtube Wbh038JMM4M >}}
 
 Now that we've written the code for the classes that deal with cards, the last two classes we need to focus on are the Player and Dealer classes. Let's look at the dealer first.
 
@@ -117,6 +123,8 @@ There we go! That completes the Dealer class. Just 2 more to go!
 
 ---
 
+{{< youtube T5vEsLUytec >}}
+
 Now we can work on the Player class. If we look at the Player and Dealer classes, we'll see that they are actually very similar. So similar in fact, that we can just copy the code from the Dealer class and just make a few changes to it.
 
 First, we'll need to change the references to the Dealer class to Player instead. Then, we'll need to rewrite the `make_moves()` method to make sense for the player, since it should accept input from the player.
@@ -140,6 +148,8 @@ Overall, this is a very simple method that allows the user to interact with the 
 There we go! That's all we need to complete the classes used by this program. The last class to write is the Main class, which simply includes a main method that runs the program. We'll cover that in the final video in this series.
 
 ---
+
+{{< youtube jrze2n2etRY >}}
 
 The last part of this program is to build the `main()` method itself. As we saw earlier in this chapter, if we've done our work creating each class correctly, the `main()` method should really just look like an outline of the entire program itself, instantiating objects and calling methods as needed to get the work done.
 
