@@ -5,7 +5,7 @@ weight: 10
 date: 2019-09-24T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube fhLq9_iUZ3k >}}
 
 #### Resources
 
@@ -21,7 +21,7 @@ The most commonly used method for representing the structure of classes in code 
 
 Next, we can think about what types of information might help us represent a student and a teacher. For example, a student would have a name, as well as an age, student id, and the number of credits completed and a GPA. For a teacher, we'll probably also have a name, but maybe a salary and focus area as well.
 
-Each of those items represents an "attribute" of the class. So, in our diagram, we'll list these in the top section of the box. We'll also label each of them with a data type, telling us a bit more about what type of data we are storing. 
+Each of those items represents an "attribute" of the class. So, in our diagram, we'll list these in the top section of the box. We'll also label each of them with a data type, telling us a bit more about what type of data we are storing.
 
 Also, we can think about the actions that a student or a teacher might perform, or actions that may be performed on a student or a teacher to update some information about that item. For example, a student might have a birthday that updates their age, or they might receive a grade and update their number of credits and GPA. For a teacher, they might get a promotion, resulting in a higher salary.
 

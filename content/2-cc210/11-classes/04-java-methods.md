@@ -5,7 +5,7 @@ weight: 40
 date: 2019-09-24T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube t5Ehg2bjwlI >}}
 
 #### Resources
 
@@ -13,7 +13,7 @@ date: 2019-09-24T00:00:26-05:00
 
 #### Video Script
 
-Now that our classes contain attributes, the next thing we can add are the methods. For example, the Student class contains two methods: `birthday()` and `grade()`. 
+Now that our classes contain attributes, the next thing we can add are the methods. For example, the Student class contains two methods: `birthday()` and `grade()`.
 
 Let's start by adding the `birthday()` method. A method is just a function inside of a class, so we'll need to give it a return type, a name, and then parentheses containing the parameters followed by a set of curly braces.
 

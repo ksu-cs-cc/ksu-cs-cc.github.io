@@ -5,7 +5,7 @@ weight: 71
 date: 2019-09-24T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube m5GaZDI8Xmw >}}
 
 #### Resources
 
@@ -31,4 +31,4 @@ What if we try to access the `secret` attribute? We could try to access it using
 
 This is because Python adds an extra layer to the name of any attribute or method that starts with two underscores. To access them, we have to include the full name of the class as well as the name of the attribute or method, as shown here. So, while they aren't truly private, we have at least made it much more difficult to access those items accidentally.
 
-As we can see, making attributes or methods private in Python is a very useful way to protect data and methods in our classes from being accessed accidentally. In a later video, we'll see how we can create some special methods to allow pseudo read-only or write-only access to certain attributes. 
+As we can see, making attributes or methods private in Python is a very useful way to protect data and methods in our classes from being accessed accidentally. In a later video, we'll see how we can create some special methods to allow pseudo read-only or write-only access to certain attributes.
