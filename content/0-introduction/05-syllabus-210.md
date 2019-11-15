@@ -40,6 +40,8 @@ Basic concepts in developing computer programs: program structure and syntax, pr
 
 The course introduces students to computer programming using one of several programming languages. Interactive lessons and engaging projects reinforce new skills and concepts while relating programming fundamentals to the real world. This course covers the basic concepts of programming, from variables and control flow to functions, objects, and simple algorithms.
 
+<!--CC 210 helps satisfy the **Empirical & Quantitative Reasoning** tag in the K-State 8 General Education program.  As part of this course, you will develop skills for writing programs through the application of appropriate strategies and the use of logical reasoning skills.-->
+
 ### Major Course Topics
 
 * Programming Basics
