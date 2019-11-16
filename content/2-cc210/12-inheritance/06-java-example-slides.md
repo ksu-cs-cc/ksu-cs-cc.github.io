@@ -18,7 +18,7 @@ hidden: true
 <section>
   <h2>Head &rarr; Desk</h2>
 	<img class="stretch plain" src="https://media.giphy.com/media/HlqvH9JrahLZ6/source.gif">
-  <p class="imagecredit">Image Credit: <a href="https://media.giphy.com/media/HlqvH9JrahLZ6/giphy.mp4">Giphy</a></p>
+  <p class="imagecredit">Image Credit: <a href="https://media.giphy.com/media/HlqvH9JrahLZ6">Giphy</a></p>
 	<p>Let's break it down into classes</p>
 </section>
 
