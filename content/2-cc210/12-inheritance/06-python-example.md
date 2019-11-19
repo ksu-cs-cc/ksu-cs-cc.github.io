@@ -5,13 +5,13 @@ weight: 61
 date: 2019-11-03T00:00:26-05:00
 ---
 
-{{< youtube  >}}
-
 #### Resources
 
 * [Slides]({{< relref "/2-cc210/12-inheritance/06-python-example-slides.md" >}})
 
 #### Video Script
+
+{{< youtube TVY2fiwwjkU >}}
 
 Now that we've learned all about using inheritance and polymorphism in our programs, let's work through an example program together to see how we can build a much more complex program using multiple classes that use inheritance.
 
@@ -33,6 +33,8 @@ There we go! That is the structure of the three parent classes in the diagram. B
 
 ---
 
+{{< youtube 3diQJrArA5c >}}
+
 Next, let's take a look at the AdjustableWrench class. We can quickly build the constructor, attributes, and property getters just based on the UML alone, which is seen here. So, we'll take a deeper look at the methods in this class, just to understand how they work.
 
 First, the `describe()` method, which is declared all the way back in the parent Tool class, needs to be overridden with an implementation. So, we can return a string giving information about this class.
@@ -51,6 +53,8 @@ There we go! That's all it takes to build the classes we need to represent vario
 
 ---
 
+{{< youtube 4ccSRmeQuKk >}}
+
 Now that we've worked on the child classes of Wrench, we can do the same for the classes that inherit from Saw. The most complex of these is CrossCutSaw. One of the more difficult parts is to realize that the list of materials is given as a string, so we'll need to use the split method to make a list of those items. Then, when we return them, we can use the join method to make a string of the items again. The textbook has a good discussion of why this is a helpful way to handle data stored in a list inside of our class.
 
 Once we have our materials in a list, we can write a simple `findMaterial()` method to determine if a material is contained in our list. Of course, there are some library methods in Python that can do this too, but we'll just code it ourselves since it is pretty easy.
@@ -62,6 +66,8 @@ Once we've built the CrossCutSaw class, we'll see that the HackSaw class is a ve
 Once again, let's stop there for a minute and make sure the structure of these classes are correct before continuing.
 
 ---
+
+{{< youtube TC9wn_QVcO4 >}}
 
 Finally, we are ready to build the methods in our Main class. Looking at the UML diagram, we'll create two helper methods as well as the `main()` method.
 

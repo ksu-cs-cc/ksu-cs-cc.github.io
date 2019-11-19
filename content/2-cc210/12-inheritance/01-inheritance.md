@@ -5,7 +5,7 @@ weight: 10
 date: 2019-11-03T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube Dz0JB0krAA8 >}}
 
 #### Resources
 
@@ -27,4 +27,4 @@ As a UML diagram, we could represent this program like this. both the Student an
 
 We can even go a step further, separating students into both undergraduate and graduate students, each with their own unique attributes and methods. However, due to inheritance, they would also share the attributes and methods of the Student and Person class, allowing us to reuse that code quickly and easily.
 
-In this module, we'll explore how this works in theory, and then see how to build a structure like this in code. 
+In this module, we'll explore how this works in theory, and then see how to build a structure like this in code.

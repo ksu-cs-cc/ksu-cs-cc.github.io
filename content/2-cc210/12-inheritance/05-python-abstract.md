@@ -5,7 +5,7 @@ weight: 51
 date: 2019-11-03T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube X21IFfio_h0 >}}
 
 #### Resources
 
@@ -29,4 +29,4 @@ Then, to make the `describe()` method abstract, we can just add the `@abstractme
 
 For methods, when we make them abstract, we can also remove the code block that gives the code to be executed inside of the method and replace it with  the `pass` keyword, vastly simplifying the method in the parent class. However, that is not required in Python, and abstract classes can contain code if desired.
 
-There we go! That's all it takes. See if you can do the same in the MotorVehicle class on this page. 
+There we go! That's all it takes. See if you can do the same in the MotorVehicle class on this page.

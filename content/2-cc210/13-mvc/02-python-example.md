@@ -5,13 +5,13 @@ weight: 25
 date: 2019-11-15T00:00:26-05:00
 ---
 
-{{< youtube  >}}
-
 #### Resources
 
 * [Slides]({{< relref "/2-cc210/13-mvc/02-python-example-slides.md" >}})
 
 #### Video Script
+
+{{< youtube eTatlji1Ajc >}}
 
 Now that we've learned about the structure of a program written using MVC architecture, let's see how we could build it in code.
 
@@ -61,6 +61,8 @@ There we go! That's all it takes to build the model class for Connect Four. Befo
 
 ---
 
+{{< youtube faqMSYoL77s >}}
+
 Next, let's look at the ConnectView class. This class handles displaying the status of the game to the players, as well as prompting the players for input as needed. So, let's explore how we can write that class.
 
 First, the class just contains a default constructor, so we don't need to do anything there. If this program had an actual graphical user interface, or GUI, this is where we'd build it.
@@ -82,6 +84,8 @@ The rest of the methods in the ConnectView class are pretty straightforward. Mos
 That's all there is to the view portion of the program. Once again, see if you can complete the assessments to make sure it works before continuing.
 
 ---
+
+{{< youtube kUPciOjhbj4 >}}
 
 Finally, we are ready to build our controller. If we look at the UML diagram, we see that it only contains a `main()` method. So, let's explore that code.
 

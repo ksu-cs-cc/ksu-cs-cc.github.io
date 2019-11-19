@@ -5,7 +5,7 @@ weight: 41
 date: 2019-11-03T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube InU9BRjjKsg >}}
 
 #### Resources
 
@@ -37,4 +37,4 @@ As we continue to work with inheritance and polymorphism in this module, we'll s
 
 Let's review one more example. In this example, we are creating an Airplane, a Car, and a Truck, but storing them all in a list of objects. Since they are all child classes of the Vehicle class, we can treat each object as an instance of the Vehicle class, regardless of which class was used to create them. So, we can use a for loop to loop through the objects, calling methods on each of them directly. As before, we can use any method or attribute that is part of the Vehicle class, without knowing anything about the actual type of the object stored in that array element.
 
-That's a quick overview of polymorphism in Python. Later in this module we'll do another worked example that relies very heavily on polymorphism to function properly. 
+That's a quick overview of polymorphism in Python. Later in this module we'll do another worked example that relies very heavily on polymorphism to function properly.

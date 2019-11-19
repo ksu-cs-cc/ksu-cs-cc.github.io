@@ -5,7 +5,7 @@ weight: 50
 date: 2019-11-03T00:00:26-05:00
 ---
 
-{{< youtube  >}}
+{{< youtube Sxg75nfH5q4 >}}
 
 #### Resources
 
@@ -13,7 +13,7 @@ date: 2019-11-03T00:00:26-05:00
 
 #### Video Script
 
-Another major feature of inheritance in object-oriented programming is the ability to declare a class abstract. In essence, an abstract class cannot be instantiated, but can give the structure of attributes and methods that are inherited by child classes. 
+Another major feature of inheritance in object-oriented programming is the ability to declare a class abstract. In essence, an abstract class cannot be instantiated, but can give the structure of attributes and methods that are inherited by child classes.
 
 In an abstract class, at least one method should also be abstract, which means that it usually doesn't provide any code inside of the method itself. One way to think of this is that each child class should include this method, but each one is responsible for overriding the method with the correct code.
 
