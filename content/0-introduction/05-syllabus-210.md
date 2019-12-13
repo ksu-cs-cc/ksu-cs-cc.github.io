@@ -92,9 +92,24 @@ Since this course is entirely online, students may work at any time and at their
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
-Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded. No incompletes will be given in this course for any reason.
+Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded on time.
 
 If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
+
+### Incomplete Policy
+
+Students should strive to complete this course in its entirety before the end of the semester in which they are enrolled. However, since retaking the course would be costly and repetitive for students, we would like to give students a chance to succeed with a little help rather than immediately fail students who are struggling.
+
+If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/registrar/students/academicpolicy/#GRADING) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_. 
+
+Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https://www.k-state.edu/registrar/faculty-staff/forms/Incomplete%20agreement%20form.docx), the following stipulations apply to any incomplete grades given in Computational Core courses:
+
+1. Students may receive at most two incompletes in Computational Core courses throughout their time in the program
+2. Students will be given 6 calendar weeks from the end of the enrolled semester's finals week to complete the course
+3. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
+  1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
+4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
+5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
 
 ### Recommended Texts & Supplies
 

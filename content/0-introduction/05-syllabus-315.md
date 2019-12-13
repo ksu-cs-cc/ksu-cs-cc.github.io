@@ -78,13 +78,28 @@ Letter grades will be assigned following the standard scale:
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified, and all work submitted after the due date will have its grade reduced by 50% of the total points possible on that item. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any module submitted late will have that module's project grade reduced by 30% of the total possible points on that project. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
-Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded. No incompletes will be given in this course for any reason.
+Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded on time.
 
 If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
+
+### Incomplete Policy
+
+Students should strive to complete this course in its entirety before the end of the semester in which they are enrolled. However, since retaking the course would be costly and repetitive for students, we would like to give students a chance to succeed with a little help rather than immediately fail students who are struggling.
+
+If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/registrar/students/academicpolicy/#GRADING) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_.
+
+Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https://www.k-state.edu/registrar/faculty-staff/forms/Incomplete%20agreement%20form.docx), the following stipulations apply to any incomplete grades given in Computational Core courses:
+
+1. Students may receive at most two incompletes in Computational Core courses throughout their time in the program
+2. Students will be given 6 calendar weeks from the end of the enrolled semester's finals week to complete the course
+3. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
+  1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
+4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
+5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
 
 ### Recommended Texts & Supplies
 
@@ -145,7 +160,7 @@ Here are a few general rules to help us all communicate online in this course, e
 * **Do not use all caps.** It makes it look like you are shouting. Use appropriate text markup (bold, italics, etc.) to highlight a point if needed.
 * **No feigning surprise.** If someone asks a question, saying things like "I can't believe you don't know that!" are not helpful, and only serve to make that person feel bad.
 * **No "well-actually's."** If someone makes a statement that is not entirely correct, resist the urge to offer a "well, actually..." correction, especially if it is not relevant to the discussion. If you can help solve their problem, feel free to provide correct information, but don't post a correction just for the sake of being correct.
-* **Do not correct someone's grammar or spelling.** Again, it is not helpful, and only serves to make that person feel bad. If there is a genuine mistake that may affect the meaning of the post, please contact the person privately or let the instructors know privately so it can be resolved. 
+* **Do not correct someone's grammar or spelling.** Again, it is not helpful, and only serves to make that person feel bad. If there is a genuine mistake that may affect the meaning of the post, please contact the person privately or let the instructors know privately so it can be resolved.
 * **Avoid subtle -isms and microaggressions.** Avoid comments that could make others feel uncomfortable based on their personal identity. See the syllabus section on Diversity and Inclusion above for more information on this topic. If a comment makes you uncomfortable, please contact the instructor.
 * **Avoid sarcasm, flaming, advertisements, lingo, trolling, doxxing, and other bad online habits.** They have no place in an academic environment. Tasteful humor is fine, but sarcasm can be misunderstood.
 
