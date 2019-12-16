@@ -7,19 +7,19 @@ date: 2019-12-13T10:53:26-05:00
 
 ## Module List
 
-0. Introduction
-1. Review Control Flow, I/O & Exceptions
-2. Review Object Oriented Programming
-3. Programming by Contract
-4. Algorithms
-5. Lists
-6. Sets & Set Operations
-7. Stacks
-8. Queues
-9. Searching & Sorting
-10. Recursion
-11. Maps
-12. Performance
+0 - Introduction
+1 - Review Control Flow, I/O & Exceptions
+2 - Review Object Oriented Programming
+3 - Programming by Contract
+4 - Algorithms
+5 - Lists
+6 - Sets & Set Operations
+7 - Stacks
+8 - Queues
+9 - Searching & Sorting
+10 - Recursion
+11 - Maps
+12 - Performance
 
 ![310 Modules](/images/310modules.png)
 
