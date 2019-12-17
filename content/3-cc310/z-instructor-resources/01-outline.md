@@ -12,14 +12,14 @@ date: 2019-12-13T10:53:26-05:00
 2 - Review Object Oriented Programming<br>
 3 - Programming by Contract<br>
 4 - Algorithms<br>
-5 - Lists<br>
-6 - Sets & Set Operations<br>
-7 - Stacks<br>
-8 - Queues<br>
+5 - Stacks<br>
+6 - Recursion<br>
+7 - Queues<br>
+8 - Lists<br>
 9 - Searching & Sorting<br>
-10 - Recursion<br>
+10 - Sets & Set Operations<br>
 11 - Maps<br>
-12 - Performance<br>
+12 - Performance  
 
 ![310 Modules](/images/310modules.png)
 
@@ -91,9 +91,51 @@ _Still unsure if we need this module or if it is better placed inside other modu
   1. Backtracking
   1. Heuristics
 
+**Project: Brute Force Example**
+
+## 5 - Stacks
+
+1. What is a Stack?
+1. Stacks vs. Lists
+1. Stack Operations
+  1. Push
+  1. Pop
+  1. Peek / Poll
+  1. Find / IndexOf (Depth)
+1. Real World: Program Call Stack
+
+**Project: Stack Calculator**
+
+## 6 - Recursion
+
+1. What is Recursion?
+1. Simple Recursion - Factorial
+1. Simple Recursion - Traversing Filesystem?
+1. From Linked Lists to ConsLists
+  1. Insert
+  1. Find
+  1. Remove
+1. Recursive Algorithms
+1. Pitfalls: Infinite Recursion
+
 **Project: ??**
 
-## 5 - Lists (2 week module?)
+## 7 - Queues
+
+1. What is a Queue?
+1. Queues vs. Lists
+1. Bounded Queues
+1. Queue Operations
+  1. Offer / Enqueue
+  1. Poll / Dequeue
+  1. Peek
+1. Real World: Printers
+
+http://people.cs.ksu.edu/~schmidt/300s05/Lectures/
+
+**Project: Generate Permutations**
+
+## 8 - Lists (2 week module?)
 
 1. What is a List?
 1. Lists vs. Arrays
@@ -118,48 +160,6 @@ _Still unsure if we need this module or if it is better placed inside other modu
 
 **Project: ??**
 
-## 6 - Sets
-
-1. What is a Set?
-1. Sets vs. Lists
-1. Set Operations (Adapt List to Fit)
-  1. Insert
-  1. Union
-  1. Intersect
-  1. Complement (Subtract)
-  1. Product (Tuples?)
-1. Real World: Database Keys?
-
-**Project: Implement Set Operations**
-
-## 7 - Stacks
-
-1. What is a Stack?
-1. Stacks vs. Lists
-1. Stack Operations
-  1. Push
-  1. Pop
-  1. Peek / Poll
-  1. Find / IndexOf (Depth)
-1. Real World: Program Call Stack
-
-**Project: Stack Calculator**
-
-## 8 - Queues
-
-1. What is a Queue?
-1. Queues vs. Lists
-1. Bounded Queues
-1. Queue Operations
-  1. Offer / Enqueue
-  1. Poll / Dequeue
-  1. Peek
-1. Real World: Printers
-
-http://people.cs.ksu.edu/~schmidt/300s05/Lectures/
-
-**Project: Generate Permutations**
-
 ## 9 - Searching & Sorting
 
 1. Sorting
@@ -175,21 +175,19 @@ http://people.cs.ksu.edu/~schmidt/300s05/Lectures/
 
 **Project: Compare Search Algorithms**
 
-## 10 - Recursion
+## 10 - Sets
 
-1. What is Recursion?
-1. Simple Recursion - Factorial
-1. Simple Recursion - Traversing Filesystem?
-1. From Linked Lists to ConsLists
+1. What is a Set?
+1. Sets vs. Lists
+1. Set Operations (Adapt List to Fit)
   1. Insert
-  1. Find
-  1. Remove
-1. Recursive Algorithms
-  1. Merge Sort
-  1. Quicksort
-1. Pitfalls: Infinite Recursion
+  1. Union
+  1. Intersect
+  1. Complement (Subtract)
+  1. Product (Tuples?)
+1. Real World: Database Keys?
 
-**Project: ??**
+**Project: Implement Set Operations**
 
 ## 11 - Maps
 
