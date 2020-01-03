@@ -36,7 +36,7 @@ There are some intricacies related to properly setting up a Canvas course and a 
 #### Add Assignments in Canvas
 
 1. Once the Codio class and Canvas course are set up and linked, add units from the Codio class as assignments in the Canvas course, either by copying the LTI Integration URL from the unit or selecting them in the Codio app on Canvas.
-  1. Here's the trick! When LTI Constant URLs are disabled, the LTI Integration URL will include the Codio class ID, as in this example:<br>apollo.codio.com/lti/2c08254e-541a-4923-a9f1-224ed64b159e_<b>5bec924abf0152035a329fa0_</b>23w50f8t6CLA
+  1. Here's the trick! When LTI Constant URLs are disabled, the LTI Integration URL will include the Codio class ID, as in this example:<br>apollo.codio.com/lti/2c08254e-541a-4923-a9f1-224ed64b159e&#95;<b>5bec924abf0152035a329fa0</b>&#95;23w50f8t6CLA
   1. If LTI Constant URLs are enabled, then the Codio class ID is omitted from the LTI Integration URL:<br>apollo.codio.com/lti/2c08254e-541a-4923-a9f1-224ed64b159e_23w50f8t6CLA
 1. If you have already added assignments to Canvas before enabling the LTI Constant URLs option in Codio, you'll need to update all of the URLs before cloning the course.
 
