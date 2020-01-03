@@ -42,13 +42,15 @@ _Italics needs review_
 
 ## 1 - Review Control Flow, I/O & Exceptions
 
-1. Flowcharts & Pseudocode - FM1
+1. Flowcharts & Pseudocode - FM1 **video?**
 1. Syntax Overview - FM1
+1. Compile & Run - RF
+1. Debugging - RF **video**
 1. Variables - FM1
-1. Variable Roles - FM1
-1. Loops - FM1
 1. Conditionals - FM1
+1. Loops - FM1
 1. Arrays -RF
+1. Variable Roles - FM1
 1. Strings - RF
 1. I/O - RF
 1. Exceptions - RF
@@ -135,7 +137,7 @@ http://people.cs.ksu.edu/~schmidt/300s05/Lectures/
 
 **Project: Generate Permutations**
 
-## 8 - Lists (2 week module?)
+## 8 - Lists
 
 1. What is a List?
 1. Lists vs. Arrays
