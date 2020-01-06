@@ -10,14 +10,14 @@ date: 2019-12-13T10:53:26-05:00
 0 - Introduction<br>
 1 - Review Control Flow, I/O & Exceptions<br>
 2 - Review Object Oriented Programming<br>
-3 - Programming by Contract<br>
+3 - Programming by Contract & Introduction to Performance<br>
 4 - Algorithms<br>
 5 - Stacks<br>
 6 - Recursion<br>
 7 - Queues<br>
 8 - Lists<br>
 9 - Searching & Sorting<br>
-10 - Sets & Set Operations<br>
+10 - Sets<br>
 11 - Maps<br>
 12 - Performance  
 
