@@ -21,7 +21,7 @@ date: 2019-12-13T10:53:26-05:00
 11 - Maps<br>
 12 - Performance  
 
-![310 Modules](/images/310modules.png)
+
 
 **Bold needs updated**
 _Italics needs review_
