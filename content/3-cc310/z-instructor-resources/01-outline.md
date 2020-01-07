@@ -14,9 +14,9 @@ date: 2019-12-13T10:53:26-05:00
 4 - Algorithms<br>
 5 - Stacks<br>
 6 - Recursion<br>
-7 - Queues<br>
-8 - Lists<br>
-9 - Searching & Sorting<br>
+7 - Searching & Sorting<br>
+8 - Queues<br>
+9 - Lists<br>
 10 - Sets<br>
 11 - Maps<br>
 12 - Performance  
@@ -122,7 +122,22 @@ _Still unsure if we need this module or if it is better placed inside other modu
 
 **Project: ??**
 
-## 7 - Queues
+## 7 - Searching & Sorting
+
+1. Sorting
+  1. Insertion Sort / Selection Sort
+  1. Bubble Sort
+  1. Merge Sort (Bounded Iterative)
+  1. Quicksort (Bounded Iterative)
+1. Maintaining Sorted Structures
+  1. Sorting on Insert
+  1. Priority Queues
+1. Searching
+  1. Binary Search
+
+**Project: Compare Search Algorithms**
+
+## 8 - Queues
 
 1. What is a Queue?
 1. Queues vs. Lists
@@ -137,7 +152,7 @@ http://people.cs.ksu.edu/~schmidt/300s05/Lectures/
 
 **Project: Generate Permutations**
 
-## 8 - Lists
+## 9 - Lists
 
 1. What is a List?
 1. Lists vs. Arrays
@@ -161,21 +176,6 @@ http://people.cs.ksu.edu/~schmidt/300s05/Lectures/
   1. Deep Copy?
 
 **Project: ??**
-
-## 9 - Searching & Sorting
-
-1. Sorting
-  1. Insertion Sort / Selection Sort
-  1. Bubble Sort
-  1. Merge Sort (Bounded Iterative)
-  1. Quicksort (Bounded Iterative)
-1. Maintaining Sorted Structures
-  1. Sorting on Insert
-  1. Priority Queues
-1. Searching
-  1. Binary Search
-
-**Project: Compare Search Algorithms**
 
 ## 10 - Sets
 
