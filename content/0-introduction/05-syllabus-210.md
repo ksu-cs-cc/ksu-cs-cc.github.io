@@ -17,7 +17,7 @@ pre: "5.2 "
 #### Preferred Methods of Communication:
 
 * **Email**: Please use “cc201-help” (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
-* **Zoom**:Zoom: We can arrange a Zoom meeting if desired—we will make efforts to assist Global Campus student requests for meetings outside of normal classroom  hours (8 AM – 5 PM).  Please note we all work in US Central Time and are not necessarily available at all hours.
+* **Zoom**: We can arrange a Zoom meeting if desired—we will make efforts to assist Global Campus student requests for meetings outside of normal classroom  hours (8 AM – 5 PM).  Please note we all work in US Central Time and are not necessarily available at all hours.
 * **Phone/Text**: _Emergencies only!_ We will do our best to respond as quickly as we can.  Note my office number has voice mail, but no text support.
 
 ### Graduate Teaching Assistants
@@ -63,18 +63,20 @@ The course introduces students to computer programming using one of several prog
 ###  Course Structure
 
 This course is intended to be taught 100% online, each module is self-pace, and each module must be completed to progress to the next one. Students are expected to make good progress; we have found students who fall behind often fail to successfully complete the class.  The expected schedule is one module per week: we allow some flexibility in “due date.”
+
 There may be some bumps in the road as we refine the overall course structure. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
 
+Optional Recitation:  Wednesdays (except during Spring Break) in DUE 1117, from 1630 -1720 (4:30 PM to 5:20 PM) I will hold a TOTALLY OPTIONAL recitation designed to provide other examples, some additional material (not gradable) and answer questions.  As a recitation, it is a reversed class, I will not be “teaching” the video lectures and reading materials, I will provide additional examples and pose additional questions (ungraded exercises) to help re-enforce learning.  If no one has any questions and the material needs little supplementing, the recitation may not last very long (it can end early).
 
 ### Grading
 
-In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
+In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
 * 60% - Codio Programming Projects
 * 20% - Codio Tutorials
 * 20% - Canvas Quizzes
 
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
+Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** assignment for details.
 
 Letter grades will be assigned following the standard scale:
 
@@ -90,11 +92,15 @@ Letter grades will be assigned following the standard scale:
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any module submitted late will have that module's project grade reduced by 30% of the total possible points on that project. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via emailing cc210-help. Not understanding the policy does not mean that it won’t apply to you!
+
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module each week. Each module will have a specific due date. Any module submitted late will have that module’s project grade reduced by 100% of the total possible points on that project.
+
+This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student. For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
-Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded on time.
+Finally, all course work must be submitted on or before the last day of the semester (8 May 2020 at 5PM) in which the student is enrolled in the course in order for it to be graded.
 
 If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
 
