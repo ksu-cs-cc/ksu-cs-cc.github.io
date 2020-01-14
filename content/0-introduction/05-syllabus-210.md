@@ -106,7 +106,8 @@ If you have extenuating circumstances, please discuss them with the instructor a
 
 |Module      | Due Date (11:59 PM) |Note                               |
 |------------|---------------------|-----------------------------------|
-| 0 - Intro  |30 Jan 2020          |Failure to complete may result in being dropped from course|
+|0 - Intro   |30 Jan 2020          |Failure to complete may result in being dropped from course|
+|1 - Hello   |6  Mar 2020          |Last day to drop w/o "W" is 24 Feb|
 
 
 ### Incomplete Policy
