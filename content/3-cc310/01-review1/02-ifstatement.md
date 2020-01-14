@@ -27,7 +27,7 @@ _**[advance]**_ Next we have the If-Then statement itself. If the Boolean expres
 
 [slide 4]
 
-However, if the Boolean expression evaluates to false, the "then code block" is ignored and the "else code block" is executed. _**[advance]**_ Once the "else block code" completes, the "after block code" is executed. _**[advance]**_
+However, if the Boolean expression evaluates to false, the "then code block" is ignored and the "else code block" is executed. _**[advance]**_ Once the "else code block" completes, the "after code block" is executed. _**[advance]**_
 
 _**[advance]**_ An example of a simple If-Then statement is shown in this flowchart. In this example, the "before code block" corresponds to the "Input: x" block of the flowchart _**[advance]**_, the Boolean expression corresponds to the "x > 0" control block _**[advance]**_, the "then code bloc" corresponds to the "Output: x" block _**[advance]**_, the "else code block" corresponds to the "Output: (-1 * x)" block _**[advance]**_, and finally the "after code block" corresponds to the "Output: "Goodbye" block. _**[advance]**_
 
