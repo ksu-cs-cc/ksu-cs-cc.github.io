@@ -108,6 +108,20 @@ If you have extenuating circumstances, please discuss them with the instructor a
 |------------|---------------------|-----------------------------------|
 |0 - Intro   |30 Jan 2020          |Failure to complete may result in being dropped from course|
 |1 - Hello   |6  Mar 2020          |Last day to drop w/o "W" is 24 Feb|
+|2 - Primatives|6  Mar 2020          |Last day to drop w/o "W" is 24 Feb|
+|3 - Boolean  |6  Mar 2020          |Last day to drop w/o "W" is 24 Feb|
+|4 - Conditionals|6  Mar 2020          |Last day to drop w/o "W" is 24 Feb|
+|5 - Loops |26 Mar 2020   |Last day to drop is 30 Mar|
+|6 - Arrays |26 Mar 2020   |Last day to drop is 30 Mar|
+|7 - Strings|26 Mar 2020   |Last day to drop is 30 Mar|
+|8 - Exceptions |23 Apr 2020||
+|9 - File I/O |23 Apr 2020||
+|10- Functions |23 Apr 2020||
+|11 - Classes |8 May 2020 (5 PM)| Note dues by 5 PM|
+|12 - Inheritance |8 May 2020 (5 PM)| Note dues by 5 PM|
+|13 - MVC |8 May 2020 (5 PM)| Note dues by 5 PM|
+|14 - Collections |8 May 2020 (5 PM)| Note dues by 5 PM|
+
 
 
 ### Incomplete Policy
