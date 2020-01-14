@@ -9,7 +9,7 @@ hidden: true
 <section>
 	<h3>George "Bud" LaVezzi</h3>
 	<p>
-		(785) 532-6350<br>
+		(785) 532-7767<br>
 		2166 Engineering Hall<br>
 		<br>
 		<b>gblavezz1 AT ksu DOT edu</b><br>
@@ -28,9 +28,7 @@ hidden: true
 	</ul>
 </section>
 <section>
-	<p>Please use <b>Piazza</b> for all course communication</p>
-	<img class="stretch plain" src="/images/piazza_logo_wiki.png">
-	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Piazza_logo.png&oldid=227030036">Wikimedia Commons</a></p>
+	<p>Please use <b>email (cc210-help or  cc210-help@ksuemailprod.onmicrosoft.com)</b> for all course communication</p>
 </section>
 <section>
 	<img class="stretch plain" src="/images/codio_logo.svg">
@@ -75,7 +73,7 @@ hidden: true
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
 		<li>Date = Confirmation Quiz</li>
-		<li>Penalty = 30% of Project Points</li>
+		<li>Penalty = 100% of Project Points</li>
 		<li>Still Must Complete Module</li>
 		<li><b><i>Don't Get Behind!</i></b></li>
 	</ul>
@@ -99,6 +97,7 @@ hidden: true
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
 		<li><del>Complex IDE</del> Codio</li>
+		<li> <i>OPTIONAL</i> Wed recitation 4:40PM DUE 1117</li> 
 	</ul>
 </section>
 <section>
@@ -125,9 +124,8 @@ hidden: true
 <section>
 	<h3>What's Next?</h3>
 	<ul>
-		<li>Watch Video on Canvas, Piazza & Codio</li>
+		<li>Watch Video on Canvas and Codio</li>
 		<li>Read the Syllabus</li>
-		<li>Post an Introduction on Piazza</li>
 		<li>Complete the Course Readiness Quiz</li>
 		<li>Read the Extra Credit Assignments</li>
 	</ul>
