@@ -10,15 +10,15 @@ pre: "5.2 "
 
 * **Instructor:** George "Bud" LaVezzi (gblavezz1 AT ksu DOT edu)<br>
 * **Office:** DUE 2166
-* **Phone:** (785) 532-6350
-* **Office Hours:** TBA
-* **Open Lab Period:** Wednesday 4:30 - 5:30 PM in DUE 1117
+* **Phone:** (785) 532-7767
+* **Office Hours:** Mon/Thurs 9:30 - 10:20 AM, Wed 2:30 - 3:20 PM 
+* **Open Recitation Period:** Wednesday 4:30 - 5:20 PM in DUE 1117
 
 #### Preferred Methods of Communication:
 
-* **Piazza:** Please use Piazza for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. We're also active on the [K-State CS Rocket.chat](https://chat.cs.ksu.edu).
-* **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
+* **Email**: Please use “cc201-help” (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
+* **Zoom**:Zoom: We can arrange a Zoom meeting if desired—we will make efforts to assist Global Campus student requests for meetings outside of normal classroom  hours (8 AM – 5 PM).  Please note we all work in US Central Time and are not necessarily available at all hours.
+* **Phone/Text**: _Emergencies only!_ We will do our best to respond as quickly as we can.  Note my office number has voice mail, but no text support.
 
 ### Graduate Teaching Assistants
 
@@ -29,7 +29,7 @@ pre: "5.2 "
 
 ### Prerequisites
 
- * _(Effective Fall 2019)_: CIS 115 - Introduction to Computing Science (Optional) or CIS 111 - Introduction to Computer Programming (Optional)  
+ * None
  * _(Effective Fall 2020)_: CC 110 - Introduction to Computing (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
@@ -62,7 +62,9 @@ The course introduces students to computer programming using one of several prog
 
 ###  Course Structure
 
-These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
+This course is intended to be taught 100% online, each module is self-pace, and each module must be completed to progress to the next one. Students are expected to make good progress; we have found students who fall behind often fail to successfully complete the class.  The expected schedule is one module per week: we allow some flexibility in “due date.”
+There may be some bumps in the road as we refine the overall course structure. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
+
 
 ### Grading
 
