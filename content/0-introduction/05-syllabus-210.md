@@ -89,7 +89,7 @@ Letter grades will be assigned following the standard scale:
 ### Late Work
 
 {{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via email. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via emailing cc210-help. Not understanding the policy does not mean that it won’t apply to you!
@@ -117,12 +117,12 @@ If you have extenuating circumstances, please discuss them with the instructor a
 |8 - Exceptions |23 Apr 2020||
 |9 - File I/O |23 Apr 2020||
 |10- Functions |23 Apr 2020||
-|11 - Classes |8 May 2020 (5 PM)| Note dues by 5 PM|
-|12 - Inheritance |8 May 2020 (5 PM)| Note dues by 5 PM|
-|13 - MVC |8 May 2020 (5 PM)| Note dues by 5 PM|
-|14 - Collections |8 May 2020 (5 PM)| Note dues by 5 PM|
+|11 - Classes |8 May 2020 (5 PM)| Note due by 5 PM|
+|12 - Inheritance |8 May 2020 (5 PM)| Note due by 5 PM|
+|13 - MVC |8 May 2020 (5 PM)| Note due by 5 PM|
+|14 - Collections |8 May 2020 (5 PM)| Note due by 5 PM|
 
-
+The module number is important, the title may vary based on language you selected.  In general, the “due date” means completed before 11:59 PM (just before midnight) on the specified date -- EXCEPT -- ALL WORK MUST BE TURNED IN BY 1700 (5 PM) ON 8 MAY TO RECEIVE ANY CONSIDERATION.
 
 ### Incomplete Policy
 
@@ -136,16 +136,16 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
 2. Students will be given 6 calendar weeks from the end of the enrolled semester's finals week to complete the course
 3. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
   1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
-4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
+4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester
 5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
 
 ### Recommended Texts & Supplies
 
-To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
+To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
 
 ### Subject to Change
 
-The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students. All changes may also be posted to Piazza.
+The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students.
 
 ### Academic Honesty
 
@@ -169,13 +169,6 @@ In an ideal world, science and technology would be objective. However, much of s
 
 Please contact me or submit anonymous feedback through the Computer Science department office if you have any concerns or suggestions regarding this course and related materials.
 
-Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.). To help accomplish this:
-
-* If you have a name and/or use pronouns that differ from those that appear in your official K-State records, please let me know!
-* If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to talk with me. I want to be a resource for you. Please remember that you can also submit anonymous feedback as described above (which will lead to me making a general announcement to the class, if necessary, to address your concerns).
-* If you prefer to speak with someone outside of the course, your academic advisor or the staff in the College of Engineering Student Services office are excellent resources.
-
-I, like many people, am still in the process of learning about diverse perspectives and identities. If something was said in class, by anyone, that made you feel uncomfortable, please talk to me about it. Again, anonymous feedback is always an option.
 
 ### Netiquette
 
@@ -185,14 +178,14 @@ This is our personal policy and not a required syllabus statement from K-State. 
 
 Online communication is inherently different than in-person communication. When speaking in person, many times we can take advantage of the _context_ and _body language_ of the person speaking to better understand what the speaker _means_, not just what is said. This information is not present when communicating online, so we must be much more careful about what we say and how we say it in order to get our meaning across.
 
-Here are a few general rules to help us all communicate online in this course, especially while using tools such as Piazza:
+Here are a few general rules to help us all communicate online in this course, especially while using tools such as email or Canvas:
 
 * **Use a clear and meaningful subject line to announce your topic.** Subject lines such as "Question" or "Problem" are not helpful. Subjects such as "Logic Question in Project 5, Part 1 in Java" or "Unexpected Exception when Opening Text File in Python" give plenty of information about your topic.
 * **Use only one topic per message.** If you have multiple topics, post multiple messages so each one can be discussed independently.
 * **Be thorough, concise, and to the point.** Ideally, each message should be a page or less.
 * **Include exact error messages, code snippets, or screenshots, as well as any previous steps taken to fix the problem.** It is much easier to solve a problem when the exact error message or screenshot is provided. If we know what you've tried so far, we can get to the root cause of the issue more quickly.
 * **Consider carefully what you write before you post it.** Once a message is posted, it becomes part of the permanent record of the course and can easily be found by others.
-* **If you are lost, don't know an answer, or don't understand something, speak up!** Piazza allows you to send a message privately to the instructors, or post anonymously so other students don't know your identity. Don't be afraid to ask questions anytime, as you can choose to do so without any fear of being identified by your fellow students.
+* **If you are lost, don't know an answer, or don't understand something, speak up!** Email allows you to send a message privately to the instructors. Don't be afraid to ask questions anytime, as you can choose to do so without any fear of being identified by your fellow students.
 * **Class discussions are confidential.** Do not share information from the course with anyone outside of the course without explicit permission.
 * **Do not quote entire message chains; only include the relevant parts.** When replying to a previous message, only quote the relevant lines in your response.
 * **Do not use all caps.** It makes it look like you are shouting. Use appropriate text markup (bold, italics, etc.) to highlight a point if needed.
