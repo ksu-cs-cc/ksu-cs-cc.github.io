@@ -97,7 +97,7 @@ hidden: true
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
 		<li><del>Complex IDE</del> Codio</li>
-		<li> <i>OPTIONAL</i> Wed recitation 4:40PM DUE 1117</li> 
+		<li> <i>OPTIONAL</i> Wed recitation 4:30PM DUE 1117</li> 
 	</ul>
 </section>
 <section>
