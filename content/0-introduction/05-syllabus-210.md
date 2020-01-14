@@ -104,6 +104,11 @@ Finally, all course work must be submitted on or before the last day of the seme
 
 If you have extenuating circumstances, please discuss them with the instructor as soon as they arise so other arrangements can be made. If you find that you are getting behind in the class, you are encouraged to speak to the instructor for options to make up missed work.
 
+|Module      | Due Date (11:59 PM) |Note                               |
+|------------|---------------------|-----------------------------------|
+| 0 - Intro  |30 Jan 2020          |Failure to complete may result in b|
+
+
 ### Incomplete Policy
 
 Students should strive to complete this course in its entirety before the end of the semester in which they are enrolled. However, since retaking the course would be costly and repetitive for students, we would like to give students a chance to succeed with a little help rather than immediately fail students who are struggling.
