@@ -8,11 +8,11 @@ pre: "5.2 "
 
 ### Instructor Contact Information
 
-* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
-* **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
+* **Instructor:** George "Bud" LaVezzi (gblavezz1 AT ksu DOT edu)<br>
+* **Office:** DUE 2166
+* **Phone:** (785) 532-6350
+* **Office Hours:** TBA
+* **Open Lab Period:** Wednesday 4:30 - 5:30 PM in DUE 1117
 
 #### Preferred Methods of Communication:
 
@@ -22,10 +22,10 @@ pre: "5.2 "
 
 ### Graduate Teaching Assistants
 
-#### CC 210 Fall 2019
+#### CC 210 Spring 2020
 
-* <big>Kyle Glandt</big> - kglandt AT ksu DOT edu <br>**Office Hours:** MF 9:30 - 10:30 AM in DUE 1117<br>**Zoom Link:** [https://ksu.zoom.us/j/934293267](https://ksu.zoom.us/j/934293267)
-* <big>Joshua Schwartz</big> - jschwartz427 AT ksu DOT edu <br>**Office Hours:** MW 10:20 - 11:20 AM in DUE 2226 (ISCAAS Lab)<br>**Zoom Link:** [https://ksu.zoom.us/j/663044309](https://ksu.zoom.us/j/663044309)
+* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** TBA
+* <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** TBA
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ If you have extenuating circumstances, please discuss them with the instructor a
 
 Students should strive to complete this course in its entirety before the end of the semester in which they are enrolled. However, since retaking the course would be costly and repetitive for students, we would like to give students a chance to succeed with a little help rather than immediately fail students who are struggling.
 
-If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/registrar/students/academicpolicy/#GRADING) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_. 
+If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/registrar/students/academicpolicy/#GRADING) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_.
 
 Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https://www.k-state.edu/registrar/faculty-staff/forms/Incomplete%20agreement%20form.docx), the following stipulations apply to any incomplete grades given in Computational Core courses:
 

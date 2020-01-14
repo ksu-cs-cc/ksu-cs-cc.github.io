@@ -7,26 +7,24 @@ hidden: true
 	<img class="plain stretch" src="/images/core-logo-on-white.svg">
 </section>
 <section>
-	<h3>Russell Feldhausen</h3>
+	<h3>George "Bud" LaVezzi</h3>
 	<p>
-		<i>Pronouns: he/him</i><br>
-		(785) 292-3121 (Call/Text)<br>
-		2184 Engineering Hall<br>
-		<i>(working remotely)</i><br>
+		(785) 532-6350<br>
+		2166 Engineering Hall<br>
 		<br>
-		<b>russfeld AT ksu DOT edu</b><br>
-		https://russfeld.me  -  @russfeld<br>
-		<i>Piazza preferred</i>
+		<b>gblavezz1 AT ksu DOT edu</b><br>
 	</p>
 </section>
 <section>
 	<h3>Other Instructors & TAs</h3>
 	<ul>
+    <li>Russell Feldhausen</li>
 		<li>Francesco Maiorana</li>
-		<li>Dr. Josh Weese</li>
+    <li>Dr. Scott DeLoach</li>
+    <li>Dr. Josh Weese</li>
 		<li>Nathan Bean</li>
-		<li>GTA: Joshua Schwartz</li>
-		<li>GTA: Kyle Glandt</li>
+		<li>GTA: Farrukh Ali</li>
+		<li>GTA: BreAnn Anshutz</li>
 	</ul>
 </section>
 <section>
@@ -41,11 +39,11 @@ hidden: true
 <section>
 	<h3>Course Structure</h3>
 	<ul>
-		<li>~15 Modules per Course </li>
+		<li>~12-15 Modules per Course </li>
 		<li>Tutorial, Quiz, Project</li>
 		<li>Gated - Must Complete in Order</li>
-		<li>One Module Each Week</li>
-		<li>Work At Your Own Pace</li>
+		<li>~1 Module Each Week</li>
+		<li>Work Around your Schedule</li>
 		<li>Automated Grading</li>
 	</ul>
 </section>
@@ -77,9 +75,9 @@ hidden: true
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
 		<li>Date = Confirmation Quiz</li>
-		<li>Penalty = 50% of Total Points</li>
+		<li>Penalty = 30% of Project Points</li>
 		<li>Still Must Complete Module</li>
-		<li>Don't Get Behind!</li>
+		<li><b><i>Don't Get Behind!</i></b></li>
 	</ul>
 </section>
 <section>
@@ -96,7 +94,7 @@ hidden: true
 	<h3>What's Different?</h3>
 	<ul>
 		<li>No Scheduled Class Times</li>
-		<li>Work When You Want</li>
+		<li>Work Around Your Schedule</li>
 		<li>Automated Grading</li>
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
@@ -106,8 +104,8 @@ hidden: true
 <section>
 	<h3>What's the Same?</h3>
 	<ul>
-		<li>~6 Hrs. of Work Per Module</li>
-		<li>1 Module Per Week</li>
+		<li>~9-12 Hrs. of Work Per Module</li>
+		<li>~1 Module Per Week</li>
 		<li>Help Sessions</li>
 		<li>Office Hours (Virtual/Campus)</li>
 	</ul>

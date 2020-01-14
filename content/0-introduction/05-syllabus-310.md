@@ -8,11 +8,11 @@ pre: "5.3 "
 
 ### Instructor Contact Information
 
-* **Instructor:** Francesco Maiorana (fmaiorana AT ksu DOT edu)<br>
-* **Office:** DUE 2161
+* **Instructor:** George "Bud" LaVezzi (gblavezz1 AT ksu DOT edu)<br>
+* **Office:** DUE 2166
 * **Phone:** (785) 532-6350
-* **Website:** https://sites.google.com/site/maioranafrancescospes/
-* **Office Hours:** TBD
+* **Office Hours:** TBA
+* **Open Lab Period:** Wednesday 4:30 - 5:30 PM in DUE 1117
 
 #### Preferred Methods of Communication:
 
@@ -22,7 +22,10 @@ pre: "5.3 "
 
 ### Graduate Teaching Assistants
 
-* TBD
+#### CC 310 Spring 2020
+
+* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** TBA
+* <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** TBA
 
 ### Prerequisites
 
@@ -106,6 +109,7 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
   1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
 4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
 5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
+
 ### Recommended Texts & Supplies
 
 To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
