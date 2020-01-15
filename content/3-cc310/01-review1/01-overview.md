@@ -5,7 +5,7 @@ weight: 10
 date: 2020-01-13T00:00:26-05:00
 ---
 
-{{< youtube >}}
+{{< youtube xAYQPD8tc_U >}}
 
 #### Resources
 
@@ -29,4 +29,4 @@ Now you may be asking yourself, just exactly what do I have to do to get through
 
 By going through the topics in this module, you should be able to refresh your memory and determine your level of comfort with each area. If you find you really do understand the concepts, feel free to push onward. However, if you find topics that you do not feel very comfortable with, I urge you to take time now to go back and review the topics in more depth to make sure you have a solid foundation. Programming is a lot like math. If you don’t really understand how to add two numbers, it will be almost impossible for you to be able to do even the simplest multiplication. The same is true in programming. Concepts tend to build on each other and it is essential you master the basics.
 
-If you are having trouble, feel free to go back to the CC 210 textbook to review the concepts in more depth. You can access the CC 210 textbook through the "CC 210 Textbook" module in Canvas. You can find it right below this introductory module. 
+If you are having trouble, feel free to go back to the CC 210 textbook to review the concepts in more depth. You can access the CC 210 textbook through the "CC 210 Textbook" module in Canvas. You can find it right below this introductory module.

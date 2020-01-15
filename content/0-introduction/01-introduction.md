@@ -5,7 +5,9 @@ weight: 10
 date: 2018-08-24T10:53:26-05:00
 ---
 
-{{< youtube FjchZo5SaR0 >}}
+{{< youtube NI8CuLX6m6I >}}
+
+<!-- fall 2019: FjchZo5SaR0 -->
 
 #### Resources
 
@@ -29,7 +31,7 @@ In addition to email and Canvas, we’ll be using the online learning platform C
 
 This semester we will offer an optional recitation, on Wednesdays in Engineering Hall DUE 1117 at 4:30 PM.  I will be available to answer questions and offer additional examples/ toy problems for your consideration.  I will not be repeating the video lectures, think of this a “reversed class” where you come with questions about the material you feel you do not fully understand.  You do not have to attend any of these sessions (they are truly optional).  When there are no more questions (or time) the session will end; if no one shows up I will leave after 5 – 10 minutes.
 
-The Computational Core program consists of several courses, and each course contains a number of learning modules. In general, there are about 12-15 modules per course. Each module will usually consist of an interactive tutorial using Codio, followed by a quiz through Canvas, and lastly a programming project in Codio. The modules themselves are gated, which means that you much complete each item in the module in order before continuing. In addition, the modules enforce prerequisite requirements from other modules.  For CC-210 you must complete them in order starting with module 0, the enroll module should be completed first, but is not a prerequisite. 
+The Computational Core program consists of several courses, and each course contains a number of learning modules. In general, there are about 12-15 modules per course. Each module will usually consist of an interactive tutorial using Codio, followed by a quiz through Canvas, and lastly a programming project in Codio. The modules themselves are gated, which means that you much complete each item in the module in order before continuing. In addition, the modules enforce prerequisite requirements from other modules.  For CC-210 you must complete them in order starting with module 0, the enroll module should be completed first, but is not a prerequisite.
 
 You are welcome to work on this course at any time during the week as your schedule allows, provided that you complete each module before the listed due date. There will be roughly one module due each week. The modules are self-contained, and nearly all of the grading in this course is completed automatically through Canvas and Codio. So, you can complete modules at any time before the due date, and once a module is complete, you may immediately start on the next one
 
