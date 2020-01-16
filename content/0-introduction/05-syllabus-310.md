@@ -8,11 +8,11 @@ pre: "5.3 "
 
 ### Instructor Contact Information
 
-* **Instructor:** George "Bud" LaVezzi (gblavezz1 AT ksu DOT edu)<br>
-* **Office:** DUE 2166
-* **Phone:** (785) 532-6350
-* **Office Hours:** TBA
-* **Open Lab Period:** Wednesday 4:30 - 5:30 PM in DUE 1117
+* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
+* **Office:** DUE 2184 or DUE 2213, but I mostly work remotely from Kansas City, MO
+* **Phone:** (785) 292-3121 (Call/Text)
+* **Website:** https://russfeld.me
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
 
 #### Preferred Methods of Communication:
 

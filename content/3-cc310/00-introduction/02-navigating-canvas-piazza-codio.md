@@ -2,12 +2,10 @@
 title: "Navigating Canvas, Piazza & Codio"
 pre: "2. "
 weight: 20
-date: 2020-01-16T10:53:26-05:00
+date: 2018-08-24T10:53:26-05:00
 ---
 
 {{< youtube fi5sKoI_sk8>}}
-
-<!-- Fall 2019 fi5sKoI_sk8 -->
 
 #### Resources
 
@@ -37,7 +35,7 @@ At any point, you may click on the Modules link in the menu to the left to retur
 
 Continuing down the menu to the left, you'll find the usual Canvas links to view your grades in the course, as well as a list of fellow students taking the course.
 
-<!-- ===
+===
 
 Next, let's click the Piazza link to look at the Piazza boards for this course. Piazza is an online discussion board specifically tailored for college classes. It supports many cool features such as custom markup for code and math snippets, as well as the ability to directly message all instructors in a course. We'll be using Piazza as the primary communication method in this class. In addition to hosting course discussions, we'll also use Piazza to make general announcements to the class.
 
@@ -56,7 +54,6 @@ Before posting in Piazza, you should read the information in the Syllabus regard
 To manage your Piazza account & notification settings, click the gear icon in the upper left. Here you can post a profile picture and update your personal information. In addition, you can manage your email settings. I usually recommend turning on the *Smart Digest* option for new questions and notes, but selecting *Real Time* for any questions or notes you follow. Don't worry, any important course announcements will be sent via email directly from Piazza so you won't miss a thing. You can also download the Piazza app for iPhone and Android to stay connected to the course anytime.
 
 Finally, Piazza also has a very active career and recruiting interface. It is a great way to make yourself available to companies interested in hiring students who have a particular set of skills, such as programming. You can find more information about those features by clicking the links in the upper-right of the window.
--->
 
 ===
 
