@@ -24,7 +24,7 @@ pre: "5.3 "
 
 #### CC 310 Spring 2020
 
-* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** TBA
+* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** Wednesday & Friday 3:30 - 4:30 PM in DUE 1119
 * <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** TBA
 
 ### Prerequisites

@@ -11,7 +11,7 @@ pre: "5.2 "
 * **Instructor:** George "Bud" LaVezzi (gblavezz1 AT ksu DOT edu)<br>
 * **Office:** DUE 2166
 * **Phone:** (785) 532-7767
-* **Office Hours:** Mon/Thurs 9:30 - 10:20 AM, Wed 2:30 - 3:20 PM 
+* **Office Hours:** Mon/Thurs 9:30 - 10:20 AM, Wed 2:30 - 3:20 PM
 * **Open Recitation Period:** Wednesday 4:30 - 5:20 PM in DUE 1117
 
 #### Preferred Methods of Communication:
@@ -24,7 +24,7 @@ pre: "5.2 "
 
 #### CC 210 Spring 2020
 
-* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** TBA
+* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** Wednesday & Friday 3:30 - 4:30 PM in DUE 1119
 * <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** TBA
 
 ### Prerequisites
