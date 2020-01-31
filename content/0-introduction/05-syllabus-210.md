@@ -16,7 +16,7 @@ pre: "5.2 "
 
 #### Preferred Methods of Communication:
 
-* **Email**: Please use “cc201-help” (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
+* **Email**: Please use “cc210-help” (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
 * **Zoom**: We can arrange a Zoom meeting if desired—we will make efforts to assist Global Campus student requests for meetings outside of normal classroom  hours (8 AM – 5 PM).  Please note we all work in US Central Time and are not necessarily available at all hours.
 * **Phone/Text**: _Emergencies only!_ We will do our best to respond as quickly as we can.  Note my office number has voice mail, but no text support.
 
