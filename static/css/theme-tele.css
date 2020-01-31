@@ -18,6 +18,8 @@
 body {
     background: #000;
     color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 body #chapter h1 {
     font-size: 3.5rem;
@@ -26,10 +28,20 @@ body #chapter h1 {
     body #chapter h1 {
         font-size: 3rem;
     }
+
+    body{
+      margin-left: 75px;
+      margin-right: 75px;
+    }
 }
 @media only all and (max-width: 47.938em) {
     body #chapter h1 {
         font-size: 2rem;
+    }
+
+    body{
+      margin-left: 0px;
+      margin-right: 0px;
     }
 }
 a {

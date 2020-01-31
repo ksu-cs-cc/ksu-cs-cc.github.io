@@ -1,6 +1,6 @@
 
 var autoScroll = 0;
-var defaultAutoScroll = 25;
+var defaultAutoScroll = 15;
 
 var onDocumentKeyDown = function( event ) {
 
