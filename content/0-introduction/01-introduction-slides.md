@@ -48,7 +48,7 @@ hidden: true
 <section>
 	<h3>Module 0 - Introduction</h3>
 	<ul>
-		<li>Navigating Canvas, Piazza & Codio</li>
+		<li>Navigating Canvas & Codio</li>
 		<li>Syllabus</li>
 		<li>Where to Get Help</li>
 		<li>Plagiarism</li>
@@ -97,7 +97,7 @@ hidden: true
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
 		<li><del>Complex IDE</del> Codio</li>
-		<li> <i>OPTIONAL</i> Wed recitation 4:30PM DUE 1117</li> 
+		<li> <i>OPTIONAL</i> Wed recitation 4:30PM DUE 1117</li>
 	</ul>
 </section>
 <section>
