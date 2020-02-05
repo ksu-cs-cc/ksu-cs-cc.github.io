@@ -102,7 +102,7 @@ In this case, our loop goes from 1 to N, however it also has a 'step 2'
 qualifier, which means that it really only goes through 1/2 of the elements of
 the list.
 
-So, in this case, our loop multiplier is 1/2 \* N, or N/2.
+So, in this case, our loop multiplier is 1/2 * N, or N/2.
 
 [Slide 10]
 
@@ -111,7 +111,7 @@ comparison operation to the algorithm to determine which of the two numbers are
 larger and smaller.
 
 This results in 3 comparison operations and thus our time complexity for
-comparisons is 3 \* N/2, or 1.5N.
+comparisons is 3 * N/2, or 1.5N.
 
 [Slide 11]
 
@@ -119,19 +119,19 @@ Now, due to the increased complexity of this algorithm, we actually have 6
 possible assignment operations.
 
 The first four assignment operations - those highlighted in yellow - are based
-on the comparison 'x \> y', which means only two of those assignments will be
+on the comparison 'x > y', which means only two of those assignments will be
 executed each time through the loop.
 
 And, like the linear algorithm, we have our two possible assignments, which are
-highlighted in green. Again, neither may be executed and at most 1 of them will
-be executed each time through the loop.
+highlighted in green. However, in this case, it is possible for us to execute
+anywhere from 0 to 2 of these assignments.
 
-So, if we look at the worst-case scenario, we can execute 3 assignment
+So, if we look at the worst-case scenario, we can execute 4 assignment
 operations each time through the loop. And, in the best-case, we would only
 execute 2 assignment operations.
 
 Since we go through the loop N/2 times, our worst-case time complexity for
-assignments is 3 \* N/2, or 1.5N, while our best-case time complexity is 2 \*
+assignments is 4 * N/2, or 2N, while our best-case time complexity is 2 *
 N/2 or N.
 
 [Slide 12]
