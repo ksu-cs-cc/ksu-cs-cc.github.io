@@ -62,7 +62,7 @@ The course introduces students to computer programming using one of several prog
 
 ###  Course Structure
 
-This course is intended to be taught 100% online, each module is self-pace, and each module must be completed to progress to the next one. Students are expected to make good progress; we have found students who fall behind often fail to successfully complete the class.  The expected schedule is one module per week: we allow some flexibility in “due date.”
+This course is intended to be taught 100% online, each module is self-paced, and each module must be completed to progress to the next one. Students are expected to make good progress; we have found students who fall behind often fail to successfully complete the class.  The expected schedule is one module per week: we allow some flexibility in “due date.”
 
 There may be some bumps in the road as we refine the overall course structure. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
 
