@@ -1,10 +1,10 @@
 baseURL = "https://ksucs-hugo.russfeld.me"
 languageCode = "en-us"
-title = "K-State CS Hugo Framework"
+title = "K-State Computational Core"
 publishDir = "../cc-website-html/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "hugo-theme-learn"
+theme = "ksucs-hugo-theme"
 
 # For search functionality
 [outputs]
@@ -12,10 +12,9 @@ home = [ "HTML", "RSS", "JSON"]
 page = [ "HTML", "Iframeable", "Teleprompter"]
 section = [ "HTML", "Iframeable", "Teleprompter"]
 
-
 [params]
   editURL = "https://gitlab.cs.ksu.edu/cc-210/cc-website/tree/master/content/"
-  description = "K-State CS Hugo Framework"
+  description = "K-State Computational Core"
   author = "Russell Feldhausen"
   showVisitedLinks = false
   themeVariant = "purple"
@@ -24,6 +23,11 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Custom output format for iframes
 [outputFormats]
