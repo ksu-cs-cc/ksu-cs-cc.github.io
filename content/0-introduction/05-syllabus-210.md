@@ -24,8 +24,12 @@ pre: "5.2 "
 
 #### CC 210 Spring 2020
 
-* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** Wednesday & Friday 3:30 - 4:30 PM in DUE 1119
-* <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** Thursday 10:30 AM - 12:30 PM in DUE 1119
+To join a GTA's office hours, click the appropriate Zoom link below:
+
+* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** By Appointment via [Zoom](https://ksu.zoom.us/j/632523139) - Email to request a time
+* <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** By Appointment via via [Zoom](https://ksu.zoom.us/j/950265885) - Email to request a time
+
+Email "cc210-help" to request additional GTA office hours by appointment.
 
 ### Prerequisites
 
