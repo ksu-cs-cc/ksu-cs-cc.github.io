@@ -9,7 +9,7 @@ date: 2020-03-27T00:00:26-05:00
 
 #### Resources
 
-* [Slides](/3-cc310/08-queues/03-queue-operations.pptx)
+* [Slides](/3-cc310/08-queues/03-queue-operations-slides.pptx)
 
 #### Video Script
 
