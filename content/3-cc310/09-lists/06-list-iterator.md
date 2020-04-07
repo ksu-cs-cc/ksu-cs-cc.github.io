@@ -105,8 +105,8 @@ current node from the list. Other operations will be similar.
 
 [slide 12]
 
-The first thing we do is to check our precondition, which ensures that the list
-is not empty.
+The first thing we do is to check our precondition, which ensures that the current
+node is not null.
 
 [slide 13]
 
@@ -137,8 +137,9 @@ from the list.
 
 [slide 17]
 
-Finally, we do a little cleanup by setting current to point at the next node in
-the list and decrementing the size variable.
+Finally, we do a little cleanup by setting current to point at the previous node in
+the list and decrementing the size variable. By doing so, we ensure that the next call
+to getNext will return the correct next node.
 
 [slide 18]
 
@@ -186,7 +187,7 @@ and sets current back to node "a".
 
 [slide 25]
 
-We then call getNext, which updates current to point at node "w".
+We then call getNext, which updates current to point at node "a".
 
 In all, we must go through the loop three more times, although we won’t have to
 remove any more nodes. The loop ends when we reach the end of the list and the
