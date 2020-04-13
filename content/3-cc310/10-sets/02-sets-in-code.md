@@ -127,21 +127,21 @@ remove operation runs in order N time.
 
 [slide 14]
 
-Our next operation is the intersection operation, which takes two sets, set1 and
-set2, and returns their intersection as a set.
+Our next operation is the intersection operation, which takes a set as input,
+ and returns the intersection of that set and our current set as a set.
 
 The first thing we need to do is create a new set, result, to hold the elements
-in the intersection of set1 and set2. Then, since we will need to walk through
+in the intersection of mySet and set2. Then, since we will need to walk through
 set1, we will use the reset and getNext operations to retrieve the first object,
 just like we did in the first two operations.
 
 [slide 15]
 
-Next, we have a loop to walk through each object in set1. Our strategy will be
-to walk through set1 and see if each object in set1 is also in set2. If it is,
-we'll add the object to our result set. Once we are done walking through set1,
+Next, we have a loop to walk through each object in mySet. Our strategy will be
+to walk through mySet and see if each object in mySet is also in set2. If it is,
+we'll add the object to our result set. Once we are done walking through mySet,
 we will be done. Thus, the interior of the loop looks much like contains and
-remove, except this time, if set2 contains the object from set1, we add the
+remove, except this time, if set2 contains the object from mySet, we add the
 object to the result set.
 
 [slide 16]
@@ -149,14 +149,14 @@ object to the result set.
 After the loop ends, we are guaranteed to have found all the objects in the
 intersection, so we just return the results set.
 
-Since we loop through each object in set1, we know we run in at least order N
+Since we loop through each object in mySet, we know we run in at least order N
 time. However, we also call set2's contains and add operations, which also run
 in order N time. Therefore, each time we go through the loop, the intersection
 operation ends up running in N \* 2N, or approximately N squared time.
 
 [slide 17]
 
-When we perform the union operation, we have two sets, set1 and set2, and we
+When we perform the union operation, we have two sets, mySet and set2, and we
 have to include each element from both sets in the union. Here, the obvious
 solution is to walk through each set and add each object we find into a new set
 called result.
@@ -177,13 +177,13 @@ object is in the set.
 
 [slide 18]
 
-When we complete the loop for set1, we use the exact same loop structure to walk
+When we complete the loop for mySet, we use the exact same loop structure to walk
 through set2 and add all its elements into the result set. Again, we don't care
 if the object is already in the list or not.
 
 [slide 19]
 
-Once we get through the second loop, we have added all the elements from set1
+Once we get through the second loop, we have added all the elements from mySet
 and set2 into our results set and all that is left to do is to return it to the
 calling function.
 
@@ -195,17 +195,17 @@ squared time.
 [slide 20]
 
 The final operation we will look at is the isSubset operation. The isSubset
-operation checks to see if each object in set1 is also contained in set2. If it
-is, then set1 is a subset of set2.
+operation checks to see if each object in set2 is also contained in mySet. If it
+is, then set2 is a subset of mySet.
 
 Computing the appropriate value is straightforward and follows the same
 structure as we've seen in most of the operations. We use a list iterator to
-walk through each object in set1. This time, however, we check to see if the
-current object is *not* in set2. If it is not, then we return false to indicate
-that set1 is not a subset of set2.
+walk through each object in set2. This time, however, we check to see if the
+current object is *not* in mySet. If it is not, then we return false to indicate
+that set2 is not a subset of mySet.
 
 If we get to the end of the list and fall out of the loop, we then know that
-set1 is a subset of set2 and we should return true. Again, since we call the
+set2 is a subset of mySet and we should return true. Again, since we call the
 contains operation, which runs in order N time, within a loop that walks through
 each element in a set, the isSubset operation runs in order N time.
 
