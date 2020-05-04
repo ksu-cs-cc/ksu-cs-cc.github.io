@@ -45,6 +45,7 @@ Contributors have provided valuable feedback, reviewed and edited content, or in
 #### Video Production
 
 * Mohamed Khalil
+* Max Holthaus
 * John Solomon
 
 _In addition, we recognize the work of all CC students who have submitted bug reports, typo corrections, or provided feedback!_
