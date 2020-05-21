@@ -10,4 +10,4 @@ pre = "<b>0. </b>"
 
 # Introduction
 
-Welcome to CC 310!
+Welcome to CC 110!

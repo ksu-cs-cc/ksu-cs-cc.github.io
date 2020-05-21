@@ -1,18 +1,24 @@
 ---
-title: "CC 310 Syllabus"
-weight: 53
-pre: "5.3 "
+title: "CC 110 Syllabus"
+weight: 51
+pre: "5.1 "
 ---
 
-## CC 310 - Data Structures & Algorithms I
+## CC 110 - Introduction to Computing
 
 ### Instructor Contact Information
 
 * **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184 or DUE 2213, but I mostly work remotely from Kansas City, MO
+* **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
+* **Website:** https://russfeld.me  
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
+<br>
+* **Professor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
+* **Office:** DUE 2214
+* **Phone:** (785) 532-7929
+* **Website:** http://weeser.net/
+* **Office Hours:** TBD
 
 #### Preferred Methods of Communication:
 
@@ -22,46 +28,30 @@ pre: "5.3 "
 
 ### Graduate Teaching Assistants
 
-#### CC 310 Spring 2020
-
-To join a GTA's office hours, click the appropriate Zoom link below:
-
-* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** By Appointment via [Zoom](https://ksu.zoom.us/j/632523139) - Email to request a time
-* <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** By Appointment via [Zoom](https://ksu.zoom.us/j/950265885) - Email to request a time
-
-Email the GTAs or post on Piazza to request additional GTA office hours by appointment.
+* TBD
 
 ### Prerequisites
 
-* MATH 100 - College Algebra
-* CC 210 - Fundamental Computer Programming Concepts (Prerequisite or Concurrent Enrollment)
+* None
 
 ### Course Overview
 
-Exploration of data structures & related algorithms in computer programming. Basic concepts of complexity analysis. Object-oriented design concepts.
+An overview of the history of computers and programming. Famous historical figures and their impact in modern computing. Introduction to major topics in computer science such as artificial intelligence, high performance computing, cryptography, big data, cyber security, robotics, and more. Brief experience with computer programming concepts.
 
 ### Course Description
 
-This course introduces simple data structures such as sets, lists, stacks, queues, and maps. Students learn how to create data structures and the algorithms that use them. Students are introduced to algorithm analysis to determine the efficiency of algorithms.
+This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
 
 ### Major Course Topics
 
-* Data Structures
-  * Sets
-  * Lists
-  * Stacks
-  * Queues
-  * Maps
-* Algorithms
-  * Searching
-  * Sorting
-  * Structural Operations
-  * Hashing
-  * Set Relations
-* Recursion
-* Complexity Analysis
-* Algorithm Design Strategies and Patterns
-* Logic: Preconditions, Postconditions and Invariants
+* The history of computer science and early computing machines
+* The basics of binary representation, Boolean logic, data encoding, encryption, and error checking
+* Computational thinking, programming, and algorithm design
+* The history and technology behind the internet and how it affects our world
+* Computer science areas such as artificial intelligence, human-computer interaction, high performance computing, data science, robotics, and more
+* Cybersecurity in a modern, interconnected world
+* Other disciplines related to computer science
+* Experience with basic programming concepts
 
 ###  Course Structure
 
@@ -71,9 +61,8 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% - Codio Programming Projects
-* 20% - Codio Tutorials
-* 20% - Canvas Quizzes
+* 60% Lectures and Quizzes
+* 40% Programming Projects
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
