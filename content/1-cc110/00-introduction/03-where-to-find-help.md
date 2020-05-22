@@ -9,7 +9,7 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "/0-introduction/03-where-to-find-help-slides.md" >}})
+* [Slides]({{< relref "/1-cc110/00-introduction/03-where-to-find-help-slides.md" >}})
 * [K-State IT Help Desk](https://www.k-state.edu/its/helpdesk/) - Email helpdesk@ksu.edu
 * [K-State Online Canvas Help](http://public.online.k-state.edu/help/)
 * [Instructure Canvas Guides](https://community.canvaslms.com/community/answers/guides)
@@ -23,6 +23,8 @@ date: 2018-08-24T10:53:26-05:00
 * [K-State Report It](https://www.k-state.edu/report/)
 
 #### Video Script
+
+## TODO Rewrite Fall 2020
 
 As you work on the materials in this course, you may run into questions or problems and need assistance. This video reviews the various types of help available to you in this course.
 

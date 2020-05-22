@@ -7,28 +7,39 @@ hidden: true
 	<img class="plain stretch" src="/images/core-logo-on-white.svg">
 </section>
 <section>
-	<h3>George "Bud" LaVezzi</h3>
+	<h3>Russell Feldhausen</h3>
 	<p>
-		(785) 532-7767<br>
-		2166 Engineering Hall<br>
+		<i>Pronouns: he/him</i><br>
+		(785) 292-3121 (Call/Text)<br>
+		2184 Engineering Hall<br>
+		<i>(working remotely)</i><br>
 		<br>
-		<b>gblavezz1 AT ksu DOT edu</b><br>
+		<b>russfeld AT ksu DOT edu</b><br>
+		https://russfeld.me  -  @russfeld<br>
+	</p>
+</section>
+<section>
+	<h3>Dr. Josh Weese</h3>
+	<p>
+		(785) 532-7929<br>
+		2214 Engineering Hall<br>
+		<i>(working remotely)</i><br>
+		<br>
+		<b>weeser AT ksu DOT edu</b><br>
+		http://weeser.net<br>
 	</p>
 </section>
 <section>
 	<h3>Other Instructors & TAs</h3>
 	<ul>
-    <li>Russell Feldhausen</li>
-		<li>Francesco Maiorana</li>
-    <li>Dr. Scott DeLoach</li>
-    <li>Dr. Josh Weese</li>
+		<li>George "Bud" LaVezzi</li>
+		<li>Emily Alfs-Votipka</li>
 		<li>Nathan Bean</li>
-		<li>GTA: Farrukh Ali</li>
-		<li>GTA: BreAnn Anshutz</li>
+		<li>Dr. Scott DeLoach</li>
 	</ul>
 </section>
 <section>
-	<p>Please use <b>email (cc210-help or  cc210-help@ksuemailprod.onmicrosoft.com)</b> for all course communication</p>
+	<p>Please use <b>email (cc110-help or cc110-help@ksuemailprod.onmicrosoft.com)</b> for all course communication</p>
 </section>
 <section>
 	<img class="stretch plain" src="/images/codio_logo.svg">
@@ -37,10 +48,10 @@ hidden: true
 <section>
 	<h3>Course Structure</h3>
 	<ul>
-		<li>~12-15 Modules per Course </li>
-		<li>Tutorial, Quiz, Project</li>
+		<li>~30 Modules In This Course </li>
+		<li>Lectures, Quizzes, Projects</li>
 		<li>Gated - Must Complete in Order</li>
-		<li>~1 Module Each Week</li>
+		<li>~12 Modules Each Week</li>
 		<li>Work Around your Schedule</li>
 		<li>Automated Grading</li>
 	</ul>
@@ -97,16 +108,15 @@ hidden: true
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
 		<li><del>Complex IDE</del> Codio</li>
-		<li> <i>OPTIONAL</i> Wed recitation 4:30PM DUE 1117</li>
 	</ul>
 </section>
 <section>
 	<h3>What's the Same?</h3>
 	<ul>
-		<li>~9-12 Hrs. of Work Per Module</li>
-		<li>~1 Module Per Week</li>
+		<li>~4-6 Hrs. of Work Per Module</li>
+		<li>~2 Module Per Week</li>
 		<li>Help Sessions</li>
-		<li>Office Hours (Virtual/Campus)</li>
+		<li>Office Hours (Virtual)</li>
 	</ul>
 </section>
 <section>

@@ -22,8 +22,7 @@ pre: "5.1 "
 
 #### Preferred Methods of Communication:
 
-* **Piazza:** Please use Piazza for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. We're also active on the [K-State CS Rocket.chat](https://chat.cs.ksu.edu).
+* **Email**: Please use "cc110-help" (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
 * **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
 
 ### Graduate Teaching Assistants
@@ -55,9 +54,11 @@ This course serves as a primary introduction to modern computing and programming
 
 ###  Course Structure
 
-These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
+These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Some modules will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
 
 ### Grading
+
+TODO Update Fall 2020
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
@@ -75,6 +76,8 @@ Letter grades will be assigned following the standard scale:
 * 00% - 59.99% &rarr; F
 
 ### Late Work
+
+TODO Update Fall 2020
 
 {{% notice warning %}}
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
