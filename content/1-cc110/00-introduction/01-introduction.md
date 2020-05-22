@@ -44,17 +44,11 @@ One very important part of the syllabus that every student should read is the la
 
 For the purposes of grading, we will use the date and time that the confirmation quiz was submitted at the end of each module to determine when the module was completed. This is due to the way that Codio handles automated grading, as it may resubmit previously graded assignments if an error in the module is corrected, making a previously completed assignment appear to be submitted late.
 
-===
-
-## TODO NEEDS UPDATED Fall 2020
-
-If a module is completed after the due date, a penalty of 100% of the total points on that module’s project will be subtracted from the score received on that module. So, even if some of the module’s work was completed before the due date, the penalty will still be assessed if you did not fully complete that module before the due date.  Due dates roughly coincide with the “drop deadlines” for the class, so if you gauge that you cannot keep up you have an opportunity to withdraw from the class in an orderly manner.
+If any work is submitted after the due date, a penalty of 10% of the total points possible in that assignment will be deducted for each day it is late, up to a maximum of 3 days. After 3 days beyond the due date, you will receive a 0 on the assignment. Please refer to the full late policy in the syllabus for more information about how late work is handled in this course.
 
 Finally, even if a module is late, it still must be completed before you can move on to a later module. So, it is very important to avoid getting behind in this course, as it can be very difficult to get back on track. If you ever find that you are struggling to keep up, please don't be afraid to contact either the instructors or GTAs for assistance. We'd be happy to help you get caught back up quickly.
 
-The grading in this course is very simple. First, 60% of your final grade will depend on the grades you receive from each of the Codio projects in the course. Next, 20% of your grade will come from the interactive tutorials in Codio. Finally, the last 20% of your grade will come from the quizzes for each module. In this program, the standard "90-80-70-60" grading scale will apply, though I reserve the right to curve grades up to a higher grade level at my discretion. Therefore, you will never be required to get higher than 90% for an A, but you may get an A if you score slightly below 90% if I choose to curve the grades.
-
-===
+The grading in this course is very simple. First, 50% of your final grade will depend on the grades you receive from the lecture modules and associated quizzes. Next, 10% of your grade will come from the interactive programming notes and labs in Codio. Another 30% of your grade will be determined by your work completing the programming homework assignments. Finally, the last 10% of your grade will come from your participation in a few interactive discussions throughout the semester. In this program, the standard "90-80-70-60" grading scale will apply, though I reserve the right to curve grades up to a higher grade level at my discretion. Therefore, you will never be required to get higher than 90% for an A, but you may get an A if you score slightly below 90% if I choose to curve the grades.
 
 This is intended to be a completely online, self-paced course. There are no mandatory scheduled course times. All of the content is available online, so you can work whenever and wherever you want. It could be a 3-hour block once a week, or a few minutes here and there between classes. It’s really up to you and your schedule. However, remember that each module may require 4 to 6 or more hours of work to complete, so make sure you have plenty of time available to devote to this course.
 

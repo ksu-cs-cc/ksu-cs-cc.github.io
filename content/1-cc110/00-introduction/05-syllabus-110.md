@@ -58,8 +58,6 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 ### Grading
 
-TODO Update Fall 2020
-
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
 * 50% Lectures and Quizzes
@@ -79,15 +77,13 @@ Letter grades will be assigned following the standard scale:
 
 ### Late Work
 
-TODO Update Fall 2020
-
 {{% notice warning %}}
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any module submitted late will have that module's project grade reduced by 30% of the total possible points on that project. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately two modules due each week. Each graded item in the module will have a specific due date specified. **Any work submitted and graded after the due date is subject to a deduction of 10% of the total points possible on the assignment for each day that the assignment is late, up to a maximum of 3 days. For example, if an assignment is due on a Friday and is submitted the following Monday, it will be subject to a reduction of 30% of the total points possible, or 10% for each day it was late (Saturday, Sunday, and Monday in this example). One three days have passed, the assigment will receive a grade of 0. For the purposes of recordkeeping, the submission time of the confirmation quiz in each programming module will be used to establish the completion time of any related Codio assignments in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
-However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
+However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. This is due to the fact that the content in this course is gated, and several modules require knowledge gained in previous modules. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
 Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded on time.
 

@@ -92,9 +92,10 @@ hidden: true
 <section>
 	<h3>Grading</h3>
 	<ul>
-		<li>60% Projects</li>
-		<li>20% Tutorials</li>
-		<li>20% Quizzes</li>
+	    <li>50% Lectures and Quizzes</li>
+	    <li>10% Programming Notes & Labs</li>
+	    <li>30% Programming Homeworks</li>
+	    <li>10% Discussions</li>
 		<li>Up to 5% Extra Credit</li>
 	</ul>
 	<p>Standard 90-80-70-60 grading scale</p>
@@ -114,7 +115,7 @@ hidden: true
 	<h3>What's the Same?</h3>
 	<ul>
 		<li>~4-6 Hrs. of Work Per Module</li>
-		<li>~2 Module Per Week</li>
+		<li>~2 Modules Per Week</li>
 		<li>Help Sessions</li>
 		<li>Office Hours (Virtual)</li>
 	</ul>
