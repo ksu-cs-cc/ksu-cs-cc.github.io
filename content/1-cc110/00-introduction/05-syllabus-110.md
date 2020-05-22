@@ -62,8 +62,10 @@ TODO Update Fall 2020
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% Lectures and Quizzes
-* 40% Programming Projects
+* 50% Lectures and Quizzes
+* 10% Programming Notes & Labs
+* 30% Programming Homeworks
+* 10% Discussions
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
