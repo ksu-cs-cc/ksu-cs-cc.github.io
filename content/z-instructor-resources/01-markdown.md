@@ -58,6 +58,8 @@ There are many other items that can be added. See [Hugo Frontmatter](https://goh
 Yes, I realize that most pages are using the YAML format for frontmatter (as indicated by the `---` surrounding the block as described in the Hugo documentation), but the chapter pages are using TOML (surrounded by `+++` instead). I did this simply because the template pages were set that way, but not for any particular reason.
 {{% /notice %}}
 
+
+
 ## Markdown Syntax Guide
 
 This content is sourced from the [Markdown Syntax](https://learn.netlify.com/en/cont/markdown/) page from Hugo Theme Learn, the base theme for this site.
@@ -309,6 +311,20 @@ renders as
 
 {{% notice warning %}}
 A warning disclaimer
+{{% /notice %}}
+
+### No Iframe
+
+```
+{{%/* notice noiframe */%}}
+Does not show in embedded pages
+{{%/* /notice */%}}
+```
+
+renders as
+
+{{% notice noiframe %}}
+Does not show in embedded pages
 {{% /notice %}}
 
 
