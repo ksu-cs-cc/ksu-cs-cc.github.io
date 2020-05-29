@@ -41,6 +41,16 @@ An overview of the history of computers and programming. Famous historical figur
 
 This course serves as a primary introduction to modern computing and programming by reviewing historical figures and events and the impact they had on modern technology. Students are exposed to a variety of topics in computer science, and gain hands-on experience with some of these topics through the use of some basic programming skills. The goal of this course is to show students the wider world of computing and technology beyond programming, building a broad foundation for later courses to build upon.
 
+### Learning Objectives
+
+By the end of this course, each student will be able to:
+* Describe the history of Computing Science and list some of the important devices, innovations, and people that got us to where we are today.
+* Relate Computing Science to a variety of other disciplines and describe how they are interconnected with each other.
+* Apply and use Computing Science tools and techniques to solve real-world problems.
+* Research and learn about new ideas and areas in Computing Science and share those ideas with others.
+* Develop a personal understanding of how Computing Science affects his or her own life.
+* Understand many different subject areas within Computing Science and how they are changing our understanding of the field.
+
 ### Major Course Topics
 
 * The history of computer science and early computing machines
@@ -81,7 +91,7 @@ Letter grades will be assigned following the standard scale:
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately two modules due each week. Each graded item in the module will have a specific due date specified. **Any work submitted and graded after the due date is subject to a deduction of 10% of the total points possible on the assignment for each day that the assignment is late, up to a maximum of 3 days. For example, if an assignment is due on a Friday and is submitted the following Monday, it will be subject to a reduction of 30% of the total points possible, or 10% for each day it was late (Saturday, Sunday, and Monday in this example). One three days have passed, the assigment will receive a grade of 0. For the purposes of recordkeeping, the submission time of the confirmation quiz in each programming module will be used to establish the completion time of any related Codio assignments in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately two modules due each week. Each graded item in the module will have a specific due date specified. **Any work submitted and graded after the due date is subject to a deduction of 10% of the total points possible on the assignment for each day that the assignment is late, up to a maximum of 3 days. For example, if an assignment is due on a Friday and is submitted the following Monday, it will be subject to a reduction of 30% of the total points possible, or 10% for each day it was late (Saturday, Sunday, and Monday in this example). One three days have passed, the assignment will receive a grade of 0. For the purposes of recordkeeping, the submission time of the confirmation quiz in each programming module will be used to establish the completion time of any related Codio assignments in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. This is due to the fact that the content in this course is gated, and several modules require knowledge gained in previous modules. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
