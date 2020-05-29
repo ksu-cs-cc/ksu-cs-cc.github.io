@@ -8,6 +8,6 @@ pre = "<b>3. </b>"
 
 ### Chapter 3
 
-# Instructor Resources
+# Bits and Boolean Algebra
 
-Goodies for Instructors!
+![George Boole](https://upload.wikimedia.org/wikipedia/commons/c/ce/George_Boole_color.jpg)
