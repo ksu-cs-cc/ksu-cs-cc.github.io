@@ -22,8 +22,8 @@ My email address is emilyalfs@ksu.edu and is my preferred method of communicatio
 
 [Slide 3]
 
-For course related questions, please email the course help email which is cc310-help@ksu.edu.
-If you are using an email other than your KSU address, please email the longer email shown here. 
+For course related questions, please email the course help group which can be reached using your KSU email by typing cc310 and hit tab to auto complete.
+If you are using an email other than your KSU address, please email the group email shown in the syllabus.
 
 [Slide 4]
 
@@ -92,8 +92,8 @@ If you ever find that you are struggling to keep up, please don’t be afraid to
 [Slide 10]
 
 The grading in this course is very simple. 
-First, 60% of your final grade will depend on the grades you receive from each of the Codio projects in the course. 
-Next, 20% of your grade will come from the interactive tutorials in Codio. 
+First, 70% of your final grade will depend on the grades you receive from each of the Codio projects in the course. 
+Then, 30% of your grade will come from the interactive tutorials in Codio and quizzes for each module. 
 Finally, the last 20% of your grade will come from the quizzes for each module. 
 In this program, the standard “90-80-70-60” grading scale will apply, though I reserve the right to curve grades up to a higher grade level at my discretion. 
 Therefore, you will never be required to get higher than 90% for an A, but you may get an A if you score slightly below 90% if I choose to curve the grades.

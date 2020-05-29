@@ -18,9 +18,9 @@ hidden: true
 </section>
 <section>
 	<p>From your KSU email please use </br> 
-	<b>cc310-help@ksu.edu</b> </br>
+	<b>cc310-help</b> </br>
 	for all course related questions. </br> </br>
-	If you prefer to use an email address outside of the KSU domain, please refer to the syllabus as the address is slightly different.</p> </br>
+	If you prefer to use an email address outside of the KSU domain, please refer to the syllabus for the exact address.</p> </br>
 </section>
 
 <section>
@@ -85,9 +85,8 @@ hidden: true
 <section>
 	<h3>Grading</h3>
 	<ul>
-		<li>60% Projects</li>
-		<li>20% Tutorials</li>
-		<li>20% Quizzes</li>
+		<li>70% Projects</li>
+		<li>30% Tutorials and quizzes</li>
 		<li>Up to 5% Extra Credit</li>
 	</ul>
 	<p>Standard 90-80-70-60 grading scale</p>
