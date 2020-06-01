@@ -7,35 +7,33 @@ hidden: true
 	<img class="plain stretch" src="/images/core-logo-on-white.svg">
 </section>
 <section>
-	<h3>Russell Feldhausen</h3>
+	<h3>Emily Alfs-Votipka</h3>
 	<p>
-		<i>Pronouns: he/him</i><br>
-		(785) 292-3121 (Call/Text)<br>
-		2184 Engineering Hall<br>
+		<i>Pronouns: she/her</i><br>
+		2161 Engineering Hall<br>
 		<i>(working remotely)</i><br>
 		<br>
-		<b>russfeld AT ksu DOT edu</b><br>
-		https://russfeld.me  -  @russfeld<br>
-		<i>Piazza preferred</i>
+		<b>emilyalfs AT ksu DOT edu</b><br>
 	</p>
 </section>
 <section>
-	<h3>Other Instructors & TAs</h3>
-	<ul>
-    <li>George "Bud" LaVezzi</li>
-		<li>Francesco Maiorana</li>
-    <li>Dr. Scott DeLoach
-		<li>Dr. Josh Weese</li>
-		<li>Nathan Bean</li>
-		<li>GTA: Farrukh Ali</li>
-		<li>GTA: BreAnn Anshutz</li>
-	</ul>
+	<p>From your KSU email please use </br> 
+	<b>cc310-help</b> </br>
+	for all course related questions. </br> </br>
+	If you prefer to use an email address outside of the KSU domain, please refer to the syllabus for the exact address.</p> </br>
 </section>
+
 <section>
-	<p>Please use <b>Piazza</b> for all course communication</p>
-	<img class="stretch plain" src="/images/piazza_logo_wiki.png">
-	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Piazza_logo.png&oldid=227030036">Wikimedia Commons</a></p>
+	<h3>Other Instructors</h3>
+	<table style="float:left">
+	<tr> <th>Russell Feldhausen</th> <th><img class="stretch plain" src="/images/feldhausen_russ.jpg"></th> </tr>
+	<tr> <th>Dr. Scott DeLoach</th> <th><img class="stretch plain" src="/images/deloach_scott.jpg"></th> </tr>
+	<tr> <th>George "Bud" LaVezzi</th> <th><img class="stretch plain" src="/images/lavezzi_george.jpg"></th> </tr>
+	</table>
+
+
 </section>
+
 <section>
 	<img class="stretch plain" src="/images/codio_logo.svg">
 	<p class="imagecredit">Image Credit: <a href="https://codio.com/">Codio</a></p>
@@ -46,7 +44,7 @@ hidden: true
 		<li>~12-15 Modules per Course </li>
 		<li>Tutorial, Quiz, Project</li>
 		<li>Gated - Must Complete in Order</li>
-		<li>One Module Each Week</li>
+		<li>Roughly Two Modules Each Week</li>
 		<li>Work At Your Own Pace</li>
 		<li>Automated Grading</li>
 	</ul>
@@ -54,7 +52,7 @@ hidden: true
 <section>
 	<h3>Module 0 - Introduction</h3>
 	<ul>
-		<li>Navigating Canvas, Piazza & Codio</li>
+		<li>Navigating Canvas & Codio</li>
 		<li>Syllabus</li>
 		<li>Where to Get Help</li>
 		<li>Plagiarism</li>
@@ -79,7 +77,7 @@ hidden: true
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
 		<li>Date = Confirmation Quiz</li>
-		<li>Penalty = 30% of Total Points</li>
+		<img class="fit" src="/images/310Late.png">
 		<li>Still Must Complete Module</li>
 		<li>Don't Get Behind!</li>
 	</ul>
@@ -87,9 +85,8 @@ hidden: true
 <section>
 	<h3>Grading</h3>
 	<ul>
-		<li>60% Projects</li>
-		<li>20% Tutorials</li>
-		<li>20% Quizzes</li>
+		<li>70% Projects</li>
+		<li>30% Tutorials and quizzes</li>
 		<li>Up to 5% Extra Credit</li>
 	</ul>
 	<p>Standard 90-80-70-60 grading scale</p>
@@ -109,9 +106,8 @@ hidden: true
 	<h3>What's the Same?</h3>
 	<ul>
 		<li>~9-12 Hrs. of Work Per Module</li>
-		<li>~1 Module Per Week</li>
-		<li>Help Sessions</li>
-		<li>Office Hours (Virtual/Campus)</li>
+		<li>~2 Modules Per Week</li>
+		<li>Office Hours (Virtual)</li>
 	</ul>
 </section>
 <section>
@@ -123,15 +119,14 @@ hidden: true
 </section>
 <section>
 	<h3>Subject to Change</h3>
-	<img class="stretch" src="/images/dontpanic_vantaj.jpg">
-	<p class="imagecredit">Image Credit: <a href="http://vantaj.deviantart.com/art/Don-t-Panic-Wallpaper-267836839">Vantaj on DeviantArt</a></p>
+	<img class="stretch" src="/images/keep_calm.png">
+	<p class="imagecredit">Image Credit: <a href="https://keepcalms.com/p/if-not-calm-keep-calm-else-code-on/">KuMaR C on keepcalms.com</a></p>
 </section>
 <section>
 	<h3>What's Next?</h3>
 	<ul>
-		<li>Watch Video on Canvas, Piazza & Codio</li>
+		<li>Watch Video on Canvas & Codio</li>
 		<li>Read the Syllabus</li>
-		<li>Post an Introduction on Piazza</li>
 		<li>Complete the Course Readiness Quiz</li>
 		<li>Read the Extra Credit Assignments</li>
 	</ul>
