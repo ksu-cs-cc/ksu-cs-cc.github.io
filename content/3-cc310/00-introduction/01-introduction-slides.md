@@ -127,7 +127,7 @@ hidden: true
 	<ul>
 		<li>Watch Video on Canvas & Codio</li>
 		<li>Read the Syllabus</li>
-		<li>Complete the Course Readiness Quiz</li>
+		<li>Complete the Course <br>Readiness Quiz</br></li>
 		<li>Read the Extra Credit Assignments</li>
 	</ul>
 </section>
