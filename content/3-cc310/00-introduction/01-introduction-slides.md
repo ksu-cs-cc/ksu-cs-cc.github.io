@@ -89,7 +89,7 @@ hidden: true
 		<li>30% Tutorials and quizzes</li>
 		<li>Up to 5% Extra Credit</li>
 	</ul>
-	<p>Standard 90-80-70-60 grading scale</p>
+	<p>Standard 90-80-70-60 <br>grading scale</br></p>
 </section>
 <section>
 	<h3>What's Different?</h3>
