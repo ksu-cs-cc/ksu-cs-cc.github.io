@@ -89,7 +89,7 @@ hidden: true
 		<li>30% Tutorials and quizzes</li>
 		<li>Up to 5% Extra Credit</li>
 	</ul>
-	<p>Standard 90-80-70-60 grading scale</p>
+	<p>Standard 90-80-70-60 <br>grading scale</br></p>
 </section>
 <section>
 	<h3>What's Different?</h3>
@@ -127,7 +127,7 @@ hidden: true
 	<ul>
 		<li>Watch Video on Canvas & Codio</li>
 		<li>Read the Syllabus</li>
-		<li>Complete the Course Readiness Quiz</li>
+		<li>Complete the Course <br>Readiness Quiz</br></li>
 		<li>Read the Extra Credit Assignments</li>
 	</ul>
 </section>
