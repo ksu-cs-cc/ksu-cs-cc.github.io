@@ -8,28 +8,18 @@ pre: "5.3 "
 
 ### Instructor Contact Information
 
-* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184 or DUE 2213, but I mostly work remotely from Kansas City, MO
-* **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
+* **Instructor:** Emily Alfs-Votipka (emilyalfs AT ksu DOT edu)<br> _I use **she/her** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
+* **Office:** DUE 2151 (This semester will be strictly online though)
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/).
 
 #### Preferred Methods of Communication:
 
-* **Piazza:** Please use Piazza for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. We're also active on the [K-State CS Rocket.chat](https://chat.cs.ksu.edu).
-* **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
+* **For Course Related Questions**: cc310-help AT KSUemailProd DOT onmicrosoft DOT com
+  * Or from your KSU email, you can type '**cc310-help**' in the 'To' Field then hit your Tab key to auto-complete the address.
+* **Other Questions**: emilyalfs AT ksu DOT edu 
 
-### Graduate Teaching Assistants
+Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to the group email: cc310-help AT KSUemailProd DOT onmicrosoft DOT com
 
-#### CC 310 Spring 2020
-
-To join a GTA's office hours, click the appropriate Zoom link below:
-
-* <big>Farrukh Ali</big> - farrukhali AT ksu DOT edu <br>**Office Hours:** By Appointment via [Zoom](https://ksu.zoom.us/j/632523139) - Email to request a time
-* <big>BreAnn Anshutz</big> - banshutz AT ksu DOT edu <br>**Office Hours:** By Appointment via [Zoom](https://ksu.zoom.us/j/950265885) - Email to request a time
-
-Email the GTAs or post on Piazza to request additional GTA office hours by appointment.
 
 ### Prerequisites
 
@@ -71,11 +61,10 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% - Codio Programming Projects
-* 20% - Codio Tutorials
-* 20% - Canvas Quizzes
+* 70% - Codio Programming Projects
+* 30% - Codio Tutorials and Canvas Quizzes
 
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
+Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** assignment for details.
 
 Letter grades will be assigned following the standard scale:
 
@@ -88,10 +77,19 @@ Letter grades will be assigned following the standard scale:
 ### Late Work
 
 {{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructor. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any module submitted late will have that module's project grade reduced by 30% of the total possible points on that project. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately two modules due each week. Each graded item in the module will have a specific due date specified. In this course the late policy will be as follows: for every 24 hours after the due date, up to 72 hours, a penalty of 10% of the total points in that module will be subtracted from the score received on that module. After 72 hours, a grade of 0 will be given.
+
+**The following table outlines the highest possible score that a module can earn based on when it is complete** 
+
+|  | Wednesday | Thursday | Friday | Saturday |
+| --- | --- | --- | --- | --- |
+| Before or at 7PM CST | 100% | 90% | 80% | 70% |
+| After 7PM CST | 90% | 80% | 70% | 0% |
+
+For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
@@ -116,11 +114,11 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
 
 ### Recommended Texts & Supplies
 
-To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
+To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
 
 ### Subject to Change
 
-The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students. All changes may also be posted to Piazza.
+The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students. 
 
 ### Academic Honesty
 
@@ -160,14 +158,14 @@ This is our personal policy and not a required syllabus statement from K-State. 
 
 Online communication is inherently different than in-person communication. When speaking in person, many times we can take advantage of the _context_ and _body language_ of the person speaking to better understand what the speaker _means_, not just what is said. This information is not present when communicating online, so we must be much more careful about what we say and how we say it in order to get our meaning across.
 
-Here are a few general rules to help us all communicate online in this course, especially while using tools such as Piazza:
+Here are a few general rules to help us all communicate online in this course:
 
 * **Use a clear and meaningful subject line to announce your topic.** Subject lines such as "Question" or "Problem" are not helpful. Subjects such as "Logic Question in Project 5, Part 1 in Java" or "Unexpected Exception when Opening Text File in Python" give plenty of information about your topic.
 * **Use only one topic per message.** If you have multiple topics, post multiple messages so each one can be discussed independently.
 * **Be thorough, concise, and to the point.** Ideally, each message should be a page or less.
 * **Include exact error messages, code snippets, or screenshots, as well as any previous steps taken to fix the problem.** It is much easier to solve a problem when the exact error message or screenshot is provided. If we know what you've tried so far, we can get to the root cause of the issue more quickly.
 * **Consider carefully what you write before you post it.** Once a message is posted, it becomes part of the permanent record of the course and can easily be found by others.
-* **If you are lost, don't know an answer, or don't understand something, speak up!** Piazza allows you to send a message privately to the instructors, or post anonymously so other students don't know your identity. Don't be afraid to ask questions anytime, as you can choose to do so without any fear of being identified by your fellow students.
+* **If you are lost, don't know an answer, or don't understand something, speak up!** We are here to help you! 
 * **Class discussions are confidential.** Do not share information from the course with anyone outside of the course without explicit permission.
 * **Do not quote entire message chains; only include the relevant parts.** When replying to a previous message, only quote the relevant lines in your response.
 * **Do not use all caps.** It makes it look like you are shouting. Use appropriate text markup (bold, italics, etc.) to highlight a point if needed.
