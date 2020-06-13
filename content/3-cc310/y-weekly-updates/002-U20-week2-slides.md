@@ -10,8 +10,11 @@ hidden: true
 <section>
     <h2>Housekeeping</h2>
     <ul>
-        <li>Last day to drop with 100% refund 6/16</li>
-        <li>Last day to drop with 50% refund 6/19</li>
+        <li>Last day to drop with:</li>
+        <ul>
+        <li>100% refund 6/16</li>
+        <li>50% refund 6/19</li>
+        </ul>
     </ul>
 </section>
 
