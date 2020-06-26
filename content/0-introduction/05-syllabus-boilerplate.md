@@ -96,6 +96,10 @@ Kansas State University is committed to providing a safe teaching and learning e
 
 K-State has many resources to help contribute to student success. These resources include accommodations for academics, paying for college, student life, health and safety, and others found at [www.k-state.edu/onestop](http://www.k-state.edu/onestop).
 
+### Face Coverings
+
+To protect the health and safety of the K-State community, students, faculty, staff and visitors must wear face coverings over their mouths and noses while on K-State campuses in all hallways, public spaces, classrooms and other common areas of campus buildings, and when in offices or other work spaces or outdoor settings when 6-feet social distancing cannot be maintained. In addition, all students, faculty, and staff are required to take the [COVID-19 and Face Mask Safety training](https://www.k-state.edu/safety/covid-19/training/). Employees who need reasonable accommodations and assistance related to required face coverings may contact the ADA coordinator at [charlott@k-state.edu](mailto:charlott@k-state.edu), and students needing accommodations may contact the Student Access Center at [accesscenter@k-state.edu](mailto:accesscenter@k-state.edu). In classrooms, faculty have the right to deny a student entry into the room if the student is not wearing a face covering.
+
 ### Academic Freedom Statement
 
 Kansas State University is a community of students, faculty, and staff who work together to discover new knowledge, create new ideas, and share the results of their scholarly inquiry with the wider public. Although new ideas or research results may be controversial or challenge established views, the health and growth of any society requires frank intellectual exchange. Academic freedom protects this type of free exchange and is thus essential to any university's mission.
