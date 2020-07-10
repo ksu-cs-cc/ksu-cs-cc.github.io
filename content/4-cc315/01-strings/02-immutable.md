@@ -26,9 +26,11 @@ I will take a moment to explain the notation that we will be using in this cours
 
 [Slide 4]
 
-Recall that strings are reference variables. This means that the variable contains the memory address of the value. In this instance, we may have set the string called `RESULT` equal to `"Go Cats!"`, the value that is actually contained in `RESULT` will be a pointer to the memory location for the string `"Go Cats!"` Working with strings presents some unintended consequences. Strings are an immutable data type which means that once declared their state cannot change. We will now look at an example of where this can cause trouble in our coding.
+Recall that strings are reference variables. This means that the variable contains the memory address of the value. In this instance, we may have set the string called `RESULT` equal to `"Go Cats!"`, the value that is actually contained in `RESULT` will be a pointer to the memory location for the string `"Go Cats!"`. This principle is why we look at the heap and variable values when walking through while memory mapping. 
 
 [Slide 5]
+
+Working with strings presents some unintended consequences. Strings are an immutable data type which means that once declared their state cannot change. We will now look at an example of where this can cause trouble in our coding.
 
 Here we have a basic function, called `ENCODER`. As input, it takes `TEXT` which is the text to encode and `X` which is a number for the offset. This is a very basic encoding strategy where we esentially shift the letters. This is not a good encoding strategy as it is very weak. 
 

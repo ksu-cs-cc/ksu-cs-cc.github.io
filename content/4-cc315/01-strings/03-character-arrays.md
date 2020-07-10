@@ -9,6 +9,7 @@ date: 2019-02-05T10:53:26-05:00
 
 #### Resources
 
+* [Slides]({{< relref "/4-CC315/01-strings/03-character-arrays-slides.md" >}})
+
 #### Video Script
 
-L
