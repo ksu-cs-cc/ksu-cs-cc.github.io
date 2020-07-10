@@ -18,9 +18,9 @@ hidden: true
 	<h3>Array of Strings</h3>
      <pre class="" style="font-size: .3em"><code class="python">arr = []
 arr.append("foo")
-arr.append("1234")
-length = arr.length()
-string_arr = "".join(arr)
+arr.append("1234") # here arr == ["foo","1234"]
+length = len(arr) # will result in 2
+string_arr = "".join(arr) # will result in "foo1234"
 </code></pre>
 </section>
 
