@@ -3,8 +3,12 @@ type: "reveal"
 hidden: true
 ---
 
+
 <section>
-<h3> TODO: PUT A UNIFORM INTRO SLIDE HERE </h3>
+<img class="stretch plain" src="/images/core-logo-on-white.png">
+<h3> Module 1 <br> Strings and StringBuilders <br> Character Arrays</h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>CC315 Fall 2020</h4>
 </section>
 
 <!--- s2 --->
