@@ -21,7 +21,7 @@ In the previous sections, we have talked about why we would need to use strings 
 
 We will now talk about how we can have the best of both worlds: utilizing text based data and avoiding repetitive character writes. Some languages, such as Java, have a specific solution for this problem, such as `StringBuilders`. Python does not have class explicitly for this, but we can make our own solution; we can use an array of strings. 
 
-In this context, an array of strings and an array can be nearly interchangable with only a few modifications. `Arrays` are a mutable sequence of characters whereas `Strings` are an immutable sequence of characters. The `Array` class has built in functions which we can greatly benefit from. 
+In this context, an array of strings and an array can be nearly interchangeable with only a few modifications. `Arrays` are a mutable sequence of characters whereas `Strings` are an immutable sequence of characters. The `Array` class has built in functions which we can greatly benefit from. 
 
 [Slide 3]
 

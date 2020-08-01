@@ -14,4 +14,8 @@ date: 2019-02-04T10:53:26-05:00
 
 [Slide 1]
 
-In the first module, we saw strings as a 
+In the first module, we saw strings as our first data strcture. The next structure we will cover are trees. 
+
+[Slide 2]
+
+Trees are a heirarchical strcutre. Much like 

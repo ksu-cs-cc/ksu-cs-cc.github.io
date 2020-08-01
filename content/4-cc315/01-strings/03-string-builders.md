@@ -21,7 +21,7 @@ In the previous sections, we have talked about why we would need to use strings 
 
 We will now talk about how we can have the best of both worlds: utilizing text based data and avoiding repetitive character writes. Java has a specific class for this problem: `StringBuilders`.
 
-`StringBuilders` and `Strings` can be nearly interchangable with only a few modifications. `StringBuilders` are a mutable sequence of characters whereas `Strings` are an immutable sequence of characters. The `StringBuilder` class has built in functions which we can greatly benefit from. First, lets discuss initialization; upon initializing a `StringBuilder` will have no characters and an initial capacity of 16 characters and will be automatically made larger if needed. You can also specify a capacity upon initialization if you would like. 
+`StringBuilders` and `Strings` can be nearly interchangeable with only a few modifications. `StringBuilders` are a mutable sequence of characters whereas `Strings` are an immutable sequence of characters. The `StringBuilder` class has built in functions which we can greatly benefit from. First, lets discuss initialization; upon initializing a `StringBuilder` will have no characters and an initial capacity of 16 characters and will be automatically made larger if needed. You can also specify a capacity upon initialization if you would like. 
 
 [Slide 3]
 
@@ -37,7 +37,7 @@ I have highlighted the minimal changes that were required. To change to a `Strin
 
 [Slide 6]
 
-We will now walk through this example as we did with the `String` implementation. We start with an empty heap and then add the `StringBuilder` in the first memory location. Variable `ENC` will be set to point at that location. For this implemenation, the simplest way to visualize the `StringBuilder` is in the form of a character array. It is important to note that an array of characters and a `StringBuilder` are disctinctly different in code. 
+We will now walk through this example as we did with the `String` implementation. We start with an empty heap and then add the `StringBuilder` in the first memory location. Variable `ENC` will be set to point at that location. For this implementation, the simplest way to visualize the `StringBuilder` is in the form of a character array. It is important to note that an array of characters and a `StringBuilder` are distinctly different in code. 
 
 [Slide 7-10]
 

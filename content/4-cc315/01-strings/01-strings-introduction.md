@@ -33,7 +33,7 @@ The field of data science is rapidly growing and has many applications that bene
 Here I would like to include an ad-libbed small demo of the https://projector.tensorflow.org/ finding similar words. 
 -->
 
-In terms of real world application, Tensorflow is a Python package for natural language processing. Many researchers in industry and academia use Tensorflow and its pretrained models to various tasks, like sentiment analysis and categorization. The developers of Tensorflow have built this visualizer at projector.tensorflow.org which is quite interesting to look at. They have used machine learning to determine which words are most related. Here we can look at 'cat' and we see some words that are very intuativley related to cat: mouse, dog, tiger, animal... Then there are some that maybe aren't immediatly clear: blue (for blue catfish), like (for cat like reflexes)
+In terms of real world application, Tensorflow is a Python package for natural language processing. Many researchers in industry and academia use Tensorflow and its pre-trained models to various tasks, like sentiment analysis and categorization. The developers of Tensorflow have built this visualizer at projector.tensorflow.org which is quite interesting to look at. They have used machine learning to determine which words are most related. Here we can look at 'cat' and we see some words that are very intuitively related to cat: mouse, dog, tiger, animal... Then there are some that maybe aren't immediately clear: blue (for blue catfish), like (for cat like reflexes)
 
 [Slide 4]
 

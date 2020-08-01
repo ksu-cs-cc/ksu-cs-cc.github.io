@@ -21,19 +21,19 @@ We have discussed strings in a very theoretic way up to this point. Now we hope 
 
 [Slide 2]
 
-Througout this module, we have discussed why we would want to use strings as a data structure, how they are used behind the scenes, and how we can improve upon that performace. For Java, we looked at `StringBuilders` and for Python, we looked at `Arrays`. Regardless of the language and the replacement of the `String`, we saw dramatic improvements on the number of character copies as well as memory entries. 
+Throughout this module, we have discussed why we would want to use strings as a data structure, how they are used behind the scenes, and how we can improve upon that performance. For Java, we looked at `StringBuilders` and for Python, we looked at `Arrays`. Regardless of the language and the replacement of the `String`, we saw dramatic improvements on the number of character copies as well as memory entries. 
 
 [Slide 3]
 
-I have taken the psuedocode from each example and implemented them in both languages. You can find the code for these in the resources. 
+I have taken the pseudoscode from each example and implemented them in both languages. You can find the code for these in the resources. 
 
 [Slide 4]
 
-Here we can see a comparison in each language of strings versus the languages alternative. This is not intended to draw comparisons on performance between the languages themselves. We are comparing performace in terms of time in these figures. For both languages, we see that Strings and the alternatives perform somewhat similarly until about one and ten million. At one billion, we do see a stark difference between Strings and Arrays in Python 
+Here we can see a comparison in each language of strings versus the languages alternative. This is not intended to draw comparisons on performance between the languages themselves. We are comparing performance in terms of time in these figures. For both languages, we see that Strings and the alternatives perform somewhat similarly until about one and ten million. At one billion, we do see a stark difference between Strings and Arrays in Python 
 
 [Slide 5]
 
-In the context of this course, there are too many factors to take into consideration to do a fair memory analysis. We feel that this is beyond the scope of the module. However, we can offer a brief discussion of why memory analysis is not cut and dry. Many languages use what computer scientists refer to as garbage collection. The language will periodically clear out memory while running if it determines the memory is not necessary. In this application of strings, some languages have built in modifications of strings to better handle the imutablility of strings. So you may be asking yourself: where does that leave us? 
+In the context of this course, there are too many factors to take into consideration to do a fair memory analysis. We feel that this is beyond the scope of the module. However, we can offer a brief discussion of why memory analysis is not cut and dry. Many languages use what computer scientists refer to as garbage collection. The language will periodically clear out memory while running if it determines the memory is not necessary. In this application of strings, some languages have built in modifications of strings to better handle the immutability of strings. So you may be asking yourself: where does that leave us? 
 
 [Slide 6]
 

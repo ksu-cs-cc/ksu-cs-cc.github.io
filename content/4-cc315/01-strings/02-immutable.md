@@ -18,7 +18,7 @@ In this video we will discuss what is going on behind the scenes when we utilize
 
 [Slide 2]
 
-A String is a structure that contains an ordered set of chracters. Characters can be letters, numbers, symbols, and whitespace. Strings can contain any number and combination of characters. Thus, strings could be single characters, words, sentences, and even literal books! 
+A String is a structure that contains an ordered set of characters. Characters can be letters, numbers, symbols, and whitespace. Strings can contain any number and combination of characters. Thus, strings could be single characters, words, sentences, and even literal books! 
 
 [Slide 3]
 
@@ -32,11 +32,11 @@ Recall that strings are reference variables. This means that the variable contai
 
 Working with strings presents some unintended consequences. Strings are an immutable data type which means that once declared their state cannot change. We will now look at an example of where this can cause trouble in our coding.
 
-Here we have a basic function, called `ENCODER`. As input, it takes `TEXT` which is the text to encode and `X` which is a number for the offset. This is a very basic encoding strategy where we esentially shift the letters. This is not a good encoding strategy as it is very weak. 
+Here we have a basic function, called `ENCODER`. As input, it takes `TEXT` which is the text to encode and `X` which is a number for the offset. This is a very basic encoding strategy where we essentially shift the letters. This is not a good encoding strategy as it is very weak. 
 
 [Slide 6]
 
-For example lets say we have a string `"Fish"` which we want to encode by offsetting 2. `F` becomes `H`, `i` becomes `k`, `s` becomes `u`, and `h` becomes `j`. This is a very natural implementation of a task such as encoding and on the surface does not appear to be a bad practice. However, we will see that this implementaion is not ideal. Let's walk through an example. 
+For example lets say we have a string `"Fish"` which we want to encode by offsetting 2. `F` becomes `H`, `i` becomes `k`, `s` becomes `u`, and `h` becomes `j`. This is a very natural implementation of a task such as encoding and on the surface does not appear to be a bad practice. However, we will see that this implementation is not ideal. Let's walk through an example. 
 
 [Slide 7]
 
@@ -46,7 +46,7 @@ Let's say we call the `ENCODER` function with the string `"Data is great!"` and 
 
 We begin by initializing the variable `ENC` to an empty string, creating a new entry in memory and assigning `ENC` to the first spot in memory. 
 We then start our loop and the first character is `D`. When offset by `8`, this gives us `L`.
-We append `L` to `ENC`. Stince strings are immutable, meaning their state cannot change, this creates a new place in memory for the string that contains `L`. Our vairable is updated to point to the second memory spot. 
+We append `L` to `ENC`. Since strings are immutable, meaning their state cannot change, this creates a new place in memory for the string that contains `L`. Our variable is updated to point to the second memory spot. 
 
 [Slides 14-16]
 
@@ -55,7 +55,7 @@ We then append `h` to `ENC`. Again, this creates a new string in memory and upda
 
 [Slides 17-20]
 
-Now to the third iteration of the loop which is `t`, and the offset character will be the character `b`. As before, we have a new memory entry and update the pointer for `ENC`. Now we have done a total of `6` chacater copies for a three character string! We continue our loop in this fashion. We will now fast forward to the end of the loop. How many character copies do you think we will make for this string? How many memory entries? Take a moment to pause the video if you would like to determine the pattern for yourself. 
+Now to the third iteration of the loop which is `t`, and the offset character will be the character `b`. As before, we have a new memory entry and update the pointer for `ENC`. Now we have done a total of `6` character copies for a three character string! We continue our loop in this fashion. We will now fast forward to the end of the loop. How many character copies do you think we will make for this string? How many memory entries? Take a moment to pause the video if you would like to determine the pattern for yourself. 
 
 [Slide 21]
 
@@ -63,9 +63,9 @@ Skipping ahead, we see that there have been `15` memory entries for a `14` chara
 
 [Slide 22]
 
-I have outlined here how many character copies have occured and how many memory locations have been created. 
+I have outlined here how many character copies have occurred and how many memory locations have been created. 
 
 [Slide 23-24]
 
-We can generalize this to the following. You don't need to worry about determining these equations! I caluculated them to show you the gravity of using plain strings. While it doesn't seem cumbersome for smaller strings and thus fewer iterations, it really adds up. 
+We can generalize this to the following. You don't need to worry about determining these equations! I calculated them to show you the gravity of using plain strings. While it doesn't seem cumbersome for smaller strings and thus fewer iterations, it really adds up. 
 For a string with one million characters, that would be one million one memory addresses filled and five hundred billion five hundred thousand total character copies. While modern coding languages will do periodic clean up routines and try to optimize this behavior, we need to be mindful of the way we implement strings. Even though it seems bleak, there is an alternative that we will discuss in the next section that offers considerable improvements. 
