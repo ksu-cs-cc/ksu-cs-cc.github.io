@@ -12,6 +12,21 @@ date: 2019-02-04T10:53:26-05:00
 
 #### Video Script
 
-[Slide 1]
+[Slide ]
 
-In the first module, we saw strings as a 
+Cycles 
+
+[Slide ]
+
+Single tree vs two trees 
+
+[Slide ]
+
+Single parent for each node 
+
+[Slide ]
+
+Single root 
+
+[Slide ]
+Gravity 

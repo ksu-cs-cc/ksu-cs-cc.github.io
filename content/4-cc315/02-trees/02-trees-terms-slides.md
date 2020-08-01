@@ -10,3 +10,10 @@ hidden: true
 <h4>CC315 Fall 2020</h4>
 </section>
 
+<section>
+<h3>Nodes</h3>
+</section>
+
+<section>
+<h3>Edges</h3>
+</section>

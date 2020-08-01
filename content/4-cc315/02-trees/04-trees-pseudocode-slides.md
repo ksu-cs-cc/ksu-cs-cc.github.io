@@ -10,3 +10,6 @@ hidden: true
 <h4>CC315 Fall 2020</h4>
 </section>
 
+<section>
+<img class="stretch plain" src="/images/315trees_uml.png">
+</section>
