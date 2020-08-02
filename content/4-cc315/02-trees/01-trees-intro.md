@@ -14,16 +14,14 @@ date: 2019-02-04T10:53:26-05:00
 
 [Slide 1]
 
-In the first module, we saw strings as our first data structure. The next structure we will cover are trees. 
+Our next data structure will be trees! Trees are a hierarchical structure and, as the name implies, trees are used to show hierarchies. These can include biologic classifications, like this dinosaur classification, work hierarchies, family trees, sports brackets and much more. 
 
 [Slide 2]
 
-Trees are a hierarchical structure. As the name implies, trees are used to show hierarchies. These can include biologic classifications, work hierarchies, family trees, sports brackets and much more. 
+By comparison, strings and stacks are linear data structures. They contain data which has a defined linear order. In strings, we have exactly one character after another. 
 
 [Slide 3]
 
-By comparison, strings and stacks are linear data structures. They contain data which has a defined linear order. In strings, we have exactly one character after another. 
+In trees, multiples items can follow a single item. For example, in this management structure the 1st Assistant Manager and the Shift Running Manager both work under the Restaurant Manager. In a linear structure, there would not be multiple types of positions reporting to the Restaurant Manager. 
 
-[Slide 4]
-
-In trees, multiples items can follow a single item. 
+[Slide 5]

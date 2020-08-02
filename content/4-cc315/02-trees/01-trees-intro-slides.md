@@ -10,3 +10,18 @@ hidden: true
 <h4>CC315 Fall 2020</h4>
 </section>
 
+<section>
+<img class="stretch plain" src="/images/315dino.png">
+	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_dinosaurs_EN.svg">WikiMedia</a></p>
+</section>
+
+<section>
+<pre class="" style="font-size: .3em"><code class="python"> s = "Go Cats!"</code></pre>
+<pre class="" style="font-size: .3em"><code class="python"> t = "123!?~ k\n foo" #\n is new line character</code></pre>
+<pre class="" style="font-size: .3em"><code class="python"> u = ":)"</code></pre>
+</section>
+
+<section>
+<img class="stretch plain" src="/images/315manage.png">
+	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:McDonald%27s_Restaurant_Organizational_Structure_Diagram.png">WikiMedia</a></p>
+</section>
