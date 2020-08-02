@@ -25,3 +25,8 @@ hidden: true
 <img class="stretch plain" src="/images/315manage.png">
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:McDonald%27s_Restaurant_Organizational_Structure_Diagram.png">WikiMedia</a></p>
 </section>
+
+<section>
+<img class="stretch plain" src="/images/315realtree.png">
+	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Tree_logo.png">WikiMedia</a></p>
+</section>

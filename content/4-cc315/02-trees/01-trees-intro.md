@@ -25,3 +25,5 @@ By comparison, strings and stacks are linear data structures. They contain data 
 In trees, multiples items can follow a single item. For example, in this management structure the 1st Assistant Manager and the Shift Running Manager both work under the Restaurant Manager. In a linear structure, there would not be multiple types of positions reporting to the Restaurant Manager. 
 
 [Slide 5]
+
+The goal of this module is to get us comfortable with the vocabulary related to trees and for us to implement a basic tree. 
