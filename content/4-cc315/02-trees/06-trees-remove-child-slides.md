@@ -11,6 +11,11 @@ hidden: true
 </section>
 
 <section>
+<img class="stretch plain" src="/images/315trash.svg">
+	<p class="imagecredit">Image Credit: <a href="https://freesvg.org/trash-folder">FreeSVG</a></p>
+</section>
+
+<section>
 <img class="stretch plain" src="/images/315_add_child2.svg">
 </section>
 
@@ -28,10 +33,6 @@ hidden: true
 </section>
 
 <section>
-<img class="stretch plain" src="/images/315_add_child1.svg">
-</section>
-
-<section>
 <table>
 <tr><td> MyTree </td><td> parent </td><td> children </td><td> item </td></tr>
 <tr><td> a </td><td> none </td><td> {b,c} </td><td> A </td></tr>
@@ -42,6 +43,10 @@ hidden: true
 <tr><td> y </td><td> x </td><td> {} </td><td> Y </td></tr>
 <tr><td> z </td><td> x </td><td> {} </td><td> Z </td></tr>
 </table>
+</section>
+
+<section>
+<img class="stretch plain" src="/images/315_add_child1.svg">
 </section>
 
 <section>
