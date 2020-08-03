@@ -26,4 +26,4 @@ In trees, multiples items can follow a single item. For example, in this managem
 
 [Slide 5]
 
-The goal of this module is to get us comfortable with the vocabulary related to trees and for us to implement a basic tree. 
+The goal of this module is to get us comfortable with the vocabulary related to trees and for us to implement a basic tree. In the next video, we will lay the foundation of tree vocabulary.

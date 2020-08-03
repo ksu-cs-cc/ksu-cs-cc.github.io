@@ -388,9 +388,11 @@ hidden: true
  	<img class="stretch plain" src="/images/315mem_map5.png">
 </section>
 
+
 <section>
-	<h3>Fast Forward</h3>
-    <pre class="" style="font-size: .3em"><code class="python">
+<h3>Fast Forward</h3>
+  <div style="float: right; width: 58%">
+	       <pre class="" style="font-size: .3em"><code class="python">
     function ENCODER(TEXT,X)
         //TEXT is the text to encode
         //X is the offset
@@ -406,10 +408,11 @@ hidden: true
         return ENC
     end function
  </code></pre>
-
+  </div>
+  <div style="float:left; width: 42%">
 <small>
 
-| Iterations | Char <br/>Copies | Memory <br/> Addresses |
+| Iterations | Char <br/>Copies | Mem. <br/> Adr. |
 | --- | --- | --- |
 | 1 | 1 | 2 |
 | 2 | 3 (1+2) | 3 |
@@ -418,30 +421,14 @@ hidden: true
 | 5 | 15 (10+5) | 6 |
 
 </small>
+  </div>
 </section>
 
 <section>
-	<h3>Fast Forward</h3>
-    <pre class="" style="font-size: .3em"><code class="python">
-    function ENCODER(TEXT,X)
-        //TEXT is the text to encode
-        //X is the offset
-        ENC = ""
-        loop I from 1 to LENGTH of TEXT
-            CURRENT = TEXT[I]
-            IF CURRENT IS A LETTER
-                CHAR_ENC = GET X-th CHAR after CURRENT
-                ENC += CHAR_ENC
-            ELSE
-                ENC += '*'
-        end loop
-        return ENC
-    end function
- </code></pre>
-
+<h3>Fast Forward</h3>
 <small>
 
-| Iterations | Char <br/>Copies | Memory <br/> Addresses |
+| Iterations | Char <br/>Copies | Mem. <br/> Adr. |
 | --- | --- | --- |
 | 1 | 1 | 2 |
 | 2 | 3 (1+2) | 3 |
@@ -454,24 +441,9 @@ hidden: true
 </small>
 </section>
 
+
 <section>
 	<h3>Fast Forward</h3>
-    <pre class="" style="font-size: .3em"><code class="python">
-    function ENCODER(TEXT,X)
-        //TEXT is the text to encode
-        //X is the offset
-        ENC = ""
-        loop I from 1 to LENGTH of TEXT
-            CURRENT = TEXT[I]
-            IF CURRENT IS A LETTER
-                CHAR_ENC = GET X-th CHAR after CURRENT
-                ENC += CHAR_ENC
-            ELSE
-                ENC += '*'
-        end loop
-        return ENC
-    end function
- </code></pre>
 
 <small>
 
