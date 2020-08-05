@@ -25,11 +25,11 @@ Throughout this module, we have discussed why we would want to use strings as a 
 
 [Slide 3]
 
-I have taken the pseudoscode from each example and implemented them in both languages. You can find the code for these in the resources. 
+I have taken the pseudoscode from each example and implemented them in both languages. 
 
 [Slide 4]
 
-Here we can see a comparison in each language of strings versus the languages alternative. This is not intended to draw comparisons on performance between the languages themselves. We are comparing performance in terms of time in these figures. For both languages, we see that Strings and the alternatives perform somewhat similarly until about one and ten million. At one billion, we do see a stark difference between Strings and Arrays in Python 
+Here we can see a comparison in each language of strings versus the languages alternative. This is not intended to draw comparisons on performance between the languages themselves. We are comparing performance in terms of time in these figures. For both languages, we see that Strings and the alternatives perform somewhat similarly until about one million characters. After that point, we see a stark difference between the string methods and their alternatives. For on the tests of 10<sup>8</sup> and 10<sup>9</sup> in Java, the string implementation took over 24 hours and the StringBuilder implementation ran out of memory. For these reasons, they are omitted from the figure. 
 
 [Slide 5]
 

@@ -11,9 +11,37 @@ hidden: true
 </section>
 
 <section>
+<h3>Tree Terms</h3>
+<img class="stretch plain" src="/images/315_treeterms_base.svg">
+</section>
+
+<section>
 <h3>Nodes</h3>
+<img class="stretch plain" src="/images/315_treeterms_nodes.svg">
 </section>
 
 <section>
 <h3>Edges</h3>
+<img class="stretch plain" src="/images/315_treeterms_base.svg">
+</section>
+
+<section>
+<h3>Root</h3>
+<img class="stretch plain" src="/images/315_treeterms_root.svg">
+</section>
+
+<section>
+<h3>Leaves</h3>
+<img class="stretch plain" src="/images/315_treeterms_leaves.svg">
+</section>
+
+
+<section>
+<h3>Degree</h3>
+<img class="stretch plain" src="/images/315_treeterms_degree.gif">
+</section>
+
+<section>
+<h3>Recursive</h3>
+<img class="stretch plain" src="/images/315_treeterms_recursive.svg">
 </section>

@@ -27,7 +27,8 @@ hidden: true
 
 <section>
 <h5>Psuedocode Comparison</h5>
-<pre class="" style="font-size: .28em; width: 55%"><code class="java">
+<div>
+<pre class="" style="font-size: .2em; width: 35%"><code class="java">
     function ENCODER(TEXT,X) // General: Strings
         //TEXT is the text to encode
         //X is the offset
@@ -43,8 +44,10 @@ hidden: true
         return ENC
     end function
  </code></pre>
-
- <pre class="" style="font-size: .28em; width: 55%"><code class="java">
+</div>
+<div style="width:100%">
+<div style="float:left">
+ <pre class="" style="font-size: .2em;width:100%"><code class="java">
     function SBENCODER(TEXT,X) // Java: StringBuilder
         //TEXT is the text to encode
         //X is the offset
@@ -60,8 +63,9 @@ hidden: true
         return ENC.toString()
     end function
  </code></pre>
-
- <pre class="" style="font-size: .28em;  width: 55%"><code class="python">
+</div>
+<div style="float:right">
+ <pre class="" style="font-size: .2em;width:100%"><code class="python">
     function ARR_ENCODER(TEXT,X) # Python: Array
         #TEXT is the text to encode
         #X is the offset
@@ -77,15 +81,17 @@ hidden: true
         return "".join(ENC)
     end function
  </code></pre>
+ </div>
+ </div>
 </section>
 
 
 
 <section>
-	<h3> Time Comparison TODO PUT IN JAVA PIC</h3>
+	<h3> Time Comparison</h3>
 <div class="row">
     <img src="/images/315_stringsTime_python.png" style="width:48%">
-    <img src="/images/315_stringsTime_python.png" style="width:48%">
+    <img src="/images/315_stringsTime_java.png" style="width:48%">
 </div>
 </section>
 
