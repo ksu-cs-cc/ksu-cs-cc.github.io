@@ -25,7 +25,7 @@ hidden: true
 
 <section>
 <h3> Example </h3>
-<div style="float:left">
+<div style="float:left;width:49%">
 <small>
 
 | Node | parent | children | item |
@@ -39,8 +39,8 @@ hidden: true
 
 </small>
  </div>
- <div style="width=100%">
-<img class="stretch plain" src="/images/315_2.4_code_ex.svg">
+ <div style="width:49%;float:right">
+<img class="stretch plain" style="height:500px"src="/images/315_2.4_code_ex.svg">
 <div>
 </section>
 
