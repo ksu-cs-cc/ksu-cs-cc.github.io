@@ -60,9 +60,9 @@ hidden: true
 <section>
 <h3>Getters</h3>
 <ul>
-<li>getItem <br/>returns the item for that node</li>
-<li>getParent <br/>returns the parent for that node</li>
-<li>getChildren <br/>returns the children for that node</li>
+<li>getItem <br/>returns the item</li>
+<li>getParent <br/>returns the parent</li>
+<li>getChildren <br/>returns the children</li>
 </ul>
 </section>
 
@@ -70,16 +70,16 @@ hidden: true
 <section>
 <h3>Basic Functions</h3>
 <ul>
-<li>isRoot<br/> returns true if this node is the root</li>
-<li>isLeaf<br/> returns true if this node is the leaf</li>
+<li>isRoot<br/> returns true if this is the root</li>
+<li>isLeaf<br/> returns true if this is a leaf</li>
 </ul>
 </section>
 
 <section>
 <h3>Basic Functions</h3>
 <ul>
-<li>getDegree <br/> returns the degree of the node</li>
-<li>findChild(value) <br/> returns true the node is a child of this node</li>
+<li>getDegree <br/> returns the degree of this node</li>
+<li>findChild(value) <br/> returns the child with the input value </li>
 </ul>
 </section>
 

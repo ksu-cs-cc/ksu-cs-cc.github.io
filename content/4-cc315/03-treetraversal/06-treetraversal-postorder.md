@@ -1,44 +1,44 @@
 ---
-title: "Preorder Traversal"
-pre: "5. "
-weight: 35
+title: "Postorder Traversal"
+pre: "6. "
+weight: 36
 date: 2019-02-04T10:53:26-05:00
 ---
 
 {{< youtube En7FDq5XrsA >}}
 
 #### Resources
-* [Slides]({{< relref "/4-CC315/03-treetraversal/05-treetraversal-preorder-slides.md" >}})
+* [Slides]({{< relref "/4-CC315/03-treetraversal/06-treetraversal-postorder-slides.md" >}})
 
 #### Video Script
 
 [Slide 1]
 
-When we talk about preorder and postorder traversals, the prefix of the traversal refers to the root. So in a preorder traversal we will record the root then run the preorder traversal on the children. 
+When we talk about preorder and postorder traversals, the prefix of the traversal refers to the root. So in a postorder traversal we will run the postorder traversal on the children then record the root. 
 
 
 [Slide 2]
 
 The algorithms for traversals are rather straight forward. Rather than just printing the node item, we will pass a `StringBuilder` and build it as we are recursing though the tree. 
 
-For the preorder traversal, we first append the item of the root to our `StringBuilder` then run the preorder traversal on each of the children. 
+For the postorder traversal, we first run the postorder traversal on each of the children then append the item of the root to our `StringBuilder`.
 
-We must note that for general trees, these traversals can result in different strings. This is due to the fact that there is no fixed order on the children of a node. 
+As we discussed in the preorder traversal video, general tree traversals can result in different strings. This is due to the fact that there is no fixed order on the children of a node. 
 
 
 [Slide 3]
 
-For example, these two trees are the same! This can happen if the user inputs nodes in a different order. Visually, we can check that they are the same by looking at each node and its children. For example, node `A` has children `B`. `C`, `D`, and `E` in both trees and we would then check all of their children.
-
-Doing traversals on either of these versions of the tree could result in different strings. Working through examples in this video, we will use the visual order of children to get an initial traversal and discuss some other potential traversals.
-
+To give an example traversal, we will walk through it with this format. On the left is the tree, on the right is the call stack, and across the bottom is our `StringBuilder` that will be passed throughout the recursion. We start by calling the `POSTORDER` function from the root of our tree. 
+We then call the `POSTORDER` function on each of the children of `A`.
 
 [Slide 4]
 
-To give an example traversal, we will walk through it with this format. On the left is the tree, on the right is the call stack, and across the bottom is our `StringBuilder` that will be passed throughout the recursion. We start by calling the `PREORDER` function from the root of our tree. 
+We will start with node `B`
 
 
 [Slide 5]
+
+
 
 First we append the item of our node to the stringbuilder. Then we call the preorder function on each of node `A`s children. We will start with node `B`
 
