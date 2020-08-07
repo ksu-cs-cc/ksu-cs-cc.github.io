@@ -28,7 +28,6 @@ hidden: true
  </code></pre>
 </section>
 
-
 <section>
 <h3> Example </h3>
 <div style="width:700px;float:left">
@@ -544,9 +543,9 @@ hidden: true
 <div style="width:700px;float:right">
 <small>
 <ul>
-    <li>  </li>
-    <li>  </li>
-    <li>  </li>
+    <li> GFBCHLMJIKDEA </li>
+    <li> EHCLMKJIDGFBA </li>
+    <li> ABFGCHDIJLMKE </li>
 </ul>
 </small>
 </div>

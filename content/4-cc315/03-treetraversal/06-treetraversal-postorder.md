@@ -33,96 +33,106 @@ We then call the `POSTORDER` function on each of the children of `A`.
 
 [Slide 4]
 
-We will start with node `B`
+We will start with node `B`. We then call the `POSTORDER` function on its children. 
 
 
 [Slide 5]
 
+We will do `F` first. The next step would be to run the `POSTORDER` function on on the children of `F`. Node `F` has no children, so we record `F`. Then move on to the next child of node `B`, which is node `G`
 
-
-First we append the item of our node to the stringbuilder. Then we call the preorder function on each of node `A`s children. We will start with node `B`
 
 
 [Slide 6]
 
-We append `B` then call the preorder function on its children. 
-
+The next step would be to run the `POSTORDER` function on on the children of `G`. Node `G` has no children, so we record `G`. Then move on to the next child of node `B`.
 
 [Slide 7]
 
-We append `F` then call the preorder function on its children. Node `F` has no children so we continue with the children of `B` which will be node `G` next. 
+Node `B` has no more children so we record `B` in our `StringBuilder`. Now we move on to another child of `A`
 
 
 [Slide 8]
 
-We append `G` then call the preorder function on its children. Node `G` has no children so we continue with the children of `B`. Node `B` has only the two children which we have already recorded. Then we continue with the children of `A` and call the preorder function on node `C`. 
+We run the `POSTORDER` function on `C`. Then we move on to the children of `C`. 
 
 
 [Slide 9]
 
-We will record `C`, then call preorder on `C`s children. The only child is node `H`.
+Node `C` has one child, node `H`. Our next step would be to run the `POSTORDER` traversal on the children of `H`. Node `H` has no children so we record `H` in our `StringBuilder`. We would then move on to the next children of node `C`.
 
 
 [Slide 10]
 
-We record `H` and call the preorder function on `H`s children. Node `H` has no children so we return to node `C` which only had `H` as a child so we return to `A` and continue calling the preorder function on its children. 
+Node `C` only has `H` as a child which we have already recorded. Thus, we record `C` in our `StringBuilder`. Now we continue with the children of node `A`
+
 
 [Slide 11]
 
-Next is node `D` so we record its item. 
+The next child is node `D`. This would be a good spot to pause the video and try to finish out the postorder traversal for yourself! 
 
-This is a good place to pause the video and try to work the rest of the traversal out for yourself! Again, for this video, we will work from left to right on the children. However it is possible that you come up with a different solution. We will discuss more examples of possible solutions! 
-
-To continue, we call the preorder function on each of `D`s children and we will start with `I`.
+The next step is to run the `POSTORDER` function on the children of node `D`. 
 
 [Slide 12]
 
-We will record `I`, then call preorder on `I`s children. Node `I` has no children so we continue with `D`s children. Next would be node `J`
-
+Node `I` will be the next node we visit. We would run the `POSTORDER` function on the children of node `I` however it does not have any children. So we record `I` in our `StringBuilder` and then continue with the children of node `D`. 
 
 [Slide 13]
 
-We record `J` then call the preorder function on its children. We would do node `L` next. 
+The next child of node `D` will be node `J`, so we run the `POSTORDER` traversal on the children of node `J`. 
 
 
 [Slide 14]
 
-We will record `L`, then call preorder on `L`s children. Node `L` has no children so we continue with `J`s children. Next would be node `M`.
+We will do node `L` first. We would run the `POSTORDER` function on the children of `L`. Node `L` has no children so we record `L` in our `StringBuilder` and continue with the children of `J`.
 
 
 [Slide 15]
 
-We will record `M`, then call preorder on `M`s children. Node `M` has no children so we continue with `J`s children. We have visited each of `J`s children so we return to `D` and continue calling the preorder function on its children. The only child that is left for `D` is node `K`.
+Now we are at `M`. We would run the `POSTORDER` function on the children of `M`. Node `M` has no children so we record `M` in our `StringBuilder` and continue with the children of `J`.
 
 
 [Slide 16]
 
-We will record `K`, then call preorder on `K`s children. Node `K` has no children so we continue with `D`s children. We have now visited all of `D`s children so we continue with `A`s children. The last node is node `E`
+Node `J` has no more children so we record the `J` in our `StringBuilder` and continue with the children of `D`.
 
 
 [Slide 17]
 
-We record `E` and call the preorder function on `E`s children. Node `E` has no children so we return to node `A`. We have now visited all of `A`s children. Thus, we are done with the traversal! 
+The last child of `D` is `K`. Node `K` has no children so we have no nodes to run the `POSTORDER` traversal on and thus we record `K` in the `StringBuilder`. Then we continue with the children of `D`.
 
 
 [Slide 18]
 
-As I mentioned previously, it is possible to have different preorder traversals for this tree. Here I have listed three possible preorder traversals. This is not a complete list!
-
-When looking at these to verify that they are correct preorder traversals, we check that when a node is written its children are written immediately after. We can also check that a nodes parent is written before itself. 
+Node `K` was the last child of `D` so we record `D` in our `StringBuilder`. Then we continue with the children of node `A`. 
 
 
 [Slide 19]
 
-Here we have three examples that are not valid preorder traversals. This would be another good place to pause the video to see if you can determine why these are not valid! 
-
-Let's start with the first one. The first element is `A`, since this is the root of the tree this is correct. The next element is `G`; this would imply that `G` is a child of `A`. This is not the case and thus makes this an invalid preorder traversal. This is not the only error in this traversal. Both `G` and `F` are written before their parent, `B`. Also, `H` is before its parent `C`.
-
-In the second traversal, node `E` is recorded first. For a preorder traversal, this would imply that `E` is the root of this tree. As a rule of thumb, the root of the tree should be the first character in a preorder traversal. 
-
-In the third traversal, we start with `A` which is correct. Next we have `B` which is correct since node `B` is a child of node `A`. The next character is `C`. Based on our tree this is not correct. Having `C` as the next character would imply one of two things either `C` is a child of `B` or `B` has no children. Neither of these are true in our case. The premise of the issue in this instance is that the children of `B` need to be immediately after `B`. 
+The last child of `A` is `E`. Node `E` has no children to run the `POSTORDER` traversal on so we record `E` in our `StringBuilder`. Then we continue with the children of `A`.
 
 
 [Slide 20]
 
-We have just covered preorder traversals in this video. The key takeaway from this should be that in a preorder traversal, the root always comes before its children. We record the root then run the preorder traversal on the nodes children. 
+Since `E` was the last child of node `A`, we can now record node `A` in our `StringBuilder` and we are done! 
+
+
+[Slide 21]
+
+As I mentioned previously, it is possible to have different postorder traversals for this tree. Here I have listed three possible postorder traversals. This is not a complete list!
+
+When looking at these to verify that they are correct postorder traversals, we check that when a node is written its children are written immediately before it. We can also check that a nodes parent is written after itself. 
+
+
+[Slide 22]
+
+Here we have three examples that are not valid postorder traversals. This would be another good place to pause the video to see if you can determine why these are not valid! 
+
+In this first example, we start with `G` then `F` and then `B`. Up to this point, we are okay. The children have appeared in the traversal before their parent. Next we have `C`. This is where our traversal goes wrong. What is written in this traversal would imply one of two things. Either node `C` is a leaf or `C` is the parent node of `B`. Neither of these are true statements. Node `C` is the parent node of `H`, thus, `H` must appear before `C`.
+
+For the second example, we start with `E` then `H` and then `C`. We are okay so far. Next we have `L` then `M` and then `K`. Here is the issue for this traversal. This would imply that `K` is either a sibling of `L` and `M` or that `K` is their parent. We know that `J` is the parent node of `L` and `M` and thus must come immediately after them. 
+
+This last example is actually a preorder traversal! Postorder traversals will always end with the root. 
+
+[Slide 20]
+
+We have just covered postorder traversals in this video. The key takeaway from this should be that in a postorder traversal, the root always comes after its children. We run the postorder traversal on the nodes children then record the nodes value. 
