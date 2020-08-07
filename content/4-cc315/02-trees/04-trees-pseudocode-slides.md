@@ -41,7 +41,7 @@ hidden: true
  </div>
  <div style="width:49%;float:right">
 <img class="stretch plain" style="height:500px"src="/images/315_2.4_code_ex.svg">
-<div>
+</div>
 </section>
 
 <section>

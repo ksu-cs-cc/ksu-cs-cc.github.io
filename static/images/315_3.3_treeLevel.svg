@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="315_3.2_treeLevel.svg"
+   id="svg2352"
+   version="1.1"
+   height="500"
+   width="400">
+  <metadata
+     id="metadata2358">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2356" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg2352"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="322"
+     inkscape:cy="177.21088"
+     inkscape:cx="201.36054"
+     inkscape:zoom="1.47"
+     inkscape:snap-global="true"
+     showgrid="false"
+     id="namedview2354"
+     inkscape:window-height="1005"
+     inkscape:window-width="1204"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <ellipse
+     id="ellipse2268"
+     ry="30"
+     rx="30"
+     cy="33.5"
+     cx="232.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2270"
+     font-size="20"
+     font-family="Times New Roman"
+     y="39.5"
+     x="225.5">A</text>
+  <ellipse
+     id="ellipse2272"
+     ry="30"
+     rx="30"
+     cy="123.5"
+     cx="97.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2274"
+     font-size="20"
+     font-family="Times New Roman"
+     y="129.5"
+     x="90.5">B</text>
+  <ellipse
+     id="ellipse2276"
+     ry="30"
+     rx="30"
+     cy="123.5"
+     cx="232.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2278"
+     font-size="20"
+     font-family="Times New Roman"
+     y="129.5"
+     x="225.5">C</text>
+  <ellipse
+     id="ellipse2280"
+     ry="30"
+     rx="30"
+     cy="123.5"
+     cx="355.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2282"
+     font-size="20"
+     font-family="Times New Roman"
+     y="129.5"
+     x="348.5">D</text>
+  <ellipse
+     id="ellipse2284"
+     ry="30"
+     rx="30"
+     cy="214.5"
+     cx="211.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2286"
+     font-size="20"
+     font-family="Times New Roman"
+     y="220.5"
+     x="204.5">G</text>
+  <ellipse
+     id="ellipse2288"
+     ry="30"
+     rx="30"
+     cy="214.5"
+     cx="282.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2290"
+     font-size="20"
+     font-family="Times New Roman"
+     y="220.5"
+     x="275.5">H</text>
+  <ellipse
+     id="ellipse2292"
+     ry="30"
+     rx="30"
+     cy="214.5"
+     cx="46.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2294"
+     font-size="20"
+     font-family="Times New Roman"
+     y="220.5"
+     x="40.5">E</text>
+  <ellipse
+     id="ellipse2296"
+     ry="30"
+     rx="30"
+     cy="214.5"
+     cx="147.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2298"
+     font-size="20"
+     font-family="Times New Roman"
+     y="220.5"
+     x="141.5">F</text>
+  <ellipse
+     id="ellipse2300"
+     ry="30"
+     rx="30"
+     cy="307.5"
+     cx="97.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2302"
+     font-size="20"
+     font-family="Times New Roman"
+     y="313.5"
+     x="94.5">I</text>
+  <ellipse
+     id="ellipse2304"
+     ry="30"
+     rx="30"
+     cy="307.5"
+     cx="202.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2306"
+     font-size="20"
+     font-family="Times New Roman"
+     y="313.5"
+     x="198.5">J</text>
+  <ellipse
+     id="ellipse2308"
+     ry="30"
+     rx="30"
+     cy="402.5"
+     cx="202.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2310"
+     font-size="20"
+     font-family="Times New Roman"
+     y="408.5"
+     x="195.5">K</text>
+  <polygon
+     id="polygon2312"
+     points="207.538,50.141 122.462,106.859"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2314"
+     points="122.462,106.859 131.891,106.582 126.344,98.261"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2316"
+     points="232.5,63.5 232.5,93.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2318"
+     points="232.5,93.5 237.5,85.5 227.5,85.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2320"
+     points="256.711,51.215 331.289,105.785"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2322"
+     points="331.289,105.785 327.785,97.025 321.88,105.096"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2324"
+     points="82.833,149.67 61.167,188.33"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2326"
+     points="61.167,188.33 69.44,183.795 60.716,178.907"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2328"
+     points="111.946,149.793 133.054,188.207"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2330"
+     points="133.054,188.207 133.583,178.788 124.819,183.604"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2332"
+     points="225.754,152.732 218.246,185.268"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2334"
+     points="218.246,185.268 224.917,178.597 215.173,176.349"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2336"
+     points="246.946,149.793 268.054,188.207"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2338"
+     points="268.054,188.207 268.583,178.788 259.819,183.604"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2340"
+     points="133.294,240.923 111.706,281.077"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2342"
+     points="111.706,281.077 119.898,276.398 111.09,271.663"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2344"
+     points="162.771,240.322 187.229,281.678"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2346"
+     points="187.229,281.678 187.46,272.247 178.853,277.337"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2348"
+     points="202.5,337.5 202.5,372.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2350"
+     points="202.5,372.5 207.5,364.5 197.5,364.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     style="stroke-width:0.99936597;stroke-miterlimit:4;stroke-dasharray:3.99746388,1.99873194,0.99936597,1.99873194;stroke-dashoffset:0;stroke:#512888;stroke-opacity:1"
+     transform="matrix(2.9463437,0.54690187,-1.9654667,0.81983625,-120.29295,-82.487114)"
+     stroke="#000000"
+     stroke-width="1"
+     points="207.538,50 122.462,106.859 "
+     id="polygon2312-1" />
+  <polygon
+     id="polygon2312-1-1"
+     points="122.462,106.859 207.538,50"
+     stroke-width="1"
+     stroke="#000000"
+     transform="matrix(2.9463437,0.54690187,-1.9654667,0.81983625,-120.33377,16.152345)"
+     style="stroke:#512888;stroke-width:0.999366;stroke-miterlimit:4;stroke-dasharray:3.99746, 1.99873, 0.999366, 1.99873;stroke-dashoffset:0;stroke-opacity:1" />
+  <polygon
+     id="polygon2312-1-9"
+     points="122.462,106.859 207.538,50.141 "
+     stroke-width="1"
+     stroke="#000000"
+     transform="matrix(2.9463437,0.54690187,-1.9654667,0.81983625,-122.33376,110.71017)"
+     style="stroke:#512888;stroke-width:0.999366;stroke-miterlimit:4;stroke-dasharray:3.99746, 1.99873, 0.999366, 1.99873;stroke-dashoffset:0;stroke-opacity:1" />
+  <polygon
+     id="polygon2312-1-6"
+     points="122.462,106.859 207.538,50.141 "
+     stroke-width="1"
+     stroke="#000000"
+     transform="matrix(2.9463437,0.54690187,-1.9654667,0.81983625,-117.28615,199.14554)"
+     style="stroke:#512888;stroke-width:0.999366;stroke-miterlimit:4;stroke-dasharray:3.99746, 1.99873, 0.999366, 1.99873;stroke-dashoffset:0;stroke-opacity:1" />
+  <text
+     id="text2421"
+     y="38.095238"
+     x="26.530613"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#512888;fill-opacity:1;stroke:none;"
+     xml:space="preserve"><tspan
+       y="38.095238"
+       x="26.530613"
+       id="tspan2419"
+       sodipodi:role="line">1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#512888;fill-opacity:1;stroke:none"
+     x="28.876089"
+     y="141.80074"
+     id="text2421-5"><tspan
+       sodipodi:role="line"
+       id="tspan2419-0"
+       x="28.876089"
+       y="141.80074">2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#512888;fill-opacity:1;stroke:none"
+     x="362.20941"
+     y="228.87556"
+     id="text2421-8"><tspan
+       sodipodi:role="line"
+       id="tspan2419-1"
+       x="362.20941"
+       y="228.87556">3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#512888;fill-opacity:1;stroke:none"
+     x="22.753641"
+     y="328.19528"
+     id="text2421-6"><tspan
+       sodipodi:role="line"
+       id="tspan2419-7"
+       x="22.753641"
+       y="328.19528">4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#512888;fill-opacity:1;stroke:none"
+     x="24.114185"
+     y="423.43338"
+     id="text2421-2"><tspan
+       sodipodi:role="line"
+       id="tspan2419-5"
+       x="24.114185"
+       y="423.43338">5</tspan></text>
+</svg>
