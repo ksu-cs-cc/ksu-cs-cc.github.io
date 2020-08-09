@@ -11,30 +11,24 @@ date: 2020-01-16T10:53:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "/3-cc310/00-introduction/01-introduction-slides.md" >}})
+* [Slides]({{< relref "4-cc315/00-course-files/01-introduction-slides.md" >}})
 
 #### Video Script
 
 [Slide 2]
 
 Hello, my name is Emily Alfs-Votipka and I would like to welcome you to the Computational Core program! 
-I will be your instructor for CC310 this fall. 
+I will be your instructor for CC315 this fall. 
 My contact information is shown here, and is also listed on the syllabus. 
 My email address is emilyalfs@ksu.edu and is my preferred method of communication if you need to reach me directly. 
 
 [Slide 3]
 
-For course related questions, please email the course help group which can be reached using your KSU email by typing cc310 and hit tab to auto complete.
+For course related questions, please email the course help group which can be reached using your KSU email by typing cc315 and hit tab to auto complete.
 If you are using an email other than your KSU address, please email the group email shown in the syllabus.
 
+
 [Slide 4]
-
-There are many other instructors and TAs for the CC program that you may interact with or see in the tutorial videos. 
-They all have been instrumental in the development of this program. 
-Some people you may see include Russ Feldhausen and Dr. Scott DeLoach.
-You may also interact with Bud LaVezzi, who will be instructing the CC 210 course.
-
-[Slide 5]
 
 We’ll be using the online learning platform Codio for most of the programming tutorials and projects in this program. 
 We’ll also discuss how to use Codio later in this module.
@@ -42,14 +36,14 @@ We’ll also discuss how to use Codio later in this module.
 [Slide 6]
 
 The Computational Core program consists of several courses, and each course contains a number of learning modules. 
-In general, there are about 12 - 15 modules per course. 
+In general, there are about 12 - 16 modules per course. 
 Each module will usually consist of an interactive tutorial using Codio, followed by a quiz through Canvas, and lastly a programming project in Codio. 
 The modules themselves are gated, which means that you must complete each item in the module in order before continuing. 
 In addition, the modules enforce prerequisite requirements from other modules, so you may have to complete one or more modules before you can access a later module. 
 While the modules may be completed in order, the prerequisites allow you to complete modules in any order you choose, provided you have completed the appropriate prerequisite modules.
 
 You are welcome to work at your own pace throughout this course, provided that you complete each module before the listed due date.
-There will be roughly two modules due every Wednesday at 7PM.
+There will be roughly one module due every Thursday at 7PM.
 
 The modules are self-contained, and nearly all of the grading in this course is completed automatically through Canvas and Codio. 
 So, you can complete modules as quickly or slowly as you’d like before the due date, and once a module is complete, you may immediately start on the next one.
@@ -84,7 +78,7 @@ For example, modules are due on Thursdays at 7PM so you can earn up to:
 - 90% of the grade by turning it in on or before Friday at 7PM
 - 80% of the grade by turning it in on or before Saturday at 7PM
 - 70% of the grade by turning it in on or before Sunday at 7PM
-- 0% after Sunday at 7PM
+- 0% after Sundays at 7PM
 
 So, even if some of the module’s work was completed before the due date, the penalty will still be assessed on all work in that module, regardless of when it was completed.
 Finally, even if a module is late, it still must be completed before you can move on to a later module. 

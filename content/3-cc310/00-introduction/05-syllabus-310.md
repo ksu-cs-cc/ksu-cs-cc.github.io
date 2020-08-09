@@ -1,7 +1,7 @@
 ---
 title: "CC 310 Syllabus"
 weight: 53
-pre: "4. "
+pre: "5.3 "
 ---
 
 ## CC 310 - Data Structures & Algorithms I
@@ -55,7 +55,7 @@ This course introduces simple data structures such as sets, lists, stacks, queue
 
 ###  Course Structure
 
-These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately two modules being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
+These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
 
 ### Grading
 
@@ -84,7 +84,7 @@ Since this course is entirely online, students may work at any time and at their
 
 **The following table outlines the highest possible score that a module can earn based on when it is complete** 
 
-|  | Wednesday | Thursday | Friday | Saturday |
+|  | Thursday | Friday | Saturday | Sunday |
 | --- | --- | --- | --- | --- |
 | Before or at 7PM CST | 100% | 90% | 80% | 70% |
 | After 7PM CST | 90% | 80% | 70% | 0% |

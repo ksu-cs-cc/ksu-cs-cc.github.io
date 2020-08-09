@@ -1,10 +1,10 @@
 ---
-title: "CC 310 Syllabus"
-weight: 53
-pre: "5.3 "
+title: "CC 315 Syllabus"
+weight: 54
+pre: "4 "
 ---
 
-## CC 310 - Data Structures & Algorithms I
+## CC 315 - Data Structures & Algorithms II
 
 ### Instructor Contact Information
 
@@ -12,46 +12,41 @@ pre: "5.3 "
 * **Office:** DUE 2151 (This semester will be strictly online though)
 * **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/).
 
+
 #### Preferred Methods of Communication:
 
-* **For Course Related Questions**: cc310-help AT KSUemailProd DOT onmicrosoft DOT com
-  * Or from your KSU email, you can type '**cc310-help**' in the 'To' Field then hit your Tab key to auto-complete the address.
+* **For Course Related Questions**: cc315-help AT KSUemailProd DOT onmicrosoft DOT com
+  * Or from your KSU email, you can type '**cc315-help**' in the 'To' Field then hit your Tab key to auto-complete the address.
 * **Other Questions**: emilyalfs AT ksu DOT edu 
 
-Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to the group email: cc310-help AT KSUemailProd DOT onmicrosoft DOT com
+### Graduate Teaching Assistants
 
+* TBD
 
 ### Prerequisites
 
-* MATH 100 - College Algebra
-* CC 210 - Fundamental Computer Programming Concepts (Prerequisite or Concurrent Enrollment)
+* CC 310 - Data Structures & Algorithms I (Prerequisite or Concurrent Enrollment)
 
 ### Course Overview
 
-Exploration of data structures & related algorithms in computer programming. Basic concepts of complexity analysis. Object-oriented design concepts.
+Advanced data structures and related algorithms. Formal software development methods and software engineering fundamentals. Introduction to requirements analysis processes that provide the specification of algorithmic requirements.
 
 ### Course Description
 
-This course introduces simple data structures such as sets, lists, stacks, queues, and maps. Students learn how to create data structures and the algorithms that use them. Students are introduced to algorithm analysis to determine the efficiency of algorithms.
+This course introduces advanced data structures, such as trees, graphs, and heaps. Several new algorithms using these data structures are covered. Students also learn software development methods and software engineering fundamentals and use those skills to develop projects of increasing size and scope effectively.
 
 ### Major Course Topics
 
 * Data Structures
-  * Sets
-  * Lists
-  * Stacks
-  * Queues
-  * Maps
+  * Trees
+  * Graphs
+  * Heaps
 * Algorithms
-  * Searching
-  * Sorting
-  * Structural Operations
-  * Hashing
-  * Set Relations
-* Recursion
-* Complexity Analysis
-* Algorithm Design Strategies and Patterns
-* Logic: Preconditions, Postconditions and Invariants
+  * Graph Searching
+  * Shortest Path
+  * Minimal Spanning Tree
+* Requirements Analysis
+* Application to Domain Areas
 
 ###  Course Structure
 
@@ -62,7 +57,7 @@ These courses are being taught 100% online, and each module is self-paced. There
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
 * 70% - Codio Programming Projects
-* 30% - Codio Tutorials and Canvas Quizzes
+* 30% - Codio Tutorials and Quizzes
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** assignment for details.
 
@@ -77,19 +72,10 @@ Letter grades will be assigned following the standard scale:
 ### Late Work
 
 {{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructor. Not understanding the policy does not mean that it won't apply to you!
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately two modules due each week. Each graded item in the module will have a specific due date specified. In this course the late policy will be as follows: for every 24 hours after the due date, up to 72 hours, a penalty of 10% of the total points in that module will be subtracted from the score received on that module. After 72 hours, a grade of 0 will be given.
-
-**The following table outlines the highest possible score that a module can earn based on when it is complete** 
-
-|  | Thursday | Friday | Saturday | Sunday |
-| --- | --- | --- | --- | --- |
-| Before or at 7PM CST | 100% | 90% | 80% | 70% |
-| After 7PM CST | 90% | 80% | 70% | 0% |
-
-For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any module submitted late will have that module's project grade reduced by 30% of the total possible points on that project. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
@@ -114,11 +100,11 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
 
 ### Recommended Texts & Supplies
 
-To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
+To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas, Piazza, and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
 
 ### Subject to Change
 
-The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students. 
+The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students. All changes may also be posted to Piazza.
 
 ### Academic Honesty
 
@@ -158,14 +144,14 @@ This is our personal policy and not a required syllabus statement from K-State. 
 
 Online communication is inherently different than in-person communication. When speaking in person, many times we can take advantage of the _context_ and _body language_ of the person speaking to better understand what the speaker _means_, not just what is said. This information is not present when communicating online, so we must be much more careful about what we say and how we say it in order to get our meaning across.
 
-Here are a few general rules to help us all communicate online in this course:
+Here are a few general rules to help us all communicate online in this course, especially while using tools such as Piazza:
 
 * **Use a clear and meaningful subject line to announce your topic.** Subject lines such as "Question" or "Problem" are not helpful. Subjects such as "Logic Question in Project 5, Part 1 in Java" or "Unexpected Exception when Opening Text File in Python" give plenty of information about your topic.
 * **Use only one topic per message.** If you have multiple topics, post multiple messages so each one can be discussed independently.
 * **Be thorough, concise, and to the point.** Ideally, each message should be a page or less.
 * **Include exact error messages, code snippets, or screenshots, as well as any previous steps taken to fix the problem.** It is much easier to solve a problem when the exact error message or screenshot is provided. If we know what you've tried so far, we can get to the root cause of the issue more quickly.
 * **Consider carefully what you write before you post it.** Once a message is posted, it becomes part of the permanent record of the course and can easily be found by others.
-* **If you are lost, don't know an answer, or don't understand something, speak up!** We are here to help you! 
+* **If you are lost, don't know an answer, or don't understand something, speak up!** Piazza allows you to send a message privately to the instructors, or post anonymously so other students don't know your identity. Don't be afraid to ask questions anytime, as you can choose to do so without any fear of being identified by your fellow students.
 * **Class discussions are confidential.** Do not share information from the course with anyone outside of the course without explicit permission.
 * **Do not quote entire message chains; only include the relevant parts.** When replying to a previous message, only quote the relevant lines in your response.
 * **Do not use all caps.** It makes it look like you are shouting. Use appropriate text markup (bold, italics, etc.) to highlight a point if needed.

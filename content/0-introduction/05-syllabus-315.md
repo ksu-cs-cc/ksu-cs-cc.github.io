@@ -8,17 +8,16 @@ pre: "5.4 "
 
 ### Instructor Contact Information
 
-* **Instructor:** Francesco Maiorana (fmaiorana AT ksu DOT edu)<br>
-* **Office:** DUE 2161
-* **Phone:** (785) 532-6350
-* **Website:** https://sites.google.com/site/maioranafrancescospes/
-* **Office Hours:** TBD
+* **Instructor:** Emily Alfs-Votipka (emilyalfs AT ksu DOT edu)<br> _I use **she/her** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
+* **Office:** DUE 2151 (This semester will be strictly online though)
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/).
+
 
 #### Preferred Methods of Communication:
 
-* **Piazza:** Please use Piazza for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner.
-* **Email**: Students are also welcome to email us anytime with questions outside of the scope of these courses. We will try to respond within one business day. Questions related to the course itself may be redirected to Piazza. We're also active on the [K-State CS Rocket.chat](https://chat.cs.ksu.edu).
-* **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
+* **For Course Related Questions**: cc315-help AT KSUemailProd DOT onmicrosoft DOT com
+  * Or from your KSU email, you can type '**cc315-help**' in the 'To' Field then hit your Tab key to auto-complete the address.
+* **Other Questions**: emilyalfs AT ksu DOT edu 
 
 ### Graduate Teaching Assistants
 
@@ -43,7 +42,6 @@ This course introduces advanced data structures, such as trees, graphs, and heap
   * Graphs
   * Heaps
 * Algorithms
-  * Balancing Trees
   * Graph Searching
   * Shortest Path
   * Minimal Spanning Tree
@@ -58,11 +56,10 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 60% - Codio Programming Projects
-* 20% - Codio Tutorials
-* 20% - Canvas Quizzes
+* 70% - Codio Programming Projects
+* 30% - Codio Tutorials and Quizzes
 
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
+Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** assignment for details.
 
 Letter grades will be assigned following the standard scale:
 
