@@ -9,7 +9,7 @@ hidden: true
 </section>
 
 <section>
-	<img class="plain" src="/images/cchelp.png">
+	<img class="plain" src="/images/315Help.png">
 </section>
 
 <section>
