@@ -1,7 +1,7 @@
 ---
 title: "CC 315 Syllabus"
 weight: 54
-pre: "4 "
+pre: "4. "
 ---
 
 ## CC 315 - Data Structures & Algorithms II

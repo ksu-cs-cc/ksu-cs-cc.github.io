@@ -1,7 +1,7 @@
 ---
 title: "CC 310 Syllabus"
 weight: 53
-pre: "4 "
+pre: "4. "
 ---
 
 ## CC 310 - Data Structures & Algorithms I
