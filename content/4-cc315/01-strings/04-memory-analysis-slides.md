@@ -15,7 +15,7 @@ hidden: true
 <h3> Where We Are </h3>
 <ul>
 <li> Strings are  natural choice</li>
-<li> Strings are imutable </li>
+<li> Strings are immutable </li>
 <li> We can work around that </li>
 <ul>
 <li> Java: StringBuilder Class </li>
@@ -100,7 +100,7 @@ hidden: true
 <h3> Memory Analysis </h3>
 <ul>
 <li> Language garbage collection </li>
-<li> Language's compensation <br/>for imutable strings </li>
+<li> Language's compensation <br/>for immutable strings </li>
 <li> Where does that leave us? </li>
 </ul>
 </section>

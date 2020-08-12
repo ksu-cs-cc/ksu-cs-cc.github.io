@@ -3,9 +3,12 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Welcome to the</h2>
-	<img class="plain stretch" src="/images/core-logo-on-white.svg">
+<img class="stretch plain" src="/images/core-logo-on-white.png">
+<h3> Welcome to the <br> Computational Core</h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>CC310 Fall 2020</h4>
 </section>
+
 <section>
 	<h3>Emily Alfs-Votipka</h3>
 	<p>
