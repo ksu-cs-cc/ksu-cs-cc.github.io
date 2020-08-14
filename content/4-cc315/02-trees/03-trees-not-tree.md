@@ -5,7 +5,7 @@ weight: 13
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube En7FDq5XrsA >}}
+{{< youtube zZ7vDmZEEIo >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/02-trees/03-trees-not-tree-slides.md" >}})
