@@ -5,7 +5,7 @@ weight: 31
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube En7FDq5XrsA >}}
+{{< youtube uSagfd4L2D8 >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/03-treetraversal/01-treetraversal-introduction-slides.md" >}})

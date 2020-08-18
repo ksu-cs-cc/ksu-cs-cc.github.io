@@ -20,7 +20,7 @@ We build words by traversing from the root to a double lined node. For example, 
 
 While the words `toad`, `gold`, and `toll` are real words, they are not words in this user defined vocabulary. The words that are contained in this trie are: `the`, `go`, `goal`, `goat`, and `golf`.
 
-In this example, we do see that a majority of the words end at leaves. This is not necessary. We can also see that the word `go` does not end in a leaf. 
+In this example, we do see that a majority of the words end at leaves. It is not necessary for words to end on leaves. We can also see that the word `go` does not end in a leaf. 
 
 This particular example shows words that are part of the English vocabulary. However, tries are not limited to this. The only constraint on tries is that the nodes must contain characters.
 
