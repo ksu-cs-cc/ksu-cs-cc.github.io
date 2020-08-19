@@ -14,7 +14,7 @@ date: 2020-08-10T16:27:26-05:00
 
 ##### Introduction (Slides 1-3)
 
-In this course, we're going to ask ourselves, what is computing science? It's a really important topic that we'd like to cover throughout this course. But it's also one that's very difficult to understand. So when we try and understand the topics such as what is computing science, we can ask ourselves the questions: who? what? when? where? why? and how? And while I do this, I realized the question of "how" is really the best way to approach computing science. Specifically, I like to think of computing science as the study of how - 2how we can make things faster, better, more efficient, more accurate and more secure using computers. But that becomes a really interesting statement because we haven't discussed exactly what a computer is. 
+In this course, we're going to ask ourselves, what is computing science? It's a really important topic that we'd like to cover throughout this course. But it's also one that's very difficult to understand. So when we try and understand the topics such as what is computing science, we can ask ourselves the questions: who? what? when? where? why? and how? And while I do this, I realized the question of "how" is really the best way to approach computing science. Specifically, I like to think of computing science as the study of how - how we can make things faster, better, more efficient, more accurate and more secure using computers. But that becomes a really interesting statement because we haven't discussed exactly what a computer is. 
 
 ##### What is a Computer (Slides 4-7)
 
