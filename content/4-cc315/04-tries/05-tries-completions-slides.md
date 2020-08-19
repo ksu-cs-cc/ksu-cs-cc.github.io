@@ -10,6 +10,36 @@ hidden: true
 <h4>CC315 Fall 2020</h4>
 </section>
 
+<section>
+<h3>Example</h3>
+<div>
+<img class="stretch plain" src="/images/315_4.5_compSmall1.svg">
+</div>
+<div>
+<h4>Completions for: 'ca'</h4>
+</div>
+</section>
+
+<section>
+<h3>Example</h3>
+<div>
+<img class="stretch plain" src="/images/315_4.5_compSmall2.svg">
+</div>
+<div>
+<h4>Completions for: 'ca'</h4>
+</div>
+</section>
+
+<section>
+<h3>Example</h3>
+<div>
+<img class="stretch plain" src="/images/315_4.5_compSmall3.svg">
+</div>
+<div>
+<h4>Completions for: 'ca'</h4>
+</div>
+</section>
+
 
 <section>
 <img class="stretch plain" src="/images/completions_attempt01.png">
