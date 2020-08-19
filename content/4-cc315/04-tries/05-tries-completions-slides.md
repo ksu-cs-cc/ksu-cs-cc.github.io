@@ -40,11 +40,9 @@ hidden: true
 </div>
 </section>
 
-
 <section>
 <img class="stretch plain" src="/images/completions_attempt01.png">
 </section>
-
 <section>
 <img class="stretch plain" src="/images/completions_attempt02.png">
 </section>
@@ -235,4 +233,280 @@ function COMPLETIONS(WORD)
         reutrn OUTPUT
 end function
  </code></pre>
+</section>
+
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)
+            OUTPUT = []
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT
+    else
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT
+end function
+ </code></pre>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall1.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0<mark>
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)</mark>
+            OUTPUT = []
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT
+    else
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT
+end function
+ </code></pre>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall2.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0<mark>
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)</mark>
+            OUTPUT = []
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT
+    else
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT
+end function
+ </code></pre>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall3.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)
+            OUTPUT = []
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT
+    else<mark>
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT</mark>
+end function
+ </code></pre>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall4.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)
+            OUTPUT = []
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT
+    else<mark>
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT</mark>
+end function
+ </code></pre>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall5.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)
+            OUTPUT = []<mark>
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT</mark>
+    else
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT
+end function
+ </code></pre>
+ <h7>Node t: ['t'], Node n: ['n']</h7>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall3.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)
+            OUTPUT = []<mark>
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT</mark>
+    else
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT
+end function
+ </code></pre>
+ <h7>Node a: ['at','an']</h7>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall2.svg">
+ </div>
+</section>
+
+<section>
+<h3> Word Completions </h3>
+ <div style="float:left;width:70%">
+<pre class="" style="font-size: .18em; width: 54%"><code class="python">
+function COMPLETIONS(WORD)
+    if WORD length greater than 0
+        FIRST = first character of WORD
+        REMAIN = remainder of WORD
+        CHILD = FINDCHILD(FIRST)
+        if CHILD is none
+            return []
+        else
+            COMPLETES = CHILD.COMPLETIONS(REMAIN)
+            OUTPUT = []<mark>
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+            return OUTPUT</mark>
+    else
+        OUTPUT = []
+        if is_word
+            append ITEM to OUTPUT
+        for CHILD in CHILDREN
+            COMPLETES = CHILD.COMPLETIONS("")
+            for COM in COMPLETES
+                append CHILD.item + COM to OUTPUT
+        reutrn OUTPUT
+end function
+ </code></pre>
+ <h7>Node c: ['cat','can']</h7>
+ </div>
+ <div style="float:right">
+ <img class="stretch plain" src="/images/315_4.5_compSmall1.svg">
+ </div>
 </section>
