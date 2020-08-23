@@ -42,3 +42,8 @@ hidden: true
 <h3>Example</h3>
 <img class="stretch plain" src="/images/315_4.6_binTree3.svg">
 </section> 
+
+<section>
+<h3>Example</h3>
+<img class="stretch plain" src="/images/315_4.1_binAlpha.svg">
+</section> 

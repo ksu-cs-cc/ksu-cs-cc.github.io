@@ -37,4 +37,9 @@ These restrictions are not limited to just the root, the criteria must be met fo
 
 [Slide 5]
 
-Similarly, all of the nodes down the right of the branch of node 15 must be greater than 15. We have shaded those here. 
+Similarly, all of the nodes down the right of the branch of node 15 must be greater than 15. We have shaded those here. We can note that since these three nodes are to the left of node 30 and to the right of node 15, then they must be less than 30 and greater than 15. 
+
+
+[Slide 6]
+
+Binary trees are not just limited to numeric data. These trees can hold any type of data that has a defined order, meaning elements can be sorted. Here is an example of a binary tree with alphabetical characters. For example, we can say that 'C' is less than 'M' as 'C' occurs before 'M' in the alphabet. In the next video we will look at more examples of binary trees and counterexamples as well. 

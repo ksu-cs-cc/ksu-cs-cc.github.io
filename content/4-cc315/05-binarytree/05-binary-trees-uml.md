@@ -14,4 +14,7 @@ date: 2019-02-04T10:53:26-05:00
 
 [Slide 1]
 
-Here are some words
+Now we will go through the UML diagram for our binary tree implementation. Our binary tree will have two attributes, leftChild and rightChild. 
+
+
+[Slide ]

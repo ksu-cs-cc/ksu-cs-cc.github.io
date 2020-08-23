@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="315_4.6_binDelLeaf6.svg"
+   id="svg1043"
+   version="1.1"
+   height="340"
+   width="500">
+  <metadata
+     id="metadata1049">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1047" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1043"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="158"
+     inkscape:cy="170"
+     inkscape:cx="250"
+     inkscape:zoom="1.236"
+     showgrid="false"
+     id="namedview1045"
+     inkscape:window-height="909"
+     inkscape:window-width="1437"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <ellipse
+     id="ellipse951"
+     ry="30"
+     rx="30"
+     cy="40.5"
+     cx="238.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text953"
+     font-size="20"
+     font-family="Times New Roman"
+     y="46.5"
+     x="228.5">70</text>
+  <ellipse
+     id="ellipse955"
+     ry="30"
+     rx="30"
+     cy="111.5"
+     cx="129.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text957"
+     font-size="20"
+     font-family="Times New Roman"
+     y="117.5"
+     x="119.5">40</text>
+  <ellipse
+     id="ellipse959"
+     ry="30"
+     rx="30"
+     cy="111.5"
+     cx="353.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text961"
+     font-size="20"
+     font-family="Times New Roman"
+     y="117.5"
+     x="338.5">100</text>
+  <ellipse
+     id="ellipse963"
+     ry="30"
+     rx="30"
+     cy="201.5"
+     cx="65.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text965"
+     font-size="20"
+     font-family="Times New Roman"
+     y="207.5"
+     x="55.5">20</text>
+  <ellipse
+     id="ellipse967"
+     ry="30"
+     rx="30"
+     cy="201.5"
+     cx="181.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text969"
+     font-size="20"
+     font-family="Times New Roman"
+     y="207.5"
+     x="171.5">50</text>
+  <ellipse
+     id="ellipse971"
+     ry="30"
+     rx="30"
+     cy="201.5"
+     cx="306.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text973"
+     font-size="20"
+     font-family="Times New Roman"
+     y="207.5"
+     x="296.5">90</text>
+  <ellipse
+     id="ellipse975"
+     ry="30"
+     rx="30"
+     cy="201.5"
+     cx="411.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text977"
+     font-size="20"
+     font-family="Times New Roman"
+     y="207.5"
+     x="396.5">110</text>
+  <ellipse
+     id="ellipse979"
+     ry="30"
+     rx="30"
+     cy="297.5"
+     cx="30.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text981"
+     font-size="20"
+     font-family="Times New Roman"
+     y="303.5"
+     x="20.5">10</text>
+  <ellipse
+     id="ellipse983"
+     ry="30"
+     rx="30"
+     cy="297.5"
+     cx="90.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text985"
+     font-size="20"
+     font-family="Times New Roman"
+     y="303.5"
+     x="80.5">30</text>
+  <ellipse
+     id="ellipse987"
+     ry="30"
+     rx="30"
+     cy="294.5"
+     cx="212.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text989"
+     font-size="20"
+     font-family="Times New Roman"
+     y="300.5"
+     x="202.5">60</text>
+  <ellipse
+     id="ellipse991"
+     ry="30"
+     rx="30"
+     cy="294.5"
+     cx="274.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text993"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="300.5"
+     x="252.5">None</text>
+  <ellipse
+     id="ellipse995"
+     ry="30"
+     rx="30"
+     cy="294.5"
+     cx="458.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text997"
+     font-size="20"
+     font-family="Times New Roman"
+     y="300.5"
+     x="443.5">120</text>
+  <polygon
+     id="polygon999"
+     points="112.114,135.949 82.886,177.051"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1001"
+     points="82.886,177.051 91.597,173.429 83.447,167.634"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1003"
+     points="144.508,137.476 166.492,175.524"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1005"
+     points="166.492,175.524 166.819,166.096 158.16,171.099"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1007"
+     points="55.224,229.685 40.776,269.315"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1009"
+     points="40.776,269.315 48.214,263.511 38.819,260.086"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1011"
+     points="73.06,230.532 82.94,268.468"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1013"
+     points="82.94,268.468 85.762,259.466 76.085,261.987"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1015"
+     points="190.987,229.96 203.013,266.04"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1017"
+     points="203.013,266.04 205.227,256.869 195.74,260.031"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="polygon1019"
+     points="339.613,138.092 320.387,174.908"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     style="fill:#ff0000;fill-opacity:1"
+     id="polygon1021"
+     points="320.387,174.908 328.522,170.131 319.658,165.502"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1023"
+     points="213.363,56.874 154.637,95.126"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1025"
+     points="154.637,95.126 164.07,94.949 158.612,86.57"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     style="fill:#ff0000;stroke:#ff0000;stroke-opacity:1"
+     id="polygon1027"
+     points="264.027,56.26 327.973,95.74"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     style="fill:#ff0000"
+     id="polygon1029"
+     points="327.973,95.74 323.793,87.283 318.539,95.792"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1031"
+     points="369.751,136.717 395.249,176.283"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1033"
+     points="395.249,176.283 395.118,166.85 386.712,172.267"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1039"
+     points="425.031,228.275 444.969,267.725"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1041"
+     points="444.969,267.725 445.823,258.33 436.898,262.84"
+     stroke-width="1"
+     fill="black" />
+</svg>
