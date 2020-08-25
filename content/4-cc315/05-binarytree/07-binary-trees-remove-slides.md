@@ -166,16 +166,22 @@ When we need to remove a node, we will replace it with its smallest right descen
 
 <section>
 <h3>Pruning</h3>
-<pre class="" style="font-size: .3em; width: 40%"><code class="python">
+<pre class="" style="font-size: .3em; width: 70%"><code class="python">
     function PRUNERIGHT()
         if RIGHTCHILD has no value
             REMOVECHILD(RIGHTCHILD)
+            set this nodes RIGHTCHILD former RIGHTCHILDs RIGHTCHILD
+            if RIGHTCHLID is not none
+                ADDCHILD(RIGHTCHILD)
  </code></pre>
 
- <pre class="" style="font-size: .3em; width: 40%"><code class="python">
+ <pre class="" style="font-size: .3em; width: 70%"><code class="python">
     function PRUNELEFT()
         if LEFTCHILD has no value
             REMOVECHILD(LEFTCHILD)
+            set this nodes LEFTCHILD former LEFTCHILDs RIGHTCHILD
+            if LEFTCHILD is not none
+                ADDCHILD(LEFTCHILD)
  </code></pre>
 </section> 
 

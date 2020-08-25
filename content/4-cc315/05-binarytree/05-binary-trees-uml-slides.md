@@ -36,7 +36,7 @@ hidden: true
 <h3>Get Size</h3>
 <ul>
 <li> Return zero the tree is empty</li>
-<li> Return the size from `MyTree`s get size</li>
+<li> Return the size from MyTree's get size</li>
 </ul>
 </section> 
 
