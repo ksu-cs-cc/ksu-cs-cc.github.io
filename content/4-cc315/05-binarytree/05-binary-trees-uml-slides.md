@@ -17,26 +17,43 @@ hidden: true
 
 <section>
 <h3>Initialization</h3>
+<ul>
+<li> Initialize a 'MyBinaryTree' using 'MyTree' init.</li>
+<li> Set LEFTCHILD to NONE</li>
+<li> Set RIGHTTCHILD to NONE</li>
+</ul>
 </section> 
 
 <section>
 <h3>Is Empty</h3>
 <ul>
-<li> Return True if the nodes item is NONE</li>
-<li> Return False if the nodes item is not NONE</li>
+<li> Return True if item is NONE</li>
+<li> Return False if item is not NONE</li>
 </ul>
 </section> 
 
 <section>
 <h3>Get Size</h3>
+<ul>
+<li> Return zero the tree is empty</li>
+<li> Return the size from MyTree's get size</li>
+</ul>
 </section> 
 
 <section>
 <h3>To Sorted List</h3>
-<pre class="" style="font-size: .3em; width: 40%"><code class="python">
-    function INORDER(SB)
-        LEFTCHILD.INORDER(SB)
-        append node ITEM to SB
-        RIGHTCHILD.INORDER(SB)
+<pre class="" style="font-size: .3em; width: 50%"><code class="python">
+    function TOSORTEDLIST()
+        LIST = []
+        if there`s LEFTCHILD
+            LIST = LIST + LEFTCHILD.TOSORTEDLIST
+        LIST = LIST + ITEM
+        if there`s RIGHTCHILD
+            LIST = LIST + RIGHTCHILD.TOSORTEDLIST
+        return LIST
  </code></pre>
+</section> 
+
+<section>
+<img class="stretch plain" src="/images/315_4.5_binUML.png">
 </section> 

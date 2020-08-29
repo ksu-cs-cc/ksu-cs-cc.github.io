@@ -174,9 +174,9 @@ While the premise of this video is to introduce the remove function, we have som
 
 [Slide 33]
 
-We have two prune functions, one for the right and one for the left. Depending on what child we may have removed, we would call one of these functions. 
+We have two prune functions, one for the right and one for the left. Depending on what child we may have removed, we would call one of these functions. These functions are nearly identical except for that fact that one is for the left child and the other is for the right child. 
 
-If the child has no value, then we remove the child using the `MyTree` remove child function. This was the function which removed the child from the parents children and the parent from the childs parent. 
+Using the prune right child as an example, if the right child has no value, then we remove the right child using the `MyTree` remove child function. This was the function which removed the child from the parents children and the parent from the childs parent attribute. While we have severed the parent to child relationship from the MyTree perspective, the parent node still has the rightchild attribute set to the old node. We set the right childs value to be equal to the former right childs right child. In essence, we are shifting the children up one. 
 
 
 [Slide 34]
