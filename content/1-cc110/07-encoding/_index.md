@@ -10,4 +10,4 @@ pre = "<b>7. </b>"
 
 # Encoding
 
-![ASCII Code](https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.png)
+![ASCII Code](https://upload.wikimedia.org/wikipedia/commons/c/cf/USASCII_code_chart.png)
