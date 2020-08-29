@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="315_4.6_trieBase5.svg"
+   id="svg1427"
+   version="1.1"
+   height="500"
+   width="1000">
+  <metadata
+     id="metadata1433">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1431" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1427"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="106"
+     inkscape:cy="244.61764"
+     inkscape:cx="401.40485"
+     inkscape:zoom="1.1229765"
+     showgrid="false"
+     id="namedview1429"
+     inkscape:window-height="1005"
+     inkscape:window-width="1550"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <circle
+     r="30"
+     id="ellipse1289"
+     cy="33.5"
+     cx="491.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1291"
+     cy="118.5"
+     cx="371.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1293"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="124.5"
+     x="366.5">d</text>
+  <circle
+     r="30"
+     id="ellipse1295"
+     cy="200.5"
+     cx="276.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1297"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="206.5"
+     x="271.5">o</text>
+  <circle
+     r="30"
+     id="ellipse1299"
+     cy="289.5"
+     cx="237.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1301"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="295.5"
+     x="232.5">g</text>
+  <circle
+     r="24"
+     id="ellipse1303"
+     cy="289.5"
+     cx="237.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1305"
+     cy="289.5"
+     cx="307.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1307"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="295.5"
+     x="304.5">t</text>
+  <circle
+     r="24"
+     id="ellipse1309"
+     cy="289.5"
+     cx="307.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1311"
+     cy="118.5"
+     cx="638.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1313"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="124.5"
+     x="634.5">c</text>
+  <circle
+     r="30"
+     id="ellipse1315"
+     cy="206.5"
+     cx="708.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1317"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="212.5"
+     x="704.5">a</text>
+  <circle
+     r="30"
+     id="ellipse1319"
+     cy="289.5"
+     cx="675.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1321"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="295.5"
+     x="672.5">t</text>
+  <circle
+     r="24"
+     id="ellipse1323"
+     cy="289.5"
+     cx="675.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1325"
+     cy="289.5"
+     cx="756.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1327"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="295.5"
+     x="751.5">n</text>
+  <circle
+     r="24"
+     id="ellipse1329"
+     cy="289.5"
+     cx="756.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1331"
+     cy="369.5"
+     cx="756.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1333"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="375.5"
+     x="753.5">t</text>
+  <circle
+     r="30"
+     id="ellipse1335"
+     cy="200.5"
+     cx="483.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1337"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="206.5"
+     x="479.5">a</text>
+  <circle
+     r="30"
+     id="ellipse1339"
+     cy="289.5"
+     cx="525.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1341"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="295.5"
+     x="524.5">y</text>
+  <circle
+     r="24"
+     id="ellipse1343"
+     cy="289.5"
+     cx="525.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1345"
+     cy="289.5"
+     cx="464.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1347"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="295.5"
+     x="461.5">t</text>
+  <circle
+     r="30"
+     id="ellipse1349"
+     cy="369.5"
+     cx="512.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1351"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="375.5"
+     x="508.5">e</text>
+  <circle
+     r="24"
+     id="ellipse1353"
+     cy="369.5"
+     cx="512.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1355"
+     cy="369.5"
+     cx="428.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1357"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="375.5"
+     x="424.5">a</text>
+  <circle
+     r="24"
+     id="ellipse1359"
+     cy="369.5"
+     cx="428.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <circle
+     r="30"
+     id="ellipse1361"
+     cy="459.5"
+     cx="512.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <text
+     id="text1363"
+     font-size="20px"
+     font-family="'Times New Roman'"
+     y="465.5"
+     x="508.5">s</text>
+  <circle
+     r="24"
+     id="ellipse1365"
+     cy="459.5"
+     cx="512.5"
+     fill="none"
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(304)"
+     id="polygon1367"
+     points="169.821,57.737 143.179,94.263 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(304)"
+     id="polygon1369"
+     points="143.854,84.853 143.179,94.263 151.933,90.746 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(246)"
+     id="polygon1371"
+     points="88.785,175.305 109.215,143.695 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(246)"
+     id="polygon1373"
+     points="97.327,171.3 88.928,165.872 88.785,175.305 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(204)"
+     id="polygon1375"
+     points="59.948,227.748 44.052,262.252 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(204)"
+     id="polygon1377"
+     points="51.941,257.078 42.858,252.894 44.052,262.252 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(204)"
+     id="polygon1379"
+     points="81.794,229.024 92.206,260.976 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(204)"
+     id="polygon1381"
+     points="94.481,251.821 84.973,254.919 92.206,260.976 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(304)"
+     id="polygon1383"
+     points="206.071,57.061 235.929,94.939 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(304)"
+     id="polygon1385"
+     points="234.903,85.561 227.05,91.752 235.929,94.939 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1387"
+     points="273.176,141.978 305.824,183.022 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1389"
+     points="305.824,183.022 304.757,173.649 296.931,179.874 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1391"
+     points="313.416,234.377 302.584,261.623 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1393"
+     points="302.584,261.623 310.186,256.036 300.893,252.341 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1395"
+     points="339.519,232.47 357.481,263.53 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1397"
+     points="357.481,263.53 357.805,254.102 349.148,259.108 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1399"
+     points="372.5,319.5 372.5,339.5 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(384)"
+     id="polygon1401"
+     points="372.5,339.5 377.5,331.5 367.5,331.5 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(246)"
+     id="polygon1403"
+     points="169.407,176.57 143.593,142.43 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(246)"
+     id="polygon1405"
+     points="168.57,167.173 160.594,173.204 169.407,176.57 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1407"
+     points="200.303,227.631 216.697,262.369 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1409"
+     points="208.761,257.268 216.697,262.369 217.804,253.001 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1411"
+     points="181.237,229.839 174.763,260.161 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1413"
+     points="171.544,251.294 174.763,260.161 181.323,253.381 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1415"
+     points="156.189,316.858 144.811,342.142 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1417"
+     points="143.534,332.795 144.811,342.142 152.653,336.899 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1419"
+     points="183.935,315.225 201.065,343.775 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1421"
+     points="192.662,339.488 201.065,343.775 201.237,334.343 "
+     stroke-width="1"
+     fill="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1423"
+     points="216.5,399.5 216.5,429.5 "
+     stroke-width="1"
+     stroke="#000000" />
+  <polygon
+     transform="translate(296)"
+     id="polygon1425"
+     points="211.5,421.5 216.5,429.5 221.5,421.5 "
+     stroke-width="1"
+     fill="#000000" />
+  <text
+     id="text1535"
+     y="232.62265"
+     x="307.4527"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="232.62265"
+       x="307.4527"
+       id="tspan1533"
+       sodipodi:role="line">1</tspan></text>
+</svg>

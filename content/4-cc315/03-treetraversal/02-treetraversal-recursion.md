@@ -5,7 +5,7 @@ weight: 32
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube En7FDq5XrsA >}}
+{{< youtube 7ee0C0v2L1w >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/03-treetraversal/02-treetraversal-recursion-slides.md" >}})
