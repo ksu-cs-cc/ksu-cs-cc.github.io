@@ -12,7 +12,7 @@ date: 2020-08-28T16:27:26-05:00
 <!-- CIS 115: q9_cGKpIbm0 -->
 
 #### Resources
-* [Slides](/1-cc110/07-encoding/slides/7-Encoding.pdf)
+* [Slides](/1-cis115/07-encoding/slides/7-Encoding.pdf)
 
 #### Video Script
 
