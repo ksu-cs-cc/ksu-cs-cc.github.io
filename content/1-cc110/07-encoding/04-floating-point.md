@@ -5,9 +5,7 @@ weight: 20
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube q9_cGKpIbm0 >}}
-
-<!-- TODO CC Video Corrupt -->
+{{< youtube LqH8uSuDb-s >}}
 
 <!-- CIS 115: q9_cGKpIbm0 -->
 

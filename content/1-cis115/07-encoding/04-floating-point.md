@@ -7,9 +7,7 @@ date: 2020-08-28T16:27:26-05:00
 
 {{< youtube q9_cGKpIbm0 >}}
 
-<!-- TODO CC Video Corrupt -->
-
-<!-- CIS 115: q9_cGKpIbm0 -->
+<!-- CC 110: LqH8uSuDb-s -->
 
 #### Resources
 * [Slides](/1-cis115/07-encoding/slides/7-Encoding.pdf)
