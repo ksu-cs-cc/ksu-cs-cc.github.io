@@ -5,7 +5,7 @@ weight: 45
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube En7FDq5XrsA >}}
+{{< youtube urFTpJwqRVY >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/04-tries/05-tries-completions-slides.md" >}})

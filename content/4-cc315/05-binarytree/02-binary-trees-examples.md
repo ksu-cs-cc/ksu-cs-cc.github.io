@@ -5,7 +5,7 @@ weight: 52
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube En7FDq5XrsA >}}
+{{< youtube 8uSNprLBCpE >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/05-binarytree/02-binary-trees-examples-slides.md" >}})
