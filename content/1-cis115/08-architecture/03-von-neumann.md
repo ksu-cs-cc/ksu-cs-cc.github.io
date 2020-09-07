@@ -5,9 +5,9 @@ weight: 15
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube 0HYfkbovIck >}}
+{{< youtube ukFturYpaYg >}}
 
-<!-- CIS 115: ukFturYpaYg -->
+<!-- CC 110: 0HYfkbovIck -->
 
 #### Resources
 * [Slides](/1-cc110/08-architecture/slides/8-Computer_Architecture.pdf)

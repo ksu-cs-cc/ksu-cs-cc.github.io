@@ -5,12 +5,12 @@ weight: 10
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube GL5DkDxb7xE >}}
+{{< youtube -55ZMpP852Q >}}
 
-<!-- CIS 115: -55ZMpP852Q -->
+<!-- CC 110: GL5DkDxb7xE -->
 
 #### Resources
-* [Slides](/1-cc110/07-encoding/slides/7-Encoding.pdf)
+* [Slides](/1-cis115/07-encoding/slides/7-Encoding.pdf)
 
 #### Video Script
 
