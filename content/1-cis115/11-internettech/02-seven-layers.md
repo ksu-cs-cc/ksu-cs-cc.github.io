@@ -5,12 +5,12 @@ weight: 10
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube ySGte7rDNhs >}}
+{{< youtube cfHysrETDiQ >}}
 
-<!-- CIS 115: cfHysrETDiQ -->
+<!-- CC 110: ySGte7rDNhs -->
 
 #### Resources
-* [Slides](/1-cc110/11-internettech/slides/11-How_the_Internet_Works.pdf)
+* [Slides](/1-cis115/11-internettech/slides/11-How_the_Internet_Works.pdf)
 
 #### Video Script
 

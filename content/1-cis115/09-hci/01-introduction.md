@@ -5,12 +5,12 @@ weight: 5
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube CbeYOW1wFXY >}}
+{{< youtube JeYHoEzUMEU >}}
 
-<!-- CIS 115: JeYHoEzUMEU -->
+<!-- CC 110: CbeYOW1wFXY -->
 
 #### Resources
-* [Slides](/1-cc110/09-hci/slides/9-Human_Computer_Interaction.pdf)
+* [Slides](/1-cis115/09-hci/slides/9-Human_Computer_Interaction.pdf)
 
 #### Video Script
 

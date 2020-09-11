@@ -5,12 +5,12 @@ weight: 10
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube wy3E7s7hkVk >}}
+{{< youtube pnIRyF_bSBM >}}
 
-<!-- CIS 115: pnIRyF_bSBM -->
+<!-- CC 110: wy3E7s7hkVk -->
 
 #### Resources
-* [Slides](/1-cc110/10-internethistory/slides/10-History_of_the_Internet.pdf)
+* [Slides](/1-cis115/10-internethistory/slides/10-History_of_the_Internet.pdf)
 
 #### Video Script
 
