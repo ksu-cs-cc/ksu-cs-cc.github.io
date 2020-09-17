@@ -28,11 +28,6 @@ hidden: true
 </section>
 
 <section>
-<h3>Example: Movie Similarity</h3>
-</section>
-
-
-<section>
 <h3>Example: Unweighted Graph</h3>
 <img class="stretch plain" src="/images/315_6.4_graph1weight.svg">
 </section>

@@ -23,6 +23,17 @@ In this first example of a weighted graph, we have a segment of Japan's bullet t
 
 Travellers can use this type of information to maximize their sightseeing while minimizing their travel time. 
 
+
 [Slide 3]
 
-Another example of a weight graph 
+When talking about weighted graphs, we can also discuss unweighted graphs. These are graphs in which the edges have no weights. They can look something like this example. 
+
+
+[Slide 4]
+
+When we encounter unweighted graphs, we treat edge as though it has weight equal to one. We use unweighted graphs when there is a uniform distance between connected nodes. For example, when we worked with trees, each edge would have weight one to represent one generation. 
+
+
+[Slide 5]
+
+In this video we have discussed weighted and unweighted graphs as well as potential applications. The weights of the edges will play a large part in our graph classes as they can convey a deeper understanding of the data. In the remaining portion of the module will discuss more features of graphs as well as the implementation. 
