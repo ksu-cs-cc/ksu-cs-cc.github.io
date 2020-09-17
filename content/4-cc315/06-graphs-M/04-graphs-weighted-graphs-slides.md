@@ -11,14 +11,33 @@ hidden: true
 </section>
 
 <section>
-<h3>Weighted Graph</h3>
+<h3>Weighted Graphs</h3>
+<ul>
+<li>Edge Values</li>
+<ul>
+<li>Money</li>
+<li>Time</li>
+<li>Distance</li>
+</ul>
+</ul>
 </section>
 
 <section>
-<h3>Example: Subways</h3>
+<h3>Example: Bullet Train</h3>
+<img class="stretch plain" src="/images/315_6.4_graphJapan.svg">
+</section>
+
+<section>
+<h3>Example: Movie Similarity</h3>
 </section>
 
 
 <section>
-<h3>Example: </h3>
+<h3>Example: Unweighted Graph</h3>
+<img class="stretch plain" src="/images/315_6.4_graph1weight.svg">
+</section>
+
+<section>
+<h3>Example: Unweighted Graph</h3>
+<img class="stretch plain" src="/images/315_6.4_graphwith1weight.svg">
 </section>

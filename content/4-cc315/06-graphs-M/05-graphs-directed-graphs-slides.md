@@ -11,13 +11,41 @@ hidden: true
 </section>
 
 <section>
-<h3>Directed Graph</h3>
+<h3>Directed Graphs</h3>
+<p>Graphs in which at least one edge has a trajectory</p>
+<img class="stretch plain" src="/images/315_6.5_graphDirect.svg">
 </section>
 
 <section>
-<h3>Example: Internet</h3>
+<h3>Example: Trees</h3>
+<img class="stretch plain" src="/images/315_4.6_binTree.svg">
 </section>
 
 <section>
-<h3>Example: </h3>
+<h3>Example: Undirected Graphs </h3>
+<img class="stretch plain" src="/images/315_6.5_graphUndir2.svg">
+</section>
+
+<section>
+<h3>Example: Undirected Graphs </h3>
+<img class="stretch plain" src="/images/315_6.5_graphUndir.svg">
+</section>
+
+
+<section>
+<h3>Example: Directed Graphs </h3>
+<img class="stretch plain" src="/images/315_6.5_graphDir2.svg">
+</section>
+
+<section>
+<h3>Directed Graphs</h3>
+<p>Graphs in which at least one edge has a trajectory</p>
+<img class="stretch plain" src="/images/315_6.5_graphUndir.svg">
+</section>
+
+
+<section>
+<h3>Undirected Graphs</h3>
+<p>Graphs in which no edges have trajectories </p>
+<img class="stretch plain" src="/images/315_6.5_graphEquiv.svg">
 </section>

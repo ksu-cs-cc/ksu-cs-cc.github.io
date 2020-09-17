@@ -24,9 +24,17 @@ hidden: true
 <li>Maps </li>
 <li>Internet </li>
 <li>Social Networks </li>
+<li>Trees</li>
 </ul>
 </section>
 
 <section>
-<h3>Trees are graphs</h3>
+<h3>Module Outline</h3>
+<ul>
+<li>Terms </li>
+<li>Features </li>
+<li>Special Graphs </li>
+<li>Method 1</li>
+<li>UML</li>
+</ul>
 </section>
