@@ -5,9 +5,9 @@ weight: 25
 date: 2020-08-28T16:27:26-05:00
 ---
 
-{{< youtube EVed6BvwomY >}}
+{{< youtube VSYNMQYRLF8 >}}
 
-<!-- CC 110: VSYNMQYRLF8 -->
+<!-- CIS 115: EVed6BvwomY -->
 
 #### Resources
 * [Slides](/1-cis115/07-encoding/slides/7-Encoding.pdf)
