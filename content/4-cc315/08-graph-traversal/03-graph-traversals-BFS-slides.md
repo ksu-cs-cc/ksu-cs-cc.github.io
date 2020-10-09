@@ -5,7 +5,7 @@ hidden: true
 
 <section>
 <img class="stretch plain" src="/images/core-logo-on-white.png">
-<h3> Module 8 <br> Graphs Traversals <br> Breadth First Search (BFS)</h3>
+<h3> Module 8 <br> Graphs Traversals <br> Breadth First Traversal</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315 Fall 2020</h4>
 </section>
@@ -75,7 +75,26 @@ function BREADTHFIRST(GRAPH,SRC)
 </code></pre>
 </section>
 
-[comment]: <> (WALK-THROUGH: Start at slide )
+<section>
+<h3> Breadth First Traversal </h3>
+<pre class="" style="font-size: .4em; width: 65%; height: 400px"><code class="python" style="max-height: 1000px;">
+function BREADTHFIRST(GRAPH,SRC)
+    QUEUE = empty queue
+    DISCOVERED = empty set
+    add SRC to DISCOVERED
+    add SRC to QUEUE
+    while QUEUE is not empty
+        CURR = first element in QUEUE
+        NEIGHS = neighbors of CURR
+        for EDGE in NEIGHS
+            NODE = first entry in EDGE<mark>
+            if NODE is not in DISCOVERED
+                add NODE to DISCOVERED
+                append NODE to QUEUE</mark>
+</code></pre>
+</section>
+
+[comment]: <> (WALK-THROUGH: Starts at slide 6)
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_01.svg">
 </section>
@@ -106,9 +125,6 @@ function BREADTHFIRST(GRAPH,SRC)
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_10.svg">
 </section>
-
-[comment]: <> (WALK-THROUGH: Slide  is next)
-
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_11.svg">
 </section>
@@ -117,6 +133,27 @@ function BREADTHFIRST(GRAPH,SRC)
 </section>
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_13.svg">
+</section>
+
+[comment]: <> (WALK-THROUGH: Slide 19 is next)
+
+<section>
+<h3> Breadth First Traversal </h3>
+<pre class="" style="font-size: .4em; width: 65%; height: 400px"><code class="python" style="max-height: 1000px;">
+function BREADTHFIRST(GRAPH,SRC)
+    QUEUE = empty queue
+    DISCOVERED = empty set
+    add SRC to DISCOVERED
+    add SRC to QUEUE
+    while QUEUE is not empty
+        CURR = first element in QUEUE
+        NEIGHS = neighbors of CURR
+        for EDGE in NEIGHS
+            NODE = first entry in EDGE
+            if NODE is not in DISCOVERED
+                add NODE to DISCOVERED
+                append NODE to QUEUE
+</code></pre>
 </section>
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_14.svg">
@@ -130,15 +167,10 @@ function BREADTHFIRST(GRAPH,SRC)
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_17.svg">
 </section>
-<section>
-<img class="stretch plain" src="/images/315_8.3_BFS_18.svg">
-</section>
+
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_19.svg">
 </section>
-
-[comment]: <> (WALK-THROUGH: Slide  is next)
-
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_20.svg">
 </section>
@@ -148,7 +180,24 @@ function BREADTHFIRST(GRAPH,SRC)
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_22.svg">
 </section>
-
 <section>
 <img class="stretch plain" src="/images/315_8.3_BFS_23.svg">
+</section>
+<section>
+<h3> Breadth First Traversal </h3>
+<pre class="" style="font-size: .4em; width: 65%; height: 400px"><code class="python" style="max-height: 1000px;">
+function BREADTHFIRST(GRAPH,SRC)
+    QUEUE = empty queue
+    DISCOVERED = empty set
+    add SRC to DISCOVERED
+    add SRC to QUEUE
+    while QUEUE is not empty
+        CURR = first element in QUEUE
+        NEIGHS = neighbors of CURR
+        for EDGE in NEIGHS
+            NODE = first entry in EDGE
+            if NODE is not in DISCOVERED
+                add NODE to DISCOVERED
+                append NODE to QUEUE
+</code></pre>
 </section>
