@@ -8,7 +8,7 @@ date: 2020-08-28T16:27:26-05:00
 {{< youtube UfA7EdB6krs >}}
 
 #### Resources
-* [Slides](/1-cc115/13-webprog/slides/14-WebProgramming2.pdf)
+* [Slides](/1-cis115/13-webprog/slides/14-WebProgramming2.pdf)
 
 #### Video Script
 
