@@ -1,6 +1,6 @@
 ---
 title: "Starting Tic Tac Toe"
-pre: "12.5 "
+pre: "13.5 "
 weight: 25
 date: 2020-08-28T16:27:26-05:00
 ---
