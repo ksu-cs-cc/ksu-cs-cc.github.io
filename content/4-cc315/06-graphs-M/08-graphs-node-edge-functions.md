@@ -5,7 +5,7 @@ weight: 68
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube zcCtPamophM >}}
+{{< youtube Alyg8IEC0Os >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/06-graphs-M/08-graphs-node-edge-functions-slides.md" >}})

@@ -5,7 +5,7 @@ weight: 71
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube zcCtPamophM >}}
+{{< youtube DgN_qmbtK_M >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/07-graphs-L/01-graphs-list-introduction-slides.md" >}})

@@ -5,7 +5,7 @@ weight: 65
 date: 2019-02-04T10:53:26-05:00
 ---
 
-{{< youtube zcCtPamophM >}}
+{{< youtube f7qyV9XOwzA >}}
 
 #### Resources
 * [Slides]({{< relref "/4-CC315/06-graphs-M/05-graphs-directed-graphs-slides.md" >}})
