@@ -1,5 +1,5 @@
 ---
-title: "Minimum Spanning Trees: Traveling Salesperson Problem"
+title: "Traveling Salesperson Problem"
 pre: "5. "
 weight: 95
 date: 2019-02-04T10:53:26-05:00

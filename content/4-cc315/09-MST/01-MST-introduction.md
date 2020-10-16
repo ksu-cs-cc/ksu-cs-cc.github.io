@@ -1,5 +1,5 @@
 ---
-title: "Minimum Spanning Trees Introduction"
+title: "Introduction"
 pre: "1. "
 weight: 91
 date: 2019-02-04T10:53:26-05:00

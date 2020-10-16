@@ -1,5 +1,5 @@
 ---
-title: "Minimum Spanning Trees: Kruskals Algorithm"
+title: "Kruskals Algorithm"
 pre: "3. "
 weight: 93
 date: 2019-02-04T10:53:26-05:00

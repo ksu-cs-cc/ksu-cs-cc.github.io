@@ -1,5 +1,5 @@
 ---
-title: "Graph Traversal Paths"
+title: "Finding Paths"
 pre: "5. "
 weight: 85
 date: 2019-02-04T10:53:26-05:00

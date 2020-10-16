@@ -1,5 +1,5 @@
 ---
-title: "Graph Traversal In Practice"
+title: "In Practice"
 pre: "6. "
 weight: 86
 date: 2019-02-04T10:53:26-05:00

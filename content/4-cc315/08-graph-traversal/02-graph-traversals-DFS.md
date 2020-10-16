@@ -1,5 +1,5 @@
 ---
-title: "Graph Traversal DFS"
+title: "DFS"
 pre: "2. "
 weight: 82
 date: 2019-02-04T10:53:26-05:00
