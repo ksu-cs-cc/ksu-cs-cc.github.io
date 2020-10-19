@@ -11,13 +11,13 @@ hidden: true
 </section>
 
 <section>
-<h3> Kruskals Algorithm</h3>
+<h3> Prims Algorithm</h3>
 <pre class="" style="font-size: .4em; width: 90%; height: 400px"><code class="python" style="max-height: 1000px;">
-function PRIM(GRAPH, SRC)
+function PRIM(GRAPH, START)
     MST = GRAPH without the edges attribute(s)
     VISITED = empty set
-    add SRC to VISITED
-    AVAILEDGES = list of edges where CURR is the source
+    add START to VISITED
+    AVAILEDGES = list of edges where START is the source
     sort AVAILEDGES
     while VISITED is not all of the nodes
         SMLEDGE = smallest edge in AVAILEDGES
@@ -29,6 +29,52 @@ function PRIM(GRAPH, SRC)
             add the edges where TAR is the source to AVAILEDGES
         remove SMLEDGE from AVAILEDGES
         sort AVAILEDGES
+    return MST
+</code></pre>
+</section>
+
+<section>
+<h3> Prims Algorithm</h3>
+<pre class="" style="font-size: .4em; width: 90%; height: 400px"><code class="python" style="max-height: 1000px;">
+function PRIM(GRAPH, START)<mark>
+    MST = GRAPH without the edges attribute(s)
+    VISITED = empty set
+    add START to VISITED
+    AVAILEDGES = list of edges where START is the source
+    sort AVAILEDGES</mark>
+    while VISITED is not all of the nodes
+        SMLEDGE = smallest edge in AVAILEDGES
+        SRC = source of SMLEDGE
+        TAR = target of SMLEDGE
+        if TAR not in VISITED
+            add SMLEDGE to MST as undirected edge
+            add TAR to VISITED
+            add the edges where TAR is the source to AVAILEDGES
+        remove SMLEDGE from AVAILEDGES
+        sort AVAILEDGES
+    return MST
+</code></pre>
+</section>
+
+<section>
+<h3> Prims Algorithm</h3>
+<pre class="" style="font-size: .4em; width: 90%; height: 400px"><code class="python" style="max-height: 1000px;">
+function PRIM(GRAPH, START)
+    MST = GRAPH without the edges attribute(s)
+    VISITED = empty set
+    add START to VISITED
+    AVAILEDGES = list of edges where START is the source
+    sort AVAILEDGES<mark>
+    while VISITED is not all of the nodes
+        SMLEDGE = smallest edge in AVAILEDGES
+        SRC = source of SMLEDGE
+        TAR = target of SMLEDGE
+        if TAR not in VISITED
+            add SMLEDGE to MST as undirected edge
+            add TAR to VISITED
+            add the edges where TAR is the source to AVAILEDGES
+        remove SMLEDGE from AVAILEDGES
+        sort AVAILEDGES</mark>
     return MST
 </code></pre>
 </section>
@@ -110,4 +156,12 @@ function PRIM(GRAPH, SRC)
 </section>
 <section>
 <img class="stretch plain" style="height:600"src="/images/315_9.4_P_25.svg">
+</section>
+<section>
+<h3>Prim Intuition</h3>
+<ul>
+<li>Choose a random node</li>
+<li>Grow your tree by one edge, selecting the smallest edge to connect to a node that is not yet in the tree.</li>
+<li>Repeat until all the nodes have been visited</li>
+</ul>
 </section>

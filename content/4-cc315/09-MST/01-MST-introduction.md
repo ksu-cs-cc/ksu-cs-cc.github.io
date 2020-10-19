@@ -18,15 +18,15 @@ For this module, we will continue working with graphs, specifically minimum span
 
 [Slide 2]
 
-As a motivating example, suppose that a telecommunication company wanted to lay fiber optic lines throughout Kansas, such that most town and cities were junctures. They would like to offer fiber internet connections to most Kansans but would like to do it as efficiently as possible. In this setup, the company can lay the line from city to city in a straight-path. In the real world, they would be more methodical about this, laying it in paths which were clear from obstacles. 
+As a motivating example, suppose that a telecommunication company wanted to lay fiber optic lines throughout Kansas, such that 300 town and cities were junctures. They would like to offer fiber internet connections to most Kansans but would like to do it as efficiently as possible. In this setup, the company can lay the line from city to city in a straight-path. In the real world, they would be more methodical about this, laying it in paths which were clear from obstacles. 
 
 [Slide 3]
 
-In this graph, we have about 640 towns and each edge represents the direct path from town to town. This is about two hundred thousand paths to consider for the company! By finding the minimum spanning tree, the company can find the best way to lay the least amount of line while still reaching all of the towns. 
+In this graph, we have about 300 towns and each edge represents the direct path from town to town. By finding the minimum spanning tree, the company can find the best way to lay the least amount of line while still reaching all of the towns. 
 
 [Slide 4]
 
-Here is an example of what that would look like! If they were to lay the cable according to these connections, then they would minimize the amount of line required and thus lower costs and line maintenance. This minimum spanning tree was generated using the matrix graph implementation from this course and Kruskals algorithm, which we will introduce in this module. 
+Here is an example of what that would look like! This graph shows us the various connections between the towns such that each town is connected to the system and there is no backtracking. If the company were to lay the cable according to these connections, then they would minimize the amount of line required and thus lower costs and line maintenance. This minimum spanning tree was generated using the matrix graph implementation from this course and Kruskals algorithm, which we will introduce in this module. 
 
 
 [Slide 5]

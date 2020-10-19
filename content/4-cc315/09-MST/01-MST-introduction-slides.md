@@ -22,15 +22,18 @@ hidden: true
 </section>
 
 <section>
-<h3>example</h3>
+<h3>Example</h3>
+<img class="stretch plain" src="/images/State_of_KS.png">
 </section>
 
 <section>
-<h3>example</h3>
+<h3>Example</h3>
+<img class="stretch plain" src="/images/KS_all_connects.png">
 </section>
 
 <section>
-<h3>example</h3>
+<h3>Example</h3>
+<img class="stretch plain" src="/images/KS_MST.png">
 </section>
 
 <section>
