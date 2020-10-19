@@ -14,11 +14,13 @@ date: 2019-02-04T10:53:26-05:00
 
 [Slide 1]
 
-In this video, we will look at a classic graph problem, the traveling salesperson problem. This problem was originally introduced as a research problem in 1832 and is still being studied to this day! The goal of this video is not to formally introduce the algorithms for finding solutions, rather to gain an appreciation for the posed problem as well as results that have come from it. 
+In this video, we will look at a classic graph problem, the traveling salesperson problem. This problem was originally introduced as a research problem in 1832 as a guide for traveling salespeople and is still being studied to this day! The goal of this video is not to formally introduce the algorithms for finding solutions, rather to gain an appreciation for the posed problem as well as results that have come from it. 
 
 Since it was originally posed, researchers have found new ways to solve the task and improve upon the performance time to find the solution. Even as recently as August 2020, improvements have been made on the time it takes to find solutions. 
 
-The premise of the problem is this: given a set of cities what is the shortest loop a travelling salesperson could make such that each city is only visited once and they end up where they started. Another way to think of this is if you have a list of errands to do around town and each one is at a different location. What is the most efficient way for you to complete all of the errands without backtracking and so that you end up at home. 
+The premise of the problem is this: given a set of cities what is the shortest loop a travelling salesperson could make such that each city is only visited once and they end up where they started. Specifically in 1832, the goal was to find an efficient route for traveling sales tours of Germany and Switzerland. 
+
+Another way to think of the problem is if you have a list of errands to do around town and each one is at a different location. What is the most efficient way for you to complete all of the errands without backtracking and so that you end up at home. 
 
 [Slide 2]
 
