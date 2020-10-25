@@ -15,9 +15,12 @@ This curriculum was developed at Kansas State University with the help of many a
 
 Authors had a key role in the development of modules, videos, assignments, and other core content of the curriculum. Specific parts of the curriculum may include more specific authorship or attribution. Authors are listed alphabetically by surname.
 
+* [Emily Alfs-Votikpa](http://www.cs.ksu.edu/people/faculty/alfs-votipka/index.html)
 * [Dr. Scott DeLoach](http://people.cs.ksu.edu/~sdeloach/)
 * [Russell Feldhausen](https://russfeld.me)
+* [George "Bud" LaVezzi](http://www.cs.ksu.edu/people/faculty/lavezzi/index.html)
 * [Francesco Maiorana](https://sites.google.com/site/maioranafrancescospes/)
+* [Dr. Josh Weese](http://weeser.net/)
 
 ## Contributors
 
@@ -26,14 +29,12 @@ Contributors have provided valuable feedback, reviewed and edited content, or in
 #### Faculty
 
 * [Nathan Bean](http://www.nathanhbean.com/)
-* George "Bud" LaVezzi
 * [Dr. Lior Shamir](http://people.cs.ksu.edu/~lshamir/)
-* Dr. Jorge Valenzuela
-* [Dr. Josh Weese](http://weeser.net/)
+* [Dr. Jorge Valenzuela](http://www.cs.ksu.edu/people/faculty/valenzuela/)
 
 #### Graduate Teaching Assistants
 
-* Raja Farrukh Ali (S20)
+* Raja Farrukh Ali (S20, F20)
 * BreAnn Anshutz (S20)
 * Kyle Glandt (F19)
 * Joshua Schwartz (F19)
