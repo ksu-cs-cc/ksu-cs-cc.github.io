@@ -1,7 +1,7 @@
 +++
 title = "Search and Information Retrieval"
 date = 2020-10-24T00:23:05-05:00
-weight = 1800
+weight = 1900
 chapter = true
 pre = "<b>19. </b>"
 +++
