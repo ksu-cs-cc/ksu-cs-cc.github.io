@@ -7,7 +7,7 @@ date: 2019-02-04T10:53:26-05:00
 
 {{< youtube tNbAVKrcbQU >}}
 
-This video covers the pushup functionallity of priority queues. Specifically:
+This video covers the pushup functionality of priority queues. Specifically:
 - 0:00 Pushup Intuition
 - 1:05 Base Case
 - 2:10 Recursive Case
