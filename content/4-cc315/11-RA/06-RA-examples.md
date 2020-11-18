@@ -12,4 +12,4 @@ date: 2019-02-04T10:53:26-05:00
 
 #### Video Script
 
-[Slide 1]
+Walk through the setup then discuss how we could implement them.
