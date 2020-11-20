@@ -5,11 +5,11 @@ weight: 10
 date: 2020-10-24T00:27:26-05:00
 ---
 
-{{< youtube FTNf3MIViBo >}}
-<!-- KG68zy_ebxk -->
+{{< youtube KG68zy_ebxk >}}
+
 
 #### Resources
-* [Slides](/1-cc110/20-big-data/slides/20-BigData.pdf)
+* [Slides](/1-cis115/20-big-data/slides/20-BigData.pdf)
 
 #### Video Script
 
