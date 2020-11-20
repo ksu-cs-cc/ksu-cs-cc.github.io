@@ -5,12 +5,10 @@ weight: 5
 date: 2020-10-24T00:27:26-05:00
 ---
 
-{{< youtube BJYg9_N_yzQ >}}
-<!-- NGfq-I46A_Y -->
-
+{{< youtube NGfq-I46A_Y>}}
 
 #### Resources
-* [Slides](/1-cc110/19-search-info/slides/19-InfoRetrieval.pdf)
+* [Slides](/1-cis115/19-search-info/slides/19-InfoRetrieval.pdf)
 
 #### Video Script
 
