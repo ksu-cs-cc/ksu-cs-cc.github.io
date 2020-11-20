@@ -23,7 +23,8 @@ hidden: true
 
 <section>
 <h3>Insert</h3>
-<p>log(n)</p>
+<h6>Running time: log(n)</h6>
+<img class="stretch plain" src="/images/315_12_HEAP.svg">
 </section>
 
 <section>
