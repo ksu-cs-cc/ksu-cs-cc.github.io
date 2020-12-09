@@ -7,12 +7,12 @@ hidden: true
 	<h2>Do The Work</h2>
 </section>
 <section>
-	<p><i>The person doing the <b>work</b> is the person going the <b>learning</b>.</i><br>- Various Educators</p>
-</section>
-<section>
 	<h2>Credit</h2>
 	<p>Nathan Bean's CIS 400</p>
 	<p><small><a href="https://people.cs.ksu.edu/~nhbean/cis400/a-learning-programming/">https://people.cs.ksu.edu/~nhbean/cis400/a-learning-programming/</a></small></p>
+</section>
+<section>
+	<p><i>The person doing the <b>work</b> is the person going the <b>learning</b>.</i><br>- Various Educators</p>
 </section>
 <section>
 	<h2>Myth</h2>
@@ -51,6 +51,7 @@ hidden: true
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Jean_Piaget_in_Ann_Arbor.png">Wikimedia Commons</a></p>
 </section>
 <section>
+	<h4>Genetic Epistemology</h4>
 	<img class="stretch" src="/images/410snail.jpg">
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Snail.jpg">Wikimedia Commons</a></p>
 </section>
@@ -130,6 +131,7 @@ hidden: true
 		<li>Senses</li>
 		<li>Patterns</li>
 		<li>Memory</li>
+		<li><s>Multitasking</s></li>
 	</ul>
 </section>
 <section>
