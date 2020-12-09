@@ -12,6 +12,12 @@ date: 2020-12-08T00:53:26-05:00
 #### Resources
 
 * [Slides]({{< relref "5-cc410/00-introduction/05-how-to-learn-programming-slides.md" >}})
+* [The Science of Learning Programming](https://people.cs.ksu.edu/~nhbean/cis400/a-learning-programming/) from Nathan Bean's CIS 400 Textbook
+* [The Power of Believing You Can Improve | Carol Dweck](https://www.youtube.com/watch?v=_X0mgOOSpLU) - TED Talk on Mindsets and the Power of "Yet"
+* [The New Science of Learning: How to Learn in Haromony with your Brain](https://www.amazon.com/New-Science-Learning-Learn-Harmony/dp/1620360098) by Terry Doyle and Todd Zakrajsek - Great Book on Learning
+* [Constructivism](https://en.wikipedia.org/wiki/Constructivism_%28philosophy_of_education%29) on Wikipedia - Article about Jean Piaget's Learning Philosophy
+* [Toward a Developmental Epistemology of Computer Programming](https://dl.acm.org/doi/10.1145/2978249.2978251) by Raymond Lister - Introduces the Stages of Learning to Program
+
 
 #### Video Script
 
