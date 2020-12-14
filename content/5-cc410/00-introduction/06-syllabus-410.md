@@ -45,6 +45,18 @@ The goal is not just to write software that compiles without errors, but to deve
 * Event-Driven Programming
 * Professional Communication and Collaboration
 
+### Student Learning Outcomes
+
+After completing this course, a successful student will be able to:
+* Develop code following industry best-practices for code style and documentation
+* Develop and execute unit tests that adequately test code for bugs and errors
+* Make use of tools to determine the code coverage of a set of unit tests
+* Make use of source code management tools to maintain and store a code base
+* Create a class library following the object-oriented paradigm that makes effective use of inheritance and polymorphism where appropriate
+* Develop a GUI for a given program that uses event-driven programming to respond to GUI events and manipulate underlying data models
+* Apply common software development methodologies, processes and design patterns to create software that performs a desired task or solves a problem
+* Communicate information about their code effectively with various audiences 
+
 ###  Course Structure
 
 These courses are being taught 100% online, and each module is self-paced. There may be some bumps in the road as we refine the overall course structure. Students will work at their own pace through a set of modules, with approximately one module being due each week. Material will be provided in the form of recorded videos, online tutorials, links to online resources, and discussion prompts. Each module will include a coding project or assignment, many of which will be graded automatically through Codio. Assignments may also include portions which will be graded manually via Canvas or other tools.
