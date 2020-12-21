@@ -145,7 +145,11 @@ The Codio platform can perform automatic plagiarism detection by comparing submi
 
 ### Students with Disabilities
 
-Students with disabilities who need classroom accommodations, access to technology, or information about emergency building/campus evacuation processes should contact the Student Access Center and/or their instructor.  Services are available to students with a wide range of disabilities including, but not limited to, physical disabilities, medical conditions, learning disabilities, attention deficit disorder, depression, and anxiety. If you are a student enrolled in campus/online courses through the Manhattan or Olathe campuses, contact the Student Access Center at accesscenter@k-state.edu, 785-532-6441; for K-State Polytechnic campus, contact Academic and Student Services at polytechnicadvising@ksu.edu or call 785-826-2674.
+Students with disabilities who need classroom accommodations, access to technology, or information about emergency building/campus evacuation processes should contact the Student Access Center and/or their instructor.  Services are available to students with a wide range of disabilities including, but not limited to, physical disabilities, medical conditions, learning disabilities, attention deficit disorder, depression, and anxiety. If you are a student enrolled in campus/online courses through the Manhattan or Olathe campuses, contact the Student Access Center at [accesscenter@k-state.edu](mailto:accesscenter@k-state.edu), 785-532-6441; for K-State Polytechnic campus, contact Julie Rowe, Diversity, Inclusion and Access Coordinator, at [jarowe@ksu.edu](mailto:jarowe@ksu.edu) or call 785-826-2971.
+
+### Expectations for Conduct
+
+All student activities in the University, including this course, are governed by the [Student Judicial Conduct Code](http://www.k-state.edu/sga/judicial/) as outlined in the Student Governing Association [By Laws](http://www.k-state.edu/sga/old_files/sgadocs/ByLaws.pdf), Article V, Section 3, number 2. Students who engage in behavior that disrupts the learning environment may be asked to leave the class.
 
 ### Diversity and Inclusion
 
@@ -192,9 +196,23 @@ Here are a few general rules to help us all communicate online in this course, e
 
 As a participant in course discussions, you should also strive to honor the diversity of your classmates by adhering to the [K-State Principles of Community](https://www.k-state.edu/about/values/community/).
 
-### Expectations for Conduct
+### Face Coverings
 
-All student activities in the University, including this course, are governed by the [Student Judicial Conduct Code](http://www.k-state.edu/sga/judicial/) as outlined in the Student Governing Association [By Laws](http://www.k-state.edu/sga/old_files/sgadocs/ByLaws.pdf), Article V, Section 3, number 2. Students who engage in behavior that disrupts the learning environment may be asked to leave the class.
+To protect the health and safety of the K-State community, students, faculty, staff and visitors must wear face coverings over their mouths and noses in all indoor and outdoor spaces while you are on university property unless you are alone in a private office or workspace or alone outdoors. In addition, all new students are required to complete [face covering training](https://kstate.qualtrics.com/jfe/form/SV_eJ6LHbFIJ8GFD7f) that also covers COVID-19 transmission, risk mitigation and the Every Wildcat a Wellcat pledge. Students needing accommodations may contact the Student Access Center at [accesscenter@k-state.edu](mailto:accesscenter@k-state.edu).
+
+In classrooms, faculty have the right to deny a student entry into the room if the student is not wearing a face covering. Students not wearing a face covering will be reminded to do so and offered a clean face covering, if one is available. If the student does not comply, the faculty member will ask the student to leave the space, and if available, join the class remotely.  As a last resort, campus police will be called. The faculty member will complete the Code of Conduct form and the Office of Student Life will look further into the issue and take the non-compliance with the request to leave into consideration of further accountability measures. 
+
+At no point should the professor or other students put themselves into an unsafe situation while attempting to enforce the face-covering policy.
+
+* Manhattan campus police: 785-532-6412
+* Olathe campus security guard: 913-307-7318
+* Kansas State Polytechnic security officer: 785-826-2909
+
+### Academic Freedom Statement
+
+Kansas State University is a community of students, faculty, and staff who work together to discover new knowledge, create new ideas, and share the results of their scholarly inquiry with the wider public. Although new ideas or research results may be controversial or challenge established views, the health and growth of any society requires frank intellectual exchange. Academic freedom protects this type of free exchange and is thus essential to any university's mission.
+
+Moreover, academic freedom supports collaborative work in the pursuit of truth and the dissemination of knowledge in an environment of inquiry, respectful debate, and professionalism. Academic freedom is not limited to the classroom or to scientific and scholarly research, but extends to the life of the university as well as to larger social and political questions. It is the right and responsibility of the university community to engage with such issues.
 
 ### Campus Safety
 
@@ -204,16 +222,27 @@ Kansas State University is committed to providing a safe teaching and learning e
 
 K-State has many resources to help contribute to student success. These resources include accommodations for academics, paying for college, student life, health and safety, and others found at [www.k-state.edu/onestop](http://www.k-state.edu/onestop).
 
-### Face Coverings
+### Student Academic Creations
 
-To protect the health and safety of the K-State community, students, faculty, staff and visitors must wear face coverings over their mouths and noses while on K-State campuses in all hallways, public spaces, classrooms and other common areas of campus buildings, and when in offices or other work spaces or outdoor settings when 6-feet social distancing cannot be maintained. In addition, all students, faculty, and staff are required to take the [COVID-19 and Face Mask Safety training](https://www.k-state.edu/safety/covid-19/training/). Employees who need reasonable accommodations and assistance related to required face coverings may contact the ADA coordinator at [charlott@k-state.edu](mailto:charlott@k-state.edu), and students needing accommodations may contact the Student Access Center at [accesscenter@k-state.edu](mailto:accesscenter@k-state.edu). In classrooms, faculty have the right to deny a student entry into the room if the student is not wearing a face covering.
+Student academic creations are subject to Kansas State University and Kansas Board of Regents Intellectual Property Policies. For courses in which students will be creating intellectual property, the K-State policy can be found at [University Handbook, Appendix R: Intellectual Property Policy and Institutional Procedures (part I.E.)](https://www.k-state.edu/provost/universityhb/fhxr.html). These policies address ownership and use of student academic creations.
 
-### Academic Freedom Statement
+### Statement on Mental Health
 
-Kansas State University is a community of students, faculty, and staff who work together to discover new knowledge, create new ideas, and share the results of their scholarly inquiry with the wider public. Although new ideas or research results may be controversial or challenge established views, the health and growth of any society requires frank intellectual exchange. Academic freedom protects this type of free exchange and is thus essential to any university's mission.
+Your mental health and good relationships are vital to your overall well-being. Symptoms of mental health issues may include excessive sadness or worry, thoughts of death or self-harm, inability to concentrate, lack of motivation, or substance abuse. Although problems can occur anytime for anyone, you should pay extra attention to your mental health if you are feeling academic or financial stress, discrimination, or have experienced a traumatic event, such as loss of a friend or family member, sexual assault or other physical or emotional abuse. 
 
-Moreover, academic freedom supports collaborative work in the pursuit of truth and the dissemination of knowledge in an environment of inquiry, respectful debate, and professionalism. Academic freedom is not limited to the classroom or to scientific and scholarly research, but extends to the life of the university as well as to larger social and political questions. It is the right and responsibility of the university community to engage with such issues.
+If you are struggling with these issues, do not wait to seek assistance. 
+
+* Kansas State University Counseling Services ([k-state.edu/counseling/](https://k-state.edu/counseling/)) offers free and confidential services to assist you to meet these challenges. 
+* Lafene Health Center ([https://www.k-state.edu/lafene](https://www.k-state.edu/lafene)) has specialized nurse practitioners to assist with mental health. 
+* The Office of Student Life ([k-state.edu/studentlife](https://k-state.edu/studentlife)) can direct you to additional resources. 
+* K-State Family Center offers individual, couple, and family counseling services on a sliding fee scale ([https://www.hhs.k-state.edu/familycenter/](https://www.hhs.k-state.edu/familycenter/)). 
+* Center for Advocacy, Response, and Education (CARE) provides free and confidential assistance for those in our K-State community who have been victimized by violence ([https://www.k-state.edu/care/](https://www.k-state.edu/care/)). 
+
+For Kansas State Polytechnic Campus: 
+
+* Kansas State Polytechnic Counseling Services ([polytechnic.k-state.edu/studentlife/health/counseling.html](https://polytechnic.k-state.edu/studentlife/health/counseling.html)) offers free and confidential services to assist you to meet these challenges. 
+* The Kansas State Polytechnic Office of Student Life ([polytechnic.k-state.edu/studentlife/](https://polytechnic.k-state.edu/studentlife/)) can direct you to additional resources.
 
 ### Copyright Notice
 
-&copy; The materials in this online course fall under the protection of all intellectual property, copyright and trademark laws of the U.S.  The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course.  The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites.  Likewise, mentioned brands (products and services) do not suggest endorsement.  Students own copyright to what they create.
+&copy; The materials in this online course fall under the protection of all intellectual property, copyright and trademark laws of the U.S. The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course. The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites.  Likewise, mentioned brands (products and services) do not suggest endorsement. Students own copyright to what they create.
