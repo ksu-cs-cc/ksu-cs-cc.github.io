@@ -29,8 +29,24 @@ hidden: true
 		<li>Sequences (Blocks of Statements)</li>
 		<li>Selection (Conditionals)</li>
 		<li>Iteration (Loop & Recursion)</li>
-		<li>Subroutines (Functions)</li>
+		<li><i>Subroutines (Functions)</i></li>
 	</ul>
+</section>
+<section>
+	<h2>Sequences</h2>
+	<img class="plain stretch" src="/images/410sequence.png">
+</section>
+<section>
+	<h2>Selection</h2>
+	<img class="plain stretch" src="/images/410select.png">
+</section>
+<section>
+	<h2>Iteration</h2>
+	<img class="plain stretch" src="/images/410loop.png">
+</section>
+<section>
+	<h2>Subroutines</h2>
+	<img class="plain stretch" src="/images/410function.png">
 </section>
 <section>
 	<h2>Structured Code</h2>
