@@ -73,4 +73,4 @@ This is not an exhaustive list of possible deductions. The instructors will stri
 
 ## Submission
 
-Submit this assignment by creating a release on GitHub and uploading the release URL to the assignment on Canvas. You **should not** submit this Codio or mark it as complete in Codio, in case you need to come back to it and make changes later.
+Submit this assignment by creating a release on GitHub and uploading the release URL to the assignment on Canvas. You **should not** submit this Codio project or mark it as complete in Codio, in case you need to come back to it and make changes later.

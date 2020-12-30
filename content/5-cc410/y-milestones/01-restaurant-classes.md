@@ -43,19 +43,16 @@ This milestone must follow these professional coding standards:
   * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
 
+The following requirements **ARE NOT** enforced for this milestone, but will be enforced in later milestones that use the same code. We will focus on learning to meet each of these requirements in future modules. However, you are welcome to "plan ahead" by minimizing the number of style errors in your code and adding some basic documentation where desired. 
+
 {{% notice tip %}}
 
-You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
-
- **Java** - All names are in CamelCase. Classes start with uppercase, like `ClassName`, methods and attributes start with lowercase like `methodName`. See the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s5-naming). 
-
- **Python** - All names are lowercase with underscores like `method_name`, with the exception of classes, which are named in CamelCase starting with an uppercase letter like `ClassName`. See the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.16-naming). 
-
+You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.<br>
+ **Java** - All names are in CamelCase. Classes start with uppercase, like `ClassName`, methods and attributes start with lowercase like `methodName`. See the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s5-naming). <br>
+ **Python** - All names are lowercase with underscores like `method_name`, with the exception of classes, which are named in CamelCase starting with an uppercase letter like `ClassName`. See the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.16-naming). <br>
  It is easier to get this correct from the start, then having to refactor your code later. Of course, major refactoring is also a good lesson that guarantees you'll get it right in the future!
 
 {{% /notice %}}
-
-The following requirements **ARE NOT** enforced for this milestone, but will be enforced in later milestones that use the same code. We will focus on learning to meet each of these requirements in future modules. However, you are welcome to "plan ahead" by minimizing the number of style errors in your code and adding some basic documentation where desired. 
 
 * **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
   * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
@@ -104,11 +101,15 @@ This is not an exhaustive list of possible deductions. The instructors will stri
 
 ## Submission
 
-Submit this assignment by creating a release on GitHub and uploading the release URL to the assignment on Canvas. You **should not** submit this Codio or mark it as complete in Codio, in case you need to come back to it and make changes later.
+Submit this assignment by creating a release on GitHub and uploading the release URL to the assignment on Canvas. You **should not** submit this Codio project or mark it as complete in Codio, in case you need to come back to it and make changes later.
 
+---
+---
 ---
 
 ## Starfleet Subs Menu
+
+_our motto: to boldly eat a sandwich where no sandwich has been eaten before_
 
 Each attribute described below should be implemented as a private variable within the class. Most attributes will also include a **getter** method, and sometimes a **setter** method, following this naming scheme (using **Price** as an example): 
   * **Java** - The private `price` attribute would have a `getPrice` getter and `setPrice` setter method.
@@ -130,9 +131,9 @@ Each entrée should be stored in an appropriately named class in the `starfleets
 
 Each entrée class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{sandwich name} on {bread}", such as "The Kirk on White Bread".
 
-Each entrée description will include a list of ingredients it includes by default. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Ham", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
+Each entrée description will include a list of ingredients included on the sandwich. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Ham", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
 
-Likewise, each entrée description will include a **Price**, number of **Calories**, a default value for **Bread** and a default set of **Condiments**. Those attributes should be populated appropriately in the constructor for that class. Changes to the **Bread** and **Condiments** attributes will not affect the **Special Instructions** attribute. 
+Likewise, each entrée description will include a **Price**, number of **Calories**, a default value for **Bread** and a default set of **Condiments**. Those attributes should be populated appropriately in the constructor for the entrée. Changes to the **Bread** and **Condiments** attributes will not affect the **Special Instructions** attribute. Likewise, the **Price** and number of **Calories** will remain constant, regardless of other attributes. 
 
 ##### The Kirk (Ham & Cheese)
 
@@ -180,14 +181,14 @@ _a most logical choice_
 
 ### Sides
 
-Each side should be stored in an appropriately named class in the `starfleetsubs.data.sides` package. Each entrée should include an attribute for the following data:
+Each side should be stored in an appropriately named class in the `starfleetsubs.data.sides` package. Each side should include an attribute for the following data:
   * **Price** - a Java `double` or Python `float` value. It should have a **getter** method.
   * **Calories** - an `int` value. It should have a **getter** method.
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
 
 Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
 
-Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for that class, and should be updated if the **Size** attribute changes.
+Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for the side, and should be updated if the **Size** attribute changes.
 
 ##### Data Chips (Potato Chips)
 
@@ -203,13 +204,13 @@ _a round cookie and two gherkin "nacelles" in honor of the best ship in the flee
 
 ##### Borg (Pretzel Bites)
 
-_it is "futile" to "resist" these identical pretzel bites wrapped in foil_
+_it is "futile" to "resist" these identical square pretzel bites wrapped in foil_
 
 `starfleetsubs.data.sides.Borg` - Small: **$2.55** and **375** calories. Medium: **$4.15** and **565** calories. Large: **$6.65** and **780** calories. 
 
 ##### Bones McCoy (Chicken Wings)
 
-_these wings are the best "bones" in the business_
+_these wings are the best "bones" in the galaxy_
 
 `starfleetsubs.data.sides.BonesMcCoy` - Small: **$3.75** and **545** calories. Medium: **$5.45** and **785** calories. Large: **$6.75** and **925** calories. 
 
@@ -217,16 +218,18 @@ _these wings are the best "bones" in the business_
 
 ### Drinks
 
-Each drink should be stored in an appropriately named class in the `starfleetsubs.data.drinks` package. Each entrée should include an attribute for the following data:
+Each drink should be stored in an appropriately named class in the `starfleetsubs.data.drinks` package. Each drink should include an attribute for the following data:
   * **Price** - a Java `double` or Python `float` value. It should have a **getter** method.
   * **Calories** - an `int` value. It should have a **getter** method.
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
     * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList.clone (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#clone--) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
-Each entrée class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {side name}", such as "Small Picard".
+Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {drink name}", such as "Small Picard".
 
-Each drink description may include a list of ingredients it includes by default. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Whipped Cream", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. In addition, drinks may include optional ingredients that should be represented using Boolean attributes that are set to `false` by default, with appropriate **getter** and **setter** methods. Changing any of these to `true` will add a "Add {ingredient}" message, such as "Add Ice", to be added to the **Special Instructions** list. Likewise, changing it back to `false` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
+Each drink description may include a list of ingredients it includes by default. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Whipped Cream", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. 
+
+In addition, drinks may include optional ingredients that should be represented using Boolean attributes that are set to `false` by default, with appropriate **getter** and **setter** methods. Changing any of these to `true` will add a "Add {ingredient}" message, such as "Add Ice", to be added to the **Special Instructions** list. Likewise, changing it back to `false` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
 
 Each drink description will include a **Price** and number of **Calories** for each **Size**. The drinks will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for that class, and should be updated if the **Size** attribute changes. Changes to the **Size** attribute will not affect the **Special Instructions** attribute. 
 
@@ -238,7 +241,7 @@ _tea, Earl Grey, hot_
 
 ##### The Troi (Latte/Mocha)
 
-_the ultimate comfort drink inspired by a chocolate sundae__
+_the ultimate comfort drink inspired by a chocolate sundae_
 
 `starfleetsubs.data.drinks.TheTroi` - Espresso served with **Chocolate**,  **Whipped Cream** and a **Cherry**. Can optionally add **Extra Espresso Shot**. Small: **$3.75** and **300** calories. Medium: **$4.35** and **425** calories. Large: **$5.25** and **600** calories.
 
@@ -270,20 +273,20 @@ Each enumeration should be stored in an appropriately named class in the `starfl
 
 _an upper deck and a lower deck is important for any sub_
 
-`starfleetsubs.data.enums.Bread` - **White Bread**, **Wheat Bread**, or **Sourdough Bread**
+`starfleetsubs.data.enums.Bread` - **White Bread**, **Wheat Bread**, **Sourdough Bread**
 
 ##### Size
 
 _options to fit any appetite_
 
-`starfleetsubs.data.enums.Size` - **Small**, **Medium**, or **Large**
+`starfleetsubs.data.enums.Size` - **Small**, **Medium**, **Large**
 
 ##### Condiments
 
 _don't forget your KHAAAAAANNNNN!-diments_
 
-`starfleetsubs.data.enums.Condiments` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, or **BBQ Sauce**
+`starfleetsubs.data.enums.Condiments` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, **BBQ Sauce**
 
 ---
 
-_Special thanks to numerous Facebook friends for menu suggestions!_
+_Special thanks to Nathan, Stephen, Sarah, Kellie, Dan, Jack, Josh, Pascal, Beth, and Vince for inspiration and menu suggestions!_
