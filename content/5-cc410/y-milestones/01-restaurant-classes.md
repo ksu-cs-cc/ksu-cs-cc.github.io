@@ -72,13 +72,13 @@ The following requirements **ARE NOT** enforced for this milestone, but will be 
 
 This milestone should include the following features:
 
-* Entrée classes 
+* Entrée classes - 7
   * Declared in the `starfleetsubs.data.entrees` package
-* Side classes
+* Side classes - 4
   * Declared in the `starfleetsubs.data.sides` package
-* Drink classes
+* Drink classes - 5
   * Declared in the `starfleetsubs.data.drinks` package
-* Enumeration classes (options)
+* Enumeration classes - 3
   * Declared in the `starfleetsubs.data.enums` package
 
 See the [Starfleet Subs Menu](#starfleet-subs-menu) section below for descriptions of what each class should contain.
@@ -110,7 +110,7 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## Starfleet Subs Menu
 
-Each attribute described below should be implemented as a private variable within the class. Most attributes will also include a **getter** method, and sometimes a **setter** method, following this naming scheme (using `price` as an example): 
+Each attribute described below should be implemented as a private variable within the class. Most attributes will also include a **getter** method, and sometimes a **setter** method, following this naming scheme (using **Price** as an example): 
   * **Java** - The private `price` attribute would have a `getPrice` getter and `setPrice` setter method.
   * **Python** - The private `__price` attribute would have a getter and setter named `price` implemented as a [Python Property](https://docs.python.org/3/library/functions.html#property). 
 
@@ -189,7 +189,7 @@ Each side class should also override the default string representation method (`
 
 Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for that class, and should be updated if the **Size** attribute changes.
 
-##### Data Chips
+##### Data Chips (Potato Chips)
 
 _crispy, crunchy potato chips seeking to understand human emotions_
 
@@ -230,33 +230,60 @@ Each drink description may include a list of ingredients it includes by default.
 
 Each drink description will include a **Price** and number of **Calories** for each **Size**. The drinks will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for that class, and should be updated if the **Size** attribute changes. Changes to the **Size** attribute will not affect the **Special Instructions** attribute. 
 
-##### The Picard
+##### The Picard (Hot Tea)
 
 _tea, Earl Grey, hot_
 
 `starfleetsubs.data.drinks.ThePicard` - Tea served with **Lemon**. Can optionally add **Ice**. Small: **$0.95** and **5** calories. Medium: **$1.65** and **10** calories. Large: **$2.25** and **15** calories.
 
-##### The Troi
+##### The Troi (Latte/Mocha)
 
-_the ultimate comfort drink - a mocha inspired by a chocolate sundae__
+_the ultimate comfort drink inspired by a chocolate sundae__
 
-`starfleetsubs.data.drinks.TheTroi` - Coffee served with **Chocolate**,  **Whipped Cream** and a **Cherry**. Small: **$3.75** and **300** calories. Medium: **$4.35** and **425** calories. Large: **$5.25** and **600** calories.
+`starfleetsubs.data.drinks.TheTroi` - Espresso served with **Chocolate**,  **Whipped Cream** and a **Cherry**. Can optionally add **Extra Espresso Shot**. Small: **$3.75** and **300** calories. Medium: **$4.35** and **425** calories. Large: **$5.25** and **600** calories.
 
-##### The Worf
+##### The Worf (Prune Juice)()
 
-_
+_a warrior's drink_
 
+`starfleetsubs.data.drinks.TheWorf` - Prune Juice. Can optionally add **Ice**. Small: **$1.25** and **150** calories. Medium: **$1.75** and **225** calories. Large: **$2.55** and **415** calories.
 
-## Khandiments
+##### The Guinan (Lemonade)
 
-Lettuce
-Tomato
-Onion
-Pickles
-Peppers
-Olives
-Mayo
-Mustard
-BBQ Sauce
+_a refreshing drink for a mysterious connoisseur_
+
+`starfleetsubs.data.drinks.TheGuinan` - Lemonade served with **Ice**. Can optionally add **Strawberry** and/or **Cherry**. Small: **$2.30** and **150** calories. Medium: **$3.45** and **225** calories. Large: **$4.65** and **395** calories. 
+
+##### Altair Water
+
+_the ultimate in hydration, direct from Altair IV_
+
+`starfleetsubs.data.drinks.AltairWater` - Can optionally add **Ice** and/or **Lemon**. All sizes are **$0.50** and **0** calories. 
+
+---
+
+### Enumerations
+
+Each enumeration should be stored in an appropriately named class in the `starfleetsubs.data.emnums` package. 
+
+##### Bread
+
+_an upper deck and a lower deck is important for any sub_
+
+`starfleetsubs.data.enums.Bread` - **White Bread**, **Wheat Bread**, or **Sourdough Bread**
+
+##### Size
+
+_options to fit any appetite_
+
+`starfleetsubs.data.enums.Size` - **Small**, **Medium**, or **Large**
+
+##### Condiments
+
+_don't forget your KHAAAAAANNNNN!-diments_
+
+`starfleetsubs.data.enums.Condiments` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, or **BBQ Sauce**
+
+---
 
 _Special thanks to numerous Facebook friends for menu suggestions!_
