@@ -245,7 +245,7 @@ _the ultimate comfort drink inspired by a chocolate sundae_
 
 `starfleetsubs.data.drinks.TheTroi` - Espresso served with **Chocolate**,  **Whipped Cream** and a **Cherry**. Can optionally add **Extra Espresso Shot**. Small: **$3.75** and **300** calories. Medium: **$4.35** and **425** calories. Large: **$5.25** and **600** calories.
 
-##### The Worf (Prune Juice)()
+##### The Worf (Prune Juice)
 
 _a warrior's drink_
 
