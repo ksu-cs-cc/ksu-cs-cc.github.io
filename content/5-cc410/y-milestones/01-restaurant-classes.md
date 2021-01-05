@@ -124,12 +124,20 @@ Each entrée should be stored in an appropriately named class in the `starfleets
   * **Calories** - an `int` value. It should have a **getter** method.
   * **Bread** - a `Bread` value (see below). It should have a **getter** and **setter** method.
   * **Condiments** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#list) of `Condiment` values (see below). 
-    * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet.clone (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#clone--) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
+    * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
     * This attribute should also have methods for **Add Condiment** and **Remove Condiment** to modify the list of condiments. 
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
-    * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList.clone (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#clone--) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
+    * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
+
+{{% notice tip %}}
+
+Unfortunately, the Java `clone()` methods can cause an unchecked cast exception when used on Java Collections classes with generics. See [this StackOverflow question](https://stackoverflow.com/questions/9252803/how-to-avoid-unchecked-cast-warning-when-cloning-a-hashset) for a discussion of how to get around that using a copy constructor.
+
+{{% /notice %}}
 
 Each entrée class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{sandwich name} on {bread}", such as "The Kirk on White Bread".
+
+It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
 Each entrée description will include a list of ingredients included on the sandwich. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Ham", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
 
@@ -188,6 +196,8 @@ Each side should be stored in an appropriately named class in the `starfleetsubs
 
 Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
 
+It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
+
 Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for the side, and should be updated if the **Size** attribute changes.
 
 ##### Data Chips (Potato Chips)
@@ -223,9 +233,11 @@ Each drink should be stored in an appropriately named class in the `starfleetsub
   * **Calories** - an `int` value. It should have a **getter** method.
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
-    * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList.clone (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#clone--) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
+    * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
 Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {drink name}", such as "Small Picard".
+
+It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
 Each drink description may include a list of ingredients it includes by default. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Whipped Cream", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. 
 
@@ -285,7 +297,7 @@ _options to fit any appetite_
 
 _don't forget your KHAAAAAANNNNN!-diments_
 
-`starfleetsubs.data.enums.Condiments` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, **BBQ Sauce**
+`starfleetsubs.data.enums.Condiment` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, **BBQ Sauce**
 
 ---
 
