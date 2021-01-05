@@ -194,7 +194,7 @@ Each side should be stored in an appropriately named class in the `starfleetsubs
   * **Calories** - an `int` value. It should have a **getter** method.
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
 
-Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
+Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
@@ -235,7 +235,7 @@ Each drink should be stored in an appropriately named class in the `starfleetsub
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
     * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
-Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entrée. The string should be formatted as "{size} {drink name}", such as "Small Picard".
+Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Small Picard".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
@@ -279,7 +279,7 @@ _the ultimate in hydration, direct from Altair IV_
 
 ### Enumerations
 
-Each enumeration should be stored in an appropriately named class in the `starfleetsubs.data.emnums` package. 
+Each enumeration should be stored in an appropriately named class in the `starfleetsubs.data.emnums` package. Each enumeration class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the item. Python developers may also wish to override the `__repr__()` method to return this value as well.
 
 ##### Bread
 
