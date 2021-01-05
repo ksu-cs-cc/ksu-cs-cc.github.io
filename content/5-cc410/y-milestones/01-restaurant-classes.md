@@ -120,14 +120,18 @@ Each attribute described below should be implemented as a private variable withi
 ### Entrées
 
 Each entrée should be stored in an appropriately named class in the `starfleetsubs.data.entrees` package. Each entrée should include an attribute for the following data:
-  * **Price** - a Java `double` or Python `float` value. It should have a **getter** method.
-  * **Calories** - an `int` value. It should have a **getter** method.
   * **Bread** - a `Bread` value (see below). It should have a **getter** and **setter** method.
   * **Condiments** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#list) of `Condiment` values (see below). 
     * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
     * This attribute should also have methods for **Add Condiment** and **Remove Condiment** to modify the list of condiments. 
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
     * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
+
+In addition, each entrée should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
+  * **Price** - a Java `double` or Python `float` value. 
+  * **Calories** - an `int` value. It should have a **getter** method.
+  * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
+    * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
 {{% notice tip %}}
 
@@ -139,7 +143,7 @@ Each entrée class should also override the default string representation method
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
-Each entrée description will include a list of ingredients included on the sandwich. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Ham", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
+Each entrée description will include a list of ingredients included on the sandwich. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {ingredient}" message, such as "Hold Ham", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
 
 Likewise, each entrée description will include a **Price**, number of **Calories**, a default value for **Bread** and a default set of **Condiments**. Those attributes should be populated appropriately in the constructor for the entrée. Changes to the **Bread** and **Condiments** attributes will not affect the **Special Instructions** attribute. Likewise, the **Price** and number of **Calories** will remain constant, regardless of other attributes. 
 
@@ -190,9 +194,11 @@ _a most logical choice_
 ### Sides
 
 Each side should be stored in an appropriately named class in the `starfleetsubs.data.sides` package. Each side should include an attribute for the following data:
-  * **Price** - a Java `double` or Python `float` value. It should have a **getter** method.
-  * **Calories** - an `int` value. It should have a **getter** method.
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
+
+In addition, each side should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
+  * **Price** - a Java `double` or Python `float` value. 
+  * **Calories** - an `int` value. It should have a **getter** method.
 
 Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
 
@@ -229,19 +235,21 @@ _these wings are the best "bones" in the galaxy_
 ### Drinks
 
 Each drink should be stored in an appropriately named class in the `starfleetsubs.data.drinks` package. Each drink should include an attribute for the following data:
-  * **Price** - a Java `double` or Python `float` value. It should have a **getter** method.
-  * **Calories** - an `int` value. It should have a **getter** method.
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
+
+In addition, each drink should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
+  * **Price** - a Java `double` or Python `float` value. 
+  * **Calories** - an `int` value. It should have a **getter** method.
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
-    * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
+    * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
 Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Small Picard".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
-Each drink description may include a list of ingredients it includes by default. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will add a "Hold {ingredient}" message, such as "Hold Whipped Cream", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. 
+Each drink description may include a list of ingredients it includes by default. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {ingredient}" message, such as "Hold Whipped Cream", to be added to the **Special Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. 
 
-In addition, drinks may include optional ingredients that should be represented using Boolean attributes that are set to `false` by default, with appropriate **getter** and **setter** methods. Changing any of these to `true` will add a "Add {ingredient}" message, such as "Add Ice", to be added to the **Special Instructions** list. Likewise, changing it back to `false` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
+In addition, drinks may include optional ingredients that should be represented using Boolean attributes that are set to `false` by default, with appropriate **getter** and **setter** methods. Changing any of these to `true` will cause a "Add {ingredient}" message, such as "Add Ice", to be added to the **Special Instructions** list. Likewise, changing it back to `false` will remove the appropriate message. If all ingredients are at their default values, the **Special Instructions** list should be empty. 
 
 Each drink description will include a **Price** and number of **Calories** for each **Size**. The drinks will have a default size of `Small`. Those attributes should be populated appropriately in the constructor for that class, and should be updated if the **Size** attribute changes. Changes to the **Size** attribute will not affect the **Special Instructions** attribute. 
 
