@@ -9,7 +9,6 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "/1-cc110/00-introduction/03-where-to-find-help-slides.md" >}})
 * [K-State IT Help Desk](https://www.k-state.edu/its/helpdesk/) - Email helpdesk@ksu.edu
 * [K-State Online Canvas Help](http://public.online.k-state.edu/help/)
 * [Instructure Canvas Guides](https://community.canvaslms.com/community/answers/guides)
