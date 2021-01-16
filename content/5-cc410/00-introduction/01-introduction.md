@@ -51,7 +51,7 @@ What hasn't changed, though, is the basic concept of a college course. You'll st
 
 For this course, the only supplies you'll need as a student are access to a modern web browser and a broadband internet connection. No other special hardware or software is necessary! However, in this course you will also be able to do some development on your own computer using Visual Studio Codio and Ubuntu. We'll provide some short videos to help you get started if you choose to go that route, but it is not required. Due to the complex nature of this course, we do not recommend using phones, tablets, or Chromebooks if you choose to do development on your own systems. 
 
-Finally, as you are aware, this course is always subject to change. This is a relatively new program here at K-State, and we’re always working on new and interesting ideas to integrate into the courses. The best advice I have is to look upon this graphic with the words “Don’t Panic” written in large, friendly letters.  If you find yourself falling behind, or not understanding seek our help via cc210-help.
+Finally, as you are aware, this course is always subject to change. This is a relatively new program here at K-State, and we’re always working on new and interesting ideas to integrate into the courses. The best advice I have is to look upon this graphic with the words “Don’t Panic” written in large, friendly letters.  If you find yourself falling behind, or not understanding seek our help via cc410-help.
 
 So, to complete this module, there are a few other things that you'll need to do. The next step is to watch the video on navigating Canvas and Codio, which will give you a good idea of how to most effectively work through the content in this course.
 
