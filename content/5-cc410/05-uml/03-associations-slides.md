@@ -3,25 +3,30 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h3>Object-Oriented Programming</h3>
-    <ol>
-        <li><b>Encapsulation</b></li>
-        <li>Message Passing</li>
-        <li>Dynamic Binding</li>
-    </ol>
+    <h3>Associations</h3>
+    <img class="plain stretch" src="/images/410_5_arrows.svg">
+    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Uml_classes_en.svg&oldid=451242951">Wikipedia</a></p>
 </section>
 <section>
-    <h2>Unstructured Code</h2>
-    <img class="plain stretch" src="/images/410_2_old.svg">
+    <h3>Realization (Weak is-a)</h3>
+    <img class="plain stretch" src="/images/410_5_realization.svg">
 </section>
 <section>
-    <p>A <i>data structure</i>, its internal linkings, <i>accessing procedures and modifying procedures</i> are part of a single module.<br>-David Parnas (1972)</p>
+    <h3>Generalization (Strong is-a)</h3>
+    <img class="plain stretch" src="/images/410_5_generalization.svg">
 </section>
 <section>
-    <h2>Structs & Code Modules</h2>
-    <img class="plain stretch" src="/images/410_2_structs.svg">
+    <h3>Aggregation (Weak has-a)</h3>
+    <img class="plain stretch" src="/images/410_5_aggregation.svg">
 </section>
 <section>
-    <h2>Encapsulation</h2>
-    <img class="plain stretch" src="/images/410_2_module.svg">
+    <h3>Composition (Strong has-a)</h3>
+    <img class="plain stretch" src="/images/410_5_composition.svg">
+</section>
+<section>
+    <h3>Multiplicity</h3>
+    <img class="plain stretch" src="/images/410_5_professor.svg">
+    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:KP-UML-Aggregation-20060420.svg&oldid=485485512">Wikipedia</a></p>
+    <p class="fragment">Aggregation (Weak has-a)</p>
+    <p class="fragment">1 professor <b>has</b> 1 or more classes</p>
 </section>
