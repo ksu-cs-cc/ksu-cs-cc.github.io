@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h3>Javadoc</h3>
+	<h3>Python Docstrings</h3>
     <ol>
         <li>Summary Line</li>
         <li>Additional Paragraphs</li>
