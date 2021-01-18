@@ -5,11 +5,12 @@ weight: 60
 date: 2021-01-04T00:53:26-05:00
 ---
 
-{{< youtube  >}}
+## Videos
 
-<!-- TODO FIXME -->
+#### Java
 
-#### Resources
+{{< youtube D-203mVSLkU >}}
 
+#### Python
 
-#### Video Script
+{{< youtube slVbHWYFj90 >}}
