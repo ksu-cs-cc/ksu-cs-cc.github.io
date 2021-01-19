@@ -9,9 +9,9 @@ There are some intricacies related to properly setting up a Canvas course and a 
 
 #### References
 
-[Codio LTI Configuration](https://codio.com/docs/classes/lti/lti1_0/canvas/)
-[Codio LTI Constant URLs](https://codio.com/docs/classes/lti/lti1_0/lticonstanturl/)
-[Codio LTI Class Fork](https://codio.com/docs/classes/lti/lti1_0/lticlassfork/)
+* [Codio LTI Configuration](https://codio.com/docs/classes/lti/lti1_0/canvas/)
+* [Codio LTI Constant URLs](https://codio.com/docs/classes/lti/lti1_0/lticonstanturl/)
+* [Codio LTI Class Fork](https://codio.com/docs/classes/lti/lti1_0/lticlassfork/)
 
 ## Set up Master Course
 
