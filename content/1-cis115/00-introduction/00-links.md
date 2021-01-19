@@ -12,8 +12,6 @@ date: 2018-08-24T10:53:26-05:00
 * [K-State IT Help Desk](https://www.k-state.edu/its/helpdesk/) - Email helpdesk@ksu.edu
 * [K-State Online Canvas Help](http://public.online.k-state.edu/help/)
 * [Instructure Canvas Guides](https://community.canvaslms.com/community/answers/guides)
-* [Codio Documentation](https://codio.com/docs/)
-* [Codio Support](https://codio.com/docs/dashboard/support/)
 * [K-State Libraries](http://www.lib.k-state.edu/)
 * [K-State CS Support](https://support.cs.ksu.edu/)
 * [K-State CS Advising](https://www.cs.ksu.edu/undergraduate/advising/)

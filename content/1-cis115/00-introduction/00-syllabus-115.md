@@ -1,20 +1,20 @@
 # CIS 115 - Introduction to Computing Science
 
-## Fall 2020 Syllabus
+## Spring 2021 Syllabus
 
-{{% notice warning %}}
-*All emails for the course should be sent to* [cis115help@KSUemailProd.onmicrosoft.com](mailto:cis115help@KSUemailProd.onmicrosoft.com?subject=CIS 115 Help) *(sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time (please allow 24 hours on weekdays and 48hours on the weekend). You are welcome to send emails that may contain more sensitive information directly to intended recipients.*
+{{% notice info %}}
+**All emails** for the course should be sent to [cis115help@KSUemailProd.onmicrosoft.com](mailto:cis115help@KSUemailProd.onmicrosoft.com?subject=CIS 115 Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
 
-
-*Communication can also be done through Microsoft Teams.  If you have not been invited to join the team for CIS 115, please let any of us know and we will get you added.*
+Communication can also be done through Microsoft Teams.  If you have not been invited to join the team for CIS 115, please let any of us know and we will get you added.
 {{% /notice %}}
+
+### Contact
 
 **Professor:** Josh Weese – [weeser@ksu.edu](mailto:weeser@ksu.edu)   
 
 - **Office:** 2214 Engineering Hall (DUE)  
 - **Phone:** Office - (785) 317-3353  
-- **Calendar:** http://weeser.net/calendar/     
-- **Office  Hours:** For general times, see calendar.     
+- **Office  Hours:** See my [calendar](http://weeser.net/calendar/).     
     - **Want  to meet with me? https://calendly.com/weeser**  
 
 **Instructor:**  Bud LaVezzi – [gblavezz1@ksu.edu](mailto:gblavezz1@ksu.edu) 
@@ -23,15 +23,14 @@
 - **Phone:** Office - (785) 532-7767    
 - **Office Hours:** TDB
 
-| Undergraduate Teaching Assistants |                                                    |                                        |
-| --------------------------------- | -------------------------------------------------- | -------------------------------------- |
-| **Name**                          | **Email**                                          | **Sections**                           |
-| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu)       | B: T 10:55-1245, <br />D: U 10:55-1245 |
-| Grace  Earnhardt                  | gracee@ksu.edu                                     | A: T 8:05-9:55<br />E: T 1:05-2:55     |
-| Steven  Blair                     | [stevenblair@ksu.edu ](mailto:stevenblair@ksu.edu) | A: T 8:05-9:55<br />S: W 8:30-10:20    |
-| Caleb  Logan                      | [catiel@ksu.edu ](mailto:catiel@ksu.edu)           | C: TH 8:05-9:55                        |
+| Undergraduate Teaching Assistants |                                              |                                                        |
+| --------------------------------- | :------------------------------------------- | ------------------------------------------------------ |
+| **Name**                          | **Email**                                    | **Sections**                                           |
+| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | Floats between all                                     |
+| Chris Loura                       | cmloura@ksu.edu                              | **D:** TU 8:05am-9:55am<br />**E:** TU 10:15am-12:05pm |
+| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: **Tu** 12:25pm-2:15pm                           |
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=MWZmcTd1N2RkM2Z0dDFycms2N2YzcHY4cGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=Y2kwMmNtZm5oZjdvaGtmdTZzMWZxOG1jNThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=azJ2azdlZGNmbWVhYmViZ3BwMWdiY2EzdDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23616161&amp;color=%239E69AF&amp;color=%23AD1457&amp;color=%23009688&amp;title=CIS%20115%20Schedule&amp;mode=WEEK" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=MWZmcTd1N2RkM2Z0dDFycms2N2YzcHY4cGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=Y2kwMmNtZm5oZjdvaGtmdTZzMWZxOG1jNThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=azJ2azdlZGNmbWVhYmViZ3BwMWdiY2EzdDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23616161&amp;color=%239E69AF&amp;color=%23AD1457&amp;color=%23009688&amp;title=CIS%20115%20Office%20Hours&amp;mode=WEEK" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### Required Texts
 
@@ -61,15 +60,15 @@ These are books we’ve found to be interesting and/or useful:
 
 ### How to Get Help in this  Course
 
-CIS 115 can be an interesting  course due to the large amount of material covered and much of the material  is brand new to students. Therefore, you are encouraged to seek help whenever  you feel you are being overwhelmed or don’t understand a topic. **You  are not alone!** Most students in CIS 115 have never studied anything  relating to Computing Science before, so it is new to everyone. The  instructors and TAs are ***always*** willing to help students  with ***any*** questions you may have about the class or other issues  related to Computing Science. So please, don’t be afraid to ask questions. Get  help early and often!     
+CIS 115 can be an interesting  course due to the large amount of material covered and much of the material  is brand new to students. Therefore, you are encouraged to seek help whenever you feel you are being overwhelmed or don’t understand a topic. **You are not alone!** Most students in CIS 115 have never studied anything relating to computer science before, so it is new to everyone. The instructors and TAs are ***always*** willing to help students with ***any*** questions you may have about the class or other issues related to Computing Science. So please, don’t be afraid to ask questions. Get help early and often!     
 
-Here are the 5 **recommended  ways to get help** on CIS 115:  
+Here are the 5 **recommended ways to get help** on CIS 115:  
 
 - Review the course materials posted on K-State Canvas and the course website 
-- Ask your teammates for help or advice on assignments or projects  
-- Send assignment questions to your teaching assistant (TA) or instructor via email  
+- Send assignment questions to your teaching assistant (TA) or instructor via email ([cis115help@KSUemailProd.onmicrosoft.com](mailto:cis115help@KSUemailProd.onmicrosoft.com?subject=CIS 115 Help)) 
 - Visit your instructor’s office hours, or the office hours for your TA if available  
-- Schedule a one-on-one meeting with your instructor  
+- Ask your teammates for help or advice on assignments or projects  
+- Schedule a one-on-one meeting with your instructor/TA  
 
 <hr/>
 
