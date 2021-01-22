@@ -74,10 +74,29 @@ hidden: true
 		<li>Still Must Complete Module</li>
 		<li>Don't Get Behind!</li>
 	</ul>
-	|  | Wednesday | Thursday | Friday | Saturday |
-	| --- | --- | --- | --- | --- |
-	| Before or at 11:59PM CST | 100% | 90% | 80% | 70% |
-	| After 11:59PM CST | 90% | 80% | 70% | 60% |
+	<table>
+	<tr>
+	<th></th>
+	<th>Wednesday</th>
+	<th>Thursday</th>
+	<th>Friday</th>
+	<th>Saturday</th>
+	</tr>
+	<tr>
+	<td> Before Midnight </td>
+	<td>100%</td>
+	<td>90%</td>
+	<td>80%</td>
+	<td>70%</td>
+	</tr>
+	<tr>
+	<td> After Midnight </td>
+	<td>90%</td>
+	<td>80%</td>
+	<td>70%</td>
+	<td>60%</td>
+	</tr>
+	</table>
 </section>
 <section>
 	<h3>Grading</h3>
