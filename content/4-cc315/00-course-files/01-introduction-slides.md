@@ -74,6 +74,10 @@ hidden: true
 		<li>Still Must Complete Module</li>
 		<li>Don't Get Behind!</li>
 	</ul>
+
+
+</section>
+<section>
 	<table>
 	<tr>
 	<th></th>
