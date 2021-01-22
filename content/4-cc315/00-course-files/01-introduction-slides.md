@@ -71,10 +71,13 @@ hidden: true
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
 		<li>Date = Confirmation Quiz</li>
-		<img class="stretch plain" style="width:100%" src="/images/310-5_F20_Late.png">
 		<li>Still Must Complete Module</li>
 		<li>Don't Get Behind!</li>
 	</ul>
+	|  | Wednesday | Thursday | Friday | Saturday |
+	| --- | --- | --- | --- | --- |
+	| Before or at 11:59PM CST | 100% | 90% | 80% | 70% |
+	| After 11:59PM CST | 90% | 80% | 70% | 60% |
 </section>
 <section>
 	<h3>Grading</h3>
