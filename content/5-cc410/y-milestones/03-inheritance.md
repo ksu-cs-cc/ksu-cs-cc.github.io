@@ -74,11 +74,15 @@ Completing this project is estimated to require 2-5 hours.
 
 This assignment will be graded based on the rubric below:
 
-* `IOrderItem` Interface - 30%
+* `IOrderItem` Interface - 25%
 * Base Classes - 30%
+  * `Entree` Base Class - 10%
+  * `Side` Base Class - 10%
+  * `Drink` Base Class - 10%
 * `Menu` Class - 20%
 * Updated Unit Tests - 10%
 * `Menu` Unit Tests - 10%
+* UML Class Diagram - 5%
 
 The following deductions apply:
 
