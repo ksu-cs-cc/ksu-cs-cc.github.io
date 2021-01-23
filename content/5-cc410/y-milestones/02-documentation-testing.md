@@ -66,11 +66,12 @@ This milestone should include the following features:
   * Python - the code should contain complete type annotations and achieve **0.00% imprecise** in Mypy using strict type checking.
 * Each Entrée, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
   * See the discussion below for more information on unit tests to be included.
+  * Each unit test should be in a matching package in the `test` directory for the class it is testing.
   * Python - unit tests **do not require type annotations**.
   * Where possible, use **parameterized unit tests** to reduce the number of individual tests written.
   * You may use any form of assertions, including the Hamcrest library.
 * Each Entrée, Side, Drink, and Enumeration class should have all required documentation comments.
-  * Checkstyle/Flake 8 should not give any errors related to documentation.
+  * Checkstyle/Flake8 should not give any errors related to documentation.
   * You should be able to generate documentation using javadoc/pdoc3 as shown in the "Hello Real World" project. 
   * You will be graded on the content of the comments - make sure they are descriptive and succinct, with the appropriate sections/tags. 
 * Create a **UML Class Diagram** representing the structure of this program. 
@@ -114,7 +115,7 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## Unit Tests
 
-### Entrées
+##### Entrées
 
 Each entrée test class should contain unit tests for the following:
 
@@ -133,10 +134,10 @@ Each entrée test class should contain unit tests for the following:
   * _This test may be omitted on items that only have one ingredient_. 
 * `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
 * `DifferentBreadNotEqual()` - generate two different instances of the item using different bread, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
-* `DifferentIngredientsNotEqual()` - generate two different instance of the item using different sets of ingredients, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
-* `DifferentCondimentsNotEqual()` - generate two different instance of the item using different sets of condiments, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `DifferentIngredientsNotEqual()` - generate two different instances of the item using different sets of ingredients, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `DifferentCondimentsNotEqual()` - generate two different instances of the item using different sets of condiments, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
 
-### Sides
+##### Sides
 
 Each side test class should contain unit tests for the following:
 
@@ -147,7 +148,7 @@ Each side test class should contain unit tests for the following:
 * `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
 * `DifferentSizeNotEqual()` - generate two different instances of the item using different sizes, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
 
-### Drinks
+##### Drinks
 
 Each drink test class should contain unit tests for the following:
 
@@ -165,7 +166,7 @@ Each drink test class should contain unit tests for the following:
   * _This test may be omitted on items that only have one ingredient_. 
 * `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
 * `DifferentSizeNotEqual()` - generate two different instances of the item using different sizes, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
-* `DifferentIngredientsNotEqual()` - generate two different instance of the item using different sets of ingredients, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `DifferentIngredientsNotEqual()` - generate two different instances of the item using different sets of ingredients, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
 
 {{% notice tip %}}
 
