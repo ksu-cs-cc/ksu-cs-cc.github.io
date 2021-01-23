@@ -5,9 +5,7 @@ weight: 10
 date: 2020-01-14T00:53:26-05:00
 ---
 
-{{< youtube  >}}
-
-<!-- TODO FIXME -->
+{{< youtube mFLBP2hW154 >}}
 
 #### Resources
 
@@ -30,4 +28,3 @@ There are a couple other forms of automated testing that we should discuss here.
 The other type of automation testing is system testing. This involves testing the entire application as a whole, and is usually done either through GUI automation tools such as Selenium or by actually asking real users to perform specific tasks. System tests help verify that the software indeed works for the eventual end users. 
 
 That's a quick overview of software testing, mainly to help us understand how unit tests fit into the broader picture. Next, we'll review how to develop unit tests using the test framework available in our language. 
-

@@ -79,6 +79,8 @@ This milestone should include the following features:
   * Declared in the `starfleetsubs.data.enums` package
 
 See the [Starfleet Subs Menu](#starfleet-subs-menu) section below for descriptions of what each class should contain.
+
+**Python** - these files should include complete type annotations and achieve **0.00% imprecise** status in Mypy using strict type checking.
   
 ## Time Requirements
 
@@ -124,8 +126,6 @@ Each entrée should be stored in an appropriately named class in the `starfleets
   * **Condiments** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#list) of `Condiment` values (see below). 
     * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
     * This attribute should also have methods for **Add Condiment** and **Remove Condiment** to modify the list of condiments. 
-  * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
-    * This attribute should have a **getter** method that returns a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
 In addition, each entrée should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
   * **Price** - a Java `double` or Python `float` value. 
