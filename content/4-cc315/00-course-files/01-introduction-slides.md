@@ -6,7 +6,7 @@ hidden: true
 <img class="stretch plain" src="/images/core-logo-on-white.png">
 <h3> Welcome to the <br> Computational Core</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
-<h4>CC315 Fall 2020</h4>
+<h4>CC315</h4>
 </section>
 
 
@@ -71,10 +71,36 @@ hidden: true
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
 		<li>Date = Confirmation Quiz</li>
-		<img class="stretch plain" style="width:100%" src="/images/310-5_F20_Late.png">
 		<li>Still Must Complete Module</li>
 		<li>Don't Get Behind!</li>
 	</ul>
+
+
+</section>
+<section>
+	<table>
+	<tr>
+	<th></th>
+	<th>Wednesday</th>
+	<th>Thursday</th>
+	<th>Friday</th>
+	<th>Saturday</th>
+	</tr>
+	<tr>
+	<td> Before Midnight </td>
+	<td>100%</td>
+	<td>90%</td>
+	<td>80%</td>
+	<td>70%</td>
+	</tr>
+	<tr>
+	<td> After Midnight </td>
+	<td>90%</td>
+	<td>80%</td>
+	<td>70%</td>
+	<td>60%</td>
+	</tr>
+	</table>
 </section>
 <section>
 	<h3>Grading</h3>

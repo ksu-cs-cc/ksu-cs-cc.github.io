@@ -25,7 +25,7 @@ pre: "4. "
 
 ### Prerequisites
 
-* CC 310 - Data Structures & Algorithms I (Prerequisite or Concurrent Enrollment)
+* CC 310 - Data Structures & Algorithms I 
 
 ### Course Overview
 
@@ -71,11 +71,25 @@ Letter grades will be assigned following the standard scale:
 
 ### Late Work
 
+
 {{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via the help email. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any module submitted late will have that module's project grade reduced by 30% of the total possible points on that project. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **All of the components of a module will be subject to the late policy if the module is submitted late. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** 
+
+**The following table outlines the highest possible score that a module can earn based on when it is complete** 
+
+|  | Wednesday | Thursday | Friday | Saturday |
+| --- | --- | --- | --- | --- |
+| Before or at 11:59PM CST | 100% | 90% | 80% | 70% |
+| After 11:59PM CST | 90% | 80% | 70% | 60% |
+
+The table reads as: The assignments of a module turned in on Friday before midnight can receive **at most** 80% of the possible points.
+
+Assignments which are submitted late but score below the threshold will not receive a penalty. For example, if a module is completed on Friday afternoon and the project scores 75/100, then no penalty will be received. 
+
+For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 

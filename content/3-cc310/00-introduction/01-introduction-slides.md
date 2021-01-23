@@ -6,7 +6,7 @@ hidden: true
 <img class="stretch plain" src="/images/core-logo-on-white.png">
 <h3> Welcome to the <br> Computational Core</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
-<h4>CC310 Fall 2020</h4>
+<h4>CC310</h4>
 </section>
 
 <section>
@@ -36,7 +36,6 @@ hidden: true
 
 
 </section>
-
 <section>
 	<img class="stretch plain" src="/images/codio_logo.svg">
 	<p class="imagecredit">Image Credit: <a href="https://codio.com/">Codio</a></p>
@@ -44,10 +43,10 @@ hidden: true
 <section>
 	<h3>Course Structure</h3>
 	<ul>
-		<li>~12-15 Modules per Course </li>
+		<li>~12-16 Modules per Course </li>
 		<li>Tutorial, Quiz, Project</li>
 		<li>Gated - Must Complete in Order</li>
-		<li>Roughly Two Modules Each Week</li>
+		<li>Roughly One Module Each Week</li>
 		<li>Work At Your Own Pace</li>
 		<li>Automated Grading</li>
 	</ul>
@@ -80,10 +79,36 @@ hidden: true
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
 		<li>Date = Confirmation Quiz</li>
-		<img class="fit" src="/images/310Late.png">
 		<li>Still Must Complete Module</li>
 		<li>Don't Get Behind!</li>
 	</ul>
+
+
+</section>
+<section>
+	<table>
+	<tr>
+	<th></th>
+	<th>Wednesday</th>
+	<th>Thursday</th>
+	<th>Friday</th>
+	<th>Saturday</th>
+	</tr>
+	<tr>
+	<td> Before Midnight </td>
+	<td>100%</td>
+	<td>90%</td>
+	<td>80%</td>
+	<td>70%</td>
+	</tr>
+	<tr>
+	<td> After Midnight </td>
+	<td>90%</td>
+	<td>80%</td>
+	<td>70%</td>
+	<td>60%</td>
+	</tr>
+	</table>
 </section>
 <section>
 	<h3>Grading</h3>
@@ -109,7 +134,7 @@ hidden: true
 	<h3>What's the Same?</h3>
 	<ul>
 		<li>~9-12 Hrs. of Work Per Module</li>
-		<li>~2 Modules Per Week</li>
+		<li>~1 Module Per Week</li>
 		<li>Office Hours (Virtual)</li>
 	</ul>
 </section>
@@ -131,7 +156,7 @@ hidden: true
 		<li>Watch Video on Canvas & Codio</li>
 		<li>Read the Syllabus</li>
 		<li>Complete the Course <br>Readiness Quiz</br></li>
-		<li>Read the Extra Credit Assignments</li>
+		<li>Read the Extra Credit Assignment</li>
 	</ul>
 </section>
 <section>
