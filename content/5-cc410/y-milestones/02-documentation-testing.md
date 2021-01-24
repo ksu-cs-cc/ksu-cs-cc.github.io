@@ -63,7 +63,7 @@ This milestone should include the following features:
 
 * Each Entrée, Side, and Drink class should contain complete typing information.
   * Java - this is already handled by the compiler, so no changes are needed.
-  * Python - the code should contain complete type annotations and achieve **0.00% imprecise** in Mypy using strict type checking.
+  * Python - the code should contain complete type annotations and achieve low imprecision percentage in Mypy using strict type checking.
 * Each Entrée, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
   * See the discussion below for more information on unit tests to be included.
   * Each unit test should be in a matching package in the `test` directory for the class it is testing.

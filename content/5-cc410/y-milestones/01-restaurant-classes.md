@@ -80,7 +80,7 @@ This milestone should include the following features:
 
 See the [Starfleet Subs Menu](#starfleet-subs-menu) section below for descriptions of what each class should contain.
 
-**Python** - these files should include complete type annotations and achieve **0.00% imprecise** status in Mypy using strict type checking.
+**Python** - these files should include complete type annotations and achieve a low imprecision percentage in Mypy using strict type checking.
   
 ## Time Requirements
 

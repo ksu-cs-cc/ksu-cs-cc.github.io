@@ -32,7 +32,7 @@ This milestone must follow these professional coding standards:
   * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check with low imprecision percentage.
 * **Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
   * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
   * Python: Use pytest. You may choose to use Hamcrest for assertions.
