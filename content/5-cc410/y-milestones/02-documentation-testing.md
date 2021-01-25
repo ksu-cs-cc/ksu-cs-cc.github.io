@@ -45,14 +45,16 @@ The following requirements **ARE NOT** enforced for this milestone, but will be 
 
 {{% notice tip %}}
 
-You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.<br>
- **Java** - All names are in CamelCase. Classes start with uppercase, like `ClassName`, methods and attributes start with lowercase like `methodName`. See the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s5-naming). <br>
- **Python** - All names are lowercase with underscores like `method_name`, with the exception of classes, which are named in CamelCase starting with an uppercase letter like `ClassName`. See the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.16-naming). <br>
- It is easier to get this correct from the start, then having to refactor your code later. Of course, major refactoring is also a good lesson that guarantees you'll get it right in the future!
+You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
+
+* **Java** - All names are in CamelCase. Classes start with uppercase, like `ClassName`, methods and attributes start with lowercase like `methodName`. See the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s5-naming).
+* **Python** - All names are lowercase with underscores like `method_name`, with the exception of classes, which are named in CamelCase starting with an uppercase letter like `ClassName`. See the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.16-naming).
+
+It is easier to get this correct from the start, then having to refactor your code later. Of course, major refactoring is also a good lesson that guarantees you'll get it right in the future!
 
 {{% /notice %}}
 
-* **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
+* **(Milestone 3) All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
   * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
   * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
@@ -63,7 +65,7 @@ This milestone should include the following features:
 
 * Each Entrée, Side, and Drink class should contain complete typing information.
   * Java - this is already handled by the compiler, so no changes are needed.
-  * Python - the code should contain complete type annotations and achieve low imprecision percentage in Mypy using strict type checking.
+  * Python - the code should contain complete type annotations and achieve low imprecision percentage in Mypy using strict type checking. 
 * Each Entrée, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
   * See the discussion below for more information on unit tests to be included.
   * Each unit test should be in a matching package in the `test` directory for the class it is testing.
@@ -71,7 +73,8 @@ This milestone should include the following features:
   * Where possible, use **parameterized unit tests** to reduce the number of individual tests written.
   * You may use any form of assertions, including the Hamcrest library.
 * Each Entrée, Side, Drink, and Enumeration class should have all required documentation comments.
-  * Checkstyle/Flake8 should not give any errors related to documentation.
+  * Checkstyle/Flake8 should not give any errors related to documentation in the `src` directory. 
+  * You are encouraged, but not required, to create documentation comments for unit tests.
   * You should be able to generate documentation using javadoc/pdoc3 as shown in the "Hello Real World" project. 
   * You will be graded on the content of the comments - make sure they are descriptive and succinct, with the appropriate sections/tags. 
 * Create a **UML Class Diagram** representing the structure of this program. 
@@ -79,10 +82,31 @@ This milestone should include the following features:
   * Place the image in the root of the project directory (directly inside the `java` or `python` folder).
   * Make sure it is committed to GitHub and included in your project release.
   * You may include additional materials, such as the source file used to create the image.
+
+{{% notice tip %}}
+
+_Some quick tips from when I did this milestone:_
+
+* **DO NOT COPY FROM YOUR SOURCE CODE FROM MILESTONE 1!** Write your unit tests solely using the menu on the previous milestone and the list of tests needed on this milestone. In that way, you will confirm that your tests match the specification and confirm the code is correct, not that your tests match your existing code! Even I found a few errors in my code through writing these unit tests.
+* You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all entrée test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
+* Generalizing the tests for individual ingredients in entrées and drinks (such as `ham` or `lemon`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
+* Java users may wish to review the [EnumSource](https://www.baeldung.com/parameterized-tests-junit-5#3-enum) option for parameterized tests using enums.
+* Python users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("bread", Bread)`.
+* When following Google's style for Java, you are required to include `default` branches in switch statements across enums, which will be unreached in code coverage. This is fine, but a good reason to avoid switch statements, as you will never get 100% code coverage! I ended up changing my model solution to remove switch statements.
+
+_-Russ_
+
+{{% /notice %}}
   
 ## Time Requirements
 
-Completing this project is estimated to require 2-5 hours.
+Completing this project is estimated to require 3-8 hours.
+
+{{% notice tip %}}
+
+_In my testing, this milestone requires around 3500-4000 lines of code (including very rudimentary documentation comments) in the unit tests directory. As with the prior milestone, much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to pick one of the complex entrées like `TheRiker` and start there writing unit tests. Once you have the entrées all working, the sides and drinks are pretty easy and use much of the same structure. There are 423 unit tests in my model solution. I ended up finding half a dozen errors in my model solution for milestone 1, showing the importance of unit testing! -Russ_
+
+{{% /notice %}}
 
 ## Grading Rubric
 
@@ -124,7 +148,8 @@ Each entrée test class should contain unit tests for the following:
 * `HasCorrectPrice()` - the `price` is correct
 * `HasCorrectCalories()` - the `calories` is correct
 * `NameIsCorrectForBread(Bread)` - call the `toString()` or `__str__()` method with each type of bread and verify the output.
-* `IncludesCorrectCondimentsByDefault(Condiment, boolean)` - for each condiment, check if it is included or not by default based on the `boolean` value.
+* `IncludesCorrectCondimentsByDefault(Condiment)` - for each condiment, check if it is included or not by default.
+  * You may modify the arguments to accept a `boolean` value indicating if the condiment should be included by default.
 * `AddRemoveCondiments(Condiment)` - for each condiment, check that it can be added and removed, and the `Condiments` set will change accordingly.
 * `Has<Ingredient>ByDefault()` - for each ingredient, check to see that it is included by default (returns true). 
   * For example, `TheKirk` would have a test method `HasHamByDefault()`.
@@ -136,6 +161,7 @@ Each entrée test class should contain unit tests for the following:
 * `DifferentBreadNotEqual()` - generate two different instances of the item using different bread, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
 * `DifferentIngredientsNotEqual()` - generate two different instances of the item using different sets of ingredients, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
 * `DifferentCondimentsNotEqual()` - generate two different instances of the item using different sets of condiments, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `WrongObjectNotEqual()` - generate an instance of the item and an instance of a different menu item, and confirm that they are not equal using `equals()` (Java) or `--` (Python). This should **not** throw an exception.
 
 ##### Sides
 
@@ -147,6 +173,7 @@ Each side test class should contain unit tests for the following:
 * `HasCorrectCaloriesForSize(Size)` - the `calories` is correct for each size
 * `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
 * `DifferentSizeNotEqual()` - generate two different instances of the item using different sizes, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `WrongObjectNotEqual()` - generate an instance of the item and an instance of a different menu item, and confirm that they are not equal using `equals()` (Java) or `--` (Python). This should **not** throw an exception.
 
 ##### Drinks
 
@@ -167,6 +194,7 @@ Each drink test class should contain unit tests for the following:
 * `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
 * `DifferentSizeNotEqual()` - generate two different instances of the item using different sizes, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
 * `DifferentIngredientsNotEqual()` - generate two different instances of the item using different sets of ingredients, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `WrongObjectNotEqual()` - generate an instance of the item and an instance of a different menu item, and confirm that they are not equal using `equals()` (Java) or `--` (Python). This should **not** throw an exception.
 
 {{% notice tip %}}
 

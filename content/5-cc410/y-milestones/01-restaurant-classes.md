@@ -47,21 +47,23 @@ The following requirements **ARE NOT** enforced for this milestone, but will be 
 
 {{% notice tip %}}
 
-You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.<br>
- **Java** - All names are in CamelCase. Classes start with uppercase, like `ClassName`, methods and attributes start with lowercase like `methodName`. See the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s5-naming). <br>
- **Python** - All names are lowercase with underscores like `method_name`, with the exception of classes, which are named in CamelCase starting with an uppercase letter like `ClassName`. See the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.16-naming). <br>
- It is easier to get this correct from the start, then having to refactor your code later. Of course, major refactoring is also a good lesson that guarantees you'll get it right in the future!
+You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
+
+* **Java** - All names are in CamelCase. Classes start with uppercase, like `ClassName`, methods and attributes start with lowercase like `methodName`. See the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s5-naming).
+* **Python** - All names are lowercase with underscores like `method_name`, with the exception of classes, which are named in CamelCase starting with an uppercase letter like `ClassName`. See the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.16-naming).
+
+It is easier to get this correct from the start, then having to refactor your code later. Of course, major refactoring is also a good lesson that guarantees you'll get it right in the future!
 
 {{% /notice %}}
 
-* **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
+* **(Milestone 3) All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
   * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
   * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
-* **Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
+* **(Milestone 2) Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
   * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
   * Python: Use pytest. You may choose to use Hamcrest for assertions.
-* **Where specified, code should contain appropriate documentation comments following the language's style guide.**
+* **(Milestone 2) Where specified, code should contain appropriate documentation comments following the language's style guide.**
   * Java: Use javadoc to generate documentation.
   * Python: Use pdoc3 to generate documentation.
 
@@ -81,10 +83,22 @@ This milestone should include the following features:
 See the [Starfleet Subs Menu](#starfleet-subs-menu) section below for descriptions of what each class should contain.
 
 **Python** - these files should include complete type annotations and achieve a low imprecision percentage in Mypy using strict type checking.
+
+{{% notice tip %}}
+
+_In my testing, the only imprecision in type checking should be the first line of the `__eq__` method since it must accept an imprecise `object` type until the `isinstance()` method call. It will also mark the `@property.setter` annotations, but they don't count toward the imprecision total and can be ignored. The total imprecision should be less than 5% overall, and will probably be less than 2% in most cases. -Russ_
+
+{{% /notice %}}
   
 ## Time Requirements
 
-Completing this project is estimated to require 2-5 hours.
+Completing this project is estimated to require 3-8 hours.
+
+{{% notice tip %}}
+
+_In my testing, this milestone requires around 1000-1500 lines of pure code without documentation, or around 2000-2500 lines including documentation comments that will be included as part of milestone 2. Much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to do the enumerations first, then pick one of the complex entrées like `TheRiker` and start there. Once you have the entrées all working, the sides and drinks are pretty easy and use much of the same structure. -Russ_
+
+{{% /notice %}}
 
 ## Grading Rubric
 
@@ -133,7 +147,7 @@ In addition, each entrée should have the ability to return the following data t
   * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
     * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
-{{% notice tip %}}
+{{% notice info %}}
 
 Unfortunately, the Java `clone()` methods can cause an unchecked cast exception when used on Java Collections classes with generics. See [this StackOverflow question](https://stackoverflow.com/questions/9252803/how-to-avoid-unchecked-cast-warning-when-cloning-a-hashset) for a discussion of how to get around that using a copy constructor.
 
@@ -181,7 +195,7 @@ _a Klingon delicacy to feed a true warrior's hunger_
 
 _our "number one" sandwich_
 
-`starfleetsubs.data.entrees.TheRiker` - the price is **$17.01** and it is **1701** calories. Served on **Wheat Bread** with **Ham**, **Turkey**, **Pepperoni**, **Salami**, **Brisket**, **Pulled Pork**, **Bacon** and **Cheese**. Comes with **Lettuce, Tomato, Onion, Pickles, Peppers, Olives, Mayo, Mustard, and BBQ Sauce**
+`starfleetsubs.data.entrees.TheRiker` - The price is **$17.01** and it is **1701** calories. Served on **Wheat Bread** with **Ham**, **Turkey**, **Pepperoni**, **Salami**, **Brisket**, **Pulled Pork**, **Bacon** and **Cheese**. Comes with **Lettuce, Tomato, Onion, Pickles, Peppers, Olives, Mayo, Mustard, and BBQ Sauce**
 
 ##### The Spock (Vegetarian)
 
