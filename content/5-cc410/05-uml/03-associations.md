@@ -5,9 +5,7 @@ weight: 30
 date: 2020-01-15T00:53:26-05:00
 ---
 
-{{< youtube  >}}
-
-<!-- TODO FIXME -->
+{{< youtube gbD5VcZzCIM >}}
 
 #### Resources
 
