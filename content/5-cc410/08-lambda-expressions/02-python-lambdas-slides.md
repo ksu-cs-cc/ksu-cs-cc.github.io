@@ -3,6 +3,32 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" src="/images/410_5_umllogo.svg">
-    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:UML_logo.svg&oldid=519544315">Wikipedia</a></p>
+    <h3>Python Function</h3>
+    <pre class="python" style="font-size: 50px"><code>def addition(x, y):
+    return x + y</code></pre>
+    <h3>Python Lambda</h3>
+    <pre class="python" style="font-size: 50px"><code>addition_lambda = lambda x, y: x + y</code></pre>
+    <ul>
+        <li><code>lambda</code> keyword</li>
+        <li>Parameters list<br>(any valid Python parameters)</li>
+        <li><b>Single expression</b></li>
+    </ul>
+</section>
+<section>
+    <h3>Python Lambda</h3>
+    <pre class="python stretch" style="font-size: 30px"><code>class Calculator:<br>
+    @staticmethod
+    def addition(x, y):
+        return x + y<br>
+    def operate_binary(self, a, b, operation):
+        return operation(a, b)<br>
+    @staticmethod
+    def main():
+        calc = Calculator()
+        subtraction = lambda x, y: x - y
+        print("40 + 2 = {}".format(calc.operate_binary(40, 2, Calculator.addition)))
+        print("20 - 10 = {}".format(calc.operate_binary(20, 10, subtraction)))
+        print("7 * 6 = {}".format(calc.operate_binary(7, 6, lambda: x, y: x * y)))<br>
+if __name__ == "__main__":
+    Calculator.main()</code></pre>
 </section>
