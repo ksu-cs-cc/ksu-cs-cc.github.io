@@ -26,9 +26,9 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 | Undergraduate Teaching Assistants |                                              |                                                        |
 | --------------------------------- | :------------------------------------------- | ------------------------------------------------------ |
 | **Name**                          | **Email**                                    | **Sections**                                           |
-| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | Floats between all                                     |
-| Chris Loura                       | cmloura@ksu.edu                              | **D:** TU 8:05am-9:55am<br />**E:** TU 10:15am-12:05pm |
-| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: **TU** 12:25pm-2:15pm                           |
+| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | **D:** TU 8:05am-9:55am                               |
+| Chris Loura                       | cmloura@ksu.edu                              | <br />**E:** TU 10:15am-12:05pm |
+| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: TU 12:25pm-2:15pm                           |
 
 <br/>
 
