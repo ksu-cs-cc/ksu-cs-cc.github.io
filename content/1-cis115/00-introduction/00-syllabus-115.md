@@ -1,6 +1,4 @@
-# CIS 115 - Introduction to Computing Science
-
-## Spring 2021 Syllabus
+## CIS 115 - Introduction to Computing Science - Spring 2021 Syllabus
 
 {{% notice info %}}
 **All emails** for the course should be sent to [cis115help@KSUemailProd.onmicrosoft.com](mailto:cis115help@KSUemailProd.onmicrosoft.com?subject=CIS%20115%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
