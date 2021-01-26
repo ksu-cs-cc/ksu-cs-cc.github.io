@@ -13,6 +13,4 @@ date: 2021-01-23T00:53:26-05:00
 
 #### Python
 
-{{< youtube  >}}
-
-<!-- TODO FIXME -->
+{{< youtube RvMmtAZjnHo >}}
