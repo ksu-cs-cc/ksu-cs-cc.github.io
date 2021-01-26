@@ -1,6 +1,4 @@
-# CIS 115 - Introduction to Computing Science
-
-## Spring 2021 Syllabus
+## CIS 115 - Introduction to Computing Science - Spring 2021 Syllabus
 
 {{% notice info %}}
 **All emails** for the course should be sent to [cis115help@KSUemailProd.onmicrosoft.com](mailto:cis115help@KSUemailProd.onmicrosoft.com?subject=CIS%20115%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
@@ -26,9 +24,9 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 | Undergraduate Teaching Assistants |                                              |                                                        |
 | --------------------------------- | :------------------------------------------- | ------------------------------------------------------ |
 | **Name**                          | **Email**                                    | **Sections**                                           |
-| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | **D:** TU 8:05am-9:55am                               |
-| Chris Loura                       | cmloura@ksu.edu                              | <br />**E:** TU 10:15am-12:05pm |
-| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: TU 12:25pm-2:15pm                           |
+| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | **D:** U 8:05am-9:55am                               |
+| Chris Loura                       | cmloura@ksu.edu                              | <br />**E:** U 10:15am-12:05pm |
+| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: U 12:25pm-2:15pm                           |
 
 <br/>
 
@@ -189,7 +187,13 @@ A [grade of XF](https://www.k-state.edu/honor/faculty-tips/policy-agreement.html
 
 For more information, visit the Honor & Integrity System home web page at: [http://www.k-state.edu/honor/](https://www.k-state.edu/honor/)
 
-**For this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course.**
+{{% notice warning %}}
+
+The standard policy for this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course. The sanctions will apply to **ALL** parties involved in the violation.
+
+**Note that depending on the severity of the first violation, the sanction may be worse than just a 0 for the assignment**
+
+{{% /notice %}}
 
 ## Students with Disabilities
 
