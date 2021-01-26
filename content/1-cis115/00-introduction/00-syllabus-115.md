@@ -26,9 +26,9 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 | Undergraduate Teaching Assistants |                                              |                                                        |
 | --------------------------------- | :------------------------------------------- | ------------------------------------------------------ |
 | **Name**                          | **Email**                                    | **Sections**                                           |
-| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | **D:** TU 8:05am-9:55am                               |
-| Chris Loura                       | cmloura@ksu.edu                              | <br />**E:** TU 10:15am-12:05pm |
-| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: TU 12:25pm-2:15pm                           |
+| Easton  Bolinger                  | [bolinger@ksu.edu ](mailto:bolinger@ksu.edu) | **D:** U 8:05am-9:55am                               |
+| Chris Loura                       | cmloura@ksu.edu                              | <br />**E:** U 10:15am-12:05pm |
+| Jose Lopez                        | joselopez44528@ksu.edu                       | **F**: U 12:25pm-2:15pm                           |
 
 <br/>
 
@@ -189,7 +189,13 @@ A [grade of XF](https://www.k-state.edu/honor/faculty-tips/policy-agreement.html
 
 For more information, visit the Honor & Integrity System home web page at: [http://www.k-state.edu/honor/](https://www.k-state.edu/honor/)
 
-**For this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course.**
+{{% notice warning %}}
+
+The standard policy for this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course. The sanctions will apply to **ALL** parties involved in the violation.
+
+**Note that depending on the severity of the first violation, the sanction may be worse than just a 0 for the assignment**
+
+{{% /notice %}}
 
 ## Students with Disabilities
 
