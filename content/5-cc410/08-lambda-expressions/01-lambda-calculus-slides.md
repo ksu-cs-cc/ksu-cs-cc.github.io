@@ -35,7 +35,7 @@ for (let i = 0; i < numList.length; i++) {
         result += numList[i] * 10;
     }
 }</code></pre>
-<p class="fragment">result = 20 -> 60 -> 120 -> 200 -> 300</p>
+<p class="fragment" style="font-size: 70px">result = 20 -> 60 -> 120 -> 200 -> 300</p>
 </section>
 <section>
     <h3>Functional</h3>

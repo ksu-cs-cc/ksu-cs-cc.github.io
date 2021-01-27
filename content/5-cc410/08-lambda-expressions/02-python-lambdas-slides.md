@@ -32,3 +32,17 @@ hidden: true
 if __name__ == "__main__":
     Calculator.main()</code></pre>
 </section>
+<section>
+    <h3>Python Lambda</h3>
+    <pre class="python stretch" style="font-size: 42px"><code>def process_persons(roster, filter, mapper, action):
+    for p in roster:
+        if filter(p):
+            data = mapper(p)
+            action(data)<br><br>
+process_persons(roster,
+                lambda p: (p.gender == MALE and
+                           p.age >= 18 and
+                           p.age <= 25),
+                lambda p: p.email_address,
+                lambda p: print(email))</code></pre>
+</section>
