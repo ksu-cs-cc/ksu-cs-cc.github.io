@@ -19,7 +19,7 @@ from typing import List<br><br>
 class IMyQueue(metaclass=abc.ABCMeta):<br>
     @classmethod
     def __subclasshook__(cls, subclass: type) -> bool:
-        attrs: List[str] = [size]
+        attrs: List[str] = ['size']
         callables: List[str] = ['enqueue', 'dequeue', 'peek']
         ret: bool = True
         for attr in attrs:
@@ -88,7 +88,7 @@ class Dog(Canine):
         # code here<br>
 class GuideDog(Dog):
     def __init__(self) -> None:
-        self._trainer_ = "Trainer"<br>
+        self._trainer = "Trainer"<br>
     def guide(self) -> None:
         # code here</code></pre>
 </section>
