@@ -14,21 +14,24 @@ hidden: true
 </section>
 <section>
     <h3>Python Interface Example</h3>
-    <pre class="python stretch" style="font-size: 20px"><code>import abc
+    <pre class="python stretch" style="font-size: 19px"><code>import abc
 from typing import List<br><br>
 class IMyQueue(metaclass=abc.ABCMeta):<br>
     @classmethod
     def __subclasshook__(cls, subclass: type) -> bool:
-        attrs: List[str] = ['size']
-        callables: List[str] = ['enqueue', 'dequeue', 'peek']
-        ret: bool = True
-        for attr in attrs:
-            ret = ret and (hasattr(subclass, attr) 
-                           and isinstance(getattr(subclass, attr), property))
-        for call in callables:
-            ret = ret and (hasattr(subclass, attr) 
-                           and callable(getattr(subclass, call)))
-        return ret<br>
+        if cls is IMyQueue:
+            attrs: List[str] = ['size']
+            callables: List[str] = ['enqueue', 'dequeue', 'peek']
+            ret: bool = True
+            for attr in attrs:
+                ret = ret and (hasattr(subclass, attr) 
+                            and isinstance(getattr(subclass, attr), property))
+            for call in callables:
+                ret = ret and (hasattr(subclass, call) 
+                            and callable(getattr(subclass, call)))
+            return ret
+        else:
+            return NotImplemented<br>
     @property
     @abc.abstractmethod
     def size(self) -> int:
