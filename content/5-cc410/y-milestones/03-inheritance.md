@@ -49,7 +49,7 @@ This milestone must follow these professional coding standards:
 
 This milestone should include the following features:
 
-* A new `starfleetsubs.data.menu.IOrderItem` interface that is implemented by all entrée, side, and drink classes
+* A new `starfleetsubs.data.menu.OrderItem` interface that is implemented by all entrée, side, and drink classes
   * See below for the description of what this interface should contain
 * New abstract base classes for each type of menu item:
   * Entrées should inherit from `starfleetsubs.data.entrees.Entree` base class
@@ -60,21 +60,28 @@ This milestone should include the following features:
 * A new **static** class `starfleetsubs.data.menu.Menu` that contains the full menu
   * See below for the description of what this `Menu` class should contain
 * Updated unit tests for each menu item to check for proper typing
-  * Each menu item should implement the `IOrderItem` interface
+  * Each menu item should implement the `OrderItem` interface
   * Each menu item should inherit from the correct parent class
+  * Each class except `Menu` and `OrderItem` should report near 100% code coverage. 
 * Add a unit test class for `Menu` to confirm that each possible menu item is present in the menu. 
 * Update the **UML Class Diagram** to represent the new structure of the code. 
 * Make sure all code is **free from style errors** using Checkstyle/Flake8. 
   
 ## Time Requirements
 
-Completing this project is estimated to require 2-5 hours.
+Completing this project is estimated to require 3-8 hours.
+
+{{% notice tip %}}
+
+_A rough estimate for this milestone would be around 1000 lines of new or updated code, and around 500 lines of redundant code removed. It could vary widely based on how you choose to implement the inheritance between the base classes and the interface. My model solution for this milestone now contains 526 unit tests in total. -Russ_
+
+{{% /notice %}}
 
 ## Grading Rubric
 
 This assignment will be graded based on the rubric below:
 
-* `IOrderItem` Interface - 25%
+* `OrderItem` Interface - 25%
 * Base Classes - 30%
   * `Entree` Base Class - 10%
   * `Side` Base Class - 10%
@@ -100,9 +107,9 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## New Classes
 
-##### IOrderItem Interface
+##### OrderItem Interface
 
-The `starfleetsubs.data.menu.IOrderItem` class should be created as an interface that can be implemented by all other menu items. It should contain the following elements as abstract methods/properties:
+The `starfleetsubs.data.menu.OrderItem` class should be created as an interface that can be implemented by all other menu items. It should contain the following elements as abstract methods/properties:
 * A getter for **Price**
 * A getter for **Calories**
 * A getter for **Special Instructions**
@@ -139,16 +146,26 @@ Each of the three types of menu items should directly inherit from a new abstrac
   * **Calories** - abstract getter. This should be overridden in the subclass to return the correct calories based on the size.
   * **Special Instructions** - abstract getter. This should be overridden in the subclass to return the correct list of special instructions. 
 
+{{% notice tip %}}
+
+You may choose to implement the `OrderItem` interface on the three base classes described below, which will then be inherited by each menu item, instead of explicitly implementing the interface on each menu item itself. Some of the elements described on these base classes are already defined in the `OrderItem` interface, so if you implement the interface at the base class level you do not need to redefine the abstract methods from the interface within the abstract base classes. Either approach is valid!
+
+If you choose to inherit from the `OrderItem` interface in the base classes in Python, the base class should not inherit from `ABC` - that is already covered as part of the interface. If you do, Mypy will present an error stating that it "cannot determine consistent method resolution order."
+
+You may also need to refactor some `private` attributes (with double underscores in Python) to `protected` attributes (single underscores in Python) as they move from the subclass to the superclass. In Java, these are just attributes as expected. In Python, it is simplest to declare those in the constructor of the superclass (such as `self._size = Size.SMALL`), then make sure you call that constructor using `super().__init__()` in the subclass' constructor.
+
+{{% /notice %}}
+
 ##### Menu Class
 
-The `starfleetsubs.data.menu.Menu` class should be a static class that has static getter methods or properties for these four elements:
+The `starfleetsubs.data.menu.Menu` class should be a class that has static getter methods for these four elements:
 
-* `entrees` - a list of `IOrderItem` elements containing an instance of all available entrees (7 in total).
-* `sides` - a list of `IOrderItem` elements containing an instance of all available sides. Since each side is available in three sizes, the list should include an instance of all three sizes of each side item (12 in total).
-* `drinks` - a list of `IOrderItem` elements containing an instance of all available drinks. Since each drink is available in three sizes, the list should include an instance of all three sizes of each drink item (15 in total).
+* `entrees` - a list of `OrderItem` elements containing an instance of all available entrees (7 in total).
+* `sides` - a list of `OrderItem` elements containing an instance of all available sides. Since each side is available in three sizes, the list should include an instance of all three sizes of each side item (12 in total).
+* `drinks` - a list of `OrderItem` elements containing an instance of all available drinks. Since each drink is available in three sizes, the list should include an instance of all three sizes of each drink item (15 in total).
 * `fullmenu` - a combined list of all menu items (34 in total).
 
-In Java, these lists should use a subclass of the [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html) interface. In Python, these methods should use the built-in Python [list](https://docs.python.org/3/library/stdtypes.html#list) data type. 
+In Java, these lists should use a subclass of the [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html) interface. In Python, these methods should use the built-in Python [list](https://docs.python.org/3/library/stdtypes.html#list) data type. Since they are static methods, they **cannot** be constructed as Python properties using the `@property` decorator.
 
 ## Unit Tests
 
@@ -158,7 +175,7 @@ The following updates must be made to the existing unit tests in this project to
 
 Add:
 * `InheritsFromEntree()` - check if a given object inherits from the base `Entree` class. 
-* `ImplementsIOrderItem()` - check if a given object implements the interface `IOrderItem`.
+* `ImplementsOrderItem()` - check if a given object implements the interface `OrderItem`.
 * `ChangeCondimentSetsSpecialInstructions(Condiment)` - for each condiment, check that changing it from and to the default value will add and remove the correct item from the `SpecialInstructions` list.
 
 Update:
@@ -168,18 +185,18 @@ Update:
 
 Add:
 * `InheritsFromSide()` - check if a given object inherits from the base `Side` class. 
-* `ImplementsIOrderItem()` - check if a given object implements the interface `IOrderItem`.
+* `ImplementsOrderItem()` - check if a given object implements the interface `OrderItem`.
 * `SpecialInstructionsEmpty()` - check that the **Special Instructions** list is always empty.
 
 ##### Drinks
 
 Add:
 * `InheritsFromDrink()` - check if a given object inherits from the base `Drink` class. 
-* `ImplementsIOrderItem()` - check if a given object implements the interface `IOrderItem`.
+* `ImplementsOrderItem()` - check if a given object implements the interface `OrderItem`.
 
 {{% notice tip %}}
 
-To check for type compatibility, use the `object instanceof Class` operator in Java, or the `isinstance(object, Class)` method in Python as part of an assertion statement.
+To check for type compatibility, use the `object instanceof Class` operator in Java, or the `isinstance(object, Class)` method in Python as part of an assertion statement. Hamcrest also includes a few matchers for this, such as `isA` (Java) or `instance_of()` (Python).
 
 {{% /notice %}}
 
