@@ -37,21 +37,21 @@ hidden: true
 </section>
 <section>
     <h3>Static Layout</h3>
-    <img class="plain stretch" src="/images/410_9_gui6.svg">
+    <img class="plain" src="/images/410_9_gui6.svg">
 </section>
 <section>
     <h3>Static Layout</h3>
-    <img class="plain stretch" src="/images/410_9_gui7.svg">
+    <img class="plain" src="/images/410_9_gui7.svg">
 </section>
 <section>
     <h3>Grid Layout</h3>
-    <img class="plain stretch" src="/images/410_9_gui8.svg">
+    <img class="plain" src="/images/410_9_gui8.svg">
 </section>
 <section>
     <h3>Grid Layout</h3>
-    <img class="plain stretch" src="/images/410_9_gui9.svg">
+    <img class="plain" src="/images/410_9_gui9.svg">
 </section>
 <section>
     <h3>Nested Layouts</h3>
-    <img class="plain stretch" src="/images/410_9_gui10.svg">
+    <img class="plain" src="/images/410_9_gui10.svg">
 </section>
