@@ -160,7 +160,7 @@ You may also need to refactor some `private` attributes (with double underscores
 
 The `starfleetsubs.data.menu.Menu` class should be a class that has static getter methods for these four elements:
 
-* `entrees` - a list of `OrderItem` elements containing an instance of all available entrees (7 in total).
+* `entrees` - a list of `OrderItem` elements containing an instance of all available entrées (7 in total).
 * `sides` - a list of `OrderItem` elements containing an instance of all available sides. Since each side is available in three sizes, the list should include an instance of all three sizes of each side item (12 in total).
 * `drinks` - a list of `OrderItem` elements containing an instance of all available drinks. Since each drink is available in three sizes, the list should include an instance of all three sizes of each drink item (15 in total).
 * `fullmenu` - a combined list of all menu items (34 in total).
