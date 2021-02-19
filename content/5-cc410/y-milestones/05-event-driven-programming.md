@@ -108,7 +108,7 @@ Completing this project is estimated to require 3-8 hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around !! TODO CHANGEME !! lines of new code. It could vary widely based on how you choose to implement the various portions of the GUI. My current model solution contains 849 unit tests, and I was able to achieve 100% code coverage on all GUI `OrderItem` panels. -Russ_
+_A rough estimate for this milestone would be around 3000-3500 lines of new or updated code. It could vary widely based on how you choose to implement the various portions of the GUI. Most of the new code (around 2000-2500 lines) is contained in the unit tests, which are highly redundant. It took me less than an hour to take a working set of unit tests for `TheRikerPanel` and use that as a template to create the rest of the unit tests. My current model solution contains 849 unit tests, and I was able to achieve 100% code coverage on all GUI `OrderItem` panels. -Russ_
 
 {{% /notice %}}
 
