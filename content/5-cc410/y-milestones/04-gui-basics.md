@@ -54,7 +54,7 @@ This milestone should include the following features:
 * A `starfleetsubs.gui.SidebarPanel` class to represent the sidebar panel.
   * It should contain labels for order number, subtotal, tax, and total. 
   * It should contain an "Edit" button, that does nothing when clicked.
-  * It should also include a list box that can be used to keep track of the order. The list box should expand to fill all remaining vertical space in the window.
+  * It should also include a list box as a placeholder that can be used to keep track of the order. The list box should expand to fill all remaining vertical space in the window.
 * A panel class in the `starfleetsubs.gui.entrees` package for each entrée item.
   * It should include appropriate controls for modifying the ingredients, bread, and condiments.
   * When given an instance of the item as a parameter to the constructor, the values of the controls should be set to match the values in the instance.
