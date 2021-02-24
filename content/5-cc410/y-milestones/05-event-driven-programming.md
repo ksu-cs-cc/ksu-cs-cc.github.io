@@ -101,6 +101,7 @@ Finally, the following requirements from the previous milestone are continued:
 * Classes in the `starfleetsubs.gui` base package **do not require** unit tests, but all entrée, drink, and side panels require unit tests as outlined above.
 * Classes and unit tests in the `starfleetsubs.gui` package and sub-packages **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
 * Classes and unit tests in the `starfleetsubs.gui` package and sub-packages **do require** all appropriate documentation comments, and must be free of style errors.
+* **Update the UML Diagram Contained in this project to match the updated structure of the project.** There will most likely not be any new classes, but new associations between existing classes. 
   
 ## Time Requirements
 
@@ -118,11 +119,12 @@ This assignment will be graded based on the rubric below:
 
 * New GUI elements ("Cancel", "Delete" and tree element): 5%
 * Tree element displays order items correctly: 5%
-* "Save" buttons work properly for all items: 30%
+* "Save" buttons work properly for all items: 25%
 * "Cancel" buttons work properly for all items: 5%
-* "Edit" button works properly for all items: 30%
+* "Edit" button works properly for all items: 25%
 * "Delete" button works properly for all items: 5%
 * Unit Tests: 20%
+* Updated UML Diagram: 10%
 
 The following deductions apply:
 

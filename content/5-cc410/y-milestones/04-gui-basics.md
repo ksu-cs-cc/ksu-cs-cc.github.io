@@ -73,6 +73,7 @@ This milestone should include the following features:
 * Classes in the `starfleetsubs.gui` package **do not require** unit tests.
 * Classes in the `starfleetsubs.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
 * Classes in the `starfleetsubs.gui` package **do require** all appropriate documentation comments, and must be free of style errors.
+* **Update the UML Diagram Contained in this project to match the updated structure of the project.**
 
 You are welcome to add additional methods to the existing content in the `starfleetsubs.data` package. If so, make sure you include appropriate type checking and unit tests.
 
@@ -101,10 +102,11 @@ This assignment will be graded based on the rubric below:
 * `Main` class - 2%
 * `MainWindow` class - 4%
 * `SidebarPanel` class - 4%
-* `OrderPanel` class - 25%
+* `OrderPanel` class - 20%
 * Entrée Panel classes - 40%
 * `SidePanel` class - 5%
-* Drink Panel classes - 20%
+* Drink Panel classes - 15%
+* Updated UML diagram - 10%
 
 The following deductions apply:
 
