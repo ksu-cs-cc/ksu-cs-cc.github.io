@@ -11,7 +11,7 @@ This page lists the milestone requirements for **Milestone 6** of the **CC 410 R
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe. 
 
-The sixth milestone involves creating combo meals and orders from the items selected in the GUI. With this milestone, most of the work on the core functionality of the GUI will be complete.
+The sixth milestone involves creating combo meals and orders from the items selected in the GUI. We'll use this milestone to explore some software design patterns in our code, as well as learn about using test doubles in our unit tests. With this milestone, most of the work on the core functionality of the GUI will be complete.
 
 ## General Requirements
 
@@ -41,21 +41,92 @@ This milestone must follow these professional coding standards:
 
 ## Assignment Requirements
 
-`Order` class
-`Combo` class - 
-`OrderNumberSingleton` class - Singleton Pattern
-`PanelFactory` class - Factory Pattern
-`ComboBuilder` class - Builder Pattern
-`Menu` - update to include `getCombos()` and fix `getFullMenu()`
+### New Classes
 
-  
+`starfleetsubs.data.menu.Order` - this class should represent a collection of `OrderItem` objects that make up an order.
+
+* It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
+* It should also support standard collection methods such as:
+  * Getting the number of items in the collection (`size()` in Java or `__len__()` in Python). 
+  * Determining if a given instance of an `OrderItem` object is contained in the collection. Recall that this should use the identity test, not the equality test(`contains(item)` in Java or `__contains__(item)` in Python).
+  * Getting a single item from the collection based on the index of that item (either a `get(i)` method in Java or `__getitem__(i)` in Python).
+  * Any other standard collection methods that you feel are helpful. See the [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) interface in Java or [Emulating Container Types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types) in Python for additional methods that may be useful.
+* It should have the following attributes:
+  * A private list `items` of `OrderItems`, with methods to add and remove items, as well as the iterator pattern methods discussed above.
+    * **NOTE** - in most languages, the default method to remove an item from a collection will rely on equality testing, not instance testing. So, you may wish to write this method yourself instead of relying on the underlying collection, in order to keep this and the GUI in sync.
+  * A private integer representing the `orderNumber` for this order. It will be generated using the `OrderNumberSingleton` class discussed below. It should only include a getter. 
+  * A private **static** float for the `taxRate`, which is set to 0.12 (12%) by default. It should include **static** methods to get and set the tax rate, which will be used by all `Order` objects.
+* It should also have getters for these three virtual attributes or properties:
+  * float `subtotal` - the total sum of the prices for each item in the order.
+  * float `tax` - the `subtotal` multiplied by the `taxRate`
+  * float `total` - the `subtotal` plus the `tax`. 
+  * int `calories` - the total number of calories in the order.
+* All dollar amounts **should not** be rounded to two decimal places by this class. that will be handled by the GUI. 
+
+`starfleetsubs.data.menu.Combo` - this class should implement the `OrderItem` interface, and represent a combo meal consisting of an entrée, side, and drink. 
+* It should have the following attributes:
+  * A string `name` - the name of the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
+  * An `Entree` named `entree` - the entrée in the combo. This attribute can be set to `null` or `None`.
+  * A `Side` named `side` - the side in the combo. This attribute can be set to `null` or `None`.
+  * A `Drink` named `drink` - the drink in the combo. This attribute can be set to `null` or `None`. 
+  * A **static** float `discount` - it has a value 0.5 ($0.50) by default. It should include **static** methods to get and set the discount, which will be used by all `Combo` objects.
+* It should also comply with the `OrderItem` interface:
+  * A getter for `price` that returns the sum of the prices of each item. **If all three items in the combo are populated**, the discount is applied to this total. Otherwise, no discount is applied.
+  * A getter for `calories` that returns the sum of the calories of each item.
+  * A getter for `specialInstructions` that returns the name of the combo, if set, followed by the line `"$0.50 Discount Applied"` if all three items are populated. It should not include any other items. 
+* It should also include the following methods:
+  * A constructor that accepts a string for the `name`. The constructor should allow the name to be omitted or set to `null` or `None`. The `name` will only be set by the `ComboBuilder` class discussed below, but users will also be able to configure a custom combo via the GUI that does not include a name. The constructor should set the `entree`, `side` and `drink` attributes to `null` or `None` initially.
+  * An `addItem()` method that accepts an `OrderItem` object and places it in the appropriate attribute (`entree`, `side` or `drink`). It should replace the existing item in that attribute, if any. If the `OrderItem` is not one of the three types listed above, it should throw an appropriate exception.
+  * A `getItems()` method that returns list of the items included in the combo, if any. If none are included, then return an empty list.  
+
+`starfleetsubs.data.menu.ComboBuilder` - a class that implements the **Builder Pattern** to build the available combos described below. 
+* It should include a single public **static** method `buildCombo()` that accepts an integer as input, and builds and returns the `Combo` object indicated by the integer. 
+* For simplicity, it may also include a public **static** getter for the number of combos available. 
+
+`starfleetsubs.data.menu.OrderNumberSingleton` - a class that implements the **Singleton Pattern** to generate new order numbers.
+* The class should have a non-static integer `nextOrderNumber` attribute, which is initially set to 1
+* It should have one public **static** method `getNextOrderNumber()` that will return the next order number. 
+  * This method should call a private method to get the actual singleton instance stored as a static attribute in the class. 
+  * It should access the `nextOrderNumber` attribute through that singleton instance.
+  * This method should also use thread synchronization techniques to ensure that only a single thread can actually access and update the `nextOrderNumber` attribute (a `synchronized` statement in Java or a lock in a `with` statement in Python).
+
+`starfleetsubs.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given entrée, side, or drink.
+* It should include one public **static** method that is overloaded to accept two different sets of parameters:
+  * `getPanel(String name, parent)` should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel.
+  * `getPanel(OrderItem item, parent)` should accept an instance of an `OrderItem` and return a panel that represents that item, with the `parent` GUI element as its parent.
+* For now, do not worry about updating this class to handle `Combos` as `OrderItems`. We'll address that in the next milestone. 
+
+### Updated Classes
+
+`Menu` - update to include the following items:
+* A `getCombos()` method that returns all pre-configured combos described below. This method should use the `ComboBuilder` class discussed below.
+* Updated the `getFullMenu()` method to include the combos returned from `getCombos()` in its output.
+
+`OrderPanel` - update to include the following items:
+* The `actionPerformed` method should be updated to use the `PanelFactory` class to acquire the appropriate GUI panel based on the action command received from button that was clicked.
+
+`SidebarPanel` - update to include the following items:
+* When clicking the "Edit" button, it should use the `PanelFactory` class to acquire the appropriate GUI panel based on the item selected in the tree. 
+* This class should now include a private `Order` attribute that stores the items in the order. 
+  * It should be instantiated by the `SidebarPanel` constructor. The order number should be updated in the GUI as well.
+  * It should be kept up to date as items are added to and removed from the order.
+  * Whenever the order is changed, it should update the subtotal, tax, and total elements in the GUI 
+* The GUI should include two new buttons:
+  * "New Order" - clicking this button will create a new `Order` instance and reset all appropriate GUI elements for a new order. This will delete any existing order.
+    * You may wish to implement a modal dialog that asks the user to confirm before deleting the existing order. See [How to Make Dialogs](https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html) for Java or [Dialog Windows](https://tkdocs.com/tutorial/windows.html#dialogs) for Python. This is not required but highly recommended!
+  * "Checkout" - clicking this button will have no effect at this time. It will be implemented in the next milestone.
+
+### Unit Tests
+
+All new classes should include full unit tests that achieve a high level of code coverage and adequately test all aspects of the class. In addition, some previous tests may be updated to match new requirements.
+
 ## Time Requirements
 
 Completing this project is estimated to require 3-8 hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around 3000-3500 lines of new or updated code. It could vary widely based on how you choose to implement the various portions of the GUI. Most of the new code (around 2000-2500 lines) is contained in the unit tests, which are highly redundant. It took me less than an hour to take a working set of unit tests for `TheRikerPanel` and use that as a template to create the rest of the unit tests. My current model solution contains 849 unit tests, and I was able to achieve 100% code coverage on all GUI `OrderItem` panels. -Russ_
+_A rough estimate for this milestone would be around !! TODO CHANGEME !! lines of new or updated code. -Russ_
 
 {{% /notice %}}
 
@@ -63,14 +134,7 @@ _A rough estimate for this milestone would be around 3000-3500 lines of new or u
 
 This assignment will be graded based on the rubric below:
 
-* New GUI elements ("Cancel", "Delete" and tree element): 5%
-* Tree element displays order items correctly: 5%
-* "Save" buttons work properly for all items: 25%
-* "Cancel" buttons work properly for all items: 5%
-* "Edit" button works properly for all items: 25%
-* "Delete" button works properly for all items: 5%
-* Unit Tests: 20%
-* Updated UML Diagram: 10%
+!! TODO CHANGEME !!
 
 The following deductions apply:
 
