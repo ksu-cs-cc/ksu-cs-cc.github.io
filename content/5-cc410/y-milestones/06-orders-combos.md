@@ -55,7 +55,7 @@ This milestone must follow these professional coding standards:
   * A private list `items` of `OrderItems`, with methods to add and remove items, as well as the iterator pattern methods discussed above.
     * **NOTE** - in most languages, the default method to remove an item from a collection will rely on equality testing, not instance testing. So, you may wish to write this method yourself instead of relying on the underlying collection, in order to keep this and the GUI in sync.
   * A private integer representing the `orderNumber` for this order. It will be generated using the `OrderNumberSingleton` class discussed below. It should only include a getter. 
-  * A private **static** float for the `taxRate`, which is set to 0.12 (12%) by default. It should include **static** methods to get and set the tax rate, which will be used by all `Order` objects. The tax rate must be a valid percentage value ranging from 0.0 to 1.0, inclusive.
+  * A private **static** float for the `taxRate`, which is set to 0.12 (12%) by default. It should include methods to get and set the tax rate, which will be used by all `Order` objects. The tax rate must be a valid percentage value ranging from 0.0 to 1.0, inclusive.
 * It should also have getters for these three virtual attributes or properties:
   * float `subtotal` - the total sum of the prices for each item in the order.
   * float `tax` - the `subtotal` multiplied by the `taxRate`
