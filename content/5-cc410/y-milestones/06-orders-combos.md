@@ -78,6 +78,8 @@ This milestone must follow these professional coding standards:
   * A constructor that accepts a string for the `name`. The constructor should allow the name to be omitted or set to `null` or `None`. The `name` will only be set by the `ComboBuilder` class discussed below, but users will also be able to configure a custom combo via the GUI that does not include a name. The constructor should set the `entree`, `side` and `drink` attributes to `null` or `None` initially.
   * An `addItem()` method that accepts an `OrderItem` object and places it in the appropriate attribute (`entree`, `side` or `drink`). It should replace the existing item in that attribute, if any. If the `OrderItem` is not one of the three types listed above, it should throw an appropriate exception.
   * A `getItems()` method that returns list of the items included in the combo, if any. If none are included, then return an empty list.  
+  * An implementation of the `equals()` or `__eq__()` method to check for equality. Two combos are considered equal if their entree, side, drink, and name are equal (they do not have to be the same instances, just equal). If any attribute in this object is `null` or `None`, it is considered equal if the matching attribute is also `null` or `None`.
+    * This presents a real problem in Java, because calling the `equals()` method on a `null` object will result in an exception. So, you'll have to check if each attribute in this object is `null` first. If so, and the other object's attribute is not `null`, then they are not equal. If this object's attribute is not `null`, you can safely call `equals()` on it, regardless of the other object's attribute. 
 
 `starfleetsubs.data.menu.ComboBuilder` - a class that implements the **Builder Pattern** to build the available combos described below. 
 * It should include a single public **static** method `buildCombo()` that accepts an integer as input, and builds and returns the `Combo` object indicated by the integer. 
@@ -86,14 +88,14 @@ This milestone must follow these professional coding standards:
 `starfleetsubs.data.menu.OrderNumberSingleton` - a class that implements the **Singleton Pattern** to generate new order numbers.
 * The class should have a non-static integer `nextOrderNumber` attribute, which is initially set to 1
 * It should have one public **static** method `getNextOrderNumber()` that will return the next order number. 
-  * This method should call a private method to get the actual singleton instance stored as a static attribute in the class. 
+  * This method should call a private `getInstance()` method to get the actual singleton instance stored as a static attribute in the class. 
   * It should access the `nextOrderNumber` attribute through that singleton instance.
   * This method should also use thread synchronization techniques to ensure that only a single thread can actually access and update the `nextOrderNumber` attribute (a `synchronized` statement in Java or a lock in a `with` statement in Python).
 
 `starfleetsubs.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given entrée, side, or drink.
 * It should include one public **static** method that is overloaded to accept two different sets of parameters:
-  * `getPanel(String name, parent)` should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel.
-  * `getPanel(OrderItem item, parent)` should accept an instance of an `OrderItem` and return a panel that represents that item, with the `parent` GUI element as its parent.
+  * `getPanel(String name, MainWindow parent)` should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel. If the `name` is not recognized, an exception should be thrown.
+  * `getPanel(OrderItem item, MainWindow parent)` should accept an instance of an `OrderItem` and return a panel that represents that item, with the `parent` GUI element as its parent. If the `item` is not recognized, an exception should be thrown.
 * For now, do not worry about updating this class to handle `Combos` as `OrderItems`. We'll address that in the next milestone. 
 
 ### Updated Classes
@@ -110,7 +112,8 @@ This milestone must follow these professional coding standards:
 * This class should now include a private `Order` attribute that stores the items in the order. 
   * It should be instantiated by the `SidebarPanel` constructor. The order number should be updated in the GUI as well.
   * It should be kept up to date as items are added to and removed from the order.
-  * Whenever the order is changed, it should update the subtotal, tax, and total elements in the GUI 
+  * Whenever the order is changed, it should update the subtotal, tax, and total elements in the GUI. They should be properly formatted as currency values. 
+    * See [Currencies](https://docs.oracle.com/javase/tutorial/i18n/format/numberFormat.html) for Java. 
 * The GUI should include two new buttons:
   * "New Order" - clicking this button will create a new `Order` instance and reset all appropriate GUI elements for a new order. This will delete any existing order.
     * You may wish to implement a modal dialog that asks the user to confirm before deleting the existing order. See [How to Make Dialogs](https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html) for Java or [Dialog Windows](https://tkdocs.com/tutorial/windows.html#dialogs) for Python. This is not required but highly recommended!
@@ -118,7 +121,18 @@ This milestone must follow these professional coding standards:
 
 ### Unit Tests
 
-All new classes should include full unit tests that achieve a high level of code coverage and adequately test all aspects of the class. In addition, some previous tests may be updated to match new requirements.
+All new classes except `PanelFactory` should include full unit tests that achieve at or near 100% code coverage and adequately test all aspects of the class. In addition, some previous tests may need to be updated to match new requirements.
+
+You should also update the unit tests for each of the GUI panels created in the previous milestone to use a fake `MainWindow` object instead of creating one in the test. This should make the tests run much faster, and you should be able to see that the code in `MainWindow` is not executing in the code coverage report.
+
+Once this milestone is complete, all classes in the following packages should have unit tests that achieve at or near 100% code coverage:
+
+* `starfleetsubs.data.*`
+* `starfleetsubs.gui.drinks.*`
+* `starfleetsubs.gui.entrees.*`
+* `starfleetsubs.gui.sides.*`
+
+The only classes that do not meet this requirement are `MainWindow`, `OrderPanel`, `PanelFactory`, and `SidebarPanel` in the `starfleetsubs.gui` package. If done correctly, they should have 0% code coverage. 
 
 ## Time Requirements
 
@@ -126,7 +140,7 @@ Completing this project is estimated to require 3-8 hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around !! TODO CHANGEME !! lines of new or updated code. -Russ_
+_A rough estimate for this milestone would be around 2000 lines of new or updated code. -Russ_
 
 {{% /notice %}}
 
@@ -178,17 +192,67 @@ The Q, Borg, The Picard
 
 ## Unit Tests
 
+This is a suggested list of unit tests you may wish to implement to test your new and updated classes in this milestone. You should be able to reach 100% code coverage in each of these classes. 
+
 ##### Order
 
-* `SizeIs0Initially()` - test that the size of the order is initially 0.
-* `TotalsAre0Initially()` - test that the subtotal, tax, and total are 0 initially.
-* `TaxRateSetInitially()` - test that the tax rate is set to 0.12 initially.
-* `NegativeTaxRateThrowsException()` - test that setting the tax rate to a negative value throws an exception.
-* `TaxRateOver100ThrowsException()` - test that setting the tax rate to a value over 1.0 throws an exception.
+* `SizeIs0Initially()` - the size of the order is initially 0.
+* `TotalsAre0Initially()` - the subtotal, tax, and total are 0 initially.
+* `NegativeTaxRateThrowsException()` - setting the tax rate to a negative value throws an exception.
+* `TaxRateOver100ThrowsException()` - setting the tax rate to a value over 1.0 throws an exception.
+* `AddItemsUpdatesSize()` - add three fake items one at a time and check size after each one.
+* `AddItemsUpdatesTotals()` - add three fake items one at a time and check subtotal, tax, and total after each one.
+* `AddItemsUpdatesCalories()` - add three fake items one at a time and check calories after each one.
+* `ContainsUsesInstanceComparison()` - confirm that the `contains` method uses instance comparison. Create two actual order items (this cannot be done with fakes) that will return true when `equals()` is called. Place one in the order, and use them to confirm that `contains` returns both true and false when given two items that are equal but not the same instance.
+* `RemoveUsesInstanceComparison()` - confirm that the `removeItem` method uses instance comparison. Create two actual order items (this cannot be done with fakes) that will return true when `equals()` is called. Place both in in the order, then remove one and confirm that the correct one was removed using contains. You may wish to do this twice, removing the first one added once and the second one added the second time.
+* `OrderNumberFromSingleton()`- confirm that the `Order` class is using `OrderNumberSingleton`. Create a fake `OrderNumberSingleton` that returns a value for an order number, then instantiate an `Order` and verify that it received the given order number.
+* `TaxRateSetGlobally()` - create two `Order` instances, change the tax rate, and confirm that both use the new tax rate. This is best done by adding an item to each order and checking the `tax` virtual attribute.
+* `RemoveMissingItemDoesNotThrow()` - removing an item not in the order should not throw an exception.
+* `IteratorContainsItems()` - add fake items to the order, get the iterator, and confirm that the fake items are returned in order.
+* `GetItemsByIndex()` - add fake items to the order, and confirm that each one can be accessed via its index.
 
 ##### Combo
 
-`DefaultConstructorSetsName()` - the default constructor should set the name. This is visible as the first element in the special instructions list.
-`DefaultConstructorAcceptsNullName()` - the default constructor should accept `null` or `None` for the name.
-`DefaultConstructorSetsItemsToNull()` - the default constructor should set the entree, side, and drink elements to `null` or `None`. 
-`DefaultDiscountCorrect()` - the default discount of $0.50 is initially set correctly.
+* `ConstructorSetsName()` - the constructor should set the name. This is visible as the first element in the special instructions list.
+* `ConstructorAcceptsNullName()` - the constructor should accept `null` or `None` for the name.
+* `ConstructorSetsItemsToNull()` - the constructor should set the entree, side, and drink elements to `null` or `None`. 
+* `SetDiscountToNegativeThrowsException()` - setting the discount to a negative value throws an exception.
+* `CanSetDiscountToZero()` - setting the discount to 0 does not throw an exception.
+* `PriceZeroNoItems()` - the price should be 0 if all items are `null` or `None`.
+* `CaloriesZeroNoItems()` - the calories should be 0 if all items are `null` or `None`.
+* `PriceAllItems()` - add fake entree, side, and drink to combo and verify that the price is summed correctly (remember to take off the discount).
+* `CaloriesAllItems()` - add fake entree, side, and drink to combo and verify that the calories is summed correctly.
+* `NoDiscountWhenItemMissing()` - add two of the three items to the combo and verify tha the price is correct and does not include discount.
+* `DiscountSetGlobally()` - create two `Combo` instances, change the discount, and confirm that both use the new discount. This is best done by adding three items to each combo and checking the total price.
+* `AddEntreeUpdatesEntree()` - add an `Entree` to the combo using `addItem()` and verify that it is placed in the `entree` attribute. You may need to make the attribute visible to the test.
+* `AddSideUpdatesSide()` - add a `Side` to the combo using `addItem()` and verify that it is placed in the `side` attribute. You may need to make the attribute visible to the test.
+* `AddDrinkUpdatesDrink()` - add a `Drink` to the combo using `addItem()` and verify that it is placed in the `drink` attribute. You may need to make the attribute visible to the test.
+* `ItemsListCorrect()` - add fake items to the combo and verify that the list returned by `getItems()` contains them.
+* `ItemsListEmpty()` - getting a list when the combo is empty results in an empty list.
+* `SpecialInstructionsHasName()` - special instructions should contain name if set.
+* `SpecialInstructionsHasDiscount()` - special instructions should contain "$0.50 Discount Applied" if all three items are populated.
+* `SpecialInstructionsEmpty()` - special instructions should be empty if no name is set and no discount applied.
+* `AddingComboToComboThrowsException()` - adding a combo as an item to a combo throws an exception.
+* `TwoCombosEqual()` - create two combos containing the same name and fake objects and test that they are equal. 
+* `TwoCombosNotEqual()` - create two combos with different names but the same fake objects, and test that they are not equal.
+* `TwoEmptyCombosEqual()` - create two empty combos with `null` or `None` names and test that they are equal.
+* `TwoCombosOneEmptyNotEqual()` - create two combos, one empty, one not, and test that they are not equal.
+* `DifferentObjectNotEqual()` - confirm that equality test will return `false` when given a different type of object.
+
+_You may need to add additional tests of the `equals()` method in Java to achieve 100% code coverage._ 
+
+##### ComboBuilder
+
+_For these tests, I recommend just checking the types of the entree, side, and drink item in the Combo returned, as well as the name, rather than using any fake objects. As before, you may wish to make these attributes visible to the test._
+
+* `Combo1()` - Combo 1 is built correctly
+* `Combo2()` - Combo 2 is built correctly
+* `Combo3()` - Combo 3 is built correctly
+* `Combo4()` - Combo 4 is built correctly
+* `Combo5()` - Combo 5 is built correctly
+* `Combo6()` - Combo 6 is built correctly
+* `BadComboThrowsException()` - a bad combo number should throw an exception
+
+##### OrderNumberSingleton
+
+* `SequentialOrderNumbers` - call `getNextOrderNumber()` several times and make sure each one is sequential.
