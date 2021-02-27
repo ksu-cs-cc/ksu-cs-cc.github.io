@@ -48,14 +48,14 @@ This milestone must follow these professional coding standards:
 * It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
 * It should also support standard collection methods such as:
   * Getting the number of items in the collection (`size()` in Java or `__len__()` in Python). 
-  * Determining if a given instance of an `OrderItem` object is contained in the collection. Recall that this should use the identity test, not the equality test(`contains(item)` in Java or `__contains__(item)` in Python).
+  * Determining if a given instance of an `OrderItem` object is contained in the collection (`contains(item)` in Java or `__contains__(item)` in Python). Recall that this should use the identity test, not the equality test.
   * Getting a single item from the collection based on the index of that item (either a `get(i)` method in Java or `__getitem__(i)` in Python).
   * Any other standard collection methods that you feel are helpful. See the [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) interface in Java or [Emulating Container Types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types) in Python for additional methods that may be useful.
 * It should have the following attributes:
   * A private list `items` of `OrderItems`, with methods to add and remove items, as well as the iterator pattern methods discussed above.
     * **NOTE** - in most languages, the default method to remove an item from a collection will rely on equality testing, not instance testing. So, you may wish to write this method yourself instead of relying on the underlying collection, in order to keep this and the GUI in sync.
   * A private integer representing the `orderNumber` for this order. It will be generated using the `OrderNumberSingleton` class discussed below. It should only include a getter. 
-  * A private **static** float for the `taxRate`, which is set to 0.12 (12%) by default. It should include methods to get and set the tax rate, which will be used by all `Order` objects. The tax rate must be a valid percentage value ranging from 0.0 to 1.0, inclusive.
+  * A private **static** float for the `taxRate`, which is set to 0.12 (12%) by default. It should include **static** methods to get and set the tax rate, which will be used by all `Order` objects. The tax rate must be a valid percentage value ranging from 0.0 to 1.0, inclusive.
 * It should also have getters for these three virtual attributes or properties:
   * float `subtotal` - the total sum of the prices for each item in the order.
   * float `tax` - the `subtotal` multiplied by the `taxRate`
@@ -66,14 +66,14 @@ This milestone must follow these professional coding standards:
 `starfleetsubs.data.menu.Combo` - this class should implement the `OrderItem` interface, and represent a combo meal consisting of an entrée, side, and drink. 
 * It should have the following attributes:
   * A string `name` - the name of the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
-  * An `Entree` named `entree` - the entrée in the combo. This attribute can be set to `null` or `None`.
-  * A `Side` named `side` - the side in the combo. This attribute can be set to `null` or `None`.
-  * A `Drink` named `drink` - the drink in the combo. This attribute can be set to `null` or `None`. 
+  * An `Entree` named `entree` - the entrée in the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
+  * A `Side` named `side` - the side in the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
+  * A `Drink` named `drink` - the drink in the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`. 
   * A **static** float `discount` - it has a value 0.5 ($0.50) by default. It should include **static** methods to get and set the discount, which will be used by all `Combo` objects.
 * It should also comply with the `OrderItem` interface:
   * A getter for `price` that returns the sum of the prices of each item. **If all three items in the combo are populated**, the discount is applied to this total. Otherwise, no discount is applied.
   * A getter for `calories` that returns the sum of the calories of each item.
-  * A getter for `specialInstructions` that returns the name of the combo, if set, followed by the line `"$0.50 Discount Applied"` if all three items are populated. It should not include any other items. 
+  * A getter for `specialInstructions` that returns the name of the combo, if set, followed by the line `"$0.50 Discount Applied"` if all three items are populated. It should not include any other items. (The discount value should be updated to match the static `discount` attribute.)
 * It should also include the following methods:
   * A constructor that accepts a string for the `name`. The constructor should allow the name to be omitted or set to `null` or `None`. The `name` will only be set by the `ComboBuilder` class discussed below, but users will also be able to configure a custom combo via the GUI that does not include a name. The constructor should set the `entree`, `side` and `drink` attributes to `null` or `None` initially.
   * An `addItem()` method that accepts an `OrderItem` object and places it in the appropriate attribute (`entree`, `side` or `drink`). It should replace the existing item in that attribute, if any. If the `OrderItem` is not one of the three types listed above, it should throw an appropriate exception.
@@ -110,9 +110,9 @@ This milestone must follow these professional coding standards:
 `SidebarPanel` - update to include the following items:
 * When clicking the "Edit" button, it should use the `PanelFactory` class to acquire the appropriate GUI panel based on the item selected in the tree. 
 * This class should now include a private `Order` attribute that stores the items in the order. 
-  * It should be instantiated by the `SidebarPanel` constructor. The order number should be updated in the GUI as well.
+  * It should be instantiated by the `SidebarPanel` constructor.
   * It should be kept up to date as items are added to and removed from the order.
-  * Whenever the order is changed, it should update the subtotal, tax, and total elements in the GUI. They should be properly formatted as currency values. 
+  * Whenever the order is changed, it should update the order number, subtotal, tax, and total elements in the GUI. Prices should be properly formatted as currency values. 
     * See [Currencies](https://docs.oracle.com/javase/tutorial/i18n/format/numberFormat.html) for Java. 
 * The GUI should include two new buttons:
   * "New Order" - clicking this button will create a new `Order` instance and reset all appropriate GUI elements for a new order. This will delete any existing order.
@@ -132,7 +132,7 @@ Once this milestone is complete, all classes in the following packages should ha
 * `starfleetsubs.gui.entrees.*`
 * `starfleetsubs.gui.sides.*`
 
-The only classes that do not meet this requirement are `MainWindow`, `OrderPanel`, `PanelFactory`, and `SidebarPanel` in the `starfleetsubs.gui` package. If done correctly, they should have 0% code coverage. 
+The only classes that do not meet this requirement are `MainWindow`, `OrderPanel`, `PanelFactory`, and `SidebarPanel` in the `starfleetsubs.gui` package. 
 
 ## Time Requirements
 
@@ -148,7 +148,22 @@ _A rough estimate for this milestone would be around 2000 lines of new or update
 
 This assignment will be graded based on the rubric below:
 
-!! TODO CHANGEME !!
+* New Classes: 40%
+  * `Order` - 10%
+  * `Combo` - 10%
+  * `ComboBuilder` - 10%
+  * `OrderNumberSingleton` - 5%
+  * `PanelFactory` - 5%
+* Unit Tests: 40%
+  * `Order` - 10%
+  * `Combo` - 15%
+  * `ComboBuilder` - 5%
+  * `OrderNumberSingleton` - 5%
+  * Faking `MainWindow` in GUI Panels - 5%
+* Class Updates: 20%
+  * `Menu` and unit tests: 5%
+  * `OrderPanel`: 5%
+  * `SidebarPanel`: 10%
 
 The following deductions apply:
 
@@ -222,16 +237,14 @@ This is a suggested list of unit tests you may wish to implement to test your ne
 * `CaloriesZeroNoItems()` - the calories should be 0 if all items are `null` or `None`.
 * `PriceAllItems()` - add fake entree, side, and drink to combo and verify that the price is summed correctly (remember to take off the discount).
 * `CaloriesAllItems()` - add fake entree, side, and drink to combo and verify that the calories is summed correctly.
-* `NoDiscountWhenItemMissing()` - add two of the three items to the combo and verify tha the price is correct and does not include discount.
+* `NoDiscountWhenItemMissing()` - add two of the three items to the combo and verify that the price is correct and does not include discount.
 * `DiscountSetGlobally()` - create two `Combo` instances, change the discount, and confirm that both use the new discount. This is best done by adding three items to each combo and checking the total price.
 * `AddEntreeUpdatesEntree()` - add an `Entree` to the combo using `addItem()` and verify that it is placed in the `entree` attribute. You may need to make the attribute visible to the test.
 * `AddSideUpdatesSide()` - add a `Side` to the combo using `addItem()` and verify that it is placed in the `side` attribute. You may need to make the attribute visible to the test.
 * `AddDrinkUpdatesDrink()` - add a `Drink` to the combo using `addItem()` and verify that it is placed in the `drink` attribute. You may need to make the attribute visible to the test.
 * `ItemsListCorrect()` - add fake items to the combo and verify that the list returned by `getItems()` contains them.
 * `ItemsListEmpty()` - getting a list when the combo is empty results in an empty list.
-* `SpecialInstructionsHasName()` - special instructions should contain name if set.
 * `SpecialInstructionsHasDiscount()` - special instructions should contain "$0.50 Discount Applied" if all three items are populated.
-* `SpecialInstructionsEmpty()` - special instructions should be empty if no name is set and no discount applied.
 * `AddingComboToComboThrowsException()` - adding a combo as an item to a combo throws an exception.
 * `TwoCombosEqual()` - create two combos containing the same name and fake objects and test that they are equal. 
 * `TwoCombosNotEqual()` - create two combos with different names but the same fake objects, and test that they are not equal.
@@ -256,3 +269,42 @@ _For these tests, I recommend just checking the types of the entree, side, and d
 ##### OrderNumberSingleton
 
 * `SequentialOrderNumbers` - call `getNextOrderNumber()` several times and make sure each one is sequential.
+
+## Python tox Updates
+
+I ran into _even more_ issues with Python not running unit tests in tox properly on this assignment. As before, it seems to be the same cause:
+
+* Because pytest is apparently _very_ memory inefficient, the unit tests are killed by Codio once they consume too much memory. To work around this, we'll run our unit tests in batches. 
+
+An updated `tox.ini` file is given below. I recommend replacing your file with this one:
+
+```ini
+[tox]
+envlist = py36
+skipsdist = True
+
+[testenv]
+deps = -rrequirements.txt
+passenv = DISPLAY
+ignore_errors = True
+commands = python3 -m mypy -p src --html-report reports/mypy
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/data --html=reports/pytest-data/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheGaghPanel.py --html=reports/pytest-entrees1/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheJanewayPanel.py --html=reports/pytest-entrees2/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheKirkPanel.py --html=reports/pytest-entrees3/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheQPanel.py --html=reports/pytest-entrees4/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheRikerPanel.py --html=reports/pytest-entrees5/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheScottyPanel.py --html=reports/pytest-entrees6/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheSpockPanel.py --html=reports/pytest-entrees7/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/drinks test/starfleetsubs/gui/sides --html=reports/pytest-side-drinks/index.html
+           python3 -m coverage combine
+           python3 -m coverage html -d reports/coverage
+           python3 -m flake8 --docstring-convention google --format=html --htmldir=reports/flake
+           python3 -m pdoc --html --force --output-dir reports/doc .
+```
+
+The major changes:
+
+* We now run coverage in parallel mode, and specify the test folders in the pytest command. This will run several separate sets of tests. I had to move each large GUI panel to its own test, as I couldn't run them all in a single batch. 
+* Notice that the test reports will now be in different folders. The old `reports/pytest` folder will no longer be updated. 
+* We added a `coverage combine` command to combine the coverage data from multiple executions of pytest. 
