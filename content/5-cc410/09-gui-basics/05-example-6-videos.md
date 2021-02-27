@@ -9,12 +9,8 @@ date: 2021-02-26T00:53:26-05:00
 
 #### Java
 
-{{< youtube  >}}
-
-TODO
+{{< youtube d9-QDhp9tgs >}}
 
 #### Python
 
-{{< youtube  >}}
-
-TODO
+{{< youtube hjMFAcxwJBU >}}
