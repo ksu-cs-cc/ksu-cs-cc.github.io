@@ -22,7 +22,7 @@ hidden: true
 </section>
 <section>
     <h3>Object Adapter</h3>
-    <pre><code class="java" style="font-size:35px">class CelsiusToFahrenheit implements Celsius:<br>
+    <pre><code class="java" style="font-size:35px">class FahrenheitToCelsius implements Celsius:<br>
     Fahrenheit fahrenheitTemp<br>
     function getTempCelsius():
         return (fahrenheitTemp.getTempFahrenheit() - 32) * (5 / 9)
@@ -30,7 +30,7 @@ hidden: true
 </section>
 <section>
     <h3>Class Adapter</h3>
-    <pre><code class="java" style="font-size:34px">class CelsiusToFahrenheit inherits Fahrenheit implements Celsius:<br>
+    <pre><code class="java" style="font-size:34px">class FahrenheitToCelsius inherits Fahrenheit implements Celsius:<br>
     function getTempCelsius():
         return (parent.getTempFahrenheit() - 32) * (5 / 9)
     </code></pre>
