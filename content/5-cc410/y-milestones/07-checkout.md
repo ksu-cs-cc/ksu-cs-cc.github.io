@@ -85,6 +85,7 @@ At the bottom of this page is a GUI sketch of one possible way to build a screen
   3. Receive item from panel via the panel calling the save method in its parent (which is now `ComboPanel` instead of `MainWindow`)
   4. Update the combo order item
   5. Call the save method in the `MainWindow` to add the item to the order.
+* You may choose to add additional getters to the classes in the `data` package as desired.
 
 ##### Unit Tests
 

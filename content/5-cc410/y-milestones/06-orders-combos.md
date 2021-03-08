@@ -65,10 +65,10 @@ This milestone must follow these professional coding standards:
 
 `starfleetsubs.data.menu.Combo` - this class should implement the `OrderItem` interface, and represent a combo meal consisting of an entrée, side, and drink. 
 * It should have the following attributes:
-  * A string `name` - the name of the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
-  * An `Entree` named `entree` - the entrée in the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
-  * A `Side` named `side` - the side in the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`.
-  * A `Drink` named `drink` - the drink in the combo, which does not require a getter or setter. This attribute can be set to `null` or `None`. 
+  * A string `name` - the name of the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`.
+  * An `Entree` named `entree` - the entrée in the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`. It should include a `removeEntree()` method to set the value to `null` or `None`.
+  * A `Side` named `side` - the side in the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`. It should include a `removeSide()` method to set the value to `null` or `None`.
+  * A `Drink` named `drink` - the drink in the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`. It should include a `removeDrink()` method to set the value to `null` or `None`.
   * A **static** float `discount` - it has a value 0.5 ($0.50) by default. It should include **static** methods to get and set the discount, which will be used by all `Combo` objects.
 * It should also comply with the `OrderItem` interface:
   * A getter for `price` that returns the sum of the prices of each item. **If all three items in the combo are populated**, the discount is applied to this total. Otherwise, no discount is applied.
