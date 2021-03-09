@@ -123,7 +123,9 @@ This milestone must follow these professional coding standards:
 
 All new classes except `PanelFactory` should include full unit tests that achieve at or near 100% code coverage and adequately test all aspects of the class. In addition, some previous tests may need to be updated to match new requirements.
 
-You should also update the unit tests for each of the GUI panels created in the previous milestone to use a fake `MainWindow` object instead of creating one in the test. This should make the tests run much faster, and you should be able to see that the code in `MainWindow` is not executing in the code coverage report.
+**Java Only**: You should also update the unit tests for each of the GUI panels created in the previous milestone to use a fake `MainWindow` object instead of creating one in the test. This should make the tests run much faster, and you should be able to see that the code in `MainWindow` is not executing in the code coverage report.
+
+**Python Only**: Sadly, I have yet to figure out if it is possible to properly fake parts of `tkinter` such that the `MainWindow` class can be properly substituted with a fake. No changes are required at this time.
 
 Once this milestone is complete, all classes in the following packages should have unit tests that achieve at or near 100% code coverage:
 
@@ -155,11 +157,10 @@ This assignment will be graded based on the rubric below:
   * `OrderNumberSingleton` - 5%
   * `PanelFactory` - 5%
 * Unit Tests: 40%
-  * `Order` - 10%
+  * `Order` - 15%
   * `Combo` - 15%
   * `ComboBuilder` - 5%
   * `OrderNumberSingleton` - 5%
-  * Faking `MainWindow` in GUI Panels - 5%
 * Class Updates: 20%
   * `Menu` and unit tests: 5%
   * `OrderPanel`: 5%
