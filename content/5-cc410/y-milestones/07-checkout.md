@@ -86,16 +86,19 @@ At the bottom of this page is a GUI sketch of one possible way to build a screen
   4. Update the combo order item
   5. Call the save method in the `MainWindow` to add the item to the order.
 * You may choose to add additional getters to the classes in the `data` package as desired.
+* In Python, you may have a circular reference in your `PanelFactory` since it could be used from within `ComboPanel`, but also will be used to create instances of `ComboPanel`. A way to resolve this would be to create a `ComboPanelFactory` to handle combos, and adapt the code where `PanelFactory` is used to direct combo instances to the new `ComboPanelFactory` instead.
 
 ##### Unit Tests
 
 Your new GUI panel(s) should include some basic **unit tests** modeled after the tests used for the item panels. Specifically, you should test the following:
 
+* Selecting a particular entrée, side, or drink in the appropriate GUI element causes a panel of the correct type to be loaded.
+* Receiving a combo as input containing a particular entrée, side, or drink causes the panel of the correct type to be loaded.
 * Selecting a particular entrée, side, or drink to be included in the combo via the GUI causes an item of that type to be added to the resulting `Combo` object when it is saved.
 * Selecting the "no selection" option will remove that item from an existing `Combo` object when it is saved.
 * Cancelling will result in no changes being made to the `Combo` object.
 
-You should use test doubles (stubs, fakes, or mocks) in these unit tests to mimic the other parts of the application, including the order items and associated panels. The goal is to only test the new GUI panel(s) in isolation. 
+You should use test doubles (stubs, fakes, or mocks) in these unit tests to mimic the other parts of the application, including the order items and associated panels. The goal is to only test the new GUI panel(s) in isolation. This may not be possible in Python due to issues with mocking classes from `tkinter`.
 
 ### Part 2 - Checkout
 
@@ -207,7 +210,7 @@ Instead, you are encouraged to write wrapper classes around the classes in the e
 For example:
 
 * Write a method in your `CashDrawer` wrapper that accepts a transaction amount and a description of the cash denominations provided by the user, and then computes the correct change and returns a description of the denominations and amounts to be given as change. If the user did not provide enough cash, it could throw an exception or some other error.
-* Write a method in your `CashDrawer` wrapper that accepts a description of the current denominations and amounts in a drawer, a description of the cash provided by the user, and a description of the change to be given. The method should compute the updated contents of the drawer, making substitutions when needed to handle situations where not enough of a denomination are present, and then return a description of those changes.
+* Write a method in your `CashDrawer` wrapper that accepts a description of the cash provided by the user, and a description of the change to be given. The method should compute the updated contents of the drawer using its existing contents, making substitutions when needed to handle situations where not enough of a denomination are present, and then return a description of those changes.
   * Your wrapper would also include a separate method to actually send those changes to the cash drawer, but that method **does not** need to be unit tested for correctness and shouldn't be directly called by the method above. That would technically be an _integration test_, which we aren't worrying about for now.
 * Write a method in your `ReceiptPrinter` wrapper that accepts an `Order` object and returns a list of strings that represent the receipt to be printed. Verify that the contents of that list fully reflect the `Order` given to it.
   * Your wrapper would also include a separate method to actually print a list of strings to a receipt, but that method **does not** need to be unit tested for correctness and shouldn't be directly called by the method above.
