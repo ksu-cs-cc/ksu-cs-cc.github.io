@@ -1,6 +1,6 @@
 #!/bin/bash
 
 ./worker.sh &
-echo "Deploy Launched!"
+echo "Deploy Launched in Background!"
 
 exit 0
