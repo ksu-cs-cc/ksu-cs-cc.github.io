@@ -225,13 +225,11 @@ If done correctly, you **should not** have to create a test double for any of th
 
 ## Time Requirements
 
-Completing this project is estimated to require 3-8 hours.
+Completing this project is estimated to require **5 - 10** hours.
 
 {{% notice tip %}}
 
-TODO 
-
-_A rough estimate for this milestone would be around TODO CHANGEME lines of new or updated code. -Russ_
+_A rough estimate for this milestone would be around 1500-2000 lines of new or updated code. -Russ_
 
 {{% /notice %}}
 
@@ -239,7 +237,17 @@ _A rough estimate for this milestone would be around TODO CHANGEME lines of new 
 
 This assignment will be graded based on the rubric below:
 
-TODO CHANGEME
+* Part 1 - 50%
+  * Combo Buttons on Order Panel - 5%
+  * Combo Interface for selecting/editing items - 25%
+  * Sidebar Handles Combos - 10%
+  * Unit Tests - 10%
+* Part 2 - 50%
+  * Credit Card - 5%
+  * Cash Interface - 5%
+  * Makes Change - 15%
+  * Prints Receipt - 15%
+  * Unit Tests - 10%
 
 The following deductions apply:
 
