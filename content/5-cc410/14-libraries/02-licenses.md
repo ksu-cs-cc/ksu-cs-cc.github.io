@@ -5,9 +5,7 @@ weight: 20
 date: 2020-03-06T00:53:26-05:00
 ---
 
-{{< youtube >}}
-
-TODO
+{{< youtube -USMqm7lgXs >}}
 
 #### Resources
 
