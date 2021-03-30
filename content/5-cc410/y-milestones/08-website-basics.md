@@ -41,23 +41,74 @@ This milestone must follow these professional coding standards:
 
 ## Assignment Requirements
 
-* Install a Web Framework
-  * Java - Spring
-  * Python - Flask and Flask_classful
-* 4 Pages
-  * index - contains menu and links to about and privacy
-  * about - contains some boilerplate
-  * privacy - contains some boilerplate
-  * search - basic ability to post and grab data from the post
-* All pages use same layout file
+###### Web Framework
+
+Add a Web Framework to the existing project.
+
+* **Java** - Install the [Spring](https://spring.io/) framework using the [Spring Initializr](https://start.spring.io/). It should include the Spring Boot DevTools, Spring Web, and Thymeleaf Template Engine as dependencies.
+* **Python** - Install the [Flask](https://flask.palletsprojects.com/en/1.1.x/) framework and the [Flask-Classful](https://flask-classful.teracy.org/) extension. You may also wish to install `python-dotenv` to use a `.flaskenv` file. 
+
+{{% notice warning %}}
+
+**Java Users** - You will need to remove the `'org.junit.jupiter:junit-jupiter-api:5.6.2'` entry from the `testImplementation` section of the dependencies. It conflicts with the version provided by Spring.
+
+**Python Users** - You may ignore any type errors from `flask_classful` by adding `#type: ignore` after the import line.
+
+{{% /notice %}}
+
+###### Web Code
+
+* Create a new `starfleetsubs.web` package.
+* Create a `starfleetsubs.web.MenuController` class to act as the controller. It should include the following routes:
+  * `/` - a home page for the application.
+  * `/about` - an about page with the text given at the bottom of the page.
+  * `/menu` - a page that includes the entire menu (all predefined combos, entrees, sides, and drinks). 
+    * It should use the existing `Menu` class to collect these items. 
+    * You may add additional methods (with requisite unit tests) to the `Menu` class as desired.
+* Update the required files to launch the web application properly as shown in the example video.
+
+###### Templates
+
+Create a base layout file including the following:
+
+* Valid HTML5 structure
+* A &lt;title&gt; element including the page name, followed by ` - Starfleet Subs`
+* A &lt;body&gt; containing:
+  * &lt;nav&gt; that contains links to all pages in the application
+  * &lt;main&gt; containing all the content in the page
+  * &lt;footer&gt; containing the following copyright notice: "&copy; 2021 Starfleet Subs"
+* It is recommended (but not required) to build upon an existing template. You may wish to review the [Bootstrap Examples](https://getbootstrap.com/docs/4.6/examples/). 
+
+Create the following template files to match the routes listed above:
+
+* `index.html` contains an &lt;h1&gt; tag with the title "Starfleet Subs" and the following text in a paragraph (you may add additional text as desired):
+
+> Welcome to Starfleet Subs! Our motto: to boldly eat a sandwich where no sandwich has been eaten before!
+
+* `about.html` contains an &lt;h1&gt; tag with the title "About Starfleet Subs" and the following text in a paragraph (you may add additional text as desired):
+
+> Starfleet Subs was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
+
+* `menu.html` contains the following content:
+  * an &lt;h1&gt; containing "Menu"
+  * an &lt;h2&gt; containing the four categories of menu items (entree, side, drink, combo)
+  * Each menu item should be placed in a &lt;div&gt; with the class `menu-item`. It should include:
+    * The name of the item
+    * The price of the item
+    * The calories of the item
+    * _If the item comes in multiple sizes, the price and calories for each size should be listed!_
+  * You may use additional HTML elements & CSS style to improve the readability of this page as you see fit! As with the GUI project, this is your chance to explore a bit. 
+    * The model solution uses the [Card](https://getbootstrap.com/docs/4.6/components/card/) component and [Row Columns](https://getbootstrap.com/docs/4.6/layout/grid/#row-columns) in Bootstrap. 
+  * Under the "Combo" heading, add a note that any entree, side, and drink may be combined for a combo discount, and print the current combo discount value as well. (_Hint: you'll have to send this through the controller to the template somehow..._)
+      
 
 ## Time Requirements
 
-Completing this project is estimated to require **3 - 8** hours.
+Completing this project is estimated to require **2 - 5** hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around !TODO CHANGEME! lines of new or updated code. -Russ_
+_A rough estimate for this milestone would be around 500 lines of new or updated code, the majority of which is HTML. -Russ_
 
 {{% /notice %}}
 
@@ -65,7 +116,14 @@ _A rough estimate for this milestone would be around !TODO CHANGEME! lines of ne
 
 This assignment will be graded based on the rubric below:
 
-TODO CHANGEME
+* Web Framework Installation: 10%
+* Web Code: 30%
+  * Index & About Routes: 10%
+  * Menu Route: 20%
+* Templates: 60%
+  * Layout Template: 20%
+  * Index & About Templates: 10%
+  * Menu Template: 30%
 
 The following deductions apply:
 
@@ -81,3 +139,8 @@ Submit this assignment by creating a release on GitHub and uploading the release
 ---
 ---
 
+## Web Sketches
+
+Below is a screenshot from the model solution for some web design inspiration.
+
+![Main Window](/images/410_m8_menu.png)
