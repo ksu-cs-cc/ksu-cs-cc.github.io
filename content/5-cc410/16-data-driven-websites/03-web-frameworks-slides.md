@@ -42,4 +42,3 @@ hidden: true
         <li>Reuse Portions Across Pages</li>
     </ul>
 </section>
-
