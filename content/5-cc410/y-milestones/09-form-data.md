@@ -11,7 +11,7 @@ This page lists the milestone requirements for **Milestone 9** of the **CC 410 R
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe. 
 
-The eighth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.
+The ninth milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.
 
 ## General Requirements
 
@@ -37,7 +37,7 @@ This milestone must follow these professional coding standards:
   * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
   * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
-  * **All HTML Must Conform to the HTML5 Standard.** Use the [W3C Validator](https://validator.w3.org/) to check your rendered pages if desired.
+  * **All HTML must conform to the HTML5 standard.** Use the [W3C Validator](https://validator.w3.org/) to check your rendered pages if desired.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
 
 ## Assignment Requirements
@@ -57,7 +57,7 @@ Could be a single route or multiple routes
 
 May use the search box on the Bootstrap form for simple search
 
-Search functions implemented in `Menu` - should have some unit tests.
+Search functions implemented in `Menu` - should have some unit tests. Using Mocks is highly encouraged. Testing filter by category may require up to 16 tests!
 
 ## Time Requirements
 
@@ -65,7 +65,7 @@ Completing this project is estimated to require **2 - 5** hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around !!TODO CHANGEME!! lines of new or updated code, the majority of which is HTML. -Russ_
+_A rough estimate for this milestone would be around 750 lines of new or updated code, the majority of which is HTML and unit tests. -Russ_
 
 {{% /notice %}}
 

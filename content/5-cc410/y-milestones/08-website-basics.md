@@ -37,7 +37,7 @@ This milestone must follow these professional coding standards:
   * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
   * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings.
-  * **All HTML Must Conform to the HTML5 Standard.** Use the [W3C Validator](https://validator.w3.org/) to check your rendered pages if desired.
+  * **All HTML must conform to the HTML5 standard.** Use the [W3C Validator](https://validator.w3.org/) to check your rendered pages if desired.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
 
 ## Assignment Requirements
@@ -101,7 +101,12 @@ Create the following template files to match the routes listed above:
   * You may use additional HTML elements & CSS style to improve the readability of this page as you see fit! As with the GUI project, this is your chance to explore a bit. 
     * The model solution uses the [Card](https://getbootstrap.com/docs/4.6/components/card/) component and [Row Columns](https://getbootstrap.com/docs/4.6/layout/grid/#row-columns) in Bootstrap. 
   * Under the "Combo" heading, add a note that any entree, side, and drink may be combined for a combo discount, and print the current combo discount value as well. (_Hint: you'll have to send this through the controller to the template somehow..._)
-      
+
+{{% notice tip %}}
+
+You can format currency values directly in your templates! See [Formatting Currencies in Spring using Thymeleaf](https://www.baeldung.com/spring-thymeleaf-currencies) for Java or using the familiar Python [String.format()](https://realpython.com/python-formatted-output/) function as demonstrated in this [StackOverflow](https://stackoverflow.com/a/31158813) comment.
+
+{{% /notice %}}
 
 ## Time Requirements
 
