@@ -42,22 +42,43 @@ This milestone must follow these professional coding standards:
 
 ## Assignment Requirements
 
-Functionality:
+This milestone adds several pieces of functionality to your existing website, mostly based around searching and retrieving menu items.
 
-* Simple search by keywords
-* Advanced Search
-  * Keywords
-  * Item Type
-  * Calories (Min / Max)
-  * Price (Min / Max)
+#### Simple Search via Keywords
 
-Forms should use HTTP POST Requests
+Your website should implement a simple search functionality via keywords, which allows the user to enter one or more words, separated by spaces, in a text input field, and then any menu items containing any of those keywords anywhere in the name of the item should be displayed on a results page.
 
-Could be a single route or multiple routes
+Your search page should be accessible via the `search` route/URL. If you used a template layout that includes a search box, such as the [Bootstrap Sticky Footer with Navbar](https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/), you may implement this search functionality using the search box in the default layout. Make sure that you specify the `action` of the form to point to the correct URL, since it will be available on all pages. The form should use the HTTP `POST` method.
 
-May use the search box on the Bootstrap form for simple search
+You may choose to use the same template for both the search page and the results, or different templates. Also, don't forget to add a link to the `search` URL in your site's navigation in the layout template.
 
-Search functions implemented in `Menu` - should have some unit tests. Using Mocks is highly encouraged. Testing filter by category may require up to 16 tests!
+#### Advanced Search and Filter
+
+Your website should also implement an advanced search and filter feature. This page will allow the user to find menu items based on the following criteria:
+* Keywords (same as the simple search above)
+* Type (entree, side, drink, combo)
+* Price Range (minimum & maximum)
+* Calories Range (minimum & maximum)
+
+Your advanced search page should include HTML form elements for each of the items given above, arranged to make it clear to the user how to use the form. Try to make it as functional as possible based on the user's intent. For example, if the user doesn't enter any keywords, assume that they wish to find all menu items. Likewise, if the user inputs a maximum price but not a minimum, you should show all items that are less than the maximum price given. When submitted, the form should use the HTTP `POST` method. If any inputs are invalid or cannot be parsed, you should substitute them with reasonable default values.
+
+Your advanced search page should be accessible via the `advancedsearch` route/URL. You should add a link to this URL to your site's navigation.
+
+You **must** use the same template for both the search form and displaying results. If the search form has been completed and submitted, the submitted values should be present in the form where the results are displayed. Likewise, if the form has not been completed or no results are present, the site should clearly present that information to the user. 
+
+#### Search Functions in Menu
+
+The functions required to search and filter the menu should be implemented in the existing `Menu` class as static methods. You **should not** perform any searching in the web application controller itself - it should simply call these methods as needed.
+
+Some recommended functions you may wish to implement:
+
+* `filterKeywords(Iterable<OrderItem> items, String keywords) - returns Iterable<OrderItem>`
+* `filterTypes(Iterable<OrderItem> items, boolean entree, boolean side, boolean drink, boolean combo) - returns Iterable<OrderItem>`
+  * Alternatively, you could call the appropriate existing methods to collect these types initially before filtering
+* `filterPrice(Iterable<OrderItem> items, float min, float max) - returns Iterable<OrderItem>`
+* `filterCalories(Iterable<OrderItem> items, int min, int max) - returns Iterable<OrderItem>`
+
+Each new method added to `Menu` should include proper unit tests. You are encouraged to use test doubles (mocks, etc.) to test these methods rather than using actual menu items. 
 
 ## Time Requirements
 
@@ -73,7 +94,15 @@ _A rough estimate for this milestone would be around 750 lines of new or updated
 
 This assignment will be graded based on the rubric below:
 
-!! TODO CHANGEME !!
+* Simple Search: 30%
+  * Keyword Search: 15%
+  * Results: 15%
+* Advanced Search: 50%
+  * Types: 10%
+  * Price: 10%
+  * Calories: 10%
+  * Results: 20%
+* Unit Tests: 20%
 
 The following deductions apply:
 
@@ -84,7 +113,3 @@ This is not an exhaustive list of possible deductions. The instructors will stri
 ## Submission
 
 Submit this assignment by creating a release on GitHub and uploading the release URL to the assignment on Canvas. You **should not** submit this Codio project or mark it as complete in Codio, in case you need to come back to it and make changes later.
-
----
----
----
