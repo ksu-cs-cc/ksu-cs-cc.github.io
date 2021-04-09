@@ -155,7 +155,7 @@ The GUI should include a "Cancel" button that can be used at any time to cancel 
 
 The `CashDrawer` class in the external library is used to keep track of the available amount of each denomination in the drawer and to balance transactions. Each transaction begins by opening the drawer and providing the expected amount to be deposited. Then, while the drawer is open, cash denominations are added to the drawer from the customer and any change given back is deducted from the drawer. When the drawer is closed, the amount it contains must equal the previous amount plus the expected transaction amount. In addition, the total value in the drawer and the count of each denomination in the drawer may be accessed when the drawer is closed. 
 
-{{% notice warning }}
+{{% notice warning %}}
 
 Your project must only instantiate a `CashDrawer` instance once, when the project is first launched. It should use that same `CashDrawer` instance for all transactions, updating it as needed, until the application is closed.
 
