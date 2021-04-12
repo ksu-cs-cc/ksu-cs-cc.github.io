@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>CC 410 - Week 11</h2>
+	<h2>CC 410 - Week 12</h2>
 </section>
 <section>
 	<h3>This Week</h3>
