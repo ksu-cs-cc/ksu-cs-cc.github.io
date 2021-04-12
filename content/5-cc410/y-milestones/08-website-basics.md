@@ -1,7 +1,7 @@
 ---
 title: "Website Basics"
 pre: "8. "
-weight: 70
+weight: 80
 date: 2021-03-24T00:53:26-05:00
 ---
 
