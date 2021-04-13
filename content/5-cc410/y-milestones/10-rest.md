@@ -107,6 +107,14 @@ This is a new page, but it can also reuse content from the existing template for
 
 You'll need to create a form that can be used for creating new items or editing existing items. Much of the template code is reused, and there are ways to use the same template for both routes. You may include additional HTML attributes on the HTML form to add limits to the numerical values. However, your web application may assume that data submitted matches the expected format. We will handle validation of form data in the next milestone.
 
+{{% notice tip %}}
+
+Python users are encouraged to use [Flask-WTF](https://flask-wtf.readthedocs.io/en/stable/) to create a special class for representing the form, as demonstrated in the example video. This will make the next milestone much simpler. 
+
+Unfortunately, there is not something similar for Java users, but the Spring framework already includes parts that make the next milestone very simple with the existing code, only with slight modifications.
+
+{{% /notice %}}
+
 #### Delete Item
 
 This page is a copy of the single item page, but with additional warnings about deleting the item. This page should have a form that uses the HTTP POST method to submit to the same URL. When submitted, it should delete the item from the list. 
