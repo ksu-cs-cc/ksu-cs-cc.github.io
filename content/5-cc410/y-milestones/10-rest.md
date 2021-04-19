@@ -42,7 +42,7 @@ This milestone must follow these professional coding standards:
 
 ## Assignment Requirements
 
-This milestone adds several pieces of functionality to your existing website, focused on managing custom menu items. First, you'll need to add new classes to represent and store the custom items. Then, you'll create a new web controller that follows a RESTful architecture to manage these custom items. While doing so, you'll also create several templates to display the custom items on the web.
+This milestone adds several pieces of functionality to your existing website, focused on managing custom menu items. First, you'll need to add new classes to represent and store the custom items. Then, you'll create a new web controller that follows a RESTful architecture to manage these custom items. While doing so, you'll also create several templates to display the custom items on the web. Finally, you'll update the UML diagram for your application to include the new web application classes.
 
 ### New Classes
 
@@ -126,6 +126,10 @@ For the user, the process to delete an item should follow this pattern:
 4. `/customitems/{id}/delete` - browser sends a POST request to this URL to delete the item (this is invisible to the user)
 5. `/customitems` - browser is redirected back to the main page
 
+### Update UML Diagram
+
+At the end of this project, you should **update the UML diagram** for the project to include the new web application classes. You may choose to make multiple diagrams showing more detail within each package, and a summary diagram showing the relationships between the packages.
+
 ## Time Requirements
 
 Completing this project is estimated to require **2 - 5** hours.
@@ -144,10 +148,11 @@ This assignment will be graded based on the rubric below:
 * `CustomItemList` class - 20%
 * REST Controller & Templates - 60%
   * Create New - 15%
-  * Read All - 15%
-  * Read One - 15%
+  * Read All - 10%
+  * Read One - 10%
   * Update - 15%
   * Destroy - 10%
+* UML Diagram Updates - 10%
 
 The following deductions apply:
 
