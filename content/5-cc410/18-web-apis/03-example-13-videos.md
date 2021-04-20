@@ -9,9 +9,9 @@ date: 2021-04-19T00:53:26-05:00
 
 #### Java
 
-{{< youtube  >}}
+{{< youtube 27GGpQ4wa4Y >}}
 
 
 #### Python
 
-{{< youtube  >}}
+{{< youtube 1b1x94AOO-k >}}
