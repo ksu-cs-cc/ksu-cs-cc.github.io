@@ -35,6 +35,7 @@ This milestone must follow these professional coding standards:
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
   * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check with low imprecision percentage.
+    * Classes in the `starfleetsubs.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
 * **Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
   * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
   * Python: Use pytest. You may choose to use Hamcrest for assertions.
