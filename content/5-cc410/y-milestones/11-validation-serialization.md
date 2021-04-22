@@ -49,7 +49,34 @@ This milestone consists of two portions: adding form validation to the forms for
 
 Update the forms for creating and editing custom menu items to perform server-side validation. This should use the built-in features of either Java Spring or Python Flask, as demonstrated in the example video. The following validation rules should be enforced:
 
-* 
+* The `name` of the custom menu item should not be null, and have at least 3 characters.
+* The `price` of the custom menu item must be greater than or equal to 0, and support no more than 2 decimal places. You may either use a validator for this or implement rounding in the setter for this item.
+* The `calories` of the custom menu item must be greater than or equal to 0.
+
+When validation fails, the user should be taken back to the form, where the entered values are still present and the validation errors are clearly displayed. 
+
+{{% notice tip %}}
+
+Java developers will need to change the `price` attribute to use the `BigDecimal` class ([Javadoc](https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html)) in order to enforce a limit on the number of digits using a validator. I recommend maintaining the existing getter and setters for `price` (adapting them to use the value in the new `BigDecimal` class) and then adding new getters and setters for this attribute. Likewise, in the HTML form, you'll use the new `BigDecimal` attribute instead of the existing `price`. See the example video for details.
+
+{{% /notice %}}
+
+### Serialization
+
+Update the application to use serialization to store and load the list of custom items. You may choose any file format (XML, JSON, or binary, or another of your choosing). See the serialization examples on GitHub ([Java](https://github.com/K-State-Computational-Core/serialization-examples-java) or [Python](https://github.com/K-State-Computational-Core/serialization-examples-python)) as well as the textbook for code you can use.
+
+* The custom menu items should be loaded into memory when the singleton instance of the `CustomItemList` class is created. In Java, this would most likely be the `getInstance()` method, while in Python it would be in the `__new__()` method. So, when the user first visits the `/customitems` page, the previously saved custom items should appear.
+* The `CustomItemList` class should implement a new method called `save` that will serialize the current contents of the custom item list to a file.
+* The application should add a new HTTP POST route to the `CustomItemController` with the path `/customitems/save` that will save the existing custom items list to file by calling the new `save` method. 
+* Add an HTML form to the `/customitems` index page containing a button to save the custom items by sending a POST request to the new route. This form will be very similar to the one used on the page for deleting items.
+
+The code should include proper exception handling when reading and writing files, as well as ensuring the file is properly closed. In Java, a [try with resources](Yhttps://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html) statement is recommended. In Python, a [with inside a try](https://realpython.com/python-exceptions/) structure is recommended. You may simply catch the generic exception and print it to the terminal instead of handling multiple exception types.
+
+As proof of working serialization, create the following custom menu item and serialize it to a file, then ensure that file is committed to your Git repository when committing this project.
+
+* **Name**: The Roddenberry
+* **Price**: 8.19
+* **Calories**: 1921
 
 ## Time Requirements
 
@@ -57,7 +84,7 @@ Completing this project is estimated to require **2 - 5** hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around !!TODO CHANGEME!! lines of new or updated code.  -Russ_
+_A rough estimate for this milestone would be around 100 lines of new or updated code.-Russ_
 
 {{% /notice %}}
 
@@ -65,7 +92,14 @@ _A rough estimate for this milestone would be around !!TODO CHANGEME!! lines of 
 
 This assignment will be graded based on the rubric below:
 
-
+* Validation: 30%
+  * Name: 10%
+  * Price: 10%
+  * Calories: 10%
+* Serialization: 70%
+  * Save: 30%
+  * Load: 30%
+  * Preloaded Entry "The Roddenberry": 10%
 
 The following deductions apply:
 
