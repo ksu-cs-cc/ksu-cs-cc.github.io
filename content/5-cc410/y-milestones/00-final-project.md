@@ -76,6 +76,24 @@ The final project in this course will consist of several different milestones. E
 * Milestone 4 (Week 14) - Discuss use of external library or API, review existing code against requirements. Discuss final steps and presentation.
 * Milestone 5 (Week 16) - Present project to class, submit final code for review. 
 
+## Deliverables
+
+1. **Create a Release Tag on GitHub** - Your final submission to Canvas should include a release tag on GitHub to the final version of your project. Ensure that it meets the requirements listed above, including a full **UML Class Diagram**.
+2. **Code Documentation** - Your code should include full documentation comments that can be used to generate developer documentation. Optionally, you may choose to deploy that documentation to GitHub pages. 
+3. **README File** (_optional_) - You are encouraged to create a `README` file that describes your project, including how to compile and run it. 
+4. **User Documentation** (_optional_) - You may also include some user documentation describing how to use the project from a user's perspective. This may be included as part of your `README` file as well.
+5. **Presentation** - Please include any presentation materials (slides, etc.) in your git repository and make sure they are uploaded to GitHub as part of your release tag. 
+
+## Suggested Presentation Outline
+
+* **Introduction** - Introduce yourself and the project
+* **Background** - Give information on the project's inspiration and any related work to be aware of
+* **Implementation** - Discuss how the project was designed and developed (_should be the bulk of the presentation_)
+* **Evaluation** - Briefly evaluate how well your project met the original goal and how it compares to similar projects, if applicable
+* **Future Work** - Share ways you would improve this project if given the opportunity to continue working on it
+* **Conclusion** - Summarize what you learned
+* **Demo** - Open your application and show us how it works, and also open the source code and share interesting portions of it as well
+
 ## Grading Rubric
 
 This assignment will be graded following the concept of **criterion grading**, an approach that **only** assigns points for completing the full requirements. However, the requirements will be brief and straightforward, and will be treated as such. Projects that meet the requirements listed above will, at a minimum, earn a passing grade of 70%. 
