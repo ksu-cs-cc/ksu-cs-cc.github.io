@@ -1,4 +1,4 @@
-## CIS 115 - Introduction to Computing Science - Spring 2021 Syllabus
+## CC 520 - Database Fundamentals - Syllabus
 
 {{% notice info %}}
 **All emails** for the course should be sent to [cc520help@KSUemailProd.onmicrosoft.com](mailto:cc520help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
@@ -8,12 +8,12 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 
 ### Contact
 
-**Professor:** Josh Weese – [weeser@ksu.edu](mailto:weeser@ksu.edu)   (teaches section D & E)
+**Professor:** Josh Weese – [weeser@ksu.edu](mailto:weeser@ksu.edu)   
 
 - **Office:** 2214 Engineering Hall (DUE)  
 - **Phone:** Office - (785) 317-3353  
 - **Office  Hours:** See my [calendar](http://weeser.net/calendar/).     
-    - **Want  to meet with me? https://calendly.com/weeser**  
+    - **Want  to meet with me? [https://calendly.com/weeser](https://calendly.com/weeser)**  
 
 ### Graduate Teaching Assistants
 
@@ -44,15 +44,14 @@ Introduction to concepts and techniques in database management. Overview of rela
 
 The purpose of this course is to introduce concepts, approaches, and techniques in database management. This includes exploring the representation of information as data, data storage techniques, foundations of data models, data retrieval, database design, transaction management, integrity and security.
 
-### Course Objectives
+### Student Learning Outcomes
 
-* Introduce the SQL language: queries, relations, database modifications, constraints, triggers, transactions, and views.
-* Introduce NoSQL language and its philosophy compared to SQL.
-* Introduce the basics DBMS design theory: entity relationship model, functional dependencies, and normalization.
-* Study databases in a programming environment and the approaches of utilizing databases in applications.
-* Provide an overview of the architecture of a database system, and discuss efficient storage of data, execution of queries, and query optimization.
-* Explore databases through practical database applications developed as class projects.
-* Turn students into much better SQL developers than the average.
+After completing this course, a successful student will be able to:
+* Write and read SQL, including queries, relations, database modifications, constraints, triggers, transactions, and views.
+* Recognize the difference between NoSQL and its philosophy compared to SQL.
+* Design and create databases utilizing entity relationship models, functional dependencies, and normalization.
+* Design queries and databases that are optimized in storage, retrieval, and processing of data.
+* Create an application that utilizes a database.
 
 ### Major Course Topics
 
@@ -86,13 +85,6 @@ Assignments are to be completed without any collaboration with classmates or oth
 This course is an introduction to the history, fundamental theories, basic programming, and research areas within Computing Science and its related disciplines. Computing Science has a direct impact on many facets of daily life, but very few of us ever take the time to wonder how it all works. This course aims to fill that void. 
 
 To accomplish this goal, we will do several hands-on learning activities, have meaningful in-class discussions, write about our own thoughts and opinions on various subjects, and research topics that are central to Computing Science. While doing so, we will try to relate the concepts we are learning to real-world problems and ideas.  
-
-{{% notice note %}}
-
-Some hands-on learning will be limited due to COVID-19 this semester.
-
-{{% /notice %}}
-
 
 #### Late Work
 
