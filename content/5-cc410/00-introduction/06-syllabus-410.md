@@ -65,7 +65,7 @@ A common axiom in learner-centered teaching is **"the person doing the work is t
 
 ### The Work
 
-There is no shortcut to becoming a great programmer. Only by **doing the work** will you develop the skills and knowledge to make your a successful computer scientist. This course is built around that principle, and gives you ample opportunity to do the work, with as much support as we can offer.
+There is no shortcut to becoming a great programmer. Only by **doing the work** will you develop the skills and knowledge to make you a successful computer scientist. This course is built around that principle, and gives you ample opportunity to do the work, with as much support as we can offer.
 
 **Tutorials, Quizzes & Examples:** Each module will include many tutorial assignments, quizzes, and examples that will take you step-by-step through using a particular concept or technique. The point is not simply to complete the example, but to practice the technique and coding involved. You will be expected to implement these techniques on your own in the milestone assignment of the module - so this practice helps prepare you for those assignments.
 
@@ -139,7 +139,7 @@ The details in this syllabus are not set in stone. Due to the flexible nature of
 
 Kansas State University has an Honor and Integrity System based on personal integrity, which is presumed to be sufficient assurance that, in academic matters, one's work is performed honestly and without unauthorized assistance. Undergraduate and graduate students, by registration, acknowledge the jurisdiction of the Honor and Integrity System. The policies and procedures of the [Honor and Integrity System](https://www.k-state.edu/honor/) apply to all full and part-time students enrolled in undergraduate and graduate courses on-campus, off-campus, and via distance learning. A component vital to the Honor and Integrity System is the inclusion of the Honor Pledge which applies to all assignments, examinations, or other course work undertaken by students. The Honor Pledge is implied, whether or not it is stated: "On my honor, as a student, I have neither given nor received unauthorized aid on this academic work." A grade of XF can result from a breach of academic honesty. The F indicates failure in the course; the X indicates the reason is an Honor Pledge violation.
 
-**For this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System.  A second violation will result in an XF in the course.**
+**For this course, a violation of the Honor Pledge will result in sanctions such as a 0 on the assignment or an XF in the course, depending on severity. Actively seeking unauthorized aid, such as posting lab assignments on sites such as Chegg or StackOverflow or asking another person to complete your work, even if unsuccessful, will result in an immediate XF in the course.**
 
 The Codio platform can perform automatic plagiarism detection by comparing submitted projects against other students' submissions and known solutions. That information may be used to determine if plagiarism has taken place.
 
@@ -159,13 +159,13 @@ This is our personal policy and not a required syllabus statement from K-State. 
 
 In an ideal world, science and technology would be objective. However, much of science and technology is subjective and is historically built on a small subset of privileged voices. In this class, we will reference many materials from a diverse set of sources, but limits still exist on this diversity. I acknowledge that it is possible that there may be both overt and covert biases in the material due to the lens with which it was written, even though the material is primarily of a technical nature.
 
-Please contact me or submit anonymous feedback through the Computer Science department office if you have any concerns or suggestions regarding this course and related materials.
+Please contact us or submit anonymous feedback through the Computer Science department office if you have any concerns or suggestions regarding this course and related materials.
 
 Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.). To help accomplish this:
 
 * If you have a name and/or use pronouns that differ from those that appear in your official K-State records, please let me know!
 * If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to talk with me. I want to be a resource for you. Please remember that you can also submit anonymous feedback as described above (which will lead to me making a general announcement to the class, if necessary, to address your concerns).
-* If you prefer to speak with someone outside of the course, your academic advisor or the staff in the College of Engineering Student Services office are excellent resources.
+* If you prefer to speak with someone outside of the course, your academic advisor or the staff in the College of Engineering Student Services office are excellent resources. They are able to also share this information with us anonymously, or keep it confidential.
 
 I, like many people, am still in the process of learning about diverse perspectives and identities. If something was said in class, by anyone, that made you feel uncomfortable, please talk to me about it. Again, anonymous feedback is always an option.
 
@@ -177,7 +177,7 @@ This is our personal policy and not a required syllabus statement from K-State. 
 
 Online communication is inherently different than in-person communication. When speaking in person, many times we can take advantage of the _context_ and _body language_ of the person speaking to better understand what the speaker _means_, not just what is said. This information is not present when communicating online, so we must be much more careful about what we say and how we say it in order to get our meaning across.
 
-Here are a few general rules to help us all communicate online in this course, especially while using tools such as Piazza:
+Here are a few general rules to help us all communicate online in this course, especially while using tools such as Canvas or Discord:
 
 * **Use a clear and meaningful subject line to announce your topic.** Subject lines such as "Question" or "Problem" are not helpful. Subjects such as "Logic Question in Project 5, Part 1 in Java" or "Unexpected Exception when Opening Text File in Python" give plenty of information about your topic.
 * **Use only one topic per message.** If you have multiple topics, post multiple messages so each one can be discussed independently.
@@ -200,7 +200,7 @@ As a participant in course discussions, you should also strive to honor the dive
 
 To protect the health and safety of the K-State community, students, faculty, staff and visitors must wear face coverings over their mouths and noses in all indoor and outdoor spaces while you are on university property unless you are alone in a private office or workspace or alone outdoors. In addition, all new students are required to complete [face covering training](https://kstate.qualtrics.com/jfe/form/SV_eJ6LHbFIJ8GFD7f) that also covers COVID-19 transmission, risk mitigation and the Every Wildcat a Wellcat pledge. Students needing accommodations may contact the Student Access Center at [accesscenter@k-state.edu](mailto:accesscenter@k-state.edu).
 
-In classrooms, faculty have the right to deny a student entry into the room if the student is not wearing a face covering. Students not wearing a face covering will be reminded to do so and offered a clean face covering, if one is available. If the student does not comply, the faculty member will ask the student to leave the space, and if available, join the class remotely.  As a last resort, campus police will be called. The faculty member will complete the Code of Conduct form and the Office of Student Life will look further into the issue and take the non-compliance with the request to leave into consideration of further accountability measures. 
+In classrooms, faculty have the right to deny a student entry into the room if the student is not wearing a face covering. Students not wearing a face covering will be reminded to do so and offered a clean face covering, if one is available. If the student does not comply, the faculty member will ask the student to leave the space, and if available, join the class remotely.  As a last resort, campus police will be called. The faculty member will complete the [Code of Conduct form](https://www.k-state.edu/report/conduct-violation/) and the Office of Student Life will look further into the issue and take the non-compliance with the request to leave into consideration of further accountability measures. 
 
 At no point should the professor or other students put themselves into an unsafe situation while attempting to enforce the face-covering policy.
 
@@ -226,23 +226,23 @@ K-State has many resources to help contribute to student success. These resource
 
 Student academic creations are subject to Kansas State University and Kansas Board of Regents Intellectual Property Policies. For courses in which students will be creating intellectual property, the K-State policy can be found at [University Handbook, Appendix R: Intellectual Property Policy and Institutional Procedures (part I.E.)](https://www.k-state.edu/provost/universityhb/fhxr.html). These policies address ownership and use of student academic creations.
 
-### Statement on Mental Health
+### Mental Health
 
 Your mental health and good relationships are vital to your overall well-being. Symptoms of mental health issues may include excessive sadness or worry, thoughts of death or self-harm, inability to concentrate, lack of motivation, or substance abuse. Although problems can occur anytime for anyone, you should pay extra attention to your mental health if you are feeling academic or financial stress, discrimination, or have experienced a traumatic event, such as loss of a friend or family member, sexual assault or other physical or emotional abuse. 
 
 If you are struggling with these issues, do not wait to seek assistance. 
 
-* Kansas State University Counseling Services ([k-state.edu/counseling/](https://k-state.edu/counseling/)) offers free and confidential services to assist you to meet these challenges. 
-* Lafene Health Center ([https://www.k-state.edu/lafene](https://www.k-state.edu/lafene)) has specialized nurse practitioners to assist with mental health. 
-* The Office of Student Life ([k-state.edu/studentlife](https://k-state.edu/studentlife)) can direct you to additional resources. 
-* K-State Family Center offers individual, couple, and family counseling services on a sliding fee scale ([https://www.hhs.k-state.edu/familycenter/](https://www.hhs.k-state.edu/familycenter/)). 
-* Center for Advocacy, Response, and Education (CARE) provides free and confidential assistance for those in our K-State community who have been victimized by violence ([https://www.k-state.edu/care/](https://www.k-state.edu/care/)). 
+* [Kansas State University Counseling Services](https://www.k-state.edu/counseling/) offers free and confidential services to assist you to meet these challenges. 
+* [Lafene Health Center](https://www.k-state.edu/lafene) has specialized nurse practitioners to assist with mental health. 
+* [The Office of Student Life](https://www.k-state.edu/studentlife) can direct you to additional resources. 
+* [K-State Family Center](https://www.hhs.k-state.edu/familycenter/) offers individual, couple, and family counseling services on a sliding fee scale. 
+* [Center for Advocacy, Response, and Education (CARE)](https://www.k-state.edu/care/) provides free and confidential assistance for those in our K-State community who have been victimized by violence. 
 
 For Kansas State Polytechnic Campus: 
 
-* Kansas State Polytechnic Counseling Services ([polytechnic.k-state.edu/studentlife/health/counseling.html](https://polytechnic.k-state.edu/studentlife/health/counseling.html)) offers free and confidential services to assist you to meet these challenges. 
-* The Kansas State Polytechnic Office of Student Life ([polytechnic.k-state.edu/studentlife/](https://polytechnic.k-state.edu/studentlife/)) can direct you to additional resources.
+* [Kansas State Polytechnic Counseling Services](https://polytechnic.k-state.edu/studentlife/health/counseling.html) offers free and confidential services to assist you to meet these challenges. 
+* [The Kansas State Polytechnic Office of Student Life](https://polytechnic.k-state.edu/studentlife/) can direct you to additional resources.
 
 ### Copyright Notice
 
-&copy; The materials in this online course fall under the protection of all intellectual property, copyright and trademark laws of the U.S. The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course. The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites.  Likewise, mentioned brands (products and services) do not suggest endorsement. Students own copyright to what they create.
+&copy; The materials in this online course fall under the protection of all intellectual property, copyright and trademark laws of the U.S. The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course. The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites. Likewise, mentioned brands (products and services) do not suggest endorsement. Students own copyright to what they create.
