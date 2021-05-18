@@ -8,24 +8,16 @@ pre: "5.1 "
 
 ### Instructor Contact Information
 
-* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184 or DUE 2166, but I mostly work remotely from Kansas City, MO
-* **Phone:** (785) 292-3121 (Call/Text)
-* **Website:** https://russfeld.me  
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld).  
-<br>
-* **Professor:** Dr. Josh Weese (weeser AT ksu DOT edu)<br>
-* **Office:** DUE 2214
-* **Phone:** (785) 532-7929
-* **Website:** http://weeser.net/
-* **Office Hours:** TBD
+* **Instructor:** Emily Alfs-Votipka (emilyalfs AT ksu DOT edu)<br> _I use **she/her** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
+* **Office:** DUE 2151 (This semester will be strictly online though)
+* **Virtual Office Hours:** Schedule a meeting with me: https://calendly.com/emilyalfs Appointments held via [Zoom](https://ksu.zoom.us/).
 
 #### Preferred Methods of Communication:
 
-* **Email**: Please use "cc110-help" (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
-* **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
+* **Email**: Please use "cc110-help" (cc110-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. You should receive a response within one business day, and hopefully much sooner. Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
 
-### Graduate Teaching Assistants
+
+### Teaching Assistants
 
 * TBD
 
@@ -70,12 +62,10 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 50% Lectures and Quizzes
-* 10% Programming Notes & Labs
-* 30% Programming Homeworks
-* 10% Discussions
+* 70% Canvas Quizzes
+* 20% Codio Python Labs
+* 10% Codio Python Assignments
 
-Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 
 Letter grades will be assigned following the standard scale:
 
@@ -88,12 +78,19 @@ Letter grades will be assigned following the standard scale:
 ### Late Work
 
 {{% notice warning %}}
-Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via Piazza. Not understanding the policy does not mean that it won't apply to you!
+Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via the help email. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately two modules due each week. Each graded item in the module will have a specific due date specified. **Any work submitted and graded after the due date is subject to a deduction of 10% of the total points possible on the assignment for each day that the assignment is late, up to a maximum of 3 days. For example, if an assignment is due on a Friday and is submitted the following Monday, it will be subject to a reduction of 30% of the total points possible, or 10% for each day it was late (Saturday, Sunday, and Monday in this example). One three days have passed, the assignment will receive a grade of 0. For the purposes of recordkeeping, the submission time of the confirmation quiz in each programming module will be used to establish the completion time of any related Codio assignments in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. 
 
-However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. This is due to the fact that the content in this course is gated, and several modules require knowledge gained in previous modules. So, students should take care not to get too far behind, as it may be very difficult to catch up.
+**The following table outlines the highest possible score that a module can earn based on when it is complete** 
+
+|  | Thursday | Friday | Saturday | Sunday |
+| --- | --- | --- | --- | --- |
+| Before or at 11:59PM CST | 100% | 90% | 80% | 70% |
+| After 11:59PM CST | 90% | 80% | 70% | 60% |
+
+Even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
 Finally, all course work must be submitted on or before the last day of the semester in which the student is enrolled in the course in order for it to be graded on time.
 
