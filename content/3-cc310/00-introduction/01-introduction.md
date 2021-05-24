@@ -18,7 +18,7 @@ date: 2020-01-16T10:53:26-05:00
 [Slide 2]
 
 Hello, my name is Emily Alfs-Votipka and I would like to welcome you to the Computational Core program! 
-I will be your instructor for CC310 this fall. 
+I will be your instructor for CC310. 
 My contact information is shown here, and is also listed on the syllabus. 
 My email address is emilyalfs@ksu.edu and is my preferred method of communication if you need to reach me directly. 
 
