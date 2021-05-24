@@ -7,7 +7,7 @@ hidden: true
 	<img class="plain stretch" src="/images/core-logo-on-white.svg">
 </section>
 <section>
-	<h3>Russell Feldhausen</h3>
+	<h3>Emily Alfs-Votipka</h3>
 	<p>
 		<i>Pronouns: she/her</i><br>
 		2161 Engineering Hall<br>
