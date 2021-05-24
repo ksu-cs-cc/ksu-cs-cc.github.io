@@ -9,31 +9,19 @@ hidden: true
 <section>
 	<h3>Russell Feldhausen</h3>
 	<p>
-		<i>Pronouns: he/him</i><br>
-		(785) 292-3121 (Call/Text)<br>
-		2184 Engineering Hall<br>
+		<i>Pronouns: she/her</i><br>
+		2161 Engineering Hall<br>
 		<i>(working remotely)</i><br>
 		<br>
-		<b>russfeld AT ksu DOT edu</b><br>
-		https://russfeld.me  -  @russfeld<br>
-	</p>
-</section>
-<section>
-	<h3>Dr. Josh Weese</h3>
-	<p>
-		(785) 532-7929<br>
-		2214 Engineering Hall<br>
-		<i>(working remotely)</i><br>
-		<br>
-		<b>weeser AT ksu DOT edu</b><br>
-		http://weeser.net<br>
+		<b>emilyalfs AT ksu DOT edu</b><br>
 	</p>
 </section>
 <section>
 	<h3>Other Instructors & TAs</h3>
 	<ul>
 		<li>George "Bud" LaVezzi</li>
-		<li>Emily Alfs-Votipka</li>
+		<li>Joshua Weese</li>
+		<li>Russell Feldhausen</li>
 		<li>Nathan Bean</li>
 		<li>Dr. Scott DeLoach</li>
 	</ul>
@@ -48,10 +36,8 @@ hidden: true
 <section>
 	<h3>Course Structure</h3>
 	<ul>
-		<li>~30 Modules In This Course </li>
 		<li>Lectures, Quizzes, Projects</li>
 		<li>Gated - Must Complete in Order</li>
-		<li>~12 Modules Each Week</li>
 		<li>Work Around your Schedule</li>
 		<li>Automated Grading</li>
 	</ul>
@@ -83,8 +69,6 @@ hidden: true
 	<ul>
 		<li>Each Module has a Due Date</li>
 		<li>Complete ALL Work in Module</li>
-		<li>Date = Confirmation Quiz</li>
-		<li>Penalty = 100% of Project Points</li>
 		<li>Still Must Complete Module</li>
 		<li><b><i>Don't Get Behind!</i></b></li>
 	</ul>
@@ -92,11 +76,9 @@ hidden: true
 <section>
 	<h3>Grading</h3>
 	<ul>
-	    <li>50% Lectures and Quizzes</li>
-	    <li>10% Programming Notes & Labs</li>
-	    <li>30% Programming Homeworks</li>
-	    <li>10% Discussions</li>
-		<li>Up to 5% Extra Credit</li>
+	    <li>70% Canvas Quizzes</li>
+	    <li>20% Programming Labs</li>
+	    <li>10% Python Assignments</li>
 	</ul>
 	<p>Standard 90-80-70-60 grading scale</p>
 </section>
@@ -109,15 +91,6 @@ hidden: true
 		<li><del>Long Lectures</del> Short Videos</li>
 		<li><del>Textbooks</del> Online Tutorials</li>
 		<li><del>Complex IDE</del> Codio</li>
-	</ul>
-</section>
-<section>
-	<h3>What's the Same?</h3>
-	<ul>
-		<li>~4-6 Hrs. of Work Per Module</li>
-		<li>~2 Modules Per Week</li>
-		<li>Help Sessions</li>
-		<li>Office Hours (Virtual)</li>
 	</ul>
 </section>
 <section>
