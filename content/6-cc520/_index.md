@@ -6,7 +6,7 @@ chapter = true
 section = true
 +++
 
-### CC 510
+### CC 520
 
 # Database Essentials
 
