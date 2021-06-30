@@ -73,18 +73,6 @@ Assignments are to be completed without any collaboration with classmates or oth
 - Quizzes: 50%
 - Homework assignments: 25%
 - Final Project: 25%
-
-<hr/>
-
-### How to Get Help in this  Course
-<hr/>
-
-### Course Description
-
-This course is an introduction to the history, fundamental theories, basic programming, and research areas within Computing Science and its related disciplines. Computing Science has a direct impact on many facets of daily life, but very few of us ever take the time to wonder how it all works. This course aims to fill that void. 
-
-To accomplish this goal, we will do several hands-on learning activities, have meaningful in-class discussions, write about our own thoughts and opinions on various subjects, and research topics that are central to Computing Science. While doing so, we will try to relate the concepts we are learning to real-world problems and ideas.  
-
 #### Late Work
 
 {{% notice warning%}}
@@ -94,6 +82,8 @@ Poor planning/procrastination on your part does not constitute as an emergency o
 {{% /notice %}}
 
 Every student should strive to turn in work on time. **Late work will receive penalty of 1% of the possible points for each partial hour it is late**. Some assignments will NOT be accepted late! Others will be limited to a maximum of three days late (not always 3 days). 
+
+<hr/>
 
 ## Subject to Change
 
