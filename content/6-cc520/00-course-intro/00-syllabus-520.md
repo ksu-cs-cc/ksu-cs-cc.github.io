@@ -3,7 +3,7 @@
 {{% notice info %}}
 **All emails** for the course should be sent to [cc520help@KSUemailProd.onmicrosoft.com](mailto:cc520help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
 
-Communication can also be done through Microsoft Teams.  If you have not been invited to join the team for CIS 115, please let any of us know and we will get you added.
+Communication can also be done through Microsoft Teams.  If you have not been invited to join the team for CC 520, please let any of us know and we will get you added.
 {{% /notice %}}
 
 ### Contact
@@ -28,13 +28,12 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 ### Recommended Texts
 
 - T-SQL Fundamentals (Third Edition) by Itzik Ben-Gan
-
 - Database Systems: The Complete Book (Second Edition) by Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom
 - *Additional resource:* SQL Success - Database Programming Proficiency by Stephane Faroult
 
 ### Required Software
 
-We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access](https://k-state.instructure.com/courses/101994/pages/sql-server-access). 
+We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access](https://k-state.instructure.com/courses/116923/pages/sql-server-access). 
 
 ### Course Overview
 
