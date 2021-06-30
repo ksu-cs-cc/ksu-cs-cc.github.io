@@ -18,7 +18,7 @@ date: 2020-01-16T10:53:26-05:00
 [Slide 2]
 
 Hello, my name is Emily Alfs-Votipka and I would like to welcome you to the Computational Core program! 
-I will be your instructor for CC310 this fall. 
+I will be your instructor for CC310. 
 My contact information is shown here, and is also listed on the syllabus. 
 My email address is emilyalfs@ksu.edu and is my preferred method of communication if you need to reach me directly. 
 
@@ -77,16 +77,7 @@ A module is considered completed when all items have been completed.
 For the purposes of grading, we will use the date and time that the confirmation quiz was submitted at the end of each module to determine when the module was completed. 
 This is due to the way that Codio handles automated grading, as it may resubmit previously graded assignments if an error in the module is corrected, making a previously completed assignment appear to be submitted late.
 
-The late policy for this course will be as follows: for every 24 hours after the due date, up to 72 hours, a penalty of 10% of the total points in that module will be subtracted from the score received on that module. After 72 hours, a grade of 0 will be given.
-
-For example, modules are due on Thursdays at 7PM so you can earn up to: 
-- 100% of the grade by turning it in on Thursday before or at 7PM
-- 90% of the grade by turning it in on or before Friday at 7PM
-- 80% of the grade by turning it in on or before Saturday at 7PM
-- 70% of the grade by turning it in on or before Sunday at 7PM
-- 0% after Sunday at 7PM
-
-So, even if some of the module’s work was completed before the due date, the penalty will still be assessed on all work in that module, regardless of when it was completed.
+Even if some of the module’s work was completed before the due date, the penalty will still be assessed on all work in that module, regardless of when it was completed.
 Finally, even if a module is late, it still must be completed before you can move on to a later module. 
 So, it is very important to avoid getting behind in this course, as it can be very difficult to get back on track. 
 If you ever find that you are struggling to keep up, please don’t be afraid to contact me for assistance. I would be happy to help you get caught back up quickly.
