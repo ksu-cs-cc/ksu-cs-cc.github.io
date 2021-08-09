@@ -5,9 +5,7 @@ weight: 10
 date: 2021-08-05T01:53:26-05:00
 ---
 
-**Video Coming Soon!**
-
-{{< youtube  >}}
+{{< youtube 0uWywySLy-I >}}
 
 #### Resources
 

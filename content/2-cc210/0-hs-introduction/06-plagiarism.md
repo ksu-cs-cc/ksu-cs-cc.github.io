@@ -5,9 +5,7 @@ weight: 65
 date: 2020-12-08T00:53:26-05:00
 ---
 
-**Video Coming Soon!**
-
-{{< youtube >}}
+{{< youtube l7ORqM6wXc0 >}}
 
 #### Resources
 
