@@ -28,7 +28,7 @@ To deploy the content, use the `hugo` command on the destination server to gener
 2. or `git clone` and:
     1. `git submodule update --init --recursive`
     2. pull all changes in the repo including changes in the submodules `git pull --recurse-submodules`
-    3. pull all changes for the submodules `git submodule update --remote
+    3. pull all changes for the submodules `git submodule update --remote`
 
 ## Adding Content
 
