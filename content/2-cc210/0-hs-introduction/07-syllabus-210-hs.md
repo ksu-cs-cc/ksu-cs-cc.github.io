@@ -5,6 +5,12 @@ pre: "7. "
 date: 2020-12-08T00:53:26-05:00
 ---
 
+{{% notice info %}}
+
+This is the official syllabus for the college credit for this course. It is subject to change as we work with MATC and the CTE program to finalize the agreements. Any changes will be shared with your teachers to be passed along to you. 
+
+{{% /notice %}}
+
 ## CC 210 - Fundamental Computer Programming Concepts
 
 ### Instructor Contact Information
