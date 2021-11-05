@@ -24,10 +24,12 @@ hidden: true
 		<li>Russell Feldhausen</li>
 		<li>Nathan Bean</li>
 		<li>Dr. Scott DeLoach</li>
-	</ul>
+	</ul>s
 </section>
 <section>
-	<p>Please use <b>email (cc110-help or cc110-help@ksuemailprod.onmicrosoft.com)</b> for all course communication</p>
+	<p>Please use <br/>
+	<img class="plain" src="/images/110_help.png" width="600"><br/>
+	 for all course communication</p>
 </section>
 <section>
 	<img class="stretch plain" src="/images/codio_logo.svg">
