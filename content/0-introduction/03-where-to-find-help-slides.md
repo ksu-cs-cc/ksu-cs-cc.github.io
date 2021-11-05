@@ -4,6 +4,13 @@ hidden: true
 ---
 
 <section>
+<img class="stretch plain" src="/images/core-logo-on-white.png">
+<h3> Welcome to the <br> Computational Core</h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>Where to Find Help</h4>
+</section>
+
+<section>
 	<img class="plain" src="/images/help.png">
 	<p class="imagecredit">Image Credit: <a href="https://pixabay.com/">Pixabay</a></p>
 </section>
