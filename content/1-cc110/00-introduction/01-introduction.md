@@ -17,30 +17,46 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Video Script
 
+
+[Slide 1] 
+
 Hello and welcome to the Computational Core program!
 
+My name is Emily Alfs-Votipka, and I'll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus.
 <!--
-My name is Russell Feldhausen, and I'll be one of the instructors for this program. My contact inforamtion is shown here, and is also listed on the syllabus.
-
 My name is Josh Weese, and I’ll be another of the instructors for this program. My contact information is shown here, and is also listed on the syllabus.
+Currently, we have two graduate teaching assistants, Farrukh & BreAnn, who will also be working with us to manage these courses.-->
 
-There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program. Currently, we have two graduate teaching assistants, Farrukh & BreAnn, who will also be working with us to manage these courses.-->
+[Slide 2]
 
-In this course we will primarily use a K-State email group (cc110-help or cc110-help@ksuemailprod.onmicrosoft.com) to communicate.  Email sent to this address is forwarded to all instructors and TAs.  Our replies to you will also be shared amongst the instructors and TAs so we all have access to the assistance you have already received. We will respond to you within a business day (a question emailed Friday night may not receive an answer before Monday).
+There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program. 
+
+[Slide 3]
+
+In this course we will primarily use a K-State email group (cc110-help or cc110-help@ksuemailprod.onmicrosoft.com) to communicate.  Email sent to this address is forwarded to all instructors and TAs.  Our replies to you will also be shared amongst the instructors and TAs so we all have access to the assistance you have already received. We will respond to you within a business day
+So a question emailed Friday night may not receive an answer before Monday.
 
 If you wish to pose a discussion topic to you classmates, you should use the discussion feature in Canvas.  Please note that asking a question on a discussion forum is not the same as emailing cc110-help; we will certainly monitor the discussion channels, but not with the same speed as the "help line".  Please read and adhere to the guidance on Netiquette in the syllabus for all electronic communications.
 
-Previous versions of this course used a discussion app called Piazza.  We found that most students used Piazza as a separate email channel, not as a discussion forum.  This semester we will be using email and Canvas; but most videos will refer you to Piazza to receive help.  This semester, email cc110-help or open a discussion in Canvas instead of going to Piazza.
+[Slide 4]
 
 In addition to email and Canvas, we’ll be using the online learning platform Codio for most of the programming tutorials and projects in this program. We’ll also discuss how to use Codio later in this module.
 
-The Computational Core program consists of several courses, and each course contains a number of learning modules. In general, there are about 30 modules in this course. Each module will usually consist of some lecture material and quizzes, and there are a few modules which include a programming component. The modules themselves are gated, which means that you much complete each item in the module in order before continuing. In addition, the modules enforce prerequisite requirements from other modules.  For CC 110 you must complete them in order starting with module 0, the enroll module should be completed first, but is not a prerequisite.
+[Slide 5]
 
-You are welcome to work on this course at any time during the week as your schedule allows, provided that you complete each module before the listed due date. There will be roughly two modules due each week. The modules are self-contained, and nearly all of the grading in this course is completed automatically through Canvas and Codio. So, you can complete modules at any time before the due date, and once a module is complete, you may immediately start on the next one
+The Computational Core program consists of several courses, and each course contains a number of learning modules. There are about 30 modules in this course. Each module will usually consist of some lecture material and quizzes, and there are a few modules which include a programming component. The modules themselves are gated, which means that you must complete each item in the module in order before continuing. In addition, the modules enforce prerequisite requirements from other modules.  For CC 110 you must complete them in order starting with module 0, the enroll module should be completed first, but is not a prerequisite.
 
-Looking ahead to the rest of this introductory module, you’ll see that there are a few more items to be completed before you can move on. In the next video, I’ll discuss a bit more information about navigating through this course on Canvas and using the Codio learning environment.
+You are welcome to work on this course at any time during the week as your schedule allows, provided that you complete each module before the listed due date. There will be roughly two modules due each week. The modules are self-contained, and nearly all of the grading in this course is completed automatically through Canvas and Codio. So, you can complete modules at any time before the due date, and once a module is complete, you may immediately start on the next one.
 
-One thing I highly encourage each of you to do is read the syllabus for this course in its entirety, and let us know if you have any questions. My view is that the syllabus is a contract between me as your teacher and you as a student, defining how each of us should treat each other and what we should expect from each other. We have made a few changes to the standard syllabus template for this program, and those changes are clearly highlighted. Finally, the syllabus itself is subject to change as needed as we adapt this program to meet the needs of its students, and all changes will be clearly communicated to everyone before they take effect.
+[Slide 6]
+
+Looking ahead to the rest of this introductory module, you’ll see that there are a few more items to be completed before you can move on. In the next video, we'll discuss a bit more information about navigating through this course on Canvas and using the Codio learning environment.
+
+[Slide 7]
+
+One thing we highly encourage each of you to do is read the syllabus for this course in its entirety, and let us know if you have any questions. My view is that the syllabus is a contract between me as your teacher and you as a student, defining how each of us should treat each other and what we should expect from each other. We have made a few changes to the standard syllabus template for this program, and those changes are clearly highlighted. Finally, the syllabus itself is subject to change as needed as we adapt this program to meet the needs of its students, and all changes will be clearly communicated to everyone before they take effect.
+
+[Slide 7]
 
 One very important part of the syllabus that every student should read is the late work policy. First off, each module has a due date, and you may work on that module at any time before it is due, provided you have met the prerequisites. As discussed before, you must do all the readings and assignments in a module in listed order before moving on, so you cannot jump ahead. A module is considered completed when all items have been completed.
 

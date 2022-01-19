@@ -23,9 +23,8 @@ hidden: true
 
 <section>
 	<p>From your KSU email please use </br> 
-	<b>cc315-help</b> </br>
-	for all course related questions. </br> </br>
-	If you prefer to use an email address outside of the KSU domain, please refer to the syllabus for the exact address.</p> </br>
+	<img class="stretch plain" src="/images/315Help.png"></br>
+	for all course related questions.</p> </br>
 </section>
 
 <section>
@@ -77,31 +76,7 @@ hidden: true
 
 
 </section>
-<section>
-	<table>
-	<tr>
-	<th></th>
-	<th>Wednesday</th>
-	<th>Thursday</th>
-	<th>Friday</th>
-	<th>Saturday</th>
-	</tr>
-	<tr>
-	<td> Before Midnight </td>
-	<td>100%</td>
-	<td>90%</td>
-	<td>80%</td>
-	<td>70%</td>
-	</tr>
-	<tr>
-	<td> After Midnight </td>
-	<td>90%</td>
-	<td>80%</td>
-	<td>70%</td>
-	<td>60%</td>
-	</tr>
-	</table>
-</section>
+
 <section>
 	<h3>Grading</h3>
 	<ul>
