@@ -1,6 +1,6 @@
 # CIS 115 - Introduction to Computing Science
 
-## Summer 2021 Syllabus
+## Summer 2022 Syllabus
 
 {{% notice info %}}
 **All emails** for the course should be sent to [cis115help@KSUemailProd.onmicrosoft.com](mailto:cis115help@KSUemailProd.onmicrosoft.com?subject=CIS%20115%20Help) (sorry I know it’s a long address). This will contact the professors and the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
@@ -11,17 +11,16 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 ### Contact
 
 **Professor:** Josh Weese – [weeser@ksu.edu](mailto:weeser@ksu.edu)
-
 - **Office:** 2214 Engineering Hall (DUE)  
-- **Phone:** Mobile - (785) 317-3353
 - **Office  Hours:** See calendar below
   - **Want  to meet with me outside office hours? https://calendly.com/weeser**  
 
-**GTA:**  Eric Faust – [efaust@ksu.edu](mailto:efaust@ksu.edu)
+**Graduate Teaching Assistant:**  Friday James – [fejames@ksu.edu](mailto:fejames@ksu.edu)
 
 <br/>
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=azJ2azdlZGNmbWVhYmViZ3BwMWdiY2EzdDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MWZmcTd1N2RkM2Z0dDFycms2N2YzcHY4cGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23AD1457&amp;color=%23616161&amp;showTitle=0&amp;mode=WEEK" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 
 ### Required Texts
 
@@ -96,7 +95,9 @@ In short, this course will focus on several learning activities designed to enga
 ### Assignments
 
 {{% notice warning%}}
-Assignments are to be completed without any collaboration with classmates or other outside help unless otherwise stated. Any unauthorized aid may result in a 0 for the assignment or an XF for the course and report submitted to the Academic Honor Council. 
+It is crucial that all work you do is your own. For this course, a violation of the Honor Pledge will result (at minimum) in an automatic 0 for the assignment or an XF for the course and the violation will be reported to the Honor System.  Posting (even if you don't get a response) course content on Stack Overflow, Chegg, or other similar websites is expressly forbidden.  This includes viewing posts as well.  It also includes viewing solutions to course content that has not been provided to you through canvas by your instructor or TA.  A violation of this policy will result in an immediate XF for the course.
+
+    *If you are struggling in the course or you have doubts on something, please ask!  Your instructor and TA are here to help!*
 {{% /notice %}}
 
 There will be some programming or written assignments given from time to time. It is acceptable to communicate with other students about the concepts in the assignment if you do not understand it, but you should not discuss the details of how the assignment should be completed. Your submission should be your own work, or the work of your small group if allowed by the instructor.  Some work will require you to look up certain programming syntax and techniques on the internet, **but** there is a fine line between learning and copying! ***When in doubt, ask!***
@@ -148,72 +149,16 @@ Each team will choose a topic to research. The team will locate and organize mat
 
 Each team will use the material collected for the topic research project, as well as information from the resulting class discussions, to create an article to be added to the final course wiki. The article is expected to be a thorough examination of the topic and should be written in such a way that others taking this course can read it and understand the material. The team will be responsible for finalizing the entire draft of the wiki and making sure it has a consistent design and feel to it. 
 
-## Subject to Change
-
-The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they should be minimal. If any changes occur, the changes will be posted on the K-State Canvas page for this course and emailed to all students.
-
-## Academic Honesty
-
-Kansas State University has an Honor & Integrity System based on  personal integrity which is presumed to be sufficient assurance in  academic matters one's work is performed honestly and without  unauthorized assistance. Undergraduate and graduate students, by  registration, acknowledge the jurisdiction of the Honor & Integrity  System. The policies and procedures of the Honor System apply to all  full and part-time students enrolled in undergraduate and graduate  courses on-campus, off-campus, and via distance learning.
-
-A component vital to the Honor & Integrity System is the inclusion of the [Honor Pledge](https://www.k-state.edu/honor/basics/pledge.html) which applies to all assignments, examinations, or other course work undertaken by students. The Honor Pledge is implied, *whether or not* it is stated: **"On my honor, as a student, I have neither given nor received unauthorized aid on this academic work."**
-
-The default in this class is that ALL work will be accomplished  individually, UNLESS my permission is given in advance of an  assignment/quiz/exam/take-home exam/final. If you are in doubt, please  ask
-
-A [grade of XF](https://www.k-state.edu/honor/faculty-tips/policy-agreement.html) can result from a breach of academic honesty. The F indicates failure  in the course; the X indicates the reason is an Honor Pledge violation.
-
-For more information, visit the Honor & Integrity System home web page at: [http://www.k-state.edu/honor/](https://www.k-state.edu/honor/)
-
-**For this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course.**
-
-## Students with Disabilities
-
-Students with disabilities who need classroom accommodations, access to  technology, or information about emergency building/campus evacuation  processes should contact the Student Access Center and/or their  instructor. Services are available to students with a wide range of  disabilities including, but not limited to, physical disabilities,  medical conditions, learning disabilities, attention deficit disorder,  depression, and anxiety. If you are a student enrolled in campus/online  courses through the Manhattan or Olathe campuses, contact the Student  Access Center at [accesscenter@k-state.edu](mailto:accesscenter@k-state.edu?subject=Student Accommodation), 785-532-6441; for K-State Polytechnic campus, contact Julie Rowe, Diversity, Inclusion and Access Coordinator, at [jarowe@ksu.edu](mailto:jarowe@ksu.edu) or call 785-826-2971.
-
-## Expectations for Classroom Conduct
-
-All student activities in the University, including this course, are governed by the [Student Judicial Conduct Code](http://www.k-state.edu/sga/judicial/) as outlined in the Student Governing Association [By Laws](http://www.k-state.edu/sga/old_files/sgadocs/ByLaws.pdf), Article V, Section 3, number 2. Students who engage in behavior that disrupts the learning environment may be asked to leave the class.
-
 ## Safe Zone Statement
 
 I am part of the SafeZone community network of trained K-State  faculty/staff/students who are available to listen and support you. As a SafeZone Ally, I can help you connect with resources on campus to  address problems you face that interfere with your academic success,  particularly issues of sexual violence, hateful acts, or concerns faced  by individuals due to sexual orientation/gender identity. My goal is to  help you be successful and to maintain a safe and equitable campus.
 
-## Statement on Mental Health
+{{% include "themes/ksucs-hugo-theme/static/files/syllabus-no-copyright.md" %}}
 
-Your mental health and good relationships are vital to your overall  well-being. Symptoms of mental health issues may include excessive  sadness or worry, thoughts of death or self-harm, inability to  concentrate, lack of motivation, or substance abuse. Although problems  can occur anytime for anyone, you should pay extra attention to your  mental health if you are feeling academic or financial stress,  discrimination, or have experienced a traumatic event, such as loss of a friend or family member, sexual assault or other physical or emotional  abuse. 
+## Subject to Change
 
-If you are struggling with these issues, do not wait to seek assistance. 
-
-- Kansas State University Counseling Services ([k-state.edu/counseling/](https://www.k-state.edu/provost/resources/teaching/k-state.edu/counseling/)) offers free and confidential services to assist you to meet these challenges. 
-- Lafene Health Center (https://www.k-state.edu/lafene) has specialized nurse practitioners to assist with mental health. 
-- The Office of Student Life ([k-state.edu/studentlife](https://www.k-state.edu/provost/resources/teaching/k-state.edu/studentlife)) can direct you to additional resources. 
-- K-State Family Center offers individual, couple, and family counseling services on a sliding fee scale (https://www.hhs.k-state.edu/familycenter/). 
-- Center for Advocacy, Response, and  Education (CARE) provides free and confidential assistance for those in  our K-State community who have been victimized by violence (https://www.k-state.edu/care/). 
-
-## Student Resources
-
-K-State has many resources to help contribute to student success. These  resources include accommodations for academics, paying for college,  student life, health and safety, and others found at [www.k-state.edu/onestop](https://www.k-state.edu/onestop)
-
-## Academic Freedom Statement
-
-Kansas State University is a community of students, faculty, and staff who work together to discover new knowledge, create new ideas, and share the results of their scholarly inquiry with the wider public. Although new ideas or research results may be controversial, or challenge established views, the health and growth of any society requires frank intellectual exchange. Academic freedom protects this type of free exchange and is thus essential to any university's mission. 
-
-Moreover, academic freedom supports collaborative work in the pursuit of truth and the dissemination of knowledge in an environment of inquiry, respectful debate, and professionalism. Academic freedom is not limited to the classroom or to scientific and scholarly research, but extends to the life of the university as well as to larger social and political questions. It is the right and responsibility of the university community to engage with such issues.
-
-## Campus Safety
-
-Kansas State University is committed to providing a safe teaching and learning environment for faculty members and students. In order to enhance your safety in the unlikely case of a campus emergency make sure that you know where and how to quickly exit your classroom and how to follow any emergency directives. To view additional campus emergency information go to the University's main page (http://www.ksu.edu) and click on the Emergency Information button.
-
-## Weapons Policy Statement
-
-Kansas State University prohibits the possession and use of firearms, explosives, and other weapons on any University campus, with certain limited exceptions, which include use of weapons as part of approved University Programs, use of weapons by law enforcement personnel, and the lawful concealed carrying of handguns, as provided in the weapons policy, which may be found at: http://www.k-state.edu/police/weapons/index.html
-
-## Concealed Carry Statement
-
-Under the Weapons Policy, individuals who carry a concealed handgun must have the handgun on or about their person at all times. Backpacks are appropriate for carrying a handgun as long as the backpack remains within the exclusive and uninterrupted control of the individual. A backpack or other bag used to carry a handgun must be within the immediate reach of the individual. Before bringing a concealed carry handgun into a University building, individuals who choose to carry a concealed handgun in a backpack, bag, etc., should consider whether or not they may be required to be separated from their handgun, such as being asked to go to the front of a classroom or to store bags in a particular area in a lab or exam room. In this course, the instructor may require students to place backpacks or other bags out of reach for safety or other reasons. The instructor will notify students in advance of this requirement so a student who carries a concealed handgun in a backpack or a bag may take steps to conceal the handgun on his or her person before arriving, or otherwise plan accordingly.
-
- *In this class, students will be asked on a regular basis to participate in activities, such as engaging in group work, using the board, etc. These activities may require students to either be separated from their bags or be prepared to keep their bags with them at all times during such activities. Students are encouraged to take the online weapons policy education module (*[*http://www.k-state.edu/police/weapons/index.html*](http://www.k-state.edu/police/weapons/index.html) *) to ensure they understand the requirements related to concealed carry.*
+The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they should be minimal. If any changes occur, the changes will be posted on the K-State Canvas page for this course and emailed to all students.
 
 ##  Copyright Notification
 
-Copyright 2021(Joshua L. Weese) as to this syllabus and all lectures. During  this course students are prohibited from selling notes to or being paid  for taking notes by any person or commercial firm without the express  written permission of the professor teaching this course. In addition,  students in this class are not authorized to provide class notes or  other class-related materials to any other person or entity, other than  sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor  teaching this course.
+Copyright 2022 (Joshua L. Weese) as to this syllabus and all lectures. During  this course students are prohibited from selling notes to or being paid  for taking notes by any person or commercial firm without the express  written permission of the professor teaching this course. In addition,  students in this class are not authorized to provide class notes or  other class-related materials to any other person or entity, other than  sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor  teaching this course.
