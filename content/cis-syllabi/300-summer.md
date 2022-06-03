@@ -1,7 +1,6 @@
 *Content in this syllabus is subject to change*
 
 ## *CIS 300 Summer 2022*
-*In-person help: see calendar below*
 
 ## Contact
 {{% notice info %}}
@@ -60,9 +59,9 @@ Students should attain competence in:
 
 ## Programming Environment
 
-The development environment to be used in this class is Microsoft  Visual Studio 2019. This software is available on the Windows machines  in the public labs in Engineering Hall 1114, 1116, and 1118, as well as  certain other public labs on campus. Please note that some of these labs are reserved for classroom use at certain times of the day - be sure to check the schedules posted by the doors.
+The development environment to be used in this class is Microsoft Visual Studio 2019. This software is available on the Windows machines in the public labs in Engineering Hall 1114, 1116, and 1118, as well as [remotely](https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access). Please note that some of these labs are reserved for classroom use at certain times of the day - be sure to check the schedules posted by the doors.
 
-If you wish to install the software on your own PC, you can download  it for free from the Microsoft Azure Portal. Please refer to "[Installing Visual Studio](https://cis300.cs.ksu.edu/appendix/vs/installing-vs/)" for more details.
+It is encouraged to install the software on your own PC. You can download it for free from the Microsoft Azure Portal. Please refer to "[Installing Visual Studio](https://cis300.cs.ksu.edu/appendix/vs/installing-vs/)" for more details.
 
 ## Topics
 
@@ -81,9 +80,9 @@ I plan to cover the following topics (not necessarily in this order):
 ## Grading
 
 {{% notice warning%}}
-It is crucial that all work you do is your own. For this course, a violation of the Honor Pledge will result (at minimum) in an automatic 0 for the assignment or an XF for the course and the violation will be reported to the Honor System.  Posting (even if you don't get a response) course content on Stack Overflow, Chegg, or other similar websites is expressly forbidden.  This includes viewing posts as well.  It also includes viewing solutions to course content that has not been provided to you through canvas by your instructor or TA.  A violation of this policy will result in an immediate XF for the course.
+It is crucial that all work you do is your own. For this course, a violation of the Honor Pledge will result (at minimum) in an automatic 0 for the assignment or an XF for the course and the violation will be reported to the Honor System. Posting (even if you don't get a response) course content on Stack Overflow, Chegg, or other similar websites is expressly forbidden. This includes viewing posts as well. It also includes viewing solutions to course content that has not been provided to you through canvas by your instructor or TA. A violation of this policy will result in an immediate XF for the course.
 
-    *If you are struggling in the course or you have doubts on something, please ask!  Your instructor and TA are here to help!*
+*If you are struggling in the course or you have doubts on something, please ask!  Your instructor and TA are here to help!*
 {{% /notice %}}
 
 - Lab assignments: 20%
@@ -92,22 +91,22 @@ It is crucial that all work you do is your own. For this course, a violation of 
 
 #### Lab Assignments
 
-One lab assignment will be assigned during each lab session. These  assignments will each be due at the end of the lab time. Each lab  assignment will be worth 2 points:
+An average of 5 lab assignment will be assigned during each week. These assignments will each be due at the end of the week; however, it is reccomended to follow the suggested completion dates on the course schedule to help with time management. Each lab assignment will be worth 2 points:
 
 - 1 point for making a legitimate attempt at completing the assignment.
 - 1 point for fully implementing correct functionality.
 
-**You must do the lab assignment in the lab classroom during  the lab period in which it is published in order to receive credit for  it.** The lowest five lab scores will not be counted toward your final grade - no other lab absences will be excused.
+The lowest five lab scores will not be counted toward your final grade - no other lab absences will be excused.
 
-Prior to each lab, you will be expected to read some background  material, watch a video, and take a review quiz to check your  understanding of some key points. The review quizzes will not count  toward your grade; however, you will not be able to begin the lab  assignment until you have answered all questions in the review quiz  correctly.
+Prior to each lab, you will be expected to read some background  material, watch a video, and take a review quiz to check your  understanding of some key points. The review quizzes will not count toward your grade; however, you will not be able to begin the lab assignment until you have answered all questions in the review quiz correctly.
 
 #### Homework Assignments
 
-Five programming assignments will be given as homework during the  course of the semester. All solutions must be submitted electronically  by the given due date. Late submissions will be accepted with a penalty  of 1% per hour, or any portion of an hour, late; thus, if a submission  is 1 minute late, the penalty is 1%. If multiple solutions are submitted for the same assignment, only the last one will be graded. No  submissions will be accepted after three days (i.e., 72 hours) past the  due date. The first four homework assignments will each be worth 5% of  the final grade. The fifth homework assignment will be a final project,  due during Finals Week; it will be worth 10% of the final grade.
+Five programming assignments will be given as homework during the  course of the semester. All solutions must be submitted electronically by the given due date. Late submissions will be accepted with a penalty of 1% per hour, or any portion of an hour, late; thus, if a submission is 1 minute late, the penalty is 1%. If multiple solutions are submitted for the same assignment, only the last one will be graded. No  submissions will be accepted after three days (i.e., 72 hours) past the  due date. The first four homework assignments will each be worth 5% of  the final grade. The fifth homework assignment will be a final project, due during Finals Week; it will be worth 10% of the final grade.
 
 #### Weekly Quizzes
 
-An online quiz will be given at the end of most weeks. Each quiz will emphasize the material from that week, but may also include material  from previous weeks. Normally, a quiz will be made available on a  Saturday morning, and must be completed within 30 minutes of your  beginning the quiz. It will typically be due on Monday at 11:59 p.m. Any deviations from this schedule will be posted in announcements on  Canvas. **There will be no quiz the first week.**
+An online quiz will be given at the end of most weeks. Each quiz will emphasize the material from that week, but may also include material from previous weeks. Normally, a quiz will be made available on a Saturday morning, and must be completed within 30 minutes of your  beginning the quiz. It will typically be due on Monday at 11:59 p.m. Any deviations from this schedule will be posted in announcements on  Canvas. **There will be no quiz the first week.**
 
 Each quiz will involve solving a short programming problem. You will  be allowed to use course notes and Visual Studio to complete the quiz.  Your lowest quiz score will not be counted toward your final grade.
 
@@ -123,11 +122,11 @@ Final grades will be assigned according to the following scale:
 
 ## Course Delivery
 
-Details regarding the delivery of this course are given in the [Course Introduction](https://k-state.instructure.com/courses/113130/modules/436216) module. In order to make sure you understand the delivery mechanisms,  you must obtain a perfect score on the quiz in that module before you  can begin the course material. You can take this quiz as many times as  you need to get a perfect score. The score will **not** count toward your final grade. 
+Details regarding the delivery of this course are given in the [Course Introduction](https://k-state.instructure.com/courses/113130/modules/436216) module. In order to make sure you understand the delivery mechanisms, you must obtain a perfect score on the quiz in that module before you can begin the course material. You can take this quiz as many times as  you need to get a perfect score. The score will **not** count toward your final grade. 
 
 ## Canvas
 
-All assignments and other course materials will be distributed via [Canvas ](http://canvas.ksu.edu). Grade information may be accessed there, and announcements will be  posted from time to time. Important class messages will be emailed to  your KSU email addresses and posted as announcements. **You must be enrolled in the course to access Canvas.**
+All assignments and other course materials will be distributed via [Canvas ](http://canvas.ksu.edu). Grade information may be accessed there, and announcements will be posted from time to time. Important class messages will be emailed to your KSU email addresses and posted as announcements. **You must be enrolled in the course to access Canvas.**
 
 ## Microsoft Teams
 
@@ -157,4 +156,4 @@ The details in this syllabus are not set in stone. Due to the flexible nature of
 
 ##  Copyright Notification
 
-Copyright © 2021 (Joshua L. Weese and Rodney Howell) as to this syllabus and all course content. During this course students are prohibited from selling notes to or being paid for taking notes by any person or commercial firm without the express written permission of the professor teaching this course. In addition, students in this class are not authorized to provide class notes or other class-related materials to any other person or entity, other than sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor teaching this course.
+Copyright © 2022 (Joshua L. Weese and Rodney Howell) as to this syllabus and all course content. During this course students are prohibited from selling notes to or being paid for taking notes by any person or commercial firm without the express written permission of the professor teaching this course. In addition, students in this class are not authorized to provide class notes or other class-related materials to any other person or entity, other than sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor teaching this course.
