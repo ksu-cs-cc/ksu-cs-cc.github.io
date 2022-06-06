@@ -59,7 +59,7 @@ Students should attain competence in:
 
 ## Programming Environment
 
-The development environment to be used in this class is Microsoft Visual Studio 2019. This software is available on the Windows machines in the public labs in Engineering Hall 1114, 1116, and 1118, as well as [remotely](https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access). Please note that some of these labs are reserved for classroom use at certain times of the day - be sure to check the schedules posted by the doors.
+The development environment to be used in this class is Microsoft Visual Studio 2022. This software is available on the Windows machines in the public labs in Engineering Hall 1114, 1116, and 1118, as well as [remotely](https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access). Please note that some of these labs are reserved for classroom use at certain times of the day - be sure to check the schedules posted by the doors.
 
 It is encouraged to install the software on your own PC. You can download it for free from the Microsoft Azure Portal. Please refer to "[Installing Visual Studio](https://cis300.cs.ksu.edu/appendix/vs/installing-vs/)" for more details.
 
