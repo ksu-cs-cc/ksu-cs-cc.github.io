@@ -80,7 +80,9 @@ I plan to cover the following topics (not necessarily in this order):
 ## Grading
 
 {{% notice warning%}}
-It is crucial that all work you do is your own. For this course, a violation of the Honor Pledge will result (at minimum) in an automatic 0 for the assignment or an XF for the course and the violation will be reported to the Honor System. Posting (even if you don't get a response) course content on Stack Overflow, Chegg, or other similar websites is expressly forbidden. This includes viewing posts as well. It also includes viewing solutions to course content that has not been provided to you through canvas by your instructor or TA. A violation of this policy will result in an immediate XF for the course.
+It is crucial that all work you do is your own. For this course, a violation of the Honor Pledge will result (at minimum) in an automatic 0 for the assignment or an XF for the course and the violation will be reported to the Honor System. Posting (even if you don't get a response) course content on Stack Overflow, Chegg, or other similar websites is expressly forbidden. This includes viewing posts as well. It also includes viewing solutions to course content that has not been provided to you through canvas by your instructor or TA. A violation of this policy will result in an immediate XF for the course. 
+
+Similarly, if you happen to be retaking this course, submitting work you have done from a previous semester is considered self-plagiarism and a violation of the honor code policy. It is in your best interest to redo labs and other work from scratch in order to practice and learn the concepts in the course. The first violation of this policy will result in a 0 for that assignment and an official warning.  A second violation will result in an XF for the course.
 
 *If you are struggling in the course or you have doubts on something, please ask!  Your instructor and TA are here to help!*
 {{% /notice %}}
