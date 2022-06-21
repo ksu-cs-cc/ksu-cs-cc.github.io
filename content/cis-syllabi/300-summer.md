@@ -104,7 +104,7 @@ Prior to each lab, you will be expected to read some background  material, watch
 
 #### Homework Assignments
 
-Five programming assignments will be given as homework during the  course of the semester. All solutions must be submitted electronically by the given due date. Late submissions will be accepted with a penalty of 1% per hour, or any portion of an hour, late; thus, if a submission is 1 minute late, the penalty is 1%. If multiple solutions are submitted for the same assignment, only the last one will be graded. No  submissions will be accepted after three days (i.e., 72 hours) past the  due date. The first four homework assignments will each be worth 5% of  the final grade. The fifth homework assignment will be a final project, due during Finals Week; it will be worth 10% of the final grade.
+Five programming assignments will be given as homework during the  course of the semester. All solutions must be submitted electronically by the given due date. Late submissions will be accepted with a penalty of about .4% per hour, or any portion of an hour, late; thus, if a submission is 1 minute late, the penalty is .4%. This equates to about 10% per day late. If multiple solutions are submitted for the same assignment, only the last one will be graded. No submissions will be accepted after three days (i.e., 72 hours) past the due date. The first four homework assignments will each be worth 5% of  the final grade. The fifth homework assignment will be a final project, due during the last week of class; it will be worth 10% of the final grade.
 
 #### Weekly Quizzes
 
