@@ -10,4 +10,4 @@ hidden = true
 
 # Introduction
 
-Welcome to Computational Core! 
+Welcome to Computational Core!
