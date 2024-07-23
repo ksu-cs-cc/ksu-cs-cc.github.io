@@ -1,0 +1,163 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage :: K-State Computational Core</title>
+    <link>https://core.cs.ksu.edu/</link>
+    <description>Computational Core Note This webpage hosts many of the class materials for the Computational Core courses. This information is made available to students in the program via Canvas, but is hosted here as an external resource. Students in the course should refer to the official course information on Canvas.&#xA;What is the Computational Core? The Computational Core is a set of computer programming courses designed to provide students of any major with the fundamental knowledge to utilize programming in a variety of situations.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jul 2024 11:19:08 -0500</lastBuildDate>
+    <atom:link href="https://core.cs.ksu.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authors &amp; Contributors</title>
+      <link>https://core.cs.ksu.edu/authors/</link>
+      <pubDate>Wed, 26 Feb 2020 10:53:05 -0500</pubDate>
+      <guid>https://core.cs.ksu.edu/authors/</guid>
+      <description>Note This curriculum was developed at Kansas State University with the help of many authors, each with unique contributions to the material. This page lists all attributed authors and contributors, as well as links to their respective pages if available. We hope to have everyone who has been a part of this project listed on this page. If you have contributed and are not listed here, please contact us at csoffice@ksu.</description>
+    </item>
+    <item>
+      <title>License &amp; Attribution</title>
+      <link>https://core.cs.ksu.edu/license/</link>
+      <pubDate>Wed, 26 Feb 2020 10:53:05 -0500</pubDate>
+      <guid>https://core.cs.ksu.edu/license/</guid>
+      <description>Note This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.&#xA;Suggested Attribution Title: Computational Core Curriculum or a specific portion may be specified, as in&#xA;Module 5: Stacks from CC 310: Data Structures and Algorithms I Author: Kansas State University Computer Science and Attributed Authors &amp; Contributors Source: Computational Core (please link to specific subpages if relevant) License: CC BY-NC-SA 4.0 Example Citation Computational Core Curriculum by Kansas State University Computer Science and Attributed Authors &amp; Contributors, licensed under CC BY-NC-SA 4.</description>
+    </item>
+  </channel>
+</rss>
