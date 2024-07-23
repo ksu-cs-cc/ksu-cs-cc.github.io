@@ -1,12 +1,5 @@
 
 # Generated files at default location
-.vscode/
 /public/
 /resources/_gen
-
-# emacs backups
-*~
-
-# PPT Temp Files
-*~$*
-workspace.code-workspace
+.hugo_build.lock

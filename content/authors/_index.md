@@ -21,6 +21,7 @@ Authors had a key role in the development of modules, videos, assignments, and o
 * [Russell Feldhausen](https://russfeld.me)
 * [George "Bud" LaVezzi](http://www.cs.ksu.edu/people/faculty/lavezzi/index.html)
 * [Francesco Maiorana](https://sites.google.com/site/maioranafrancescospes/)
+* [Dr. Safia Malallah](https://safiamalallah.com/)
 * [Dr. Josh Weese](http://weeser.net/)
 
 ## Contributors
@@ -34,6 +35,9 @@ Contributors have provided valuable feedback, reviewed and edited content, or in
 
 #### Graduate Teaching Assistants
 
+* Sumaira Ghazal
+* Pavan Kumar Reddy Lakkireddy
+* Akhil Joshi
 * Kavya Kompella (S22)
 * Raja Farrukh Ali (S20, F20, S21)
 * BreAnn Anshutz (S20)
@@ -46,6 +50,8 @@ Contributors have provided valuable feedback, reviewed and edited content, or in
 
 #### Video Production
 
+* Emma Lucas
+* Aayush Rai
 * Brock Edwards
 * Mohamed Khalil
 * Max Holthaus

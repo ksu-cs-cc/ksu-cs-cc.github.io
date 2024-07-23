@@ -9,7 +9,7 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "/0-introduction/00-introduction-trial-slides.md" >}})
+* [Slides]({{% relref "/0-introduction/00-introduction-trial-slides.md"  %}})
 
 #### Video Script
 

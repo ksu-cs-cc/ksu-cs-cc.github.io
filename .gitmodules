@@ -1,6 +1,0 @@
-[submodule "themes/--force"]
-	path = themes/--force
-	url = https://github.com/russfeld/ksucs-hugo-theme.git
-[submodule "themes/ksucs-hugo-theme"]
-	path = themes/ksucs-hugo-theme
-	url = https://github.com/russfeld/ksucs-hugo-theme.git

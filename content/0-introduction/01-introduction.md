@@ -11,7 +11,7 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "/0-introduction/01-introduction-slides.md" >}})
+* [Slides]({{% relref "/0-introduction/01-introduction-slides.md"  %}})
 
 #### Video Script
 

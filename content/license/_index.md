@@ -21,4 +21,4 @@ chapter = false
 
 ### Example Citation
 
-_[Computational Core Curriculum](https://core.cs.ksu.edu/)_ by [Kansas State University Computer Science](https://www.cs.ksu.edu/) and [Attributed Authors & Contributors](https://core.cs.ksu.edu/attribution/), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+_[Computational Core Curriculum](https://core.cs.ksu.edu/)_ by [Kansas State University Computer Science](https://www.cs.ksu.edu/) and [Attributed Authors & Contributors](https://core.cs.ksu.edu/authors/), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
